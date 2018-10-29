@@ -562,7 +562,7 @@
 <wire x1="39.37" y1="56.515" x2="39.37" y2="52.705" width="0.127" layer="52"/>
 <wire x1="37.465" y1="52.07" x2="36.83" y2="52.705" width="0.127" layer="52"/>
 <text x="70.1294" y="70.5358" size="0.6096" layer="52" font="vector" ratio="20" rot="MR180" align="bottom-center">GND</text>
-<text x="70.1294" y="70.5358" size="0.6096" layer="51" font="vector" ratio="20" rot="R180" align="bottom-center">GND</text>
+<text x="68.58" y="70.5358" size="0.6096" layer="51" font="vector" ratio="20" rot="R180" align="bottom-center">GND</text>
 <polygon width="0.0000125" layer="52">
 <vertex x="0.0891" y="-0.01800625"/>
 <vertex x="0.0891" y="-0.0103625"/>
