@@ -24107,7 +24107,7 @@ wave soldering</description>
 <rectangle x1="-1.1684" y1="-1.2954" x2="-0.7112" y2="-0.7112" layer="51"/>
 <rectangle x1="-0.5001" y1="-0.5001" x2="0.5001" y2="0.5001" layer="35"/>
 </package>
-<package name="SOT23" urn="urn:adsk.eagle:footprint:26292/1" library_version="1">
+<package name="SOT23" urn="urn:adsk.eagle:footprint:28669/1" library_version="3">
 <description>&lt;b&gt;SOT-23&lt;/b&gt;</description>
 <wire x1="1.4224" y1="0.6604" x2="1.4224" y2="-0.6604" width="0.1524" layer="51"/>
 <wire x1="1.4224" y1="-0.6604" x2="-1.4224" y2="-0.6604" width="0.1524" layer="51"/>
@@ -24156,14 +24156,7 @@ wave soldering</description>
 </package>
 </packages>
 <packages3d>
-<package3d name="SOT23W" urn="urn:adsk.eagle:package:26312/1" type="box" library_version="1">
-<description>SMALL OUTLINE TRANSISTOR
-wave soldering</description>
-<packageinstances>
-<packageinstance name="SOT23W"/>
-</packageinstances>
-</package3d>
-<package3d name="SOT23" urn="urn:adsk.eagle:package:26310/1" type="box" library_version="1">
+<package3d name="SOT23" urn="urn:adsk.eagle:package:28738/2" type="model" library_version="3">
 <description>SOT-23</description>
 <packageinstances>
 <packageinstance name="SOT23"/>
@@ -24173,6 +24166,13 @@ wave soldering</description>
 <description>Small Outline Transistor</description>
 <packageinstances>
 <packageinstance name="SOT89"/>
+</packageinstances>
+</package3d>
+<package3d name="SOT23W" urn="urn:adsk.eagle:package:26312/2" type="model" library_version="3">
+<description>SMALL OUTLINE TRANSISTOR
+wave soldering</description>
+<packageinstances>
+<packageinstance name="SOT23W"/>
 </packageinstances>
 </package3d>
 </packages3d>
@@ -24192,7 +24192,7 @@ wave soldering</description>
 </symbol>
 </symbols>
 <devicesets>
-<deviceset name="NPN-TRANSISTOR_" urn="urn:adsk.eagle:component:26323/1" prefix="Q" uservalue="yes" library_version="1">
+<deviceset name="NPN-TRANSISTOR_" urn="urn:adsk.eagle:component:26323/3" prefix="Q" uservalue="yes" library_version="3">
 <description>&lt;B&gt;NPN TRANSISTOR&lt;/B&gt;</description>
 <gates>
 <gate name="G$1" symbol="NPN" x="0" y="0"/>
@@ -24205,7 +24205,7 @@ wave soldering</description>
 <connect gate="G$1" pin="E" pad="3"/>
 </connects>
 <package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:26312/1"/>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:26312/2"/>
 </package3dinstances>
 <technologies>
 <technology name=""/>
@@ -24218,7 +24218,7 @@ wave soldering</description>
 <connect gate="G$1" pin="E" pad="2"/>
 </connects>
 <package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:26310/1"/>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:28738/2"/>
 </package3dinstances>
 <technologies>
 <technology name=""/>
@@ -27120,7 +27120,7 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <part name="+3V8" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+3V3" device=""/>
 <part name="R6" library="eagle-ltspice" library_urn="urn:adsk.eagle:library:217" deviceset="R" device="R1206" package3d_urn="urn:adsk.eagle:package:13301/1" value="#220K"/>
 <part name="R9" library="eagle-ltspice" library_urn="urn:adsk.eagle:library:217" deviceset="R" device="R1206" package3d_urn="urn:adsk.eagle:package:13301/1" value="#470R"/>
-<part name="Q1" library="semicon-smd-ipc" library_urn="urn:adsk.eagle:library:353" deviceset="NPN-TRANSISTOR_" device="SOT23" package3d_urn="urn:adsk.eagle:package:26310/1" value="#MMBT3904"/>
+<part name="Q1" library="semicon-smd-ipc" library_urn="urn:adsk.eagle:library:353" deviceset="NPN-TRANSISTOR_" device="SOT23" package3d_urn="urn:adsk.eagle:package:28738/2" value="#MMBT3904"/>
 <part name="GND10" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="+3V9" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+3V3" device=""/>
 <part name="PPTC2" library="SparkFun-Fuses" deviceset="PPTC" device="_THREE-QUARTER-AMP" value="6V/0.5-1A"/>
@@ -27130,8 +27130,8 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <part name="TOUCH1" library="SparkFun-Connectors" deviceset="CONN_02" device="1X02_NO_SILK"/>
 <part name="GND18" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="J56" library="SparkFun-Connectors" library_urn="urn:adsk.eagle:library:513" deviceset="CONN_04" device="1X04_NO_SILK" package3d_urn="urn:adsk.eagle:package:38094/1"/>
-<part name="Q2" library="semicon-smd-ipc" library_urn="urn:adsk.eagle:library:353" deviceset="NPN-TRANSISTOR_" device="SOT23" package3d_urn="urn:adsk.eagle:package:26310/1" value="*MMBT3904"/>
-<part name="Q3" library="semicon-smd-ipc" library_urn="urn:adsk.eagle:library:353" deviceset="NPN-TRANSISTOR_" device="SOT23" package3d_urn="urn:adsk.eagle:package:26310/1" value="*MMBT3904"/>
+<part name="Q2" library="semicon-smd-ipc" library_urn="urn:adsk.eagle:library:353" deviceset="NPN-TRANSISTOR_" device="SOT23" package3d_urn="urn:adsk.eagle:package:28738/2" value="*MMBT3904"/>
+<part name="Q3" library="semicon-smd-ipc" library_urn="urn:adsk.eagle:library:353" deviceset="NPN-TRANSISTOR_" device="SOT23" package3d_urn="urn:adsk.eagle:package:28738/2" value="*MMBT3904"/>
 <part name="R3" library="eagle-ltspice" library_urn="urn:adsk.eagle:library:217" deviceset="R" device="R1206" package3d_urn="urn:adsk.eagle:package:13301/1" value="*10K"/>
 <part name="R10" library="eagle-ltspice" library_urn="urn:adsk.eagle:library:217" deviceset="R" device="R1206" package3d_urn="urn:adsk.eagle:package:13301/1" value="*10K"/>
 <part name="CTRL" library="SparkFun-Connectors" deviceset="CONN_02" device=""/>
