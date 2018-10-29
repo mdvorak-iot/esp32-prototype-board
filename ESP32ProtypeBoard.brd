@@ -1238,10 +1238,10 @@
 <text x="26.035" y="52.959" size="0.6096" layer="52" font="vector" ratio="20" rot="MR0" align="center">VCC</text>
 <text x="22.225" y="52.959" size="0.6096" layer="52" font="vector" ratio="20" rot="MR0" align="center">GND</text>
 <text x="11.43" y="59.944" size="0.6096" layer="52" rot="MR0" align="center">PPTC1</text>
-<text x="62.23" y="58.42" size="0.6096" layer="52" font="vector" ratio="12" rot="MR0">Flash Mode:
+<text x="20.574" y="67.31" size="0.6096" layer="52" font="vector" ratio="12" rot="MR0">Flash Mode:
 *USB
 #Hold Reset</text>
-<wire x1="62.611" y1="60.96" x2="62.611" y2="58.42" width="0.127" layer="52"/>
+<wire x1="20.955" y1="69.85" x2="20.955" y2="67.31" width="0.127" layer="52"/>
 </plain>
 <libraries>
 <library name="esp32">
