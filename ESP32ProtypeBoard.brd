@@ -3372,19 +3372,19 @@ Cream on SMD OFF.&lt;br&gt;
 new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 &lt;author&gt;Created by librarian@cadsoft.de&lt;/author&gt;</description>
 <packages>
-<package name="TP20SQ" urn="urn:adsk.eagle:footprint:27937/1" library_version="1">
+<package name="TP15SQ" urn="urn:adsk.eagle:footprint:27932/1" library_version="1">
 <description>&lt;b&gt;TEST PAD&lt;/b&gt;</description>
-<smd name="TP" x="0" y="0" dx="2" dy="2" layer="1" cream="no"/>
-<text x="-1" y="1.05" size="1.27" layer="25">&gt;NAME</text>
-<text x="-1.016" y="-1.143" size="0.0254" layer="27">&gt;VALUE</text>
+<smd name="TP" x="0" y="0" dx="1.5" dy="1.5" layer="1" cream="no"/>
+<text x="-0.7501" y="0.8001" size="1.27" layer="25">&gt;NAME</text>
+<text x="-0.762" y="-0.889" size="0.0254" layer="27">&gt;VALUE</text>
 <text x="0" y="-2.54" size="1" layer="37">&gt;TP_SIGNAL_NAME</text>
 </package>
 </packages>
 <packages3d>
-<package3d name="TP20SQ" urn="urn:adsk.eagle:package:27980/1" type="box" library_version="1">
+<package3d name="TP15SQ" urn="urn:adsk.eagle:package:27975/1" type="box" library_version="1">
 <description>TEST PAD</description>
 <packageinstances>
-<packageinstance name="TP20SQ"/>
+<packageinstance name="TP15SQ"/>
 </packageinstances>
 </package3d>
 </packages3d>
@@ -3964,9 +3964,9 @@ design rules under a new name.</description>
 <attribute name="SPICEPREFIX" value="C" x="63.119" y="60.452" size="1.778" layer="28" rot="MR90" display="off"/>
 <attribute name="VALUE" x="60.579" y="59.182" size="1.27" layer="28" rot="MR90"/>
 </element>
-<element name="TP1" library="testpad" library_urn="urn:adsk.eagle:library:385" package="TP20SQ" package3d_urn="urn:adsk.eagle:package:27980/1" value="TPTP20SQ" x="35.687" y="30.48" smashed="yes" rot="MR0">
-<attribute name="TP_SIGNAL_NAME" value="" x="35.687" y="30.48" size="1.778" layer="28" rot="MR0" display="off"/>
-<attribute name="VALUE" x="36.703" y="29.337" size="0.0254" layer="28" rot="MR0"/>
+<element name="TP1" library="testpad" library_urn="urn:adsk.eagle:library:385" package="TP15SQ" package3d_urn="urn:adsk.eagle:package:27975/1" value="TPTP15SQ" x="35.56" y="30.48" smashed="yes" rot="MR0">
+<attribute name="TP_SIGNAL_NAME" value="" x="35.56" y="30.48" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="VALUE" x="36.576" y="29.337" size="0.0254" layer="28" rot="MR0"/>
 </element>
 </elements>
 <signals>
