@@ -26076,7 +26076,6 @@ Also note, the SNAP packages are for using a snappable style connector. We sell 
 <part name="+3V10" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+3V3" device=""/>
 <part name="GND4" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="TOUCH1" library="SparkFun-Connectors" deviceset="CONN_02" device="1X02_NO_SILK"/>
-<part name="GND18" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="J56" library="SparkFun-Connectors" library_urn="urn:adsk.eagle:library:513" deviceset="CONN_04" device="1X04_NO_SILK" package3d_urn="urn:adsk.eagle:package:38094/1"/>
 <part name="Q2" library="semicon-smd-ipc" library_urn="urn:adsk.eagle:library:353" deviceset="NPN-TRANSISTOR_" device="SOT23" package3d_urn="urn:adsk.eagle:package:28738/2" value="MMBT3904"/>
 <part name="Q3" library="semicon-smd-ipc" library_urn="urn:adsk.eagle:library:353" deviceset="NPN-TRANSISTOR_" device="SOT23" package3d_urn="urn:adsk.eagle:package:28738/2" value="MMBT3904"/>
@@ -26084,6 +26083,9 @@ Also note, the SNAP packages are for using a snappable style connector. We sell 
 <part name="R10" library="eagle-ltspice" library_urn="urn:adsk.eagle:library:217" deviceset="R" device="R1206" package3d_urn="urn:adsk.eagle:package:13301/1" value="10K"/>
 <part name="CTRL" library="SparkFun-Connectors" deviceset="CONN_02" device="LOCK"/>
 <part name="+3V11" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+3V3" device=""/>
+<part name="GND5" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
+<part name="GND18" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
+<part name="J54" library="SparkFun-Connectors" deviceset="CONN_01" device="PTH_NO_SILK_YES_STOP"/>
 </parts>
 <sheets>
 <sheet>
@@ -26607,9 +26609,6 @@ Also note, the SNAP packages are for using a snappable style connector. We sell 
 <attribute name="VALUE" x="213.36" y="-88.646" size="1.778" layer="96" font="vector"/>
 <attribute name="NAME" x="213.36" y="-78.232" size="1.778" layer="95" font="vector"/>
 </instance>
-<instance part="GND18" gate="1" x="254" y="-81.28" smashed="yes" rot="R90">
-<attribute name="VALUE" x="256.54" y="-83.82" size="1.778" layer="96" rot="R90"/>
-</instance>
 <instance part="J56" gate="G$1" x="243.84" y="-83.82" smashed="yes">
 <attribute name="VALUE" x="241.3" y="-88.646" size="1.778" layer="96" font="vector"/>
 <attribute name="NAME" x="241.3" y="-78.232" size="1.778" layer="95" font="vector"/>
@@ -26636,6 +26635,16 @@ Also note, the SNAP packages are for using a snappable style connector. We sell 
 </instance>
 <instance part="+3V11" gate="G$1" x="264.16" y="-83.82" smashed="yes" rot="R270">
 <attribute name="VALUE" x="259.08" y="-81.28" size="1.778" layer="96"/>
+</instance>
+<instance part="GND5" gate="1" x="256.54" y="-76.2" smashed="yes" rot="R180">
+<attribute name="VALUE" x="259.08" y="-73.66" size="1.778" layer="96" rot="R180"/>
+</instance>
+<instance part="GND18" gate="1" x="193.04" y="-121.92" smashed="yes" rot="R90">
+<attribute name="VALUE" x="195.58" y="-124.46" size="1.778" layer="96" rot="R90"/>
+</instance>
+<instance part="J54" gate="G$1" x="241.3" y="-96.52" smashed="yes">
+<attribute name="VALUE" x="238.76" y="-101.346" size="1.778" layer="96" font="vector"/>
+<attribute name="NAME" x="238.76" y="-93.472" size="1.778" layer="95" font="vector"/>
 </instance>
 </instances>
 <busses>
@@ -26862,9 +26871,13 @@ Also note, the SNAP packages are for using a snappable style connector. We sell 
 <pinref part="GND4" gate="1" pin="GND"/>
 </segment>
 <segment>
-<pinref part="J56" gate="G$1" pin="3"/>
+<pinref part="J56" gate="G$1" pin="4"/>
+<wire x1="248.92" y1="-78.74" x2="256.54" y2="-78.74" width="0.1524" layer="91"/>
+<pinref part="GND5" gate="1" pin="GND"/>
+</segment>
+<segment>
+<pinref part="J17" gate="G$1" pin="1"/>
 <pinref part="GND18" gate="1" pin="GND"/>
-<wire x1="251.46" y1="-81.28" x2="248.92" y2="-81.28" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="+3V3" class="0">
@@ -27008,9 +27021,9 @@ Also note, the SNAP packages are for using a snappable style connector. We sell 
 <wire x1="368.3" y1="73.66" x2="368.3" y2="71.12" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="J56" gate="G$1" pin="4"/>
-<wire x1="248.92" y1="-78.74" x2="254" y2="-78.74" width="0.1524" layer="91"/>
-<label x="248.92" y="-78.74" size="1.778" layer="95"/>
+<pinref part="J54" gate="G$1" pin="1"/>
+<wire x1="248.92" y1="-96.52" x2="254" y2="-96.52" width="0.1524" layer="91"/>
+<label x="248.92" y="-96.52" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="IO34" class="0">
@@ -27262,6 +27275,11 @@ Also note, the SNAP packages are for using a snappable style connector. We sell 
 <wire x1="236.22" y1="71.12" x2="243.84" y2="71.12" width="0.1524" layer="91"/>
 <junction x="236.22" y="71.12"/>
 <label x="215.9" y="76.2" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="J56" gate="G$1" pin="3"/>
+<wire x1="248.92" y1="-81.28" x2="254" y2="-81.28" width="0.1524" layer="91"/>
+<label x="248.92" y="-81.28" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="IO15" class="0">
