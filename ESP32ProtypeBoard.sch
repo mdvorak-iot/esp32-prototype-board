@@ -8,20 +8,20 @@
 </settings>
 <grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
-<layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
-<layer number="16" name="Bottom" color="1" fill="1" visible="no" active="no"/>
-<layer number="17" name="Pads" color="2" fill="1" visible="no" active="no"/>
-<layer number="18" name="Vias" color="2" fill="1" visible="no" active="no"/>
-<layer number="19" name="Unrouted" color="6" fill="1" visible="no" active="no"/>
-<layer number="20" name="Dimension" color="24" fill="1" visible="no" active="no"/>
-<layer number="21" name="tPlace" color="7" fill="1" visible="no" active="no"/>
-<layer number="22" name="bPlace" color="7" fill="1" visible="no" active="no"/>
-<layer number="23" name="tOrigins" color="15" fill="1" visible="no" active="no"/>
-<layer number="24" name="bOrigins" color="15" fill="1" visible="no" active="no"/>
-<layer number="25" name="tNames" color="7" fill="1" visible="no" active="no"/>
-<layer number="26" name="bNames" color="7" fill="1" visible="no" active="no"/>
-<layer number="27" name="tValues" color="7" fill="1" visible="no" active="no"/>
-<layer number="28" name="bValues" color="7" fill="1" visible="no" active="no"/>
+<layer number="1" name="Top" color="4" fill="1" visible="yes" active="no"/>
+<layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="no"/>
+<layer number="17" name="Pads" color="2" fill="1" visible="yes" active="no"/>
+<layer number="18" name="Vias" color="2" fill="1" visible="yes" active="no"/>
+<layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="no"/>
+<layer number="20" name="Dimension" color="24" fill="1" visible="yes" active="no"/>
+<layer number="21" name="tPlace" color="7" fill="1" visible="yes" active="no"/>
+<layer number="22" name="bPlace" color="7" fill="1" visible="yes" active="no"/>
+<layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="no"/>
+<layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="no"/>
+<layer number="25" name="tNames" color="7" fill="1" visible="yes" active="no"/>
+<layer number="26" name="bNames" color="7" fill="1" visible="yes" active="no"/>
+<layer number="27" name="tValues" color="7" fill="1" visible="yes" active="no"/>
+<layer number="28" name="bValues" color="7" fill="1" visible="yes" active="no"/>
 <layer number="29" name="tStop" color="7" fill="3" visible="no" active="no"/>
 <layer number="30" name="bStop" color="7" fill="6" visible="no" active="no"/>
 <layer number="31" name="tCream" color="7" fill="4" visible="no" active="no"/>
@@ -30,8 +30,8 @@
 <layer number="34" name="bFinish" color="6" fill="6" visible="no" active="no"/>
 <layer number="35" name="tGlue" color="7" fill="4" visible="no" active="no"/>
 <layer number="36" name="bGlue" color="7" fill="5" visible="no" active="no"/>
-<layer number="37" name="tTest" color="7" fill="1" visible="no" active="no"/>
-<layer number="38" name="bTest" color="7" fill="1" visible="no" active="no"/>
+<layer number="37" name="tTest" color="7" fill="1" visible="yes" active="no"/>
+<layer number="38" name="bTest" color="7" fill="1" visible="yes" active="no"/>
 <layer number="39" name="tKeepout" color="4" fill="11" visible="no" active="no"/>
 <layer number="40" name="bKeepout" color="1" fill="11" visible="no" active="no"/>
 <layer number="41" name="tRestrict" color="4" fill="10" visible="no" active="no"/>
@@ -39,19 +39,19 @@
 <layer number="43" name="vRestrict" color="2" fill="10" visible="no" active="no"/>
 <layer number="44" name="Drills" color="7" fill="1" visible="no" active="no"/>
 <layer number="45" name="Holes" color="7" fill="1" visible="no" active="no"/>
-<layer number="46" name="Milling" color="3" fill="1" visible="no" active="no"/>
-<layer number="47" name="Measures" color="7" fill="1" visible="no" active="no"/>
-<layer number="48" name="Document" color="7" fill="1" visible="no" active="no"/>
-<layer number="49" name="Reference" color="7" fill="1" visible="no" active="no"/>
-<layer number="50" name="dxf" color="7" fill="1" visible="no" active="no"/>
-<layer number="51" name="tDocu" color="7" fill="1" visible="no" active="no"/>
-<layer number="52" name="bDocu" color="7" fill="1" visible="no" active="no"/>
-<layer number="53" name="tGND_GNDA" color="7" fill="9" visible="no" active="no"/>
-<layer number="54" name="bGND_GNDA" color="1" fill="9" visible="no" active="no"/>
-<layer number="56" name="wert" color="7" fill="1" visible="no" active="no"/>
-<layer number="57" name="tCAD" color="7" fill="1" visible="no" active="no"/>
-<layer number="59" name="tCarbon" color="7" fill="1" visible="no" active="no"/>
-<layer number="60" name="bCarbon" color="7" fill="1" visible="no" active="no"/>
+<layer number="46" name="Milling" color="3" fill="1" visible="yes" active="no"/>
+<layer number="47" name="Measures" color="7" fill="1" visible="yes" active="no"/>
+<layer number="48" name="Document" color="7" fill="1" visible="yes" active="no"/>
+<layer number="49" name="Reference" color="7" fill="1" visible="yes" active="no"/>
+<layer number="50" name="dxf" color="7" fill="1" visible="yes" active="no"/>
+<layer number="51" name="tDocu" color="7" fill="1" visible="yes" active="no"/>
+<layer number="52" name="bDocu" color="7" fill="1" visible="yes" active="no"/>
+<layer number="53" name="tGND_GNDA" color="7" fill="9" visible="yes" active="no"/>
+<layer number="54" name="bGND_GNDA" color="1" fill="9" visible="yes" active="no"/>
+<layer number="56" name="wert" color="7" fill="1" visible="yes" active="no"/>
+<layer number="57" name="tCAD" color="7" fill="1" visible="yes" active="no"/>
+<layer number="59" name="tCarbon" color="7" fill="1" visible="yes" active="no"/>
+<layer number="60" name="bCarbon" color="7" fill="1" visible="yes" active="no"/>
 <layer number="88" name="SimResults" color="9" fill="1" visible="yes" active="yes"/>
 <layer number="89" name="SimProbes" color="9" fill="1" visible="yes" active="yes"/>
 <layer number="90" name="Modules" color="5" fill="1" visible="yes" active="yes"/>
@@ -25939,7 +25939,7 @@ Also note, the SNAP packages are for using a snappable style connector. We sell 
 <part name="U2" library="esp32" deviceset="ESP-WROOM-32" device=""/>
 <part name="GND2" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="+3V1" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+3V3" device=""/>
-<part name="C4" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C1206" package3d_urn="urn:adsk.eagle:package:23618/2" value="10uF"/>
+<part name="C4" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C1206" package3d_urn="urn:adsk.eagle:package:23618/2" value="22uF"/>
 <part name="C5" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C1206" package3d_urn="urn:adsk.eagle:package:23618/2" value="0.1uF"/>
 <part name="R5" library="eagle-ltspice" library_urn="urn:adsk.eagle:library:217" deviceset="R" device="R1206" package3d_urn="urn:adsk.eagle:package:13301/1" value="10K"/>
 <part name="C6" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C1206" package3d_urn="urn:adsk.eagle:package:23618/2" value="0.1uF"/>
@@ -26008,11 +26008,11 @@ Also note, the SNAP packages are for using a snappable style connector. We sell 
 <part name="J31" library="SparkFun-Connectors" deviceset="CONN_12" device="NO_SILK"/>
 <part name="UART1" library="SparkFun-Connectors" deviceset="CONN_02" device="1X02_NO_SILK"/>
 <part name="IO2" library="SparkFun-Connectors" deviceset="CONN_02" device="1X02_NO_SILK"/>
-<part name="J33" library="SparkFun-Connectors" deviceset="CONN_01" device=""/>
+<part name="J33" library="SparkFun-Connectors" deviceset="CONN_01" device="PTH_NO_SILK_YES_STOP"/>
 <part name="SMD1" library="eagle-ltspice" library_urn="urn:adsk.eagle:library:217" deviceset="R" device="R1206" package3d_urn="urn:adsk.eagle:package:13301/1"/>
-<part name="J32" library="SparkFun-Connectors" deviceset="CONN_01" device=""/>
-<part name="J34" library="SparkFun-Connectors" deviceset="CONN_01" device=""/>
-<part name="J35" library="SparkFun-Connectors" deviceset="CONN_01" device=""/>
+<part name="J32" library="SparkFun-Connectors" deviceset="CONN_01" device="PTH_NO_SILK_YES_STOP"/>
+<part name="J34" library="SparkFun-Connectors" deviceset="CONN_01" device="PTH_NO_SILK_YES_STOP"/>
+<part name="J35" library="SparkFun-Connectors" deviceset="CONN_01" device="PTH_NO_SILK_YES_STOP"/>
 <part name="SMD2" library="eagle-ltspice" library_urn="urn:adsk.eagle:library:217" deviceset="R" device="R1206" package3d_urn="urn:adsk.eagle:package:13301/1"/>
 <part name="J37" library="SparkFun-Connectors" deviceset="CONN_11" device="1X11_NO_SILK"/>
 <part name="J38" library="SparkFun-Connectors" deviceset="CONN_11" device="1X11_NO_SILK"/>
@@ -26024,15 +26024,15 @@ Also note, the SNAP packages are for using a snappable style connector. We sell 
 <part name="J43" library="SparkFun-Connectors" deviceset="CONN_07" device="NO_SILK"/>
 <part name="J44" library="SparkFun-Connectors" deviceset="CONN_07" device="NO_SILK"/>
 <part name="J45" library="SparkFun-Connectors" deviceset="CONN_07" device="NO_SILK"/>
-<part name="J46" library="SparkFun-Connectors" deviceset="CONN_01" device=""/>
-<part name="J47" library="SparkFun-Connectors" deviceset="CONN_01" device=""/>
+<part name="J46" library="SparkFun-Connectors" deviceset="CONN_01" device="PTH_NO_SILK_YES_STOP"/>
+<part name="J47" library="SparkFun-Connectors" deviceset="CONN_01" device="PTH_NO_SILK_YES_STOP"/>
 <part name="SMD3" library="eagle-ltspice" library_urn="urn:adsk.eagle:library:217" deviceset="R" device="R1206" package3d_urn="urn:adsk.eagle:package:13301/1"/>
 <part name="IC1" library="linear" library_urn="urn:adsk.eagle:library:262" deviceset="*555" device="D" package3d_urn="urn:adsk.eagle:package:16404/2" technology="LM" value="SOIC-8"/>
 <part name="J48" library="SparkFun-Connectors" deviceset="CONN_04" device="1X04_NO_SILK"/>
 <part name="J49" library="SparkFun-Connectors" deviceset="CONN_04" device="1X04_NO_SILK"/>
-<part name="J50" library="SparkFun-Connectors" deviceset="CONN_01" device=""/>
+<part name="J50" library="SparkFun-Connectors" deviceset="CONN_01" device="PTH_NO_SILK_YES_STOP"/>
 <part name="SMD4" library="eagle-ltspice" library_urn="urn:adsk.eagle:library:217" deviceset="R" device="R1206" package3d_urn="urn:adsk.eagle:package:13301/1"/>
-<part name="J51" library="SparkFun-Connectors" deviceset="CONN_01" device=""/>
+<part name="J51" library="SparkFun-Connectors" deviceset="CONN_01" device="PTH_NO_SILK_YES_STOP"/>
 <part name="GND9" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="P+2" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="VCC" device=""/>
 <part name="P+4" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+12V" device=""/>
@@ -26052,23 +26052,23 @@ Also note, the SNAP packages are for using a snappable style connector. We sell 
 <part name="J52" library="SparkFun-Connectors" deviceset="CONN_07" device="NO_SILK"/>
 <part name="J53" library="SparkFun-Connectors" deviceset="CONN_07" device="NO_SILK"/>
 <part name="GND22" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="IC4" library="linear" library_urn="urn:adsk.eagle:library:262" deviceset="*555" device="D" package3d_urn="urn:adsk.eagle:package:16404/2" technology="LM" value="#LMC555"/>
+<part name="IC4" library="linear" library_urn="urn:adsk.eagle:library:262" deviceset="*555" device="D" package3d_urn="urn:adsk.eagle:package:16404/2" technology="LM" value="LMC555*"/>
 <part name="GND24" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="GND25" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="+3V7" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+3V3" device=""/>
-<part name="C10" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C1206" package3d_urn="urn:adsk.eagle:package:23618/2" value="#0.1uF"/>
+<part name="C10" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C1206" package3d_urn="urn:adsk.eagle:package:23618/2" value="0.1uF*"/>
 <part name="GND27" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="C1" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C1206" package3d_urn="urn:adsk.eagle:package:23618/2" value="#10uF"/>
-<part name="R4" library="eagle-ltspice" library_urn="urn:adsk.eagle:library:217" deviceset="R" device="R1206" package3d_urn="urn:adsk.eagle:package:13301/1" value="#10K"/>
+<part name="C1" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C1206" package3d_urn="urn:adsk.eagle:package:23618/2" value="10uF*"/>
+<part name="R4" library="eagle-ltspice" library_urn="urn:adsk.eagle:library:217" deviceset="R" device="R1206" package3d_urn="urn:adsk.eagle:package:13301/1" value="10K*"/>
 <part name="J_EN" library="SparkFun-Connectors" library_urn="urn:adsk.eagle:library:513" deviceset="CONN_01" device="PTH_NO_SILK_YES_STOP" package3d_urn="urn:adsk.eagle:package:38041/1"/>
 <part name="R2" library="eagle-ltspice" library_urn="urn:adsk.eagle:library:217" deviceset="R" device="R1206" package3d_urn="urn:adsk.eagle:package:13301/1" value="10K"/>
 <part name="+3V2" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+3V3" device=""/>
 <part name="PPTC1" library="SparkFun-Fuses" deviceset="PPTC" device="_PTH" value="20V/3A"/>
 <part name="P+11" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="VCC" device=""/>
 <part name="+3V8" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+3V3" device=""/>
-<part name="R6" library="eagle-ltspice" library_urn="urn:adsk.eagle:library:217" deviceset="R" device="R1206" package3d_urn="urn:adsk.eagle:package:13301/1" value="#220K"/>
-<part name="R9" library="eagle-ltspice" library_urn="urn:adsk.eagle:library:217" deviceset="R" device="R1206" package3d_urn="urn:adsk.eagle:package:13301/1" value="#470R"/>
-<part name="Q1" library="semicon-smd-ipc" library_urn="urn:adsk.eagle:library:353" deviceset="NPN-TRANSISTOR_" device="SOT23" package3d_urn="urn:adsk.eagle:package:28738/2" value="#MMBT3904"/>
+<part name="R6" library="eagle-ltspice" library_urn="urn:adsk.eagle:library:217" deviceset="R" device="R1206" package3d_urn="urn:adsk.eagle:package:13301/1" value="220K*"/>
+<part name="R9" library="eagle-ltspice" library_urn="urn:adsk.eagle:library:217" deviceset="R" device="R1206" package3d_urn="urn:adsk.eagle:package:13301/1" value="470R*"/>
+<part name="Q1" library="semicon-smd-ipc" library_urn="urn:adsk.eagle:library:353" deviceset="NPN-TRANSISTOR_" device="SOT23" package3d_urn="urn:adsk.eagle:package:28738/2" value="MMBT3904*"/>
 <part name="GND10" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="+3V9" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+3V3" device=""/>
 <part name="PPTC2" library="SparkFun-Fuses" deviceset="PPTC" device="_THREE-QUARTER-AMP" value="6V/0.5-1A"/>
@@ -26078,11 +26078,11 @@ Also note, the SNAP packages are for using a snappable style connector. We sell 
 <part name="TOUCH1" library="SparkFun-Connectors" deviceset="CONN_02" device="1X02_NO_SILK"/>
 <part name="GND18" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="J56" library="SparkFun-Connectors" library_urn="urn:adsk.eagle:library:513" deviceset="CONN_04" device="1X04_NO_SILK" package3d_urn="urn:adsk.eagle:package:38094/1"/>
-<part name="Q2" library="semicon-smd-ipc" library_urn="urn:adsk.eagle:library:353" deviceset="NPN-TRANSISTOR_" device="SOT23" package3d_urn="urn:adsk.eagle:package:28738/2" value="*MMBT3904"/>
-<part name="Q3" library="semicon-smd-ipc" library_urn="urn:adsk.eagle:library:353" deviceset="NPN-TRANSISTOR_" device="SOT23" package3d_urn="urn:adsk.eagle:package:28738/2" value="*MMBT3904"/>
-<part name="R3" library="eagle-ltspice" library_urn="urn:adsk.eagle:library:217" deviceset="R" device="R1206" package3d_urn="urn:adsk.eagle:package:13301/1" value="*10K"/>
-<part name="R10" library="eagle-ltspice" library_urn="urn:adsk.eagle:library:217" deviceset="R" device="R1206" package3d_urn="urn:adsk.eagle:package:13301/1" value="*10K"/>
-<part name="CTRL" library="SparkFun-Connectors" deviceset="CONN_02" device=""/>
+<part name="Q2" library="semicon-smd-ipc" library_urn="urn:adsk.eagle:library:353" deviceset="NPN-TRANSISTOR_" device="SOT23" package3d_urn="urn:adsk.eagle:package:28738/2" value="MMBT3904"/>
+<part name="Q3" library="semicon-smd-ipc" library_urn="urn:adsk.eagle:library:353" deviceset="NPN-TRANSISTOR_" device="SOT23" package3d_urn="urn:adsk.eagle:package:28738/2" value="MMBT3904"/>
+<part name="R3" library="eagle-ltspice" library_urn="urn:adsk.eagle:library:217" deviceset="R" device="R1206" package3d_urn="urn:adsk.eagle:package:13301/1" value="10K"/>
+<part name="R10" library="eagle-ltspice" library_urn="urn:adsk.eagle:library:217" deviceset="R" device="R1206" package3d_urn="urn:adsk.eagle:package:13301/1" value="10K"/>
+<part name="CTRL" library="SparkFun-Connectors" deviceset="CONN_02" device="LOCK"/>
 <part name="+3V11" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+3V3" device=""/>
 </parts>
 <sheets>
