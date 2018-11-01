@@ -258,7 +258,7 @@
 <text x="50.8" y="51.943" size="0.8128" layer="51" font="vector" ratio="20" align="bottom-center">11</text>
 <text x="53.34" y="51.943" size="0.8128" layer="51" font="vector" ratio="20" align="bottom-center">6</text>
 <text x="55.88" y="51.943" size="0.8128" layer="51" font="vector" ratio="20" align="bottom-center">7</text>
-<text x="57.404" y="51.435" size="0.7112" layer="51" font="vector" ratio="20" align="bottom-center">8</text>
+<text x="57.277" y="51.562" size="0.7112" layer="51" font="vector" ratio="20" align="bottom-center">8</text>
 <text x="57.023" y="52.959" size="0.8128" layer="51" font="vector" ratio="20" align="bottom-center">2</text>
 <wire x1="59.69" y1="53.975" x2="59.055" y2="54.61" width="0.127" layer="21"/>
 <wire x1="61.595" y1="52.07" x2="62.23" y2="52.705" width="0.127" layer="21"/>
@@ -1213,8 +1213,6 @@
 <wire x1="20.193" y1="57.531" x2="20.193" y2="58.039" width="0.127" layer="52"/>
 <wire x1="62.23" y1="53.975" x2="61.849" y2="54.356" width="0.127" layer="52"/>
 <wire x1="59.69" y1="53.975" x2="60.071" y2="54.356" width="0.127" layer="52"/>
-<wire x1="60.325" y1="52.07" x2="59.69" y2="51.435" width="0.127" layer="52"/>
-<wire x1="59.69" y1="51.435" x2="59.69" y2="51.308" width="0.127" layer="52"/>
 <wire x1="37.846" y1="52.07" x2="37.465" y2="52.07" width="0.127" layer="52"/>
 <wire x1="36.83" y1="51.435" x2="37.465" y2="52.07" width="0.127" layer="52"/>
 <wire x1="38.481" y1="52.07" x2="38.608" y2="52.07" width="0.127" layer="52"/>
@@ -1359,7 +1357,7 @@
 <wire x1="44.069" y1="52.07" x2="44.831" y2="52.07" width="0.127" layer="51"/>
 <wire x1="51.689" y1="52.07" x2="52.451" y2="52.07" width="0.127" layer="51"/>
 <wire x1="54.229" y1="52.07" x2="54.991" y2="52.07" width="0.127" layer="51"/>
-<text x="57.404" y="51.435" size="0.7112" layer="52" font="vector" ratio="20" rot="MR0" align="bottom-center">8</text>
+<text x="57.277" y="51.562" size="0.7112" layer="52" font="vector" ratio="20" rot="MR0" align="bottom-center">8</text>
 <wire x1="54.229" y1="52.07" x2="54.991" y2="52.07" width="0.127" layer="52"/>
 <wire x1="59.69" y1="50.165" x2="59.055" y2="49.53" width="0.127" layer="52"/>
 <wire x1="59.055" y1="49.53" x2="58.42" y2="49.53" width="0.127" layer="52"/>
@@ -1373,7 +1371,11 @@
 <wire x1="49.149" y1="52.07" x2="49.911" y2="52.07" width="0.127" layer="52"/>
 <wire x1="46.609" y1="52.07" x2="47.371" y2="52.07" width="0.127" layer="52"/>
 <wire x1="44.069" y1="52.07" x2="44.831" y2="52.07" width="0.127" layer="52"/>
-<wire x1="59.69" y1="51.435" x2="60.325" y2="52.07" width="0.127" layer="51"/>
+<wire x1="59.69" y1="52.705" x2="59.69" y2="51.435" width="0.127" layer="51"/>
+<wire x1="60.325" y1="52.07" x2="59.69" y2="52.705" width="0.127" layer="51"/>
+<wire x1="59.69" y1="51.308" x2="59.69" y2="52.705" width="0.127" layer="52"/>
+<wire x1="59.69" y1="52.705" x2="60.325" y2="52.07" width="0.127" layer="52"/>
+<wire x1="62.23" y1="52.705" x2="62.23" y2="53.975" width="0.127" layer="52"/>
 </plain>
 <libraries>
 <library name="esp32">
