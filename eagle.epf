@@ -381,6 +381,10 @@ UsedLibrary="lbr/SI4431BDY-T1-E3.lbr"
 UsedLibrary="lbr/SPST_2PIN_DPS_SWITCH.lbr"
 
 [Win_1]
+Type="Control Panel"
+Number=0
+
+[Win_2]
 Type="Schematic Editor"
 Number=2
 File="ESP32ProtypeBoard.sch"
@@ -425,10 +429,6 @@ PadsSameType=0
 Layer=91
 Views=" 1: 185.743 -156.014 381.247 -31.5497"
 Sheet="1"
-
-[Win_2]
-Type="Control Panel"
-Number=0
 
 [Desktop]
 Screen="2560 1440"
