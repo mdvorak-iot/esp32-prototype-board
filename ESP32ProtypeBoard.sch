@@ -27710,6 +27710,7 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <part name="TP1" library="testpad" library_urn="urn:adsk.eagle:library:385" deviceset="TP" device="TP15SQ" package3d_urn="urn:adsk.eagle:package:27975/1" value="TPTP15SQ"/>
 <part name="J54" library="SparkFun-Connectors" library_urn="urn:adsk.eagle:library:513" deviceset="CONN_10" device="NO_SILK_PTH_FEMALE" package3d_urn="urn:adsk.eagle:package:38161/1"/>
 <part name="+3V11" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+3V3" device=""/>
+<part name="C7" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C1206" package3d_urn="urn:adsk.eagle:package:23618/2" value="(1uF)"/>
 </parts>
 <sheets>
 <sheet>
@@ -28234,8 +28235,8 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <attribute name="NAME" x="351.79" y="80.2386" size="1.778" layer="95"/>
 <attribute name="VALUE" x="351.79" y="75.438" size="1.778" layer="96"/>
 </instance>
-<instance part="GND18" gate="1" x="193.04" y="-121.92" smashed="yes" rot="R90">
-<attribute name="VALUE" x="195.58" y="-124.46" size="1.778" layer="96" rot="R90"/>
+<instance part="GND18" gate="1" x="208.28" y="-121.92" smashed="yes" rot="R90">
+<attribute name="VALUE" x="210.82" y="-124.46" size="1.778" layer="96" rot="R90"/>
 </instance>
 <instance part="GND26" gate="1" x="251.46" y="-114.3" smashed="yes" rot="R90">
 <attribute name="VALUE" x="254" y="-116.84" size="1.778" layer="96" rot="R90"/>
@@ -28248,8 +28249,12 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <attribute name="VALUE" x="154.94" y="-48.006" size="1.778" layer="96" font="vector"/>
 <attribute name="NAME" x="154.94" y="-17.272" size="1.778" layer="95" font="vector"/>
 </instance>
-<instance part="+3V11" gate="G$1" x="198.12" y="-114.3" smashed="yes" rot="R270">
-<attribute name="VALUE" x="193.04" y="-111.76" size="1.778" layer="96"/>
+<instance part="+3V11" gate="G$1" x="208.28" y="-114.3" smashed="yes" rot="R270">
+<attribute name="VALUE" x="203.2" y="-111.76" size="1.778" layer="96"/>
+</instance>
+<instance part="C7" gate="G$1" x="200.66" y="-116.84" smashed="yes">
+<attribute name="NAME" x="202.184" y="-116.459" size="1.778" layer="95"/>
+<attribute name="VALUE" x="202.184" y="-121.539" size="1.778" layer="96"/>
 </instance>
 </instances>
 <busses>
@@ -28475,6 +28480,10 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <pinref part="J17" gate="G$1" pin="1"/>
 <pinref part="GND18" gate="1" pin="GND"/>
 <pinref part="J17" gate="G$1" pin="2"/>
+<wire x1="205.74" y1="-121.92" x2="200.66" y2="-121.92" width="0.1524" layer="91"/>
+<pinref part="C7" gate="G$1" pin="2"/>
+<wire x1="200.66" y1="-121.92" x2="190.5" y2="-121.92" width="0.1524" layer="91"/>
+<junction x="200.66" y="-121.92"/>
 <wire x1="190.5" y1="-119.38" x2="190.5" y2="-121.92" width="0.1524" layer="91"/>
 <junction x="190.5" y="-121.92"/>
 </segment>
@@ -28558,11 +28567,14 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 </segment>
 <segment>
 <pinref part="J17" gate="G$1" pin="4"/>
-<wire x1="190.5" y1="-114.3" x2="195.58" y2="-114.3" width="0.1524" layer="91"/>
+<wire x1="190.5" y1="-114.3" x2="200.66" y2="-114.3" width="0.1524" layer="91"/>
 <pinref part="+3V11" gate="G$1" pin="+3V3"/>
 <pinref part="J17" gate="G$1" pin="5"/>
+<wire x1="200.66" y1="-114.3" x2="205.74" y2="-114.3" width="0.1524" layer="91"/>
 <wire x1="190.5" y1="-111.76" x2="190.5" y2="-114.3" width="0.1524" layer="91"/>
 <junction x="190.5" y="-114.3"/>
+<pinref part="C7" gate="G$1" pin="1"/>
+<junction x="200.66" y="-114.3"/>
 </segment>
 </net>
 <net name="EN" class="0">
