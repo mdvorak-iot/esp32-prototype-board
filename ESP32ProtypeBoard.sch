@@ -29948,7 +29948,6 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <part name="R4" library="eagle-ltspice" library_urn="urn:adsk.eagle:library:217" deviceset="R" device="R1206" package3d_urn="urn:adsk.eagle:package:13301/1" value="10K*"/>
 <part name="R2" library="eagle-ltspice" library_urn="urn:adsk.eagle:library:217" deviceset="R" device="R1206" package3d_urn="urn:adsk.eagle:package:13301/1" value="10K"/>
 <part name="+3V2" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+3V3" device=""/>
-<part name="PPTC1" library="SparkFun-Fuses" deviceset="PPTC" device="_PTH" value="20V/3A"/>
 <part name="P+11" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="VCC" device=""/>
 <part name="+3V8" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+3V3" device=""/>
 <part name="R6" library="eagle-ltspice" library_urn="urn:adsk.eagle:library:217" deviceset="R" device="R1206" package3d_urn="urn:adsk.eagle:package:13301/1" value="220K*"/>
@@ -30433,10 +30432,6 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 </instance>
 <instance part="+3V2" gate="G$1" x="368.3" y="48.26" smashed="yes">
 <attribute name="VALUE" x="365.76" y="43.18" size="1.778" layer="96" rot="R90"/>
-</instance>
-<instance part="PPTC1" gate="F1" x="68.58" y="12.7" smashed="yes">
-<attribute name="NAME" x="70.485" y="15.875" size="1.778" layer="95" font="vector" align="bottom-center"/>
-<attribute name="VALUE" x="69.85" y="9.906" size="1.778" layer="96" font="vector" align="top-center"/>
 </instance>
 <instance part="P+11" gate="VCC" x="20.32" y="17.78" smashed="yes" rot="R90">
 <attribute name="VALUE" x="22.86" y="15.24" size="1.778" layer="96" rot="R180"/>
@@ -31291,8 +31286,14 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <wire x1="86.36" y1="12.7" x2="93.98" y2="12.7" width="0.1524" layer="91"/>
 <junction x="86.36" y="12.7"/>
 <pinref part="P+4" gate="1" pin="+12V"/>
-<pinref part="PPTC1" gate="F1" pin="2"/>
-<wire x1="86.36" y1="12.7" x2="76.2" y2="12.7" width="0.1524" layer="91"/>
+<pinref part="IC2" gate="G$1" pin="S"/>
+<pinref part="IC2" gate="G$1" pin="S_1"/>
+<pinref part="IC2" gate="G$1" pin="S_2"/>
+<wire x1="58.42" y1="17.78" x2="58.42" y2="15.24" width="0.1524" layer="91"/>
+<junction x="58.42" y="15.24"/>
+<wire x1="58.42" y1="15.24" x2="58.42" y2="12.7" width="0.1524" layer="91"/>
+<junction x="58.42" y="12.7"/>
+<wire x1="58.42" y1="12.7" x2="86.36" y2="12.7" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <wire x1="30.48" y1="53.34" x2="45.72" y2="53.34" width="0.1524" layer="91"/>
@@ -31633,19 +31634,6 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <wire x1="81.28" y1="55.88" x2="81.28" y2="53.34" width="0.1524" layer="91"/>
 <wire x1="81.28" y1="53.34" x2="83.82" y2="53.34" width="0.1524" layer="91"/>
 <junction x="81.28" y="53.34"/>
-</segment>
-</net>
-<net name="N$31" class="0">
-<segment>
-<pinref part="IC2" gate="G$1" pin="S"/>
-<pinref part="IC2" gate="G$1" pin="S_1"/>
-<pinref part="IC2" gate="G$1" pin="S_2"/>
-<wire x1="58.42" y1="17.78" x2="58.42" y2="15.24" width="0.1524" layer="91"/>
-<junction x="58.42" y="15.24"/>
-<wire x1="58.42" y1="15.24" x2="58.42" y2="12.7" width="0.1524" layer="91"/>
-<junction x="58.42" y="12.7"/>
-<pinref part="PPTC1" gate="F1" pin="1"/>
-<wire x1="63.5" y1="12.7" x2="58.42" y2="12.7" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="3V3OUT" class="0">
