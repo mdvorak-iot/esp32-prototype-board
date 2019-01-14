@@ -30862,6 +30862,7 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <part name="C7" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C1206" package3d_urn="urn:adsk.eagle:package:23618/2" value="(1uF)"/>
 <part name="J55" library="SparkFun-Connectors" library_urn="urn:adsk.eagle:library:513" deviceset="CONN_19" device="1X19_NO_SILK" package3d_urn="urn:adsk.eagle:package:38250/1"/>
 <part name="J56" library="SparkFun-Connectors" deviceset="CONN_16" device="1X16_NO_SILK"/>
+<part name="J57" library="SparkFun-Connectors" library_urn="urn:adsk.eagle:library:513" deviceset="CONN_01" device="PTH_NO_SILK_KIT" package3d_urn="urn:adsk.eagle:package:38038/1"/>
 </parts>
 <sheets>
 <sheet>
@@ -31361,6 +31362,10 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <instance part="J56" gate="G$1" x="-20.32" y="-152.4" smashed="yes">
 <attribute name="VALUE" x="-22.86" y="-180.086" size="1.778" layer="96" font="vector"/>
 <attribute name="NAME" x="-22.86" y="-129.032" size="1.778" layer="95" font="vector"/>
+</instance>
+<instance part="J57" gate="G$1" x="104.14" y="-68.58" smashed="yes">
+<attribute name="VALUE" x="104.14" y="-68.326" size="1.778" layer="96" font="vector"/>
+<attribute name="NAME" x="104.14" y="-62.992" size="1.778" layer="95" font="vector"/>
 </instance>
 </instances>
 <busses>
@@ -31965,29 +31970,21 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <segment>
 <pinref part="U2" gate="G$1" pin="SD1"/>
 <label x="215.9" y="35.56" size="1.778" layer="95"/>
-<wire x1="215.9" y1="35.56" x2="236.22" y2="35.56" width="0.1524" layer="91"/>
-<pinref part="J13" gate="G$1" pin="1"/>
-<wire x1="236.22" y1="35.56" x2="236.22" y2="33.02" width="0.1524" layer="91"/>
+<wire x1="215.9" y1="35.56" x2="220.98" y2="35.56" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="IO7" class="0">
 <segment>
 <pinref part="U2" gate="G$1" pin="SD0"/>
 <label x="215.9" y="33.02" size="1.778" layer="95"/>
-<wire x1="215.9" y1="33.02" x2="233.68" y2="33.02" width="0.1524" layer="91"/>
-<wire x1="233.68" y1="33.02" x2="233.68" y2="30.48" width="0.1524" layer="91"/>
-<pinref part="J13" gate="G$1" pin="2"/>
-<wire x1="233.68" y1="30.48" x2="236.22" y2="30.48" width="0.1524" layer="91"/>
+<wire x1="215.9" y1="33.02" x2="220.98" y2="33.02" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="IO6" class="0">
 <segment>
 <pinref part="U2" gate="G$1" pin="CLK"/>
 <label x="215.9" y="30.48" size="1.778" layer="95"/>
-<wire x1="215.9" y1="30.48" x2="231.14" y2="30.48" width="0.1524" layer="91"/>
-<wire x1="231.14" y1="30.48" x2="231.14" y2="27.94" width="0.1524" layer="91"/>
-<pinref part="J13" gate="G$1" pin="3"/>
-<wire x1="231.14" y1="27.94" x2="236.22" y2="27.94" width="0.1524" layer="91"/>
+<wire x1="215.9" y1="30.48" x2="220.98" y2="30.48" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="IO11" class="0">
@@ -31996,11 +31993,6 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <wire x1="180.34" y1="30.48" x2="175.26" y2="30.48" width="0.1524" layer="91"/>
 <label x="175.26" y="30.48" size="1.778" layer="95"/>
 </segment>
-<segment>
-<pinref part="J13" gate="G$1" pin="4"/>
-<wire x1="236.22" y1="25.4" x2="231.14" y2="25.4" width="0.1524" layer="91"/>
-<label x="231.14" y="25.4" size="1.778" layer="95"/>
-</segment>
 </net>
 <net name="IO10" class="0">
 <segment>
@@ -32008,22 +32000,12 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <wire x1="180.34" y1="33.02" x2="175.26" y2="33.02" width="0.1524" layer="91"/>
 <label x="175.26" y="33.02" size="1.778" layer="95"/>
 </segment>
-<segment>
-<pinref part="J13" gate="G$1" pin="5"/>
-<wire x1="236.22" y1="22.86" x2="231.14" y2="22.86" width="0.1524" layer="91"/>
-<label x="231.14" y="22.86" size="1.778" layer="95"/>
-</segment>
 </net>
 <net name="IO9" class="0">
 <segment>
 <pinref part="U2" gate="G$1" pin="SD2"/>
 <wire x1="180.34" y1="35.56" x2="175.26" y2="35.56" width="0.1524" layer="91"/>
 <label x="175.26" y="35.56" size="1.778" layer="95"/>
-</segment>
-<segment>
-<pinref part="J13" gate="G$1" pin="6"/>
-<wire x1="236.22" y1="20.32" x2="231.14" y2="20.32" width="0.1524" layer="91"/>
-<label x="231.14" y="20.32" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="IO13" class="0">
