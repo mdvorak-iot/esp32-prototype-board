@@ -30830,7 +30830,7 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <part name="P+9" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+12V" device=""/>
 <part name="P+10" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="VCC" device=""/>
 <part name="+3V6" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+3V3" device=""/>
-<part name="D2" library="SparkFun-LED" deviceset="LED-GREEN" device="1206" value="BLUE"/>
+<part name="D2" library="SparkFun-LED" deviceset="LED-GREEN" device="1206" value="STATE"/>
 <part name="R1" library="eagle-ltspice" library_urn="urn:adsk.eagle:library:217" deviceset="R" device="R1206" package3d_urn="urn:adsk.eagle:package:13301/1" value="150R"/>
 <part name="J4" library="SparkFun-Connectors" library_urn="urn:adsk.eagle:library:513" deviceset="CONN_02" device="1X02_NO_SILK" package3d_urn="urn:adsk.eagle:package:38051/1"/>
 <part name="J5" library="SparkFun-Connectors" deviceset="CONN_16" device="1X16_NO_SILK"/>
@@ -30863,6 +30863,10 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <part name="J55" library="SparkFun-Connectors" library_urn="urn:adsk.eagle:library:513" deviceset="CONN_19" device="1X19_NO_SILK" package3d_urn="urn:adsk.eagle:package:38250/1"/>
 <part name="J56" library="SparkFun-Connectors" deviceset="CONN_16" device="1X16_NO_SILK"/>
 <part name="J57" library="SparkFun-Connectors" library_urn="urn:adsk.eagle:library:513" deviceset="CONN_01" device="PTH_NO_SILK_KIT" package3d_urn="urn:adsk.eagle:package:38038/1"/>
+<part name="P+3" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="VCC" device=""/>
+<part name="R4" library="eagle-ltspice" library_urn="urn:adsk.eagle:library:217" deviceset="R" device="R1206" package3d_urn="urn:adsk.eagle:package:13301/1" value="1K"/>
+<part name="D1" library="SparkFun-LED" deviceset="LED-GREEN" device="1206" value="PWR"/>
+<part name="GND5" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -31367,6 +31371,20 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <attribute name="VALUE" x="104.14" y="-68.326" size="1.778" layer="96" font="vector"/>
 <attribute name="NAME" x="104.14" y="-62.992" size="1.778" layer="95" font="vector"/>
 </instance>
+<instance part="P+3" gate="VCC" x="20.32" y="-5.08" smashed="yes" rot="R90">
+<attribute name="VALUE" x="22.86" y="-7.62" size="1.778" layer="96" rot="R180"/>
+</instance>
+<instance part="R4" gate="G$1" x="33.02" y="-5.08" smashed="yes">
+<attribute name="NAME" x="29.21" y="-3.5814" size="1.778" layer="95"/>
+<attribute name="VALUE" x="29.21" y="-8.382" size="1.778" layer="96"/>
+</instance>
+<instance part="D1" gate="G$1" x="45.72" y="-5.08" smashed="yes" rot="R90">
+<attribute name="NAME" x="50.292" y="-8.509" size="1.778" layer="95" font="vector" rot="R180"/>
+<attribute name="VALUE" x="50.292" y="-3.175" size="1.778" layer="96" font="vector" rot="R180" align="top-left"/>
+</instance>
+<instance part="GND5" gate="1" x="58.42" y="-5.08" smashed="yes" rot="R90">
+<attribute name="VALUE" x="60.96" y="-7.62" size="1.778" layer="96" rot="R90"/>
+</instance>
 </instances>
 <busses>
 </busses>
@@ -31582,6 +31600,11 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <pinref part="TP1" gate="G$1" pin="TP"/>
 <pinref part="GND26" gate="1" pin="GND"/>
 <wire x1="203.2" y1="-78.74" x2="200.66" y2="-78.74" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="D1" gate="G$1" pin="C"/>
+<pinref part="GND5" gate="1" pin="GND"/>
+<wire x1="50.8" y1="-5.08" x2="55.88" y2="-5.08" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="+3V3" class="0">
@@ -32361,6 +32384,11 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <pinref part="P+11" gate="VCC" pin="VCC"/>
 <wire x1="22.86" y1="17.78" x2="33.02" y2="17.78" width="0.1524" layer="91"/>
 </segment>
+<segment>
+<pinref part="P+3" gate="VCC" pin="VCC"/>
+<pinref part="R4" gate="G$1" pin="1"/>
+<wire x1="22.86" y1="-5.08" x2="27.94" y2="-5.08" width="0.1524" layer="91"/>
+</segment>
 </net>
 <net name="D2A" class="0">
 <segment>
@@ -32602,6 +32630,13 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <pinref part="J52" gate="G$1" pin="1"/>
 <pinref part="J53" gate="G$1" pin="1"/>
 <wire x1="236.22" y1="-116.84" x2="223.52" y2="-116.84" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$50" class="0">
+<segment>
+<pinref part="R4" gate="G$1" pin="2"/>
+<pinref part="D1" gate="G$1" pin="A"/>
+<wire x1="38.1" y1="-5.08" x2="43.18" y2="-5.08" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>
