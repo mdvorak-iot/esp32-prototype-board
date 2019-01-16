@@ -30423,102 +30423,6 @@ This footprint was designed to help hold the alignment of a through-hole compone
 </deviceset>
 </devicesets>
 </library>
-<library name="bss138_10">
-<description>&lt;b&gt;Fairchild BSS138 Field Effect Transistor&lt;/b&gt;&lt;br&gt;
-&lt;br&gt;
-Version 1.0&lt;br&gt;
-&amp;copy; 2015 Samuel Lourenço</description>
-<packages>
-<package name="SOT23">
-<description>&lt;b&gt;SOT-23 Plastic Small Outline&lt;/b&gt;</description>
-<wire x1="1.45" y1="0.65" x2="1.45" y2="-0.37" width="0.1524" layer="21"/>
-<wire x1="1.45" y1="-0.37" x2="1.45" y2="-0.65" width="0.1524" layer="51"/>
-<wire x1="-0.37" y1="-0.65" x2="0.37" y2="-0.65" width="0.1524" layer="21"/>
-<wire x1="-1.45" y1="-0.65" x2="-1.45" y2="-0.37" width="0.1524" layer="51"/>
-<wire x1="-1.45" y1="-0.37" x2="-1.45" y2="0.65" width="0.1524" layer="21"/>
-<wire x1="-1.45" y1="0.65" x2="-0.58" y2="0.65" width="0.1524" layer="21"/>
-<wire x1="0.58" y1="0.65" x2="1.45" y2="0.65" width="0.1524" layer="21"/>
-<smd name="1" x="-0.95" y="-1" dx="0.8" dy="0.9" layer="1"/>
-<smd name="2" x="0.95" y="-1" dx="0.8" dy="0.9" layer="1"/>
-<smd name="3" x="0" y="1" dx="0.8" dy="0.9" layer="1"/>
-<text x="-1.85" y="-0.6" size="1.27" layer="25" rot="R90">&gt;NAME</text>
-<text x="3.15" y="-0.6" size="1.27" layer="27" rot="R90">&gt;VALUE</text>
-<rectangle x1="-1.15" y1="-1.2" x2="-0.75" y2="-0.65" layer="51"/>
-<rectangle x1="-0.2" y1="0.65" x2="0.2" y2="1.2" layer="51"/>
-<rectangle x1="0.75" y1="-1.2" x2="1.15" y2="-0.65" layer="51"/>
-<wire x1="-1.45" y1="-0.65" x2="-0.37" y2="-0.65" width="0.1524" layer="51"/>
-<wire x1="0.37" y1="-0.65" x2="1.45" y2="-0.65" width="0.1524" layer="51"/>
-<wire x1="-0.58" y1="0.65" x2="0.58" y2="0.65" width="0.1524" layer="51"/>
-<rectangle x1="-0.6" y1="-0.4" x2="0.6" y2="0.4" layer="35"/>
-</package>
-</packages>
-<symbols>
-<symbol name="N-MOSFET">
-<wire x1="0.762" y1="0.762" x2="0.762" y2="0" width="0.254" layer="94"/>
-<wire x1="0.762" y1="0" x2="0.762" y2="-0.762" width="0.254" layer="94"/>
-<wire x1="0.762" y1="3.175" x2="0.762" y2="2.54" width="0.254" layer="94"/>
-<wire x1="0.762" y1="2.54" x2="0.762" y2="1.905" width="0.254" layer="94"/>
-<wire x1="0.762" y1="0" x2="2.54" y2="0" width="0.1524" layer="94"/>
-<wire x1="2.54" y1="0" x2="2.54" y2="-2.54" width="0.1524" layer="94"/>
-<wire x1="0.762" y1="-1.905" x2="0.762" y2="-2.54" width="0.254" layer="94"/>
-<wire x1="0.762" y1="-2.54" x2="0.762" y2="-3.175" width="0.254" layer="94"/>
-<wire x1="0" y1="2.54" x2="0" y2="-2.54" width="0.254" layer="94"/>
-<wire x1="2.54" y1="-2.54" x2="0.762" y2="-2.54" width="0.1524" layer="94"/>
-<wire x1="3.81" y1="2.54" x2="3.81" y2="0.508" width="0.1524" layer="94"/>
-<wire x1="3.81" y1="0.508" x2="3.81" y2="-2.54" width="0.1524" layer="94"/>
-<wire x1="2.54" y1="-2.54" x2="3.81" y2="-2.54" width="0.1524" layer="94"/>
-<wire x1="0.762" y1="2.54" x2="3.81" y2="2.54" width="0.1524" layer="94"/>
-<wire x1="4.572" y1="0.762" x2="4.318" y2="0.508" width="0.1524" layer="94"/>
-<wire x1="4.318" y1="0.508" x2="3.81" y2="0.508" width="0.1524" layer="94"/>
-<wire x1="3.81" y1="0.508" x2="3.302" y2="0.508" width="0.1524" layer="94"/>
-<wire x1="3.302" y1="0.508" x2="3.048" y2="0.254" width="0.1524" layer="94"/>
-<circle x="2.54" y="-2.54" radius="0.3592" width="0" layer="94"/>
-<circle x="2.54" y="2.54" radius="0.3592" width="0" layer="94"/>
-<text x="-11.43" y="0" size="1.778" layer="96">&gt;VALUE</text>
-<text x="-11.43" y="2.54" size="1.778" layer="95">&gt;NAME</text>
-<pin name="S" x="2.54" y="-5.08" visible="off" length="short" direction="pas" rot="R90"/>
-<pin name="G" x="-2.54" y="-2.54" visible="off" length="short" direction="pas"/>
-<pin name="D" x="2.54" y="5.08" visible="off" length="short" direction="pas" rot="R270"/>
-<polygon width="0.1524" layer="94">
-<vertex x="3.81" y="0.508"/>
-<vertex x="3.302" y="-0.254"/>
-<vertex x="4.318" y="-0.254"/>
-</polygon>
-<polygon width="0.1524" layer="94">
-<vertex x="1.016" y="0"/>
-<vertex x="2.032" y="0.762"/>
-<vertex x="2.032" y="-0.762"/>
-</polygon>
-</symbol>
-</symbols>
-<devicesets>
-<deviceset name="BSS138" prefix="Q">
-<description>&lt;b&gt;BSS138&lt;/b&gt; N-Channel Logic Level Enhancement Mode Field Effect Transistor&lt;br&gt;
-&lt;br&gt;
-Source: &lt;a href="http://www.fairchildsemi.com/datasheets/BS/BSS138.pdf"&gt;http://www.fairchildsemi.com/datasheets/BS/BSS138.pdf&lt;/a&gt;</description>
-<gates>
-<gate name="G$1" symbol="N-MOSFET" x="0" y="0"/>
-</gates>
-<devices>
-<device name="" package="SOT23">
-<connects>
-<connect gate="G$1" pin="D" pad="3"/>
-<connect gate="G$1" pin="G" pad="1"/>
-<connect gate="G$1" pin="S" pad="2"/>
-</connects>
-<technologies>
-<technology name="">
-<attribute name="MF" value="Fairchild" constant="no"/>
-<attribute name="MPN" value="BSS138" constant="no"/>
-<attribute name="OC_FARNELL" value="9845330" constant="no"/>
-<attribute name="OC_NEWARK" value="67R2009" constant="no"/>
-</technology>
-</technologies>
-</device>
-</devices>
-</deviceset>
-</devicesets>
-</library>
 </libraries>
 <attributes>
 </attributes>
@@ -30630,7 +30534,7 @@ Source: &lt;a href="http://www.fairchildsemi.com/datasheets/BS/BSS138.pdf"&gt;ht
 <part name="P+9" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+12V" device=""/>
 <part name="P+10" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="VCC" device=""/>
 <part name="D2" library="SparkFun-LED" deviceset="LED-GREEN" device="1206" value="STATE"/>
-<part name="R1" library="eagle-ltspice" library_urn="urn:adsk.eagle:library:217" deviceset="R" device="R1206" package3d_urn="urn:adsk.eagle:package:13301/1" value="150R"/>
+<part name="R1" library="eagle-ltspice" library_urn="urn:adsk.eagle:library:217" deviceset="R" device="R1206" package3d_urn="urn:adsk.eagle:package:13301/1" value="220R"/>
 <part name="J4" library="SparkFun-Connectors" library_urn="urn:adsk.eagle:library:513" deviceset="CONN_02" device="1X02_NO_SILK" package3d_urn="urn:adsk.eagle:package:38051/1"/>
 <part name="J5" library="SparkFun-Connectors" deviceset="CONN_16" device="1X16_NO_SILK"/>
 <part name="J6" library="SparkFun-Connectors" library_urn="urn:adsk.eagle:library:513" deviceset="CONN_17" device="NOSILK" package3d_urn="urn:adsk.eagle:package:38192/1"/>
@@ -30670,12 +30574,12 @@ Source: &lt;a href="http://www.fairchildsemi.com/datasheets/BS/BSS138.pdf"&gt;ht
 <part name="J59" library="SparkFun-Connectors" library_urn="urn:adsk.eagle:library:513" deviceset="CONN_01" device="PTH_NO_SILK_KIT" package3d_urn="urn:adsk.eagle:package:38038/1"/>
 <part name="J60" library="SparkFun-Connectors" library_urn="urn:adsk.eagle:library:513" deviceset="CONN_01" device="PTH_NO_SILK_KIT" package3d_urn="urn:adsk.eagle:package:38038/1"/>
 <part name="J61" library="SparkFun-Connectors" library_urn="urn:adsk.eagle:library:513" deviceset="CONN_01" device="PTH_NO_SILK_KIT" package3d_urn="urn:adsk.eagle:package:38038/1"/>
-<part name="Q1" library="bss138_10" deviceset="BSS138" device=""/>
 <part name="SMD5" library="eagle-ltspice" library_urn="urn:adsk.eagle:library:217" deviceset="R" device="R1206" package3d_urn="urn:adsk.eagle:package:13301/1"/>
 <part name="SMD6" library="eagle-ltspice" library_urn="urn:adsk.eagle:library:217" deviceset="R" device="R1206" package3d_urn="urn:adsk.eagle:package:13301/1"/>
-<part name="Q4" library="bss138_10" deviceset="BSS138" device=""/>
 <part name="SMD7" library="eagle-ltspice" library_urn="urn:adsk.eagle:library:217" deviceset="R" device="R1206" package3d_urn="urn:adsk.eagle:package:13301/1"/>
 <part name="SMD8" library="eagle-ltspice" library_urn="urn:adsk.eagle:library:217" deviceset="R" device="R1206" package3d_urn="urn:adsk.eagle:package:13301/1"/>
+<part name="Q5" library="semicon-smd-ipc" library_urn="urn:adsk.eagle:library:353" deviceset="NPN-TRANSISTOR_" device="SOT23" package3d_urn="urn:adsk.eagle:package:28738/2"/>
+<part name="Q1" library="semicon-smd-ipc" library_urn="urn:adsk.eagle:library:353" deviceset="NPN-TRANSISTOR_" device="SOT23" package3d_urn="urn:adsk.eagle:package:28738/2"/>
 </parts>
 <sheets>
 <sheet>
@@ -31203,9 +31107,6 @@ Source: &lt;a href="http://www.fairchildsemi.com/datasheets/BS/BSS138.pdf"&gt;ht
 <attribute name="VALUE" x="104.14" y="-30.226" size="1.778" layer="96" font="vector"/>
 <attribute name="NAME" x="104.14" y="-24.892" size="1.778" layer="95" font="vector"/>
 </instance>
-<instance part="Q1" gate="G$1" x="363.22" y="-152.4" smashed="yes" rot="R90">
-<attribute name="NAME" x="363.22" y="-158.75" size="1.778" layer="95" rot="R90"/>
-</instance>
 <instance part="SMD5" gate="G$1" x="325.12" y="-114.3" smashed="yes" rot="R90">
 <attribute name="NAME" x="323.6214" y="-118.11" size="1.778" layer="95" rot="R90"/>
 <attribute name="VALUE" x="328.422" y="-118.11" size="1.778" layer="96" rot="R90"/>
@@ -31214,9 +31115,6 @@ Source: &lt;a href="http://www.fairchildsemi.com/datasheets/BS/BSS138.pdf"&gt;ht
 <attribute name="NAME" x="402.3614" y="-120.65" size="1.778" layer="95" rot="R90"/>
 <attribute name="VALUE" x="407.162" y="-120.65" size="1.778" layer="96" rot="R90"/>
 </instance>
-<instance part="Q4" gate="G$1" x="365.76" y="-12.7" smashed="yes" rot="R90">
-<attribute name="NAME" x="364.49" y="-7.62" size="1.778" layer="95"/>
-</instance>
 <instance part="SMD7" gate="G$1" x="325.12" y="-43.18" smashed="yes" rot="R270">
 <attribute name="NAME" x="326.6186" y="-39.37" size="1.778" layer="95" rot="R270"/>
 <attribute name="VALUE" x="321.818" y="-39.37" size="1.778" layer="96" rot="R270"/>
@@ -31224,6 +31122,14 @@ Source: &lt;a href="http://www.fairchildsemi.com/datasheets/BS/BSS138.pdf"&gt;ht
 <instance part="SMD8" gate="G$1" x="403.86" y="-43.18" smashed="yes" rot="R270">
 <attribute name="NAME" x="405.3586" y="-39.37" size="1.778" layer="95" rot="R270"/>
 <attribute name="VALUE" x="400.558" y="-39.37" size="1.778" layer="96" rot="R270"/>
+</instance>
+<instance part="Q5" gate="G$1" x="363.22" y="-152.4" smashed="yes" rot="R90">
+<attribute name="NAME" x="360.68" y="-149.86" size="1.778" layer="95" rot="R90"/>
+<attribute name="VALUE" x="363.22" y="-149.86" size="1.778" layer="96" rot="R90"/>
+</instance>
+<instance part="Q1" gate="G$1" x="365.76" y="-15.24" smashed="yes" rot="MR270">
+<attribute name="NAME" x="363.22" y="-17.78" size="1.778" layer="95" rot="MR270"/>
+<attribute name="VALUE" x="365.76" y="-17.78" size="1.778" layer="96" rot="MR270"/>
 </instance>
 </instances>
 <busses>
@@ -32102,13 +32008,11 @@ Source: &lt;a href="http://www.fairchildsemi.com/datasheets/BS/BSS138.pdf"&gt;ht
 <wire x1="403.86" y1="-48.26" x2="403.86" y2="-66.04" width="0.1524" layer="91"/>
 <wire x1="403.86" y1="-66.04" x2="381" y2="-66.04" width="0.1524" layer="91"/>
 <junction x="381" y="-66.04"/>
-<pinref part="Q4" gate="G$1" pin="G"/>
-<wire x1="368.3" y1="-15.24" x2="375.92" y2="-15.24" width="0.1524" layer="91"/>
-<wire x1="375.92" y1="-15.24" x2="375.92" y2="-12.7" width="0.1524" layer="91"/>
-<wire x1="375.92" y1="-12.7" x2="411.48" y2="-12.7" width="0.1524" layer="91"/>
+<wire x1="365.76" y1="-12.7" x2="411.48" y2="-12.7" width="0.1524" layer="91"/>
 <wire x1="411.48" y1="-12.7" x2="411.48" y2="-48.26" width="0.1524" layer="91"/>
 <wire x1="411.48" y1="-48.26" x2="403.86" y2="-48.26" width="0.1524" layer="91"/>
 <junction x="403.86" y="-48.26"/>
+<pinref part="Q1" gate="G$1" pin="B"/>
 </segment>
 </net>
 <net name="N$17" class="0">
@@ -32131,9 +32035,9 @@ Source: &lt;a href="http://www.fairchildsemi.com/datasheets/BS/BSS138.pdf"&gt;ht
 <wire x1="368.3" y1="-137.16" x2="381" y2="-137.16" width="0.1524" layer="91"/>
 <wire x1="403.86" y1="-137.16" x2="381" y2="-137.16" width="0.1524" layer="91"/>
 <junction x="381" y="-137.16"/>
-<pinref part="Q1" gate="G$1" pin="S"/>
-<wire x1="368.3" y1="-149.86" x2="368.3" y2="-137.16" width="0.1524" layer="91"/>
 <junction x="368.3" y="-137.16"/>
+<wire x1="368.3" y1="-149.86" x2="368.3" y2="-137.16" width="0.1524" layer="91"/>
+<pinref part="Q5" gate="G$1" pin="E"/>
 </segment>
 </net>
 <net name="N$21" class="0">
@@ -32509,9 +32413,9 @@ Source: &lt;a href="http://www.fairchildsemi.com/datasheets/BS/BSS138.pdf"&gt;ht
 <wire x1="325.12" y1="-119.38" x2="325.12" y2="-137.16" width="0.1524" layer="91"/>
 <wire x1="347.98" y1="-137.16" x2="325.12" y2="-137.16" width="0.1524" layer="91"/>
 <junction x="347.98" y="-137.16"/>
-<pinref part="Q1" gate="G$1" pin="D"/>
 <wire x1="358.14" y1="-149.86" x2="358.14" y2="-137.16" width="0.1524" layer="91"/>
 <junction x="358.14" y="-137.16"/>
+<pinref part="Q5" gate="G$1" pin="C"/>
 </segment>
 </net>
 <net name="N$55" class="0">
@@ -32523,11 +32427,11 @@ Source: &lt;a href="http://www.fairchildsemi.com/datasheets/BS/BSS138.pdf"&gt;ht
 <wire x1="403.86" y1="-111.76" x2="403.86" y2="-96.52" width="0.1524" layer="91"/>
 <wire x1="381" y1="-96.52" x2="403.86" y2="-96.52" width="0.1524" layer="91"/>
 <junction x="381" y="-96.52"/>
-<pinref part="Q1" gate="G$1" pin="G"/>
-<wire x1="365.76" y1="-154.94" x2="411.48" y2="-154.94" width="0.1524" layer="91"/>
 <wire x1="411.48" y1="-154.94" x2="411.48" y2="-111.76" width="0.1524" layer="91"/>
 <wire x1="411.48" y1="-111.76" x2="403.86" y2="-111.76" width="0.1524" layer="91"/>
 <junction x="403.86" y="-111.76"/>
+<pinref part="Q5" gate="G$1" pin="B"/>
+<wire x1="363.22" y1="-154.94" x2="411.48" y2="-154.94" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$18" class="0">
@@ -32539,9 +32443,9 @@ Source: &lt;a href="http://www.fairchildsemi.com/datasheets/BS/BSS138.pdf"&gt;ht
 <wire x1="325.12" y1="-38.1" x2="325.12" y2="-25.4" width="0.1524" layer="91"/>
 <wire x1="347.98" y1="-25.4" x2="325.12" y2="-25.4" width="0.1524" layer="91"/>
 <junction x="347.98" y="-25.4"/>
-<pinref part="Q4" gate="G$1" pin="D"/>
-<wire x1="360.68" y1="-10.16" x2="360.68" y2="-25.4" width="0.1524" layer="91"/>
+<wire x1="360.68" y1="-17.78" x2="360.68" y2="-25.4" width="0.1524" layer="91"/>
 <junction x="360.68" y="-25.4"/>
+<pinref part="Q1" gate="G$1" pin="C"/>
 </segment>
 </net>
 <net name="N$19" class="0">
@@ -32553,9 +32457,9 @@ Source: &lt;a href="http://www.fairchildsemi.com/datasheets/BS/BSS138.pdf"&gt;ht
 <wire x1="403.86" y1="-25.4" x2="403.86" y2="-38.1" width="0.1524" layer="91"/>
 <wire x1="381" y1="-25.4" x2="403.86" y2="-25.4" width="0.1524" layer="91"/>
 <junction x="381" y="-25.4"/>
-<pinref part="Q4" gate="G$1" pin="S"/>
-<wire x1="370.84" y1="-10.16" x2="370.84" y2="-25.4" width="0.1524" layer="91"/>
+<wire x1="370.84" y1="-17.78" x2="370.84" y2="-25.4" width="0.1524" layer="91"/>
 <junction x="370.84" y="-25.4"/>
+<pinref part="Q1" gate="G$1" pin="E"/>
 </segment>
 </net>
 </nets>
