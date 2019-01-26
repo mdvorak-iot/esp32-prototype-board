@@ -382,10 +382,6 @@ UsedLibrary="lbr/SPST_2PIN_DPS_SWITCH.lbr"
 UsedLibrary="lbr/bss138_10.lbr"
 
 [Win_1]
-Type="Control Panel"
-Number=0
-
-[Win_2]
 Type="Board Editor"
 Number=1
 File="ESP32ProtypeBoard.brd"
@@ -429,7 +425,7 @@ AddLevel=2
 PadsSameType=0
 Layer=20
 
-[Win_3]
+[Win_2]
 Type="Schematic Editor"
 Number=2
 File="ESP32ProtypeBoard.sch"
@@ -474,6 +470,10 @@ PadsSameType=0
 Layer=97
 Views=" 1: 31.8493 -12.32 368.409 194.425"
 Sheet="1"
+
+[Win_3]
+Type="Control Panel"
+Number=0
 
 [Desktop]
 Screen="2560 1440"
