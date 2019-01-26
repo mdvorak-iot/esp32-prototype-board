@@ -30552,8 +30552,8 @@ This footprint was designed to help hold the alignment of a through-hole compone
 <part name="R2" library="eagle-ltspice" library_urn="urn:adsk.eagle:library:217" deviceset="R" device="R1206" package3d_urn="urn:adsk.eagle:package:13301/1" value="10K"/>
 <part name="+3V2" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+3V3" device=""/>
 <part name="P+11" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="VCC" device=""/>
-<part name="PPTC1" library="SparkFun-Fuses" library_urn="urn:adsk.eagle:library:517" deviceset="PPTC" device="_THREE-QUARTER-AMP" package3d_urn="urn:adsk.eagle:package:38575/1" value="6V/0.75A"/>
-<part name="PPTC2" library="SparkFun-Fuses" library_urn="urn:adsk.eagle:library:517" deviceset="PPTC" device="_THREE-QUARTER-AMP" package3d_urn="urn:adsk.eagle:package:38575/1" value="6V/0.75A"/>
+<part name="PPTC1" library="SparkFun-Fuses" library_urn="urn:adsk.eagle:library:517" deviceset="PPTC" device="_THREE-QUARTER-AMP" package3d_urn="urn:adsk.eagle:package:38575/1" value="6V/1A"/>
+<part name="PPTC2" library="SparkFun-Fuses" library_urn="urn:adsk.eagle:library:517" deviceset="PPTC" device="_THREE-QUARTER-AMP" package3d_urn="urn:adsk.eagle:package:38575/1" value="6V/0.5A"/>
 <part name="+3V10" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+3V3" device=""/>
 <part name="GND4" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="TOUCH1" library="SparkFun-Connectors" deviceset="CONN_02" device="1X02_NO_SILK"/>
@@ -30588,6 +30588,10 @@ This footprint was designed to help hold the alignment of a through-hole compone
 <sheets>
 <sheet>
 <plain>
+<text x="17.78" y="111.76" size="1.778" layer="97">TODO
+PPTC2 jen pro externi zarizeni, mozna i PPTC1? 
+Protoze ESP32 samo o sobe mit problem nebude
+Odpory na diody</text>
 </plain>
 <instances>
 <instance part="U2" gate="G$1" x="198.12" y="53.34" smashed="yes">
@@ -31754,7 +31758,7 @@ This footprint was designed to help hold the alignment of a through-hole compone
 </segment>
 <segment>
 <pinref part="J13" gate="G$1" pin="3"/>
-<wire x1="236.22" y1="17.78" x2="231.14" y2="17.78" width="0.1524" layer="91"/>
+<wire x1="236.22" y1="17.78" x2="228.6" y2="17.78" width="0.1524" layer="91"/>
 <label x="231.14" y="17.78" size="1.778" layer="95"/>
 </segment>
 </net>
@@ -32472,6 +32476,10 @@ This footprint was designed to help hold the alignment of a through-hole compone
 </schematic>
 </drawing>
 <compatibility>
+<note version="6.3" minversion="6.2.2" severity="warning">
+Since Version 6.2.2 text objects can contain more than one line,
+which will not be processed correctly with this version.
+</note>
 <note version="8.2" severity="warning">
 Since Version 8.2, EAGLE supports online libraries. The ids
 of those online libraries will not be understood (or retained)
