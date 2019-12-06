@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="9.5.1">
+<eagle version="9.5.2">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -30538,7 +30538,7 @@ This footprint was designed to help hold the alignment of a through-hole compone
 <part name="P+9" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+12V" device=""/>
 <part name="P+10" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="VCC" device=""/>
 <part name="D2" library="SparkFun-LED" deviceset="LED-GREEN" device="1206" value="STATE"/>
-<part name="R1" library="eagle-ltspice" library_urn="urn:adsk.eagle:library:217" deviceset="R" device="R1206" package3d_urn="urn:adsk.eagle:package:13301/1" value="5.1K"/>
+<part name="R1" library="eagle-ltspice" library_urn="urn:adsk.eagle:library:217" deviceset="R" device="R1206" package3d_urn="urn:adsk.eagle:package:13301/1" value="12K"/>
 <part name="J4" library="SparkFun-Connectors" library_urn="urn:adsk.eagle:library:513" deviceset="CONN_02" device="1X02_NO_SILK" package3d_urn="urn:adsk.eagle:package:38051/1"/>
 <part name="J5" library="SparkFun-Connectors" deviceset="CONN_16" device="1X16_NO_SILK"/>
 <part name="J6" library="SparkFun-Connectors" library_urn="urn:adsk.eagle:library:513" deviceset="CONN_17" device="NOSILK" package3d_urn="urn:adsk.eagle:package:38192/1"/>
@@ -30552,7 +30552,6 @@ This footprint was designed to help hold the alignment of a through-hole compone
 <part name="R2" library="eagle-ltspice" library_urn="urn:adsk.eagle:library:217" deviceset="R" device="R1206" package3d_urn="urn:adsk.eagle:package:13301/1" value="10K"/>
 <part name="+3V2" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+3V3" device=""/>
 <part name="P+11" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="VCC" device=""/>
-<part name="PPTC1" library="SparkFun-Fuses" library_urn="urn:adsk.eagle:library:517" deviceset="PPTC" device="_THREE-QUARTER-AMP" package3d_urn="urn:adsk.eagle:package:38575/1" value="6V/1A"/>
 <part name="PPTC2" library="SparkFun-Fuses" library_urn="urn:adsk.eagle:library:517" deviceset="PPTC" device="_THREE-QUARTER-AMP" package3d_urn="urn:adsk.eagle:package:38575/1" value="6V/0.5A"/>
 <part name="+3V10" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+3V3" device=""/>
 <part name="GND4" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
@@ -30584,14 +30583,14 @@ This footprint was designed to help hold the alignment of a through-hole compone
 <part name="SMD8" library="eagle-ltspice" library_urn="urn:adsk.eagle:library:217" deviceset="R" device="R1206" package3d_urn="urn:adsk.eagle:package:13301/1"/>
 <part name="Q5" library="semicon-smd-ipc" library_urn="urn:adsk.eagle:library:353" deviceset="NPN-TRANSISTOR_" device="SOT23" package3d_urn="urn:adsk.eagle:package:28738/2"/>
 <part name="Q1" library="semicon-smd-ipc" library_urn="urn:adsk.eagle:library:353" deviceset="NPN-TRANSISTOR_" device="SOT23" package3d_urn="urn:adsk.eagle:package:28738/2"/>
+<part name="R9" library="eagle-ltspice" library_urn="urn:adsk.eagle:library:217" deviceset="R" device="R1206" package3d_urn="urn:adsk.eagle:package:13301/1" value="100K"/>
+<part name="+3V6" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+3V3" device=""/>
 </parts>
 <sheets>
 <sheet>
 <plain>
 <text x="17.78" y="111.76" size="1.778" layer="97">TODO
-PPTC2 jen pro externi zarizeni, mozna i PPTC1? 
-Protoze ESP32 samo o sobe mit problem nebude
-Odpory na diody</text>
+move caps to top</text>
 </plain>
 <instances>
 <instance part="U2" gate="G$1" x="198.12" y="53.34" smashed="yes">
@@ -30642,13 +30641,13 @@ Odpory na diody</text>
 <instance part="GND20" gate="1" x="251.46" y="88.9" smashed="yes">
 <attribute name="VALUE" x="248.92" y="86.36" size="1.778" layer="96"/>
 </instance>
-<instance part="R7" gate="G$1" x="259.08" y="106.68" smashed="yes">
-<attribute name="NAME" x="255.27" y="108.1786" size="1.778" layer="95"/>
-<attribute name="VALUE" x="255.27" y="103.378" size="1.778" layer="96"/>
+<instance part="R7" gate="G$1" x="266.7" y="106.68" smashed="yes">
+<attribute name="NAME" x="262.89" y="108.1786" size="1.778" layer="95"/>
+<attribute name="VALUE" x="262.89" y="103.378" size="1.778" layer="96"/>
 </instance>
-<instance part="R8" gate="G$1" x="259.08" y="99.06" smashed="yes">
-<attribute name="NAME" x="255.27" y="100.5586" size="1.778" layer="95"/>
-<attribute name="VALUE" x="255.27" y="95.758" size="1.778" layer="96"/>
+<instance part="R8" gate="G$1" x="266.7" y="99.06" smashed="yes">
+<attribute name="NAME" x="262.89" y="100.5586" size="1.778" layer="95"/>
+<attribute name="VALUE" x="262.89" y="95.758" size="1.778" layer="96"/>
 </instance>
 <instance part="GND1" gate="1" x="30.48" y="63.5" smashed="yes" rot="R270">
 <attribute name="VALUE" x="27.94" y="66.04" size="1.778" layer="96" rot="R270"/>
@@ -31019,10 +31018,6 @@ Odpory na diody</text>
 <instance part="P+11" gate="VCC" x="20.32" y="17.78" smashed="yes" rot="R90">
 <attribute name="VALUE" x="22.86" y="15.24" size="1.778" layer="96" rot="R180"/>
 </instance>
-<instance part="PPTC1" gate="G$1" x="88.9" y="53.34" smashed="yes">
-<attribute name="NAME" x="90.805" y="56.515" size="1.778" layer="95" font="vector" align="bottom-center"/>
-<attribute name="VALUE" x="90.17" y="50.546" size="1.778" layer="96" font="vector" align="top-center"/>
-</instance>
 <instance part="PPTC2" gate="G$1" x="91.44" y="91.44" smashed="yes">
 <attribute name="NAME" x="93.345" y="94.615" size="1.778" layer="95" font="vector" align="bottom-center"/>
 <attribute name="VALUE" x="92.71" y="88.646" size="1.778" layer="96" font="vector" align="top-center"/>
@@ -31138,6 +31133,13 @@ Odpory na diody</text>
 <instance part="Q1" gate="G$1" x="365.76" y="-15.24" smashed="yes" rot="MR270">
 <attribute name="NAME" x="363.22" y="-17.78" size="1.778" layer="95" rot="MR270"/>
 <attribute name="VALUE" x="365.76" y="-17.78" size="1.778" layer="96" rot="MR270"/>
+</instance>
+<instance part="R9" gate="G$1" x="259.08" y="93.98" smashed="yes" rot="MR90">
+<attribute name="NAME" x="260.5786" y="92.71" size="1.778" layer="95" rot="MR90"/>
+<attribute name="VALUE" x="255.778" y="90.17" size="1.778" layer="96" rot="MR90"/>
+</instance>
+<instance part="+3V6" gate="G$1" x="259.08" y="86.36" smashed="yes" rot="R180">
+<attribute name="VALUE" x="261.62" y="88.9" size="1.778" layer="96" rot="R270"/>
 </instance>
 </instances>
 <busses>
@@ -31451,6 +31453,10 @@ Odpory na diody</text>
 <junction x="236.22" y="48.26"/>
 <label x="228.6" y="48.26" size="1.778" layer="95"/>
 </segment>
+<segment>
+<pinref part="R9" gate="G$1" pin="1"/>
+<pinref part="+3V6" gate="G$1" pin="+3V3"/>
+</segment>
 </net>
 <net name="EN" class="0">
 <segment>
@@ -31698,8 +31704,8 @@ Odpory na diody</text>
 </segment>
 <segment>
 <pinref part="R8" gate="G$1" pin="2"/>
-<label x="264.16" y="99.06" size="1.778" layer="95"/>
-<wire x1="264.16" y1="99.06" x2="269.24" y2="99.06" width="0.1524" layer="91"/>
+<label x="271.78" y="99.06" size="1.778" layer="95"/>
+<wire x1="271.78" y1="99.06" x2="276.86" y2="99.06" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="TXD0" class="0">
@@ -31710,8 +31716,8 @@ Odpory na diody</text>
 </segment>
 <segment>
 <pinref part="R7" gate="G$1" pin="2"/>
-<label x="264.16" y="106.68" size="1.778" layer="95"/>
-<wire x1="264.16" y1="106.68" x2="269.24" y2="106.68" width="0.1524" layer="91"/>
+<label x="271.78" y="106.68" size="1.778" layer="95"/>
+<wire x1="271.78" y1="106.68" x2="276.86" y2="106.68" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="IO22" class="0">
@@ -31842,9 +31848,10 @@ Odpory na diody</text>
 <segment>
 <pinref part="R7" gate="G$1" pin="1"/>
 <label x="246.38" y="104.14" size="1.778" layer="95"/>
-<wire x1="254" y1="104.14" x2="254" y2="106.68" width="0.1524" layer="91"/>
 <pinref part="UART" gate="G$1" pin="5"/>
-<wire x1="243.84" y1="104.14" x2="254" y2="104.14" width="0.1524" layer="91"/>
+<wire x1="243.84" y1="104.14" x2="259.08" y2="104.14" width="0.1524" layer="91"/>
+<wire x1="261.62" y1="106.68" x2="259.08" y2="106.68" width="0.1524" layer="91"/>
+<wire x1="259.08" y1="106.68" x2="259.08" y2="104.14" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="RXDU" class="0">
@@ -31852,8 +31859,11 @@ Odpory na diody</text>
 <pinref part="R8" gate="G$1" pin="1"/>
 <label x="246.38" y="101.6" size="1.778" layer="95"/>
 <pinref part="UART" gate="G$1" pin="4"/>
-<wire x1="243.84" y1="101.6" x2="254" y2="101.6" width="0.1524" layer="91"/>
-<wire x1="254" y1="101.6" x2="254" y2="99.06" width="0.1524" layer="91"/>
+<wire x1="243.84" y1="101.6" x2="259.08" y2="101.6" width="0.1524" layer="91"/>
+<pinref part="R9" gate="G$1" pin="2"/>
+<wire x1="261.62" y1="99.06" x2="259.08" y2="99.06" width="0.1524" layer="91"/>
+<junction x="259.08" y="99.06"/>
+<wire x1="259.08" y1="101.6" x2="259.08" y2="99.06" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="+12V" class="0">
@@ -31896,7 +31906,12 @@ Odpory na diody</text>
 <junction x="104.14" y="53.34"/>
 <pinref part="P+1" gate="1" pin="+5V"/>
 <wire x1="96.52" y1="53.34" x2="104.14" y2="53.34" width="0.1524" layer="91"/>
-<pinref part="PPTC1" gate="G$1" pin="2"/>
+<pinref part="U$2" gate="G$1" pin="OUT+.2"/>
+<pinref part="U$2" gate="G$1" pin="OUT+.1"/>
+<wire x1="81.28" y1="55.88" x2="81.28" y2="53.34" width="0.1524" layer="91"/>
+<wire x1="81.28" y1="53.34" x2="83.82" y2="53.34" width="0.1524" layer="91"/>
+<junction x="81.28" y="53.34"/>
+<wire x1="81.28" y1="53.34" x2="104.14" y2="53.34" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="+5V" gate="G$1" pin="2"/>
@@ -32161,16 +32176,6 @@ Odpory na diody</text>
 <pinref part="D2" gate="G$1" pin="A"/>
 <pinref part="R1" gate="G$1" pin="2"/>
 <wire x1="302.26" y1="66.04" x2="302.26" y2="68.58" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="5VOUT" class="0">
-<segment>
-<pinref part="PPTC1" gate="G$1" pin="1"/>
-<pinref part="U$2" gate="G$1" pin="OUT+.2"/>
-<pinref part="U$2" gate="G$1" pin="OUT+.1"/>
-<wire x1="81.28" y1="55.88" x2="81.28" y2="53.34" width="0.1524" layer="91"/>
-<wire x1="81.28" y1="53.34" x2="83.82" y2="53.34" width="0.1524" layer="91"/>
-<junction x="81.28" y="53.34"/>
 </segment>
 </net>
 <net name="3V3OUT" class="0">
