@@ -30518,6 +30518,7 @@ This footprint was designed to help hold the alignment of a through-hole compone
 <part name="J27" library="SparkFun-Connectors" library_urn="urn:adsk.eagle:library:513" deviceset="CONN_12" device="NO_SILK" package3d_urn="urn:adsk.eagle:package:38179/1"/>
 <part name="J28" library="SparkFun-Connectors" library_urn="urn:adsk.eagle:library:513" deviceset="CONN_12" device="NO_SILK" package3d_urn="urn:adsk.eagle:package:38179/1"/>
 <part name="J30" library="SparkFun-Connectors" library_urn="urn:adsk.eagle:library:513" deviceset="CONN_04" device="1X04_NO_SILK" package3d_urn="urn:adsk.eagle:package:38094/1"/>
+<part name="GND7" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -30968,6 +30969,9 @@ move caps to top</text>
 <attribute name="VALUE" x="228.6" y="-116.586" size="1.778" layer="96" font="vector"/>
 <attribute name="NAME" x="228.6" y="-106.172" size="1.778" layer="95" font="vector"/>
 </instance>
+<instance part="GND7" gate="1" x="294.64" y="-55.88" smashed="yes" rot="R90">
+<attribute name="VALUE" x="297.18" y="-58.42" size="1.778" layer="96" rot="R90"/>
+</instance>
 </instances>
 <busses>
 </busses>
@@ -31111,6 +31115,35 @@ move caps to top</text>
 <segment>
 <pinref part="J3" gate="G$1" pin="1"/>
 <pinref part="GND15" gate="1" pin="GND"/>
+</segment>
+<segment>
+<pinref part="GND_SIDE" gate="G$1" pin="7"/>
+<pinref part="GND_SIDE" gate="G$1" pin="6"/>
+<wire x1="287.02" y1="-40.64" x2="287.02" y2="-43.18" width="0.1524" layer="91"/>
+<pinref part="GND_SIDE" gate="G$1" pin="5"/>
+<wire x1="287.02" y1="-45.72" x2="287.02" y2="-43.18" width="0.1524" layer="91"/>
+<junction x="287.02" y="-43.18"/>
+<pinref part="GND_SIDE" gate="G$1" pin="4"/>
+<wire x1="287.02" y1="-45.72" x2="287.02" y2="-48.26" width="0.1524" layer="91"/>
+<junction x="287.02" y="-45.72"/>
+<pinref part="GND_SIDE" gate="G$1" pin="3"/>
+<wire x1="287.02" y1="-48.26" x2="287.02" y2="-50.8" width="0.1524" layer="91"/>
+<junction x="287.02" y="-48.26"/>
+<pinref part="GND_SIDE" gate="G$1" pin="2"/>
+<wire x1="287.02" y1="-50.8" x2="287.02" y2="-53.34" width="0.1524" layer="91"/>
+<junction x="287.02" y="-50.8"/>
+<pinref part="GND_SIDE" gate="G$1" pin="1"/>
+<wire x1="287.02" y1="-55.88" x2="287.02" y2="-53.34" width="0.1524" layer="91"/>
+<junction x="287.02" y="-53.34"/>
+<pinref part="GND_SIDE" gate="G$1" pin="8"/>
+<wire x1="287.02" y1="-40.64" x2="287.02" y2="-38.1" width="0.1524" layer="91"/>
+<junction x="287.02" y="-40.64"/>
+<pinref part="GND_SIDE" gate="G$1" pin="9"/>
+<wire x1="287.02" y1="-38.1" x2="287.02" y2="-35.56" width="0.1524" layer="91"/>
+<junction x="287.02" y="-38.1"/>
+<wire x1="287.02" y1="-55.88" x2="292.1" y2="-55.88" width="0.1524" layer="91"/>
+<junction x="287.02" y="-55.88"/>
+<pinref part="GND7" gate="1" pin="GND"/>
 </segment>
 </net>
 <net name="+3V3" class="0">
@@ -31868,34 +31901,6 @@ move caps to top</text>
 <pinref part="J7" gate="G$1" pin="1"/>
 <pinref part="HI-LINK_AC2" gate="G$1" pin="1"/>
 <wire x1="38.1" y1="-58.42" x2="25.4" y2="-58.42" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="N$1" class="0">
-<segment>
-<pinref part="GND_SIDE" gate="G$1" pin="7"/>
-<pinref part="GND_SIDE" gate="G$1" pin="6"/>
-<wire x1="287.02" y1="-40.64" x2="287.02" y2="-43.18" width="0.1524" layer="91"/>
-<pinref part="GND_SIDE" gate="G$1" pin="5"/>
-<wire x1="287.02" y1="-45.72" x2="287.02" y2="-43.18" width="0.1524" layer="91"/>
-<junction x="287.02" y="-43.18"/>
-<pinref part="GND_SIDE" gate="G$1" pin="4"/>
-<wire x1="287.02" y1="-45.72" x2="287.02" y2="-48.26" width="0.1524" layer="91"/>
-<junction x="287.02" y="-45.72"/>
-<pinref part="GND_SIDE" gate="G$1" pin="3"/>
-<wire x1="287.02" y1="-48.26" x2="287.02" y2="-50.8" width="0.1524" layer="91"/>
-<junction x="287.02" y="-48.26"/>
-<pinref part="GND_SIDE" gate="G$1" pin="2"/>
-<wire x1="287.02" y1="-50.8" x2="287.02" y2="-53.34" width="0.1524" layer="91"/>
-<junction x="287.02" y="-50.8"/>
-<pinref part="GND_SIDE" gate="G$1" pin="1"/>
-<wire x1="287.02" y1="-55.88" x2="287.02" y2="-53.34" width="0.1524" layer="91"/>
-<junction x="287.02" y="-53.34"/>
-<pinref part="GND_SIDE" gate="G$1" pin="8"/>
-<wire x1="287.02" y1="-40.64" x2="287.02" y2="-38.1" width="0.1524" layer="91"/>
-<junction x="287.02" y="-40.64"/>
-<pinref part="GND_SIDE" gate="G$1" pin="9"/>
-<wire x1="287.02" y1="-38.1" x2="287.02" y2="-35.56" width="0.1524" layer="91"/>
-<junction x="287.02" y="-38.1"/>
 </segment>
 </net>
 </nets>
