@@ -30519,6 +30519,7 @@ This footprint was designed to help hold the alignment of a through-hole compone
 <part name="J28" library="SparkFun-Connectors" library_urn="urn:adsk.eagle:library:513" deviceset="CONN_12" device="NO_SILK" package3d_urn="urn:adsk.eagle:package:38179/1"/>
 <part name="J30" library="SparkFun-Connectors" library_urn="urn:adsk.eagle:library:513" deviceset="CONN_04" device="1X04_NO_SILK" package3d_urn="urn:adsk.eagle:package:38094/1"/>
 <part name="GND7" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
+<part name="C2" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C1206" package3d_urn="urn:adsk.eagle:package:23618/2" value="47uF"/>
 </parts>
 <sheets>
 <sheet>
@@ -30972,6 +30973,10 @@ move caps to top</text>
 <instance part="GND7" gate="1" x="294.64" y="-55.88" smashed="yes" rot="R90">
 <attribute name="VALUE" x="297.18" y="-58.42" size="1.778" layer="96" rot="R90"/>
 </instance>
+<instance part="C2" gate="G$1" x="71.12" y="17.78" smashed="yes">
+<attribute name="NAME" x="72.644" y="18.161" size="1.778" layer="95"/>
+<attribute name="VALUE" x="72.644" y="13.081" size="1.778" layer="96"/>
+</instance>
 </instances>
 <busses>
 </busses>
@@ -31065,7 +31070,10 @@ move caps to top</text>
 <wire x1="86.36" y1="20.32" x2="91.44" y2="20.32" width="0.1524" layer="91"/>
 <pinref part="IC2" gate="G$1" pin="G"/>
 <label x="58.42" y="20.32" size="1.778" layer="95"/>
-<wire x1="58.42" y1="20.32" x2="86.36" y2="20.32" width="0.1524" layer="91"/>
+<wire x1="58.42" y1="20.32" x2="71.12" y2="20.32" width="0.1524" layer="91"/>
+<pinref part="C2" gate="G$1" pin="1"/>
+<wire x1="71.12" y1="20.32" x2="86.36" y2="20.32" width="0.1524" layer="91"/>
+<junction x="71.12" y="20.32"/>
 </segment>
 <segment>
 <pinref part="IO2" gate="G$1" pin="1"/>
@@ -31585,7 +31593,10 @@ move caps to top</text>
 <junction x="58.42" y="15.24"/>
 <wire x1="58.42" y1="15.24" x2="58.42" y2="12.7" width="0.1524" layer="91"/>
 <junction x="58.42" y="12.7"/>
-<wire x1="58.42" y1="12.7" x2="86.36" y2="12.7" width="0.1524" layer="91"/>
+<wire x1="58.42" y1="12.7" x2="71.12" y2="12.7" width="0.1524" layer="91"/>
+<pinref part="C2" gate="G$1" pin="2"/>
+<wire x1="71.12" y1="12.7" x2="86.36" y2="12.7" width="0.1524" layer="91"/>
+<junction x="71.12" y="12.7"/>
 </segment>
 <segment>
 <wire x1="30.48" y1="53.34" x2="45.72" y2="53.34" width="0.1524" layer="91"/>
