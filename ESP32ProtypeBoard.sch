@@ -30559,8 +30559,8 @@ move caps to top</text>
 <instance part="GND8" gate="1" x="172.72" y="40.64" smashed="yes" rot="R270">
 <attribute name="VALUE" x="170.18" y="43.18" size="1.778" layer="96" rot="R270"/>
 </instance>
-<instance part="RESET" gate="&gt;NAME" x="274.32" y="60.96" smashed="yes">
-<attribute name="NAME" x="274.32" y="62.484" size="1.778" layer="95" font="vector" align="bottom-center"/>
+<instance part="RESET" gate="&gt;NAME" x="274.32" y="60.96" smashed="yes" rot="MR0">
+<attribute name="NAME" x="274.32" y="62.484" size="1.778" layer="95" font="vector" rot="MR0" align="bottom-center"/>
 </instance>
 <instance part="GND19" gate="1" x="266.7" y="58.42" smashed="yes">
 <attribute name="VALUE" x="264.16" y="55.88" size="1.778" layer="96"/>
@@ -31031,10 +31031,10 @@ move caps to top</text>
 <segment>
 <pinref part="C6" gate="G$1" pin="1"/>
 <wire x1="269.24" y1="68.58" x2="266.7" y2="68.58" width="0.1524" layer="91"/>
-<pinref part="RESET" gate="&gt;NAME" pin="1"/>
 <pinref part="GND19" gate="1" pin="GND"/>
-<wire x1="269.24" y1="60.96" x2="266.7" y2="60.96" width="0.1524" layer="91"/>
 <wire x1="266.7" y1="68.58" x2="266.7" y2="60.96" width="0.1524" layer="91"/>
+<pinref part="RESET" gate="&gt;NAME" pin="2"/>
+<wire x1="269.24" y1="60.96" x2="266.7" y2="60.96" width="0.1524" layer="91"/>
 <junction x="266.7" y="60.96"/>
 </segment>
 <segment>
@@ -31217,14 +31217,14 @@ move caps to top</text>
 <pinref part="R5" gate="G$1" pin="2"/>
 <label x="278.384" y="56.642" size="1.778" layer="95"/>
 <wire x1="281.94" y1="71.12" x2="281.94" y2="68.58" width="0.1524" layer="91"/>
-<pinref part="RESET" gate="&gt;NAME" pin="2"/>
 <wire x1="281.94" y1="68.58" x2="281.94" y2="60.96" width="0.1524" layer="91"/>
-<wire x1="281.94" y1="60.96" x2="279.4" y2="60.96" width="0.1524" layer="91"/>
-<junction x="281.94" y="60.96"/>
-<wire x1="281.94" y1="60.96" x2="281.94" y2="55.88" width="0.1524" layer="91"/>
 <pinref part="C6" gate="G$1" pin="2"/>
+<wire x1="281.94" y1="60.96" x2="281.94" y2="55.88" width="0.1524" layer="91"/>
 <wire x1="276.86" y1="68.58" x2="281.94" y2="68.58" width="0.1524" layer="91"/>
 <junction x="281.94" y="68.58"/>
+<pinref part="RESET" gate="&gt;NAME" pin="1"/>
+<wire x1="279.4" y1="60.96" x2="281.94" y2="60.96" width="0.1524" layer="91"/>
+<junction x="281.94" y="60.96"/>
 </segment>
 <segment>
 <pinref part="U2" gate="G$1" pin="EN"/>
