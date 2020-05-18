@@ -30476,7 +30476,7 @@ This footprint was designed to help hold the alignment of a through-hole compone
 <part name="R9" library="eagle-ltspice" library_urn="urn:adsk.eagle:library:217" deviceset="R" device="R1206" package3d_urn="urn:adsk.eagle:package:13301/1" value="100K"/>
 <part name="+3V6" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+3V3" device=""/>
 <part name="P+7" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+5V" device=""/>
-<part name="5V-IN" library="SparkFun-Connectors" library_urn="urn:adsk.eagle:library:513" deviceset="CONN_01" device="PTH_NO_SILK_KIT" package3d_urn="urn:adsk.eagle:package:38038/1"/>
+<part name="5V" library="SparkFun-Connectors" library_urn="urn:adsk.eagle:library:513" deviceset="CONN_01" device="PTH_NO_SILK_KIT" package3d_urn="urn:adsk.eagle:package:38038/1"/>
 <part name="+12V1" library="SparkFun-Connectors" deviceset="CONN_02" device="1X02_NO_SILK"/>
 <part name="GND10" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="P+12" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+12V" device=""/>
@@ -30811,7 +30811,7 @@ move caps to top</text>
 <instance part="P+7" gate="1" x="139.7" y="91.44" smashed="yes" rot="R270">
 <attribute name="VALUE" x="134.62" y="93.98" size="1.778" layer="96"/>
 </instance>
-<instance part="5V-IN" gate="G$1" x="129.54" y="91.44" smashed="yes">
+<instance part="5V" gate="G$1" x="129.54" y="91.44" smashed="yes">
 <attribute name="VALUE" x="129.54" y="91.694" size="1.778" layer="96" font="vector"/>
 <attribute name="NAME" x="129.54" y="97.028" size="1.778" layer="95" font="vector"/>
 </instance>
@@ -31638,7 +31638,7 @@ move caps to top</text>
 </segment>
 <segment>
 <pinref part="P+7" gate="1" pin="+5V"/>
-<pinref part="5V-IN" gate="G$1" pin="1"/>
+<pinref part="5V" gate="G$1" pin="1"/>
 </segment>
 <segment>
 <pinref part="P+9" gate="1" pin="+5V"/>
