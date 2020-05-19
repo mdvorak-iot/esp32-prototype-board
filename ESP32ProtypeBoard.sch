@@ -34092,8 +34092,7 @@ Source: &lt;a href="http://www.fairchildsemi.com/datasheets/BS/BSS138.pdf"&gt;ht
 <part name="Q4" library="bss138_10" deviceset="BSS138" device=""/>
 <part name="SMD3" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2"/>
 <part name="SMD4" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2"/>
-<part name="J39" library="SparkFun-Connectors" library_urn="urn:adsk.eagle:library:513" deviceset="CONN_05" device="1.27MM" package3d_urn="urn:adsk.eagle:package:38110/1"/>
-<part name="GND18" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
+<part name="J39" library="SparkFun-Connectors" library_urn="urn:adsk.eagle:library:513" deviceset="CONN_04" device="1.27MM" package3d_urn="urn:adsk.eagle:package:38086/1"/>
 </parts>
 <sheets>
 <sheet>
@@ -34576,12 +34575,9 @@ move caps to top</text>
 <attribute name="NAME" x="410.4386" y="54.61" size="1.778" layer="95" rot="R270"/>
 <attribute name="VALUE" x="405.638" y="54.61" size="1.778" layer="96" rot="R270"/>
 </instance>
-<instance part="J39" gate="G$1" x="401.32" y="71.12" smashed="yes" rot="R270">
-<attribute name="VALUE" x="393.954" y="76.2" size="1.778" layer="96" font="vector" rot="R270"/>
-<attribute name="NAME" x="409.448" y="76.2" size="1.778" layer="95" font="vector" rot="R270"/>
-</instance>
-<instance part="GND18" gate="1" x="408.94" y="63.5" smashed="yes" rot="R90">
-<attribute name="VALUE" x="411.48" y="60.96" size="1.778" layer="96" rot="R90"/>
+<instance part="J39" gate="G$1" x="398.78" y="68.58" smashed="yes" rot="R270">
+<attribute name="VALUE" x="391.414" y="73.66" size="1.778" layer="96" font="vector" rot="R270"/>
+<attribute name="NAME" x="406.908" y="73.66" size="1.778" layer="95" font="vector" rot="R270"/>
 </instance>
 </instances>
 <busses>
@@ -34763,10 +34759,6 @@ move caps to top</text>
 <pinref part="GND17" gate="1" pin="GND"/>
 <pinref part="J12" gate="G$1" pin="2"/>
 <wire x1="231.14" y1="71.12" x2="236.22" y2="71.12" width="0.1524" layer="91"/>
-</segment>
-<segment>
-<pinref part="GND18" gate="1" pin="GND"/>
-<pinref part="J39" gate="G$1" pin="5"/>
 </segment>
 </net>
 <net name="+3V3" class="0">
