@@ -30523,6 +30523,7 @@ This footprint was designed to help hold the alignment of a through-hole compone
 <part name="GND16" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="+3V9" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+3V3" device=""/>
 <part name="IO0" library="SparkFun-Connectors" library_urn="urn:adsk.eagle:library:513" deviceset="CONN_01" device="PTH_NO_SILK_KIT" package3d_urn="urn:adsk.eagle:package:38038/1"/>
+<part name="GND17" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -30990,6 +30991,9 @@ move caps to top</text>
 <attribute name="VALUE" x="200.66" y="2.794" size="1.778" layer="96" font="vector"/>
 <attribute name="NAME" x="200.66" y="10.668" size="1.778" layer="95" font="vector"/>
 </instance>
+<instance part="GND17" gate="1" x="228.6" y="71.12" smashed="yes" rot="R270">
+<attribute name="VALUE" x="226.06" y="73.66" size="1.778" layer="96" rot="R270"/>
+</instance>
 </instances>
 <busses>
 </busses>
@@ -31165,6 +31169,11 @@ move caps to top</text>
 <pinref part="J2" gate="J$1" pin="3"/>
 <wire x1="251.46" y1="2.54" x2="251.46" y2="0" width="0.1524" layer="91"/>
 <pinref part="GND16" gate="1" pin="GND"/>
+</segment>
+<segment>
+<pinref part="GND17" gate="1" pin="GND"/>
+<pinref part="J12" gate="G$1" pin="2"/>
+<wire x1="231.14" y1="71.12" x2="236.22" y2="71.12" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="+3V3" class="0">
