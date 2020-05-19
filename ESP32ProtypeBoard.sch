@@ -30437,7 +30437,7 @@ This footprint was designed to help hold the alignment of a through-hole compone
 <part name="J19" library="SparkFun-Connectors" deviceset="CONN_04" device="1X04_NO_SILK"/>
 <part name="C9" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="CPOL-EU" device="E2.5-6" package3d_urn="urn:adsk.eagle:package:23349/1" value="220uF"/>
 <part name="J24" library="SparkFun-Connectors" library_urn="urn:adsk.eagle:library:513" deviceset="CONN_03" device="1X03_NO_SILK" package3d_urn="urn:adsk.eagle:package:38076/1"/>
-<part name="IO2" library="SparkFun-Connectors" library_urn="urn:adsk.eagle:library:513" deviceset="CONN_02" device="1X02_NO_SILK" package3d_urn="urn:adsk.eagle:package:38051/1"/>
+<part name="IO0_GND" library="SparkFun-Connectors" library_urn="urn:adsk.eagle:library:513" deviceset="CONN_01" device="PTH_NO_SILK_KIT" package3d_urn="urn:adsk.eagle:package:38038/1"/>
 <part name="J33" library="SparkFun-Connectors" deviceset="CONN_01" device="PTH_NO_SILK_YES_STOP"/>
 <part name="SMD1" library="eagle-ltspice" library_urn="urn:adsk.eagle:library:217" deviceset="R" device="R1206" package3d_urn="urn:adsk.eagle:package:13301/1"/>
 <part name="J32" library="SparkFun-Connectors" deviceset="CONN_01" device="PTH_NO_SILK_YES_STOP"/>
@@ -30489,7 +30489,7 @@ This footprint was designed to help hold the alignment of a through-hole compone
 <part name="JTAG" library="SparkFun-Connectors" library_urn="urn:adsk.eagle:library:513" deviceset="CONN_05" device="NO_SILK" package3d_urn="urn:adsk.eagle:package:38108/1"/>
 <part name="GND14" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="J2" library="SparkFun-Connectors" library_urn="urn:adsk.eagle:library:513" deviceset="CONN_03" device="LOCK_NO_SILK" package3d_urn="urn:adsk.eagle:package:38074/1"/>
-<part name="R11" library="eagle-ltspice" library_urn="urn:adsk.eagle:library:217" deviceset="R" device="R1206" package3d_urn="urn:adsk.eagle:package:13301/1" value="PULLUP"/>
+<part name="R11" library="eagle-ltspice" library_urn="urn:adsk.eagle:library:217" deviceset="R" device="R1206" package3d_urn="urn:adsk.eagle:package:13301/1" value="PULLUP21"/>
 <part name="J29" library="SparkFun-Connectors" deviceset="CONN_02" device="1X02_NO_SILK"/>
 <part name="J1" library="SparkFun-Connectors" library_urn="urn:adsk.eagle:library:513" deviceset="CONN_11" device="1X11_NO_SILK" package3d_urn="urn:adsk.eagle:package:38260/1"/>
 <part name="HI-LINK_AC1" library="SparkFun-Connectors" library_urn="urn:adsk.eagle:library:513" deviceset="CONN_01" device="PTH_NO_SILK_KIT" package3d_urn="urn:adsk.eagle:package:38038/1"/>
@@ -30520,6 +30520,9 @@ This footprint was designed to help hold the alignment of a through-hole compone
 <part name="J30" library="SparkFun-Connectors" library_urn="urn:adsk.eagle:library:513" deviceset="CONN_04" device="1X04_NO_SILK" package3d_urn="urn:adsk.eagle:package:38094/1"/>
 <part name="GND7" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="C2" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C1206K" package3d_urn="urn:adsk.eagle:package:23682/2" value="47uF"/>
+<part name="GND16" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
+<part name="+3V9" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+3V3" device=""/>
+<part name="IO0" library="SparkFun-Connectors" library_urn="urn:adsk.eagle:library:513" deviceset="CONN_01" device="PTH_NO_SILK_KIT" package3d_urn="urn:adsk.eagle:package:38038/1"/>
 </parts>
 <sheets>
 <sheet>
@@ -30667,9 +30670,9 @@ move caps to top</text>
 <attribute name="VALUE" x="208.28" y="-42.926" size="1.778" layer="96" font="vector"/>
 <attribute name="NAME" x="208.28" y="-29.972" size="1.778" layer="95" font="vector"/>
 </instance>
-<instance part="IO2" gate="G$1" x="203.2" y="15.24" smashed="yes">
+<instance part="IO0_GND" gate="G$1" x="203.2" y="15.24" smashed="yes">
 <attribute name="VALUE" x="200.66" y="10.414" size="1.778" layer="96" font="vector"/>
-<attribute name="NAME" x="200.66" y="20.828" size="1.778" layer="95" font="vector"/>
+<attribute name="NAME" x="200.66" y="18.288" size="1.778" layer="95" font="vector"/>
 </instance>
 <instance part="J33" gate="G$1" x="381" y="-17.78" smashed="yes" rot="R270">
 <attribute name="VALUE" x="376.174" y="-15.24" size="1.778" layer="96" font="vector" rot="R270"/>
@@ -30853,9 +30856,9 @@ move caps to top</text>
 <instance part="GND14" gate="1" x="175.26" y="2.54" smashed="yes" rot="R90">
 <attribute name="VALUE" x="177.8" y="0" size="1.778" layer="96" rot="R90"/>
 </instance>
-<instance part="J2" gate="J$1" x="241.3" y="2.54" smashed="yes">
-<attribute name="VALUE" x="238.76" y="-4.826" size="1.778" layer="96" font="vector"/>
-<attribute name="NAME" x="238.76" y="8.128" size="1.778" layer="95" font="vector"/>
+<instance part="J2" gate="J$1" x="243.84" y="5.08" smashed="yes" rot="MR180">
+<attribute name="VALUE" x="241.3" y="12.446" size="1.778" layer="96" font="vector" rot="MR180"/>
+<attribute name="NAME" x="241.3" y="-0.508" size="1.778" layer="95" font="vector" rot="MR180"/>
 </instance>
 <instance part="R11" gate="G$1" x="261.62" y="5.08" smashed="yes" rot="R270">
 <attribute name="NAME" x="263.1186" y="8.89" size="1.778" layer="95" rot="R270"/>
@@ -30977,6 +30980,16 @@ move caps to top</text>
 <attribute name="NAME" x="72.644" y="18.161" size="1.778" layer="95"/>
 <attribute name="VALUE" x="72.644" y="13.081" size="1.778" layer="96"/>
 </instance>
+<instance part="GND16" gate="1" x="251.46" y="-2.54" smashed="yes">
+<attribute name="VALUE" x="248.92" y="-5.08" size="1.778" layer="96"/>
+</instance>
+<instance part="+3V9" gate="G$1" x="256.54" y="15.24" smashed="yes">
+<attribute name="VALUE" x="254" y="10.16" size="1.778" layer="96" rot="R90"/>
+</instance>
+<instance part="IO0" gate="G$1" x="203.2" y="7.62" smashed="yes">
+<attribute name="VALUE" x="200.66" y="2.794" size="1.778" layer="96" font="vector"/>
+<attribute name="NAME" x="200.66" y="10.668" size="1.778" layer="95" font="vector"/>
+</instance>
 </instances>
 <busses>
 </busses>
@@ -31076,7 +31089,7 @@ move caps to top</text>
 <junction x="71.12" y="20.32"/>
 </segment>
 <segment>
-<pinref part="IO2" gate="G$1" pin="1"/>
+<pinref part="IO0_GND" gate="G$1" pin="1"/>
 <wire x1="215.9" y1="15.24" x2="210.82" y2="15.24" width="0.1524" layer="91"/>
 <label x="210.82" y="15.24" size="1.778" layer="95"/>
 </segment>
@@ -31109,11 +31122,6 @@ move caps to top</text>
 <pinref part="JTAG" gate="G$1" pin="1"/>
 <pinref part="GND14" gate="1" pin="GND"/>
 <wire x1="172.72" y1="2.54" x2="165.1" y2="2.54" width="0.1524" layer="91"/>
-</segment>
-<segment>
-<pinref part="J2" gate="J$1" pin="1"/>
-<wire x1="248.92" y1="0" x2="254" y2="0" width="0.1524" layer="91"/>
-<label x="248.92" y="0" size="1.778" layer="95"/>
 </segment>
 <segment>
 <pinref part="HI-LINK_GND" gate="G$1" pin="1"/>
@@ -31152,6 +31160,11 @@ move caps to top</text>
 <wire x1="287.02" y1="-55.88" x2="292.1" y2="-55.88" width="0.1524" layer="91"/>
 <junction x="287.02" y="-55.88"/>
 <pinref part="GND7" gate="1" pin="GND"/>
+</segment>
+<segment>
+<pinref part="J2" gate="J$1" pin="3"/>
+<wire x1="251.46" y1="2.54" x2="251.46" y2="0" width="0.1524" layer="91"/>
+<pinref part="GND16" gate="1" pin="GND"/>
 </segment>
 </net>
 <net name="+3V3" class="0">
@@ -31212,12 +31225,14 @@ move caps to top</text>
 <wire x1="233.68" y1="50.8" x2="236.22" y2="50.8" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="J2" gate="J$1" pin="3"/>
-<wire x1="248.92" y1="5.08" x2="256.54" y2="5.08" width="0.1524" layer="91"/>
-<label x="248.92" y="5.08" size="1.778" layer="95"/>
-<wire x1="256.54" y1="5.08" x2="256.54" y2="10.16" width="0.1524" layer="91"/>
+<wire x1="256.54" y1="7.62" x2="256.54" y2="10.16" width="0.1524" layer="91"/>
 <wire x1="256.54" y1="10.16" x2="261.62" y2="10.16" width="0.1524" layer="91"/>
 <pinref part="R11" gate="G$1" pin="1"/>
+<pinref part="J2" gate="J$1" pin="1"/>
+<wire x1="256.54" y1="7.62" x2="251.46" y2="7.62" width="0.1524" layer="91"/>
+<pinref part="+3V9" gate="G$1" pin="+3V3"/>
+<wire x1="256.54" y1="10.16" x2="256.54" y2="12.7" width="0.1524" layer="91"/>
+<junction x="256.54" y="10.16"/>
 </segment>
 </net>
 <net name="EN" class="0">
@@ -31274,9 +31289,9 @@ move caps to top</text>
 <wire x1="307.34" y1="17.78" x2="307.34" y2="15.24" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="IO2" gate="G$1" pin="2"/>
-<wire x1="210.82" y1="17.78" x2="215.9" y2="17.78" width="0.1524" layer="91"/>
-<label x="210.82" y="17.78" size="1.778" layer="95"/>
+<wire x1="210.82" y1="7.62" x2="215.9" y2="7.62" width="0.1524" layer="91"/>
+<pinref part="IO0" gate="G$1" pin="1"/>
+<label x="210.82" y="7.62" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="IO34" class="0">
@@ -31420,12 +31435,12 @@ move caps to top</text>
 <wire x1="215.9" y1="66.04" x2="220.98" y2="66.04" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="J2" gate="J$1" pin="2"/>
-<label x="248.92" y="2.54" size="1.778" layer="95"/>
-<wire x1="248.92" y1="2.54" x2="256.54" y2="2.54" width="0.1524" layer="91"/>
-<wire x1="256.54" y1="2.54" x2="256.54" y2="0" width="0.1524" layer="91"/>
+<label x="251.46" y="5.08" size="1.778" layer="95"/>
 <pinref part="R11" gate="G$1" pin="2"/>
 <wire x1="256.54" y1="0" x2="261.62" y2="0" width="0.1524" layer="91"/>
+<pinref part="J2" gate="J$1" pin="2"/>
+<wire x1="251.46" y1="5.08" x2="256.54" y2="5.08" width="0.1524" layer="91"/>
+<wire x1="256.54" y1="5.08" x2="256.54" y2="0" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="RXD0" class="0">
