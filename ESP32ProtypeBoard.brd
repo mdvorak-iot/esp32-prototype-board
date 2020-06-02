@@ -563,7 +563,7 @@ BDY</text>
 <text x="13.97" y="55.88" size="0.8128" layer="51" font="vector" ratio="20" align="bottom-center">INPUT ONLY</text>
 <wire x1="9.525" y1="55.753" x2="18.415" y2="55.753" width="0.127" layer="51"/>
 <wire x1="42.545" y1="55.753" x2="53.975" y2="55.753" width="0.127" layer="51"/>
-<text x="48.26" y="55.88" size="0.8128" layer="51" font="vector" ratio="20" align="bottom-center">JTAG</text>
+<text x="50.673" y="56.769" size="0.8128" layer="51" font="vector" ratio="20" align="bottom-center">JTAG</text>
 <wire x1="42.545" y1="55.753" x2="53.975" y2="55.753" width="0.127" layer="52"/>
 <wire x1="9.525" y1="55.753" x2="18.415" y2="55.753" width="0.127" layer="52"/>
 <text x="77.597" y="63.5" size="0.8128" layer="52" font="vector" ratio="20" rot="MR90" align="bottom-center">GND</text>
@@ -880,6 +880,10 @@ BDY</text>
 <circle x="10.541" y="59.944" radius="0.0508" width="0.127" layer="52"/>
 <circle x="29.21" y="46.99" radius="0.0508" width="0.127" layer="52"/>
 <circle x="29.21" y="46.99" radius="0.0508" width="0.127" layer="51"/>
+<text x="50.8" y="55.88" size="0.6096" layer="51" font="vector" ratio="20" align="bottom-center">TDI</text>
+<text x="48.26" y="55.88" size="0.6096" layer="51" font="vector" ratio="20" align="bottom-center">TDO</text>
+<text x="45.72" y="55.88" size="0.6096" layer="51" font="vector" ratio="20" align="bottom-center">TCK</text>
+<text x="43.18" y="55.88" size="0.6096" layer="51" font="vector" ratio="20" align="bottom-center">TMS</text>
 </plain>
 <libraries>
 <library name="esp32">
