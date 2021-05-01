@@ -24615,12 +24615,10 @@ Thru-hole 1.27mm pitch 6-pin header.</description>
 <part name="+3V4" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+3V3" device=""/>
 <part name="J10" library="SparkFun-Connectors" deviceset="POWER_JACK" device="PTH_LOCK" value=""/>
 <part name="GND12" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="C3" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C1206K" package3d_urn="urn:adsk.eagle:package:23682/2" value="47uF/6V"/>
-<part name="GND13" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="GND3" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="P+1" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+5V" device=""/>
 <part name="P+5" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+5V" device=""/>
-<part name="C8" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0805K" package3d_urn="urn:adsk.eagle:package:23681/2" value="0.1uF/25V"/>
+<part name="C8" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0805K" package3d_urn="urn:adsk.eagle:package:23681/2" value="0.1uF"/>
 <part name="J12" library="SparkFun-Connectors" library_urn="urn:adsk.eagle:library:513" deviceset="CONN_11" device="1X11_NO_SILK" package3d_urn="urn:adsk.eagle:package:38260/1"/>
 <part name="J13" library="SparkFun-Connectors" library_urn="urn:adsk.eagle:library:513" deviceset="CONN_11" device="1X11_NO_SILK" package3d_urn="urn:adsk.eagle:package:38260/1"/>
 <part name="J11" library="SparkFun-Connectors" deviceset="CONN_12" device="NO_SILK"/>
@@ -24705,7 +24703,7 @@ Thru-hole 1.27mm pitch 6-pin header.</description>
 <part name="J28" library="SparkFun-Connectors" library_urn="urn:adsk.eagle:library:513" deviceset="CONN_12" device="NO_SILK" package3d_urn="urn:adsk.eagle:package:38179/1"/>
 <part name="J30" library="SparkFun-Connectors" library_urn="urn:adsk.eagle:library:513" deviceset="CONN_04" device="1X04_NO_SILK" package3d_urn="urn:adsk.eagle:package:38094/1"/>
 <part name="GND7" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="C2" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C1206K" package3d_urn="urn:adsk.eagle:package:23682/2" value="47uF/25V"/>
+<part name="C2" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C1206K" package3d_urn="urn:adsk.eagle:package:23682/2" value="47uF"/>
 <part name="GND16" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="+3V9" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+3V3" device=""/>
 <part name="IO0" library="SparkFun-Connectors" library_urn="urn:adsk.eagle:library:513" deviceset="CONN_01" device="PTH_NO_SILK_KIT" package3d_urn="urn:adsk.eagle:package:38038/1"/>
@@ -24715,7 +24713,7 @@ Thru-hole 1.27mm pitch 6-pin header.</description>
 <part name="SMD4" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2"/>
 <part name="J39" library="SparkFun-Connectors" library_urn="urn:adsk.eagle:library:513" deviceset="CONN_04" device="1.27MM" package3d_urn="urn:adsk.eagle:package:38086/1"/>
 <part name="IC1" library="ACT4088US-T" deviceset="ACT4088US-T" device=""/>
-<part name="C9" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0805K" package3d_urn="urn:adsk.eagle:package:23681/2" value="10uF/25V"/>
+<part name="C9" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0805K" package3d_urn="urn:adsk.eagle:package:23681/2" value="10uF"/>
 <part name="C7" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0805K" package3d_urn="urn:adsk.eagle:package:23681/2" value="22nF/25V"/>
 <part name="L1" library="TYA40124R7M-10" deviceset="TYA40124R7M-10" device=""/>
 <part name="D3" library="B240AE-13" deviceset="B240AE-13" device=""/>
@@ -24725,6 +24723,8 @@ Thru-hole 1.27mm pitch 6-pin header.</description>
 <part name="GND22" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="C10" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0805K" package3d_urn="urn:adsk.eagle:package:23681/2" value="10uF"/>
 <part name="PROG" library="DC3-XX-1P27" deviceset="DC3-06-1P27" device=""/>
+<part name="C11" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0805K" package3d_urn="urn:adsk.eagle:package:23681/2" value="22uF/6V"/>
+<part name="GND20" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -24793,8 +24793,8 @@ TODO smaller diodes?</text>
 <instance part="GND11" gate="1" x="12.7" y="12.7" smashed="yes">
 <attribute name="VALUE" x="10.16" y="10.16" size="1.778" layer="96"/>
 </instance>
-<instance part="+3V4" gate="G$1" x="58.42" y="25.4" smashed="yes" rot="R270">
-<attribute name="VALUE" x="53.34" y="27.94" size="1.778" layer="96"/>
+<instance part="+3V4" gate="G$1" x="60.96" y="25.4" smashed="yes" rot="R270">
+<attribute name="VALUE" x="55.88" y="27.94" size="1.778" layer="96"/>
 </instance>
 <instance part="J10" gate="G$1" x="2.54" y="88.9" smashed="yes">
 <attribute name="VALUE" x="-7.62" y="99.06" size="1.778" layer="96" font="vector"/>
@@ -24802,13 +24802,6 @@ TODO smaller diodes?</text>
 </instance>
 <instance part="GND12" gate="1" x="20.32" y="88.9" smashed="yes" rot="R90">
 <attribute name="VALUE" x="22.86" y="86.36" size="1.778" layer="96" rot="R90"/>
-</instance>
-<instance part="C3" gate="G$1" x="48.26" y="20.32" smashed="yes">
-<attribute name="NAME" x="49.784" y="20.701" size="1.778" layer="95"/>
-<attribute name="VALUE" x="49.784" y="15.621" size="1.778" layer="96"/>
-</instance>
-<instance part="GND13" gate="1" x="48.26" y="12.7" smashed="yes">
-<attribute name="VALUE" x="45.72" y="10.16" size="1.778" layer="96"/>
 </instance>
 <instance part="GND3" gate="1" x="101.6" y="58.42" smashed="yes" rot="R90">
 <attribute name="VALUE" x="104.14" y="55.88" size="1.778" layer="96" rot="R90"/>
@@ -25212,6 +25205,13 @@ TODO smaller diodes?</text>
 <attribute name="NAME" x="168.91" y="122.682" size="1.778" layer="95" align="bottom-center"/>
 <attribute name="VALUE" x="168.91" y="110.998" size="1.778" layer="96" align="top-center"/>
 </instance>
+<instance part="C11" gate="G$1" x="48.26" y="20.32" smashed="yes">
+<attribute name="NAME" x="49.784" y="20.701" size="1.778" layer="95"/>
+<attribute name="VALUE" x="49.784" y="15.621" size="1.778" layer="96"/>
+</instance>
+<instance part="GND20" gate="1" x="48.26" y="12.7" smashed="yes">
+<attribute name="VALUE" x="45.72" y="10.16" size="1.778" layer="96"/>
+</instance>
 </instances>
 <busses>
 </busses>
@@ -25254,10 +25254,6 @@ TODO smaller diodes?</text>
 <wire x1="5.08" y1="88.9" x2="10.16" y2="88.9" width="0.1524" layer="91"/>
 <wire x1="17.78" y1="88.9" x2="10.16" y2="88.9" width="0.1524" layer="91"/>
 <junction x="10.16" y="88.9"/>
-</segment>
-<segment>
-<pinref part="C3" gate="G$1" pin="2"/>
-<pinref part="GND13" gate="1" pin="GND"/>
 </segment>
 <segment>
 <pinref part="C6" gate="G$1" pin="1"/>
@@ -25393,6 +25389,10 @@ TODO smaller diodes?</text>
 <wire x1="180.34" y1="116.84" x2="185.42" y2="116.84" width="0.1524" layer="91"/>
 <label x="180.34" y="116.84" size="1.778" layer="95"/>
 </segment>
+<segment>
+<pinref part="C11" gate="G$1" pin="2"/>
+<pinref part="GND20" gate="1" pin="GND"/>
+</segment>
 </net>
 <net name="+3V3" class="0">
 <segment>
@@ -25416,10 +25416,10 @@ TODO smaller diodes?</text>
 </segment>
 <segment>
 <pinref part="+3V4" gate="G$1" pin="+3V3"/>
-<wire x1="48.26" y1="25.4" x2="55.88" y2="25.4" width="0.1524" layer="91"/>
-<pinref part="PPTC" gate="G$1" pin="2"/>
 <wire x1="40.64" y1="25.4" x2="48.26" y2="25.4" width="0.1524" layer="91"/>
-<pinref part="C3" gate="G$1" pin="1"/>
+<pinref part="PPTC" gate="G$1" pin="2"/>
+<wire x1="48.26" y1="25.4" x2="58.42" y2="25.4" width="0.1524" layer="91"/>
+<pinref part="C11" gate="G$1" pin="1"/>
 <wire x1="48.26" y1="22.86" x2="48.26" y2="25.4" width="0.1524" layer="91"/>
 <junction x="48.26" y="25.4"/>
 </segment>
