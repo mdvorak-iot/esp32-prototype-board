@@ -25343,8 +25343,6 @@ Source: &lt;a href="https://componentsearchengine.com/Datasheets/1/B240AE-13.pdf
 <part name="Q1" library="semicon-smd-ipc" library_urn="urn:adsk.eagle:library:353" deviceset="NPN-TRANSISTOR_" device="SOT23" package3d_urn="urn:adsk.eagle:package:28738/2"/>
 <part name="R9" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="100K"/>
 <part name="+3V6" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+3V3" device=""/>
-<part name="P+7" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+5V" device=""/>
-<part name="5V" library="SparkFun-Connectors" library_urn="urn:adsk.eagle:library:513" deviceset="CONN_01" device="PTH_NO_SILK_KIT" package3d_urn="urn:adsk.eagle:package:38038/1"/>
 <part name="+12V1" library="SparkFun-Connectors" deviceset="CONN_02" device="1X02_NO_SILK"/>
 <part name="GND10" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="P+12" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+12V" device=""/>
@@ -25681,13 +25679,6 @@ Source: &lt;a href="https://componentsearchengine.com/Datasheets/1/B240AE-13.pdf
 </instance>
 <instance part="+3V6" gate="G$1" x="259.08" y="86.36" smashed="yes" rot="R180">
 <attribute name="VALUE" x="261.62" y="88.9" size="1.778" layer="96" rot="R270"/>
-</instance>
-<instance part="P+7" gate="1" x="114.3" y="-53.34" smashed="yes" rot="R270">
-<attribute name="VALUE" x="109.22" y="-50.8" size="1.778" layer="96"/>
-</instance>
-<instance part="5V" gate="G$1" x="104.14" y="-53.34" smashed="yes">
-<attribute name="VALUE" x="104.14" y="-53.086" size="1.778" layer="96" font="vector"/>
-<attribute name="NAME" x="104.14" y="-47.752" size="1.778" layer="95" font="vector"/>
 </instance>
 <instance part="+12V1" gate="G$1" x="17.78" y="-33.02" smashed="yes">
 <attribute name="VALUE" x="15.24" y="-37.846" size="1.778" layer="96" font="vector"/>
@@ -26550,10 +26541,6 @@ Source: &lt;a href="https://componentsearchengine.com/Datasheets/1/B240AE-13.pdf
 <pinref part="AMS1117-3.3" gate="G$1" pin="IN"/>
 <wire x1="0" y1="25.4" x2="5.08" y2="25.4" width="0.1524" layer="91"/>
 <pinref part="P+5" gate="1" pin="+5V"/>
-</segment>
-<segment>
-<pinref part="P+7" gate="1" pin="+5V"/>
-<pinref part="5V" gate="G$1" pin="1"/>
 </segment>
 <segment>
 <pinref part="P+9" gate="1" pin="+5V"/>
