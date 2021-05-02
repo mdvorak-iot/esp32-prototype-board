@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="9.6.1">
+<eagle version="9.6.2">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -23964,7 +23964,15 @@ Thru-hole 1.27mm pitch 6-pin header.</description>
 <part name="GND3" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="P+1" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+5V" device=""/>
 <part name="P+5" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+5V" device=""/>
-<part name="C8" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0805K" package3d_urn="urn:adsk.eagle:package:23681/2" value="0.1uF"/>
+<part name="C8" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0805K" package3d_urn="urn:adsk.eagle:package:23681/2" value="0.1uF">
+<spice>
+<pinmapping spiceprefix="C">
+<pinmap gate="G$1" pin="1" pinorder="1"/>
+<pinmap gate="G$1" pin="2" pinorder="2"/>
+</pinmapping>
+</spice>
+<attribute name="VOLTAGE" value="25V"/>
+</part>
 <part name="J12" library="SparkFun-Connectors" library_urn="urn:adsk.eagle:library:513" deviceset="CONN_11" device="1X11_NO_SILK" package3d_urn="urn:adsk.eagle:package:38260/1"/>
 <part name="J13" library="SparkFun-Connectors" library_urn="urn:adsk.eagle:library:513" deviceset="CONN_11" device="1X11_NO_SILK" package3d_urn="urn:adsk.eagle:package:38260/1"/>
 <part name="J11" library="SparkFun-Connectors" deviceset="CONN_12" device="NO_SILK"/>
@@ -24015,7 +24023,15 @@ Thru-hole 1.27mm pitch 6-pin header.</description>
 <part name="P+9" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+5V" device=""/>
 <part name="+3V5" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+3V3" device=""/>
 <part name="R6" library="eagle-ltspice" library_urn="urn:adsk.eagle:library:217" deviceset="R" device="R1206" package3d_urn="urn:adsk.eagle:package:13301/1" value="0R"/>
-<part name="C1" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C1206K" package3d_urn="urn:adsk.eagle:package:23682/2" value="47uF/6V"/>
+<part name="C1" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C1206K" package3d_urn="urn:adsk.eagle:package:23682/2" value="47uF">
+<spice>
+<pinmapping spiceprefix="C">
+<pinmap gate="G$1" pin="1" pinorder="1"/>
+<pinmap gate="G$1" pin="2" pinorder="2"/>
+</pinmapping>
+</spice>
+<attribute name="VOLTAGE" value="16V"/>
+</part>
 <part name="JTAG" library="SparkFun-Connectors" library_urn="urn:adsk.eagle:library:513" deviceset="CONN_05" device="NO_SILK" package3d_urn="urn:adsk.eagle:package:38108/1"/>
 <part name="GND14" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="J2" library="SparkFun-Connectors" library_urn="urn:adsk.eagle:library:513" deviceset="CONN_03" device="LOCK_NO_SILK" package3d_urn="urn:adsk.eagle:package:38074/1"/>
@@ -24049,7 +24065,15 @@ Thru-hole 1.27mm pitch 6-pin header.</description>
 <part name="J28" library="SparkFun-Connectors" library_urn="urn:adsk.eagle:library:513" deviceset="CONN_12" device="NO_SILK" package3d_urn="urn:adsk.eagle:package:38179/1"/>
 <part name="J30" library="SparkFun-Connectors" library_urn="urn:adsk.eagle:library:513" deviceset="CONN_04" device="1X04_NO_SILK" package3d_urn="urn:adsk.eagle:package:38094/1"/>
 <part name="GND7" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="C2" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C1206K" package3d_urn="urn:adsk.eagle:package:23682/2" value="47uF"/>
+<part name="C2" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C1206K" package3d_urn="urn:adsk.eagle:package:23682/2" value="47uF">
+<spice>
+<pinmapping spiceprefix="C">
+<pinmap gate="G$1" pin="1" pinorder="1"/>
+<pinmap gate="G$1" pin="2" pinorder="2"/>
+</pinmapping>
+</spice>
+<attribute name="VOLTAGE" value="25V"/>
+</part>
 <part name="GND16" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="+3V9" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+3V3" device=""/>
 <part name="IO0" library="SparkFun-Connectors" library_urn="urn:adsk.eagle:library:513" deviceset="CONN_01" device="PTH_NO_SILK_KIT" package3d_urn="urn:adsk.eagle:package:38038/1"/>
@@ -24059,26 +24083,56 @@ Thru-hole 1.27mm pitch 6-pin header.</description>
 <part name="SMD4" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2"/>
 <part name="J39" library="SparkFun-Connectors" library_urn="urn:adsk.eagle:library:513" deviceset="CONN_04" device="1.27MM" package3d_urn="urn:adsk.eagle:package:38086/1"/>
 <part name="IC1" library="ACT4088US-T" deviceset="ACT4088US-T" device=""/>
-<part name="C9" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0805K" package3d_urn="urn:adsk.eagle:package:23681/2" value="10uF"/>
-<part name="C7" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0805K" package3d_urn="urn:adsk.eagle:package:23681/2" value="22nF/25V"/>
+<part name="C9" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0805K" package3d_urn="urn:adsk.eagle:package:23681/2" value="10uF">
+<spice>
+<pinmapping spiceprefix="C">
+<pinmap gate="G$1" pin="1" pinorder="1"/>
+<pinmap gate="G$1" pin="2" pinorder="2"/>
+</pinmapping>
+</spice>
+<attribute name="VOLTAGE" value="25V"/>
+</part>
+<part name="C7" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0805K" package3d_urn="urn:adsk.eagle:package:23681/2" value="22nF">
+<spice>
+<pinmapping spiceprefix="C">
+<pinmap gate="G$1" pin="1" pinorder="1"/>
+<pinmap gate="G$1" pin="2" pinorder="2"/>
+</pinmapping>
+</spice>
+<attribute name="VOLTAGE" value="50V"/>
+</part>
 <part name="L1" library="TYA40124R7M-10" deviceset="TYA40124R7M-10" device=""/>
 <part name="D3" library="B240AE-13" deviceset="B240AE-13" device=""/>
 <part name="GND18" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="R12" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="150K"/>
 <part name="R13" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="28.7K"/>
 <part name="GND22" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="C10" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0805K" package3d_urn="urn:adsk.eagle:package:23681/2" value="(10uF)"/>
+<part name="C10" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0805K" package3d_urn="urn:adsk.eagle:package:23681/2" value="(10uF)">
+<spice>
+<pinmapping spiceprefix="C">
+<pinmap gate="G$1" pin="1" pinorder="1"/>
+<pinmap gate="G$1" pin="2" pinorder="2"/>
+</pinmapping>
+</spice>
+<attribute name="VOLTAGE" value="16V"/>
+</part>
 <part name="PROG" library="DC3-XX-1P27" deviceset="DC3-06-1P27" device=""/>
-<part name="C11" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0805K" package3d_urn="urn:adsk.eagle:package:23681/2" value="22uF/6V"/>
+<part name="C11" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0805K" package3d_urn="urn:adsk.eagle:package:23681/2" value="22uF">
+<spice>
+<pinmapping spiceprefix="C">
+<pinmap gate="G$1" pin="1" pinorder="1"/>
+<pinmap gate="G$1" pin="2" pinorder="2"/>
+</pinmapping>
+</spice>
+<attribute name="VOLTAGE" value="6V"/>
+</part>
 <part name="GND20" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="RESET" library="4x3mm-tactile-switch" deviceset="TACTILE_SWITCH_SMD_4X3MM" device="" value="RESET"/>
 </parts>
 <sheets>
 <sheet>
 <plain>
-<text x="-5.08" y="139.7" size="1.778" layer="91">TODO prog interface
-TODO reset button replace
-TODO smaller diodes?</text>
+<text x="-5.08" y="139.7" size="1.778" layer="91">TODO smaller diodes?</text>
 </plain>
 <instances>
 <instance part="U2" gate="G$1" x="198.12" y="53.34" smashed="yes">
@@ -24154,11 +24208,12 @@ TODO smaller diodes?</text>
 <attribute name="VALUE" x="101.6" y="66.04" size="1.778" layer="96"/>
 </instance>
 <instance part="P+5" gate="1" x="-7.62" y="25.4" smashed="yes" rot="R90">
-<attribute name="VALUE" x="-2.54" y="22.86" size="1.778" layer="96" rot="R180"/>
+<attribute name="VALUE" x="-7.62" y="27.178" size="1.778" layer="96"/>
 </instance>
 <instance part="C8" gate="G$1" x="10.16" y="93.98" smashed="yes">
 <attribute name="NAME" x="11.684" y="94.361" size="1.778" layer="95"/>
-<attribute name="VALUE" x="11.684" y="89.281" size="1.778" layer="96"/>
+<attribute name="VALUE" x="12.7" y="92.075" size="1.778" layer="96"/>
+<attribute name="VOLTAGE" x="12.7" y="89.916" size="1.778" layer="96"/>
 </instance>
 <instance part="J12" gate="G$1" x="246.38" y="60.96" smashed="yes" rot="R180">
 <attribute name="VALUE" x="246.38" y="81.026" size="1.778" layer="96" font="vector" rot="R180"/>
@@ -24345,7 +24400,8 @@ TODO smaller diodes?</text>
 </instance>
 <instance part="C1" gate="G$1" x="86.36" y="66.04" smashed="yes">
 <attribute name="NAME" x="87.884" y="66.421" size="1.778" layer="95"/>
-<attribute name="VALUE" x="87.884" y="61.341" size="1.778" layer="96"/>
+<attribute name="VALUE" x="88.646" y="63.627" size="1.778" layer="96"/>
+<attribute name="VOLTAGE" x="88.646" y="61.468" size="1.778" layer="96"/>
 </instance>
 <instance part="JTAG" gate="G$1" x="157.48" y="7.62" smashed="yes">
 <attribute name="VALUE" x="154.94" y="-2.286" size="1.778" layer="96" font="vector"/>
@@ -24476,7 +24532,8 @@ TODO smaller diodes?</text>
 </instance>
 <instance part="C2" gate="G$1" x="86.36" y="96.52" smashed="yes">
 <attribute name="NAME" x="87.884" y="96.901" size="1.778" layer="95"/>
-<attribute name="VALUE" x="87.884" y="91.821" size="1.778" layer="96"/>
+<attribute name="VALUE" x="88.9" y="94.361" size="1.778" layer="96"/>
+<attribute name="VOLTAGE" x="88.9" y="92.202" size="1.778" layer="96"/>
 </instance>
 <instance part="GND16" gate="1" x="251.46" y="-2.54" smashed="yes">
 <attribute name="VALUE" x="248.92" y="-5.08" size="1.778" layer="96"/>
@@ -24513,11 +24570,13 @@ TODO smaller diodes?</text>
 </instance>
 <instance part="C9" gate="G$1" x="12.7" y="55.88" smashed="yes">
 <attribute name="NAME" x="14.224" y="56.261" size="1.778" layer="95"/>
-<attribute name="VALUE" x="14.224" y="51.181" size="1.778" layer="96"/>
+<attribute name="VALUE" x="15.494" y="53.721" size="1.778" layer="96"/>
+<attribute name="VOLTAGE" x="15.494" y="51.562" size="1.778" layer="96"/>
 </instance>
 <instance part="C7" gate="G$1" x="53.34" y="66.04" smashed="yes">
 <attribute name="NAME" x="54.864" y="66.421" size="1.778" layer="95"/>
-<attribute name="VALUE" x="54.864" y="61.341" size="1.778" layer="96"/>
+<attribute name="VALUE" x="55.626" y="63.881" size="1.778" layer="96"/>
+<attribute name="VOLTAGE" x="55.626" y="61.722" size="1.778" layer="96"/>
 </instance>
 <instance part="L1" gate="G$1" x="63.5" y="68.58" smashed="yes">
 <attribute name="NAME" x="80.01" y="74.93" size="1.778" layer="95" align="center-left"/>
@@ -24543,7 +24602,8 @@ TODO smaller diodes?</text>
 </instance>
 <instance part="C10" gate="G$1" x="0" y="22.86" smashed="yes">
 <attribute name="NAME" x="1.524" y="23.241" size="1.778" layer="95"/>
-<attribute name="VALUE" x="1.524" y="18.161" size="1.778" layer="96"/>
+<attribute name="VALUE" x="-2.032" y="22.225" size="1.778" layer="96" rot="R180"/>
+<attribute name="VOLTAGE" x="-2.032" y="19.558" size="1.778" layer="96" rot="R180"/>
 </instance>
 <instance part="PROG" gate="G$1" x="157.48" y="119.38" smashed="yes">
 <attribute name="NAME" x="168.91" y="122.682" size="1.778" layer="95" align="bottom-center"/>
@@ -24551,7 +24611,8 @@ TODO smaller diodes?</text>
 </instance>
 <instance part="C11" gate="G$1" x="48.26" y="20.32" smashed="yes">
 <attribute name="NAME" x="49.784" y="20.701" size="1.778" layer="95"/>
-<attribute name="VALUE" x="49.784" y="15.621" size="1.778" layer="96"/>
+<attribute name="VALUE" x="50.8" y="18.161" size="1.778" layer="96"/>
+<attribute name="VOLTAGE" x="50.8" y="15.748" size="1.778" layer="96"/>
 </instance>
 <instance part="GND20" gate="1" x="48.26" y="12.7" smashed="yes">
 <attribute name="VALUE" x="45.72" y="10.16" size="1.778" layer="96"/>
@@ -25550,10 +25611,6 @@ TODO smaller diodes?</text>
 </schematic>
 </drawing>
 <compatibility>
-<note version="6.3" minversion="6.2.2" severity="warning">
-Since Version 6.2.2 text objects can contain more than one line,
-which will not be processed correctly with this version.
-</note>
 <note version="8.2" severity="warning">
 Since Version 8.2, EAGLE supports online libraries. The ids
 of those online libraries will not be understood (or retained)
