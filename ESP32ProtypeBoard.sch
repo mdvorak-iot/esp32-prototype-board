@@ -25649,6 +25649,83 @@ Source: www.kingbright.com</description>
 </deviceset>
 </devicesets>
 </library>
+<library name="HLK-5M05">
+<description>&lt;5W ultra-compact power module HLK-5M05&lt;/b&gt;&lt;p&gt;
+&lt;author&gt;Created by SamacSys&lt;/author&gt;</description>
+<packages>
+<package name="HLK5M05">
+<description>&lt;b&gt;HLK-5M05&lt;/b&gt;&lt;br&gt;
+</description>
+<pad name="1" x="0" y="0" drill="1" diameter="1.5"/>
+<pad name="2" x="0" y="-6" drill="1" diameter="1.5"/>
+<pad name="3" x="33.6" y="6" drill="1" diameter="1.5"/>
+<pad name="4" x="33.6" y="-12" drill="1" diameter="1.5"/>
+<text x="16.5" y="-3" size="1.27" layer="25" align="center">&gt;NAME</text>
+<text x="16.5" y="-3" size="1.27" layer="27" align="center">&gt;VALUE</text>
+<wire x1="-2.2" y1="8.5" x2="35.8" y2="8.5" width="0.2" layer="51"/>
+<wire x1="35.8" y1="8.5" x2="35.8" y2="-14.5" width="0.2" layer="51"/>
+<wire x1="35.8" y1="-14.5" x2="-2.2" y2="-14.5" width="0.2" layer="51"/>
+<wire x1="-2.2" y1="-14.5" x2="-2.2" y2="8.5" width="0.2" layer="51"/>
+<wire x1="-2.2" y1="8.5" x2="35.8" y2="8.5" width="0.1" layer="21"/>
+<wire x1="35.8" y1="8.5" x2="35.8" y2="-14.5" width="0.1" layer="21"/>
+<wire x1="35.8" y1="-14.5" x2="-2.2" y2="-14.5" width="0.1" layer="21"/>
+<wire x1="-2.2" y1="-14.5" x2="-2.2" y2="8.5" width="0.1" layer="21"/>
+<wire x1="-3.8" y1="9.5" x2="36.8" y2="9.5" width="0.1" layer="51"/>
+<wire x1="36.8" y1="9.5" x2="36.8" y2="-15.5" width="0.1" layer="51"/>
+<wire x1="36.8" y1="-15.5" x2="-3.8" y2="-15.5" width="0.1" layer="51"/>
+<wire x1="-3.8" y1="-15.5" x2="-3.8" y2="9.5" width="0.1" layer="51"/>
+<wire x1="-2.7" y1="0.1" x2="-2.7" y2="0.1" width="0.2" layer="21"/>
+<wire x1="-2.7" y1="0.1" x2="-2.7" y2="-0.1" width="0.2" layer="21" curve="180"/>
+<wire x1="-2.7" y1="-0.1" x2="-2.7" y2="-0.1" width="0.2" layer="21"/>
+<wire x1="-2.7" y1="-0.1" x2="-2.7" y2="0.1" width="0.2" layer="21" curve="180"/>
+</package>
+</packages>
+<symbols>
+<symbol name="HLK-5M05">
+<wire x1="5.08" y1="2.54" x2="22.86" y2="2.54" width="0.254" layer="94"/>
+<wire x1="22.86" y1="-5.08" x2="22.86" y2="2.54" width="0.254" layer="94"/>
+<wire x1="22.86" y1="-5.08" x2="5.08" y2="-5.08" width="0.254" layer="94"/>
+<wire x1="5.08" y1="2.54" x2="5.08" y2="-5.08" width="0.254" layer="94"/>
+<text x="24.13" y="7.62" size="1.778" layer="95" align="center-left">&gt;NAME</text>
+<text x="24.13" y="5.08" size="1.778" layer="96" align="center-left">&gt;VALUE</text>
+<pin name="AC_1" x="0" y="0" length="middle"/>
+<pin name="AC_2" x="0" y="-2.54" length="middle"/>
+<pin name="-VO" x="27.94" y="0" length="middle" rot="R180"/>
+<pin name="+VO" x="27.94" y="-2.54" length="middle" rot="R180"/>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="HLK-5M05" prefix="PS">
+<description>&lt;b&gt;5W ultra-compact power module HLK-5M05&lt;/b&gt;&lt;p&gt;
+Source: &lt;a href="http://www.hlktech.net/product_detail.php?ProId=60"&gt; Datasheet &lt;/a&gt;</description>
+<gates>
+<gate name="G$1" symbol="HLK-5M05" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="HLK5M05">
+<connects>
+<connect gate="G$1" pin="+VO" pad="4"/>
+<connect gate="G$1" pin="-VO" pad="3"/>
+<connect gate="G$1" pin="AC_1" pad="1"/>
+<connect gate="G$1" pin="AC_2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="DESCRIPTION" value="5W ultra-compact power module HLK-5M05" constant="no"/>
+<attribute name="HEIGHT" value="18mm" constant="no"/>
+<attribute name="MANUFACTURER_NAME" value="Hi-Link" constant="no"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="HLK-5M05" constant="no"/>
+<attribute name="MOUSER_PART_NUMBER" value="" constant="no"/>
+<attribute name="MOUSER_PRICE-STOCK" value="" constant="no"/>
+<attribute name="RS_PART_NUMBER" value="" constant="no"/>
+<attribute name="RS_PRICE-STOCK" value="" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
 </libraries>
 <attributes>
 </attributes>
@@ -25761,7 +25838,7 @@ Source: www.kingbright.com</description>
 <part name="GND9" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="EN" library="SparkFun-Connectors" library_urn="urn:adsk.eagle:library:513" deviceset="CONN_01" device="PTH_NO_SILK_KIT" package3d_urn="urn:adsk.eagle:package:38038/1"/>
 <part name="J3" library="SparkFun-Connectors" library_urn="urn:adsk.eagle:library:513" deviceset="CONN_01" device="PTH_LONGPAD" package3d_urn="urn:adsk.eagle:package:38030/1"/>
-<part name="J4" library="SparkFun-Connectors" library_urn="urn:adsk.eagle:library:513" deviceset="CONN_01" device="PTH_LONGPAD" package3d_urn="urn:adsk.eagle:package:38030/1"/>
+<part name="J4" library="SparkFun-Connectors" library_urn="urn:adsk.eagle:library:513" deviceset="CONN_01" device="PTH_LONGPAD" package3d_urn="urn:adsk.eagle:package:38030/1" value="VCC_TERMINAL"/>
 <part name="GND15" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="P+6" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="VCC" device=""/>
 <part name="J6" library="SparkFun-Connectors" library_urn="urn:adsk.eagle:library:513" deviceset="CONN_01" device="PTH_2MM" package3d_urn="urn:adsk.eagle:package:38029/1"/>
@@ -25846,6 +25923,7 @@ Source: www.kingbright.com</description>
 <part name="GND20" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="RESET" library="4x3mm-tactile-switch" deviceset="TACTILE_SWITCH_SMD_4X3MM" device="" value="RESET"/>
 <part name="P+3" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+12V" device=""/>
+<part name="PS1" library="HLK-5M05" deviceset="HLK-5M05" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -26158,19 +26236,19 @@ Source: www.kingbright.com</description>
 <attribute name="VALUE" x="195.58" y="-12.446" size="1.778" layer="96" font="vector"/>
 <attribute name="NAME" x="195.58" y="-4.572" size="1.778" layer="95" font="vector"/>
 </instance>
-<instance part="J3" gate="G$1" x="71.12" y="-45.72" smashed="yes">
-<attribute name="VALUE" x="68.58" y="-50.546" size="1.778" layer="96" font="vector"/>
-<attribute name="NAME" x="68.58" y="-42.672" size="1.778" layer="95" font="vector"/>
+<instance part="J3" gate="G$1" x="7.62" y="114.3" smashed="yes">
+<attribute name="VALUE" x="5.08" y="109.474" size="1.778" layer="96" font="vector"/>
+<attribute name="NAME" x="5.842" y="114.554" size="1.778" layer="95" font="vector"/>
 </instance>
-<instance part="J4" gate="G$1" x="71.12" y="-38.1" smashed="yes">
-<attribute name="VALUE" x="68.58" y="-42.926" size="1.778" layer="96" font="vector"/>
-<attribute name="NAME" x="71.12" y="-35.052" size="1.778" layer="95" font="vector"/>
+<instance part="J4" gate="G$1" x="7.62" y="119.38" smashed="yes">
+<attribute name="VALUE" x="4.318" y="122.936" size="1.778" layer="96" font="vector"/>
+<attribute name="NAME" x="5.842" y="119.634" size="1.778" layer="95" font="vector"/>
 </instance>
-<instance part="GND15" gate="1" x="81.28" y="-45.72" smashed="yes" rot="R90">
-<attribute name="VALUE" x="83.82" y="-48.26" size="1.778" layer="96" rot="R90"/>
+<instance part="GND15" gate="1" x="17.78" y="114.3" smashed="yes" rot="R90">
+<attribute name="VALUE" x="20.32" y="111.76" size="1.778" layer="96" rot="R90"/>
 </instance>
-<instance part="P+6" gate="VCC" x="81.28" y="-38.1" smashed="yes" rot="R270">
-<attribute name="VALUE" x="78.74" y="-35.56" size="1.778" layer="96"/>
+<instance part="P+6" gate="VCC" x="17.78" y="119.38" smashed="yes" rot="R270">
+<attribute name="VALUE" x="18.796" y="119.38" size="1.778" layer="96"/>
 </instance>
 <instance part="J6" gate="G$1" x="45.72" y="-50.8" smashed="yes" rot="R180">
 <attribute name="VALUE" x="48.26" y="-45.974" size="1.778" layer="96" font="vector" rot="R180"/>
@@ -26335,6 +26413,10 @@ Source: www.kingbright.com</description>
 </instance>
 <instance part="P+3" gate="1" x="53.34" y="116.84" smashed="yes" rot="R90">
 <attribute name="VALUE" x="58.42" y="114.3" size="1.778" layer="96" rot="R180"/>
+</instance>
+<instance part="PS1" gate="G$1" x="91.44" y="2.54" smashed="yes">
+<attribute name="NAME" x="115.57" y="10.16" size="1.778" layer="95" align="center-left"/>
+<attribute name="VALUE" x="115.57" y="7.62" size="1.778" layer="96" align="center-left"/>
 </instance>
 </instances>
 <busses>
