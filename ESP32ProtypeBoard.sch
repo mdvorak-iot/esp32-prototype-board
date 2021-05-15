@@ -25818,6 +25818,8 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <part name="+3V8" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+3V3" device=""/>
 <part name="GND24" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="JTAG_NC" library="SparkFun-Connectors" library_urn="urn:adsk.eagle:library:513" deviceset="CONN_05" device="NO_SILK" package3d_urn="urn:adsk.eagle:package:38108/1"/>
+<part name="J41" library="SparkFun-Connectors" deviceset="CONN_02" device="1X02_NO_SILK"/>
+<part name="GND25" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -26344,6 +26346,13 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <attribute name="VALUE" x="142.24" y="-2.286" size="1.778" layer="96" font="vector"/>
 <attribute name="NAME" x="142.24" y="15.748" size="1.778" layer="95" font="vector"/>
 </instance>
+<instance part="J41" gate="G$1" x="119.38" y="53.34" smashed="yes">
+<attribute name="VALUE" x="116.84" y="48.514" size="1.778" layer="96" font="vector"/>
+<attribute name="NAME" x="114.3" y="58.928" size="1.778" layer="95" font="vector"/>
+</instance>
+<instance part="GND25" gate="1" x="129.54" y="55.88" smashed="yes" rot="R90">
+<attribute name="VALUE" x="132.08" y="53.34" size="1.778" layer="96" rot="R90"/>
+</instance>
 </instances>
 <busses>
 </busses>
@@ -26440,6 +26449,9 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <pinref part="JTAG" gate="G$1" pin="1"/>
 <pinref part="GND14" gate="1" pin="GND"/>
 <wire x1="172.72" y1="2.54" x2="165.1" y2="2.54" width="0.1524" layer="91"/>
+<pinref part="JTAG_NC" gate="G$1" pin="1"/>
+<wire x1="152.4" y1="2.54" x2="165.1" y2="2.54" width="0.1524" layer="91"/>
+<junction x="165.1" y="2.54"/>
 </segment>
 <segment>
 <pinref part="HI-LINK_GND" gate="G$1" pin="1"/>
@@ -26533,6 +26545,10 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <wire x1="127" y1="63.5" x2="127" y2="66.04" width="0.1524" layer="91"/>
 <pinref part="J38" gate="G$1" pin="2"/>
 <pinref part="GND24" gate="1" pin="GND"/>
+</segment>
+<segment>
+<pinref part="J41" gate="G$1" pin="2"/>
+<pinref part="GND25" gate="1" pin="GND"/>
 </segment>
 </net>
 <net name="+3V3" class="0">
@@ -26701,6 +26717,11 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <label x="175.26" y="58.42" size="1.778" layer="95"/>
 <wire x1="180.34" y1="58.42" x2="162.56" y2="58.42" width="0.1524" layer="91"/>
 <pinref part="J11" gate="G$1" pin="7"/>
+<pinref part="J41" gate="G$1" pin="1"/>
+<wire x1="127" y1="53.34" x2="134.62" y2="53.34" width="0.1524" layer="91"/>
+<wire x1="134.62" y1="53.34" x2="134.62" y2="58.42" width="0.1524" layer="91"/>
+<wire x1="134.62" y1="58.42" x2="162.56" y2="58.42" width="0.1524" layer="91"/>
+<junction x="162.56" y="58.42"/>
 </segment>
 </net>
 <net name="IO25" class="0">
