@@ -25492,77 +25492,118 @@ Source: &lt;a href="http://www.hlktech.net/product_detail.php?ProId=60"&gt; Data
 </deviceset>
 </devicesets>
 </library>
-<library name="RT9080-33GJ5">
-<description>&lt;IC REG LIN 3.3V 600MA TSOT23-5&lt;/b&gt;&lt;p&gt;
-&lt;author&gt;Created by SamacSys&lt;/author&gt;</description>
+<library name="SparkFun-IC-Power" urn="urn:adsk.eagle:library:526">
+<description>&lt;h3&gt;SparkFun Power Driver and Management ICs&lt;/h3&gt;
+In this library you'll find anything that has to do with power delivery, or making power supplies.
+&lt;p&gt;Contents:
+&lt;ul&gt;&lt;li&gt;LDOs&lt;/li&gt;
+&lt;li&gt;Boost/Buck controllers&lt;/li&gt;
+&lt;li&gt;Charge pump controllers&lt;/li&gt;
+&lt;li&gt;Power sequencers&lt;/li&gt;
+&lt;li&gt;Power switches&lt;/li&gt;
+&lt;/ul&gt;&lt;/p&gt;
+&lt;br&gt;
+We've spent an enormous amount of time creating and checking these footprints and parts, but it is &lt;b&gt; the end user's responsibility&lt;/b&gt; to ensure correctness and suitablity for a given componet or application. 
+&lt;br&gt;
+&lt;br&gt;If you enjoy using this library, please buy one of our products at &lt;a href=" www.sparkfun.com"&gt;SparkFun.com&lt;/a&gt;.
+&lt;br&gt;
+&lt;br&gt;
+&lt;b&gt;Licensing:&lt;/b&gt; Creative Commons ShareAlike 4.0 International - https://creativecommons.org/licenses/by-sa/4.0/ 
+&lt;br&gt;
+&lt;br&gt;
+You are welcome to use this library for commercial purposes. For attribution, we ask that when you begin to sell your device using our footprint, you email us with a link to the product being sold. We want bragging rights that we helped (in a very small part) to create your 8th world wonder. We would like the opportunity to feature your device on our homepage.</description>
 <packages>
-<package name="SOT94P280X100-5N">
-<description>&lt;b&gt;TSOT23-5&lt;/b&gt;&lt;br&gt;
-</description>
-<smd name="1" x="-1.25" y="0.94" dx="1.25" dy="0.65" layer="1"/>
-<smd name="2" x="-1.25" y="0" dx="1.25" dy="0.65" layer="1"/>
-<smd name="3" x="-1.25" y="-0.94" dx="1.25" dy="0.65" layer="1"/>
-<smd name="4" x="1.25" y="-0.94" dx="1.25" dy="0.65" layer="1"/>
-<smd name="5" x="1.25" y="0.94" dx="1.25" dy="0.65" layer="1"/>
-<text x="0" y="0" size="1.27" layer="25" align="center">&gt;NAME</text>
-<text x="0" y="0" size="1.27" layer="27" align="center">&gt;VALUE</text>
-<wire x1="-2.125" y1="1.8" x2="2.125" y2="1.8" width="0.05" layer="51"/>
-<wire x1="2.125" y1="1.8" x2="2.125" y2="-1.8" width="0.05" layer="51"/>
-<wire x1="2.125" y1="-1.8" x2="-2.125" y2="-1.8" width="0.05" layer="51"/>
-<wire x1="-2.125" y1="-1.8" x2="-2.125" y2="1.8" width="0.05" layer="51"/>
-<wire x1="-0.8" y1="1.448" x2="0.8" y2="1.448" width="0.1" layer="51"/>
-<wire x1="0.8" y1="1.448" x2="0.8" y2="-1.448" width="0.1" layer="51"/>
-<wire x1="0.8" y1="-1.448" x2="-0.8" y2="-1.448" width="0.1" layer="51"/>
-<wire x1="-0.8" y1="-1.448" x2="-0.8" y2="1.448" width="0.1" layer="51"/>
-<wire x1="-0.8" y1="0.508" x2="0.14" y2="1.448" width="0.1" layer="51"/>
-<wire x1="-0.275" y1="1.448" x2="0.275" y2="1.448" width="0.2" layer="21"/>
-<wire x1="0.275" y1="1.448" x2="0.275" y2="-1.448" width="0.2" layer="21"/>
-<wire x1="0.275" y1="-1.448" x2="-0.275" y2="-1.448" width="0.2" layer="21"/>
-<wire x1="-0.275" y1="-1.448" x2="-0.275" y2="1.448" width="0.2" layer="21"/>
-<wire x1="-1.875" y1="1.514" x2="-0.625" y2="1.514" width="0.2" layer="21"/>
+<package name="SOT23-5" urn="urn:adsk.eagle:footprint:39006/1" library_version="1">
+<description>&lt;b&gt;Small Outline Transistor&lt;/b&gt;</description>
+<wire x1="1.27" y1="0.4294" x2="1.27" y2="-0.4294" width="0.2032" layer="21"/>
+<wire x1="1.4" y1="-0.8" x2="-1.4" y2="-0.8" width="0.1524" layer="51"/>
+<wire x1="-1.27" y1="-0.4294" x2="-1.27" y2="0.4294" width="0.2032" layer="21"/>
+<wire x1="-1.4" y1="0.8" x2="1.4" y2="0.8" width="0.1524" layer="51"/>
+<wire x1="-0.2684" y1="0.7088" x2="0.2684" y2="0.7088" width="0.2032" layer="21"/>
+<wire x1="1.4" y1="0.8" x2="1.4" y2="-0.8" width="0.1524" layer="51"/>
+<wire x1="-1.4" y1="0.8" x2="-1.4" y2="-0.8" width="0.1524" layer="51"/>
+<rectangle x1="-1.2" y1="-1.5" x2="-0.7" y2="-0.85" layer="51"/>
+<rectangle x1="-0.25" y1="-1.5" x2="0.25" y2="-0.85" layer="51"/>
+<rectangle x1="0.7" y1="-1.5" x2="1.2" y2="-0.85" layer="51"/>
+<rectangle x1="0.7" y1="0.85" x2="1.2" y2="1.5" layer="51"/>
+<rectangle x1="-1.2" y1="0.85" x2="-0.7" y2="1.5" layer="51"/>
+<smd name="1" x="-0.95" y="-1.3001" dx="0.55" dy="1.2" layer="1"/>
+<smd name="2" x="0" y="-1.3001" dx="0.55" dy="1.2" layer="1"/>
+<smd name="3" x="0.95" y="-1.3001" dx="0.55" dy="1.2" layer="1"/>
+<smd name="4" x="0.95" y="1.3001" dx="0.55" dy="1.2" layer="1"/>
+<smd name="5" x="-0.95" y="1.3001" dx="0.55" dy="1.2" layer="1"/>
+<text x="-0.889" y="2.159" size="0.4064" layer="25">&gt;NAME</text>
+<text x="-0.9525" y="-0.1905" size="0.4064" layer="27">&gt;VALUE</text>
+<circle x="-1.6002" y="-1.016" radius="0.127" width="0" layer="21"/>
 </package>
 </packages>
+<packages3d>
+<package3d name="SOT23-5" urn="urn:adsk.eagle:package:39060/1" type="box" library_version="1">
+<description>Small Outline Transistor</description>
+<packageinstances>
+<packageinstance name="SOT23-5"/>
+</packageinstances>
+</package3d>
+</packages3d>
 <symbols>
-<symbol name="RT9080-33GJ5">
-<wire x1="5.08" y1="2.54" x2="22.86" y2="2.54" width="0.254" layer="94"/>
-<wire x1="22.86" y1="-7.62" x2="22.86" y2="2.54" width="0.254" layer="94"/>
-<wire x1="22.86" y1="-7.62" x2="5.08" y2="-7.62" width="0.254" layer="94"/>
-<wire x1="5.08" y1="2.54" x2="5.08" y2="-7.62" width="0.254" layer="94"/>
-<text x="24.13" y="7.62" size="1.778" layer="95" align="center-left">&gt;NAME</text>
-<text x="24.13" y="5.08" size="1.778" layer="96" align="center-left">&gt;VALUE</text>
-<pin name="VIN" x="0" y="0" length="middle"/>
-<pin name="GND" x="0" y="-2.54" length="middle"/>
-<pin name="EN" x="0" y="-5.08" length="middle"/>
-<pin name="SNS" x="27.94" y="0" length="middle" rot="R180"/>
-<pin name="VOUT" x="27.94" y="-2.54" length="middle" rot="R180"/>
+<symbol name="V-REG-LDO_NO-BP" urn="urn:adsk.eagle:symbol:39036/1" library_version="1">
+<description>&lt;h3&gt; Voltage Regulator - No bypass&lt;/h3&gt;
+5  pin, with Enable function.</description>
+<wire x1="-7.62" y1="-7.62" x2="5.08" y2="-7.62" width="0.4064" layer="94"/>
+<wire x1="5.08" y1="-7.62" x2="5.08" y2="7.62" width="0.4064" layer="94"/>
+<wire x1="5.08" y1="7.62" x2="-7.62" y2="7.62" width="0.4064" layer="94"/>
+<wire x1="-7.62" y1="7.62" x2="-7.62" y2="-7.62" width="0.4064" layer="94"/>
+<text x="-7.62" y="7.874" size="1.778" layer="95" font="vector">&gt;NAME</text>
+<text x="-7.62" y="-7.874" size="1.778" layer="96" font="vector" align="top-left">&gt;VALUE</text>
+<pin name="IN" x="-10.16" y="5.08" visible="pin" length="short" direction="in"/>
+<pin name="GND" x="-10.16" y="-5.08" visible="pin" length="short" direction="in"/>
+<pin name="OUT" x="7.62" y="5.08" visible="pin" length="short" direction="pas" rot="R180"/>
+<pin name="EN" x="-10.16" y="0" visible="pin" length="short" direction="in"/>
+<pin name="NC" x="7.62" y="-5.08" visible="pin" length="short" direction="nc" rot="R180"/>
 </symbol>
 </symbols>
 <devicesets>
-<deviceset name="RT9080-33GJ5" prefix="IC">
-<description>&lt;b&gt;IC REG LIN 3.3V 600MA TSOT23-5&lt;/b&gt;&lt;p&gt;
-Source: &lt;a href="https://www.richtek.com/assets/product_file/RT9080/DS9080-05.pdf"&gt; Datasheet &lt;/a&gt;</description>
+<deviceset name="V_REG_AP2112" urn="urn:adsk.eagle:component:39098/1" prefix="U" library_version="1">
+<description>&lt;h3&gt;AP2112 - 600mA CMOS LDO Regulator w/ Enable&lt;/h3&gt;
+&lt;p&gt;The AP2112 is CMOS process low dropout linear regulator with enable function, the regulator delivers a guaranteed 600mA (min.) continuous load current.&lt;/p&gt;
+&lt;p&gt;Features&lt;br&gt;
+&lt;ul&gt;
+&lt;li&gt;Output Voltage Accuracy: ±1.5% &lt;/li&gt;
+&lt;li&gt;Output Current: 600mA (Min.) &lt;/li&gt;
+&lt;li&gt;Foldback Short Current Protection: 50mA &lt;/li&gt;
+&lt;li&gt;Enable Function to Turn ON/OFF VOUT&lt;/li&gt;
+&lt;li&gt;Low Dropout Voltage (3.3V): 250mV (Typ.) @IOUT=600mA &lt;/li&gt;
+&lt;li&gt;Excellent Load Regulation: 0.2%/A (Typ.) &lt;/li&gt;
+&lt;li&gt;Excellent Line Regulation: 0.02%/V (Typ.) &lt;/li&gt;
+&lt;li&gt;Low Quiescent Current: 55μA (Typ.)&lt;/li&gt;
+&lt;li&gt;Low Standby Current: 0.01μA (Typ.)&lt;/li&gt;
+&lt;li&gt;Low Output Noise: 50μVRMS &lt;/li&gt;
+&lt;li&gt;PSRR: 100Hz -65dB, 1kHz -65dB &lt;/li&gt;
+&lt;li&gt; OTSD Protection &lt;/li&gt;
+&lt;li&gt;Stable  with  1.0μF Flexible Cap: Ceramic, Tantalum and Aluminum Electrolytic &lt;/li&gt;
+&lt;li&gt;Operation Temperature Range: -40°C to 85°C &lt;/li&gt;
+&lt;li&gt;ESD: MM 400V, HBM 4000V&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/p&gt;</description>
 <gates>
-<gate name="G$1" symbol="RT9080-33GJ5" x="0" y="0"/>
+<gate name="G$1" symbol="V-REG-LDO_NO-BP" x="0" y="0"/>
 </gates>
 <devices>
-<device name="" package="SOT94P280X100-5N">
+<device name="K-3.3V" package="SOT23-5">
 <connects>
 <connect gate="G$1" pin="EN" pad="3"/>
 <connect gate="G$1" pin="GND" pad="2"/>
-<connect gate="G$1" pin="SNS" pad="4"/>
-<connect gate="G$1" pin="VIN" pad="1"/>
-<connect gate="G$1" pin="VOUT" pad="5"/>
+<connect gate="G$1" pin="IN" pad="1"/>
+<connect gate="G$1" pin="NC" pad="4"/>
+<connect gate="G$1" pin="OUT" pad="5"/>
 </connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:39060/1"/>
+</package3dinstances>
 <technologies>
 <technology name="">
-<attribute name="ARROW_PART_NUMBER" value="" constant="no"/>
-<attribute name="ARROW_PRICE-STOCK" value="" constant="no"/>
-<attribute name="DESCRIPTION" value="IC REG LIN 3.3V 600MA TSOT23-5" constant="no"/>
-<attribute name="HEIGHT" value="1mm" constant="no"/>
-<attribute name="MANUFACTURER_NAME" value="RICHTEK" constant="no"/>
-<attribute name="MANUFACTURER_PART_NUMBER" value="RT9080-33GJ5" constant="no"/>
-<attribute name="MOUSER_PART_NUMBER" value="" constant="no"/>
-<attribute name="MOUSER_PRICE-STOCK" value="" constant="no"/>
+<attribute name="PROD_ID" value="VREG-12457"/>
+<attribute name="VALUE" value="3.3V"/>
 </technology>
 </technologies>
 </device>
@@ -25766,13 +25807,17 @@ Source: &lt;a href="https://www.richtek.com/assets/product_file/RT9080/DS9080-05
 <part name="RESET" library="4x3mm-tactile-switch" deviceset="TACTILE_SWITCH_SMD_4X3MM" device="" value="RESET"/>
 <part name="P+3" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+12V" device=""/>
 <part name="PS1" library="HLK-5M05" deviceset="HLK-5M05" device=""/>
-<part name="IC3" library="RT9080-33GJ5" deviceset="RT9080-33GJ5" device=""/>
 <part name="GND13" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
+<part name="U1" library="SparkFun-IC-Power" library_urn="urn:adsk.eagle:library:526" deviceset="V_REG_AP2112" device="K-3.3V" package3d_urn="urn:adsk.eagle:package:39060/1" value="3.3V"/>
+<part name="J_VIN_5V" library="SparkFun-Connectors" deviceset="CONN_02" device="1X02_NO_SILK"/>
+<part name="P+7" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+5V" device=""/>
+<part name="GND23" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 </parts>
 <sheets>
 <sheet>
 <plain>
-<text x="-5.08" y="139.7" size="1.778" layer="91">TODO smaller diodes?</text>
+<text x="29.972" y="11.684" size="1.778" layer="97" rot="R180" align="bottom-center">AP2112K-3.3
+(RT9080-33GJ5)</text>
 </plain>
 <instances>
 <instance part="U2" gate="G$1" x="198.12" y="53.34" smashed="yes">
@@ -25827,8 +25872,8 @@ Source: &lt;a href="https://www.richtek.com/assets/product_file/RT9080/DS9080-05
 <instance part="GND11" gate="1" x="5.08" y="12.7" smashed="yes">
 <attribute name="VALUE" x="2.54" y="10.16" size="1.778" layer="96"/>
 </instance>
-<instance part="+3V4" gate="G$1" x="66.04" y="22.86" smashed="yes" rot="R270">
-<attribute name="VALUE" x="60.96" y="25.4" size="1.778" layer="96"/>
+<instance part="+3V4" gate="G$1" x="58.42" y="25.4" smashed="yes" rot="R270">
+<attribute name="VALUE" x="53.34" y="27.94" size="1.778" layer="96"/>
 </instance>
 <instance part="J10" gate="G$1" x="2.54" y="88.9" smashed="yes">
 <attribute name="VALUE" x="-7.62" y="99.06" size="1.778" layer="96" font="vector"/>
@@ -26236,13 +26281,13 @@ Source: &lt;a href="https://www.richtek.com/assets/product_file/RT9080/DS9080-05
 <attribute name="NAME" x="168.91" y="122.682" size="1.778" layer="95" align="bottom-center"/>
 <attribute name="VALUE" x="168.91" y="110.998" size="1.778" layer="96" align="top-center"/>
 </instance>
-<instance part="C11" gate="G$1" x="53.34" y="17.78" smashed="yes">
-<attribute name="NAME" x="54.864" y="18.161" size="1.778" layer="95"/>
-<attribute name="VALUE" x="55.88" y="15.621" size="1.778" layer="96"/>
-<attribute name="VOLTAGE" x="55.88" y="13.208" size="1.778" layer="96"/>
+<instance part="C11" gate="G$1" x="45.72" y="20.32" smashed="yes">
+<attribute name="NAME" x="47.244" y="20.701" size="1.778" layer="95"/>
+<attribute name="VALUE" x="48.26" y="18.161" size="1.778" layer="96"/>
+<attribute name="VOLTAGE" x="48.26" y="15.748" size="1.778" layer="96"/>
 </instance>
-<instance part="GND20" gate="1" x="53.34" y="10.16" smashed="yes">
-<attribute name="VALUE" x="50.8" y="7.62" size="1.778" layer="96"/>
+<instance part="GND20" gate="1" x="45.72" y="12.7" smashed="yes">
+<attribute name="VALUE" x="43.18" y="10.16" size="1.778" layer="96"/>
 </instance>
 <instance part="RESET" gate="G$1" x="274.32" y="60.96" smashed="yes">
 <attribute name="NAME" x="274.32" y="62.484" size="1.778" layer="95" font="vector" align="bottom-center"/>
@@ -26254,11 +26299,22 @@ Source: &lt;a href="https://www.richtek.com/assets/product_file/RT9080/DS9080-05
 <attribute name="NAME" x="115.57" y="10.16" size="1.778" layer="95" align="center-left"/>
 <attribute name="VALUE" x="115.57" y="7.62" size="1.778" layer="96" align="center-left"/>
 </instance>
-<instance part="IC3" gate="G$1" x="20.32" y="25.4" smashed="yes">
-<attribute name="VALUE" x="26.67" y="30.48" size="1.778" layer="96" align="center-left"/>
+<instance part="GND13" gate="1" x="17.78" y="15.24" smashed="yes" rot="R270">
+<attribute name="VALUE" x="15.24" y="17.78" size="1.778" layer="96" rot="R270"/>
 </instance>
-<instance part="GND13" gate="1" x="17.78" y="22.86" smashed="yes" rot="R270">
-<attribute name="VALUE" x="15.24" y="25.4" size="1.778" layer="96" rot="R270"/>
+<instance part="U1" gate="G$1" x="30.48" y="20.32" smashed="yes">
+<attribute name="NAME" x="22.86" y="28.194" size="1.778" layer="95" font="vector"/>
+<attribute name="VALUE" x="30.48" y="30.226" size="1.778" layer="96" font="vector" align="top-left"/>
+</instance>
+<instance part="J_VIN_5V" gate="G$1" x="17.78" y="-10.16" smashed="yes">
+<attribute name="VALUE" x="15.24" y="-14.986" size="1.778" layer="96" font="vector"/>
+<attribute name="NAME" x="12.7" y="-4.572" size="1.778" layer="95" font="vector"/>
+</instance>
+<instance part="P+7" gate="1" x="25.4" y="-5.08" smashed="yes">
+<attribute name="VALUE" x="27.178" y="-2.54" size="1.778" layer="96" rot="R270"/>
+</instance>
+<instance part="GND23" gate="1" x="27.94" y="-10.16" smashed="yes" rot="R90">
+<attribute name="VALUE" x="30.48" y="-12.7" size="1.778" layer="96" rot="R90"/>
 </instance>
 </instances>
 <busses>
@@ -26438,8 +26494,12 @@ Source: &lt;a href="https://www.richtek.com/assets/product_file/RT9080/DS9080-05
 <pinref part="GND20" gate="1" pin="GND"/>
 </segment>
 <segment>
-<pinref part="IC3" gate="G$1" pin="GND"/>
+<pinref part="U1" gate="G$1" pin="GND"/>
 <pinref part="GND13" gate="1" pin="GND"/>
+</segment>
+<segment>
+<pinref part="J_VIN_5V" gate="G$1" pin="1"/>
+<pinref part="GND23" gate="1" pin="GND"/>
 </segment>
 </net>
 <net name="+3V3" class="0">
@@ -26464,12 +26524,12 @@ Source: &lt;a href="https://www.richtek.com/assets/product_file/RT9080/DS9080-05
 </segment>
 <segment>
 <pinref part="+3V4" gate="G$1" pin="+3V3"/>
-<wire x1="53.34" y1="22.86" x2="63.5" y2="22.86" width="0.1524" layer="91"/>
+<wire x1="45.72" y1="25.4" x2="55.88" y2="25.4" width="0.1524" layer="91"/>
 <pinref part="C11" gate="G$1" pin="1"/>
-<wire x1="53.34" y1="20.32" x2="53.34" y2="22.86" width="0.1524" layer="91"/>
-<junction x="53.34" y="22.86"/>
-<pinref part="IC3" gate="G$1" pin="VOUT"/>
-<wire x1="48.26" y1="22.86" x2="53.34" y2="22.86" width="0.1524" layer="91"/>
+<wire x1="45.72" y1="22.86" x2="45.72" y2="25.4" width="0.1524" layer="91"/>
+<junction x="45.72" y="25.4"/>
+<wire x1="38.1" y1="25.4" x2="45.72" y2="25.4" width="0.1524" layer="91"/>
+<pinref part="U1" gate="G$1" pin="OUT"/>
 </segment>
 <segment>
 <pinref part="+3V2" gate="G$1" pin="+3V3"/>
@@ -26915,13 +26975,13 @@ Source: &lt;a href="https://www.richtek.com/assets/product_file/RT9080/DS9080-05
 <pinref part="P+5" gate="1" pin="+5V"/>
 <pinref part="C10" gate="G$1" pin="1"/>
 <junction x="5.08" y="25.4"/>
-<pinref part="IC3" gate="G$1" pin="VIN"/>
-<wire x1="5.08" y1="25.4" x2="12.7" y2="25.4" width="0.1524" layer="91"/>
-<pinref part="IC3" gate="G$1" pin="EN"/>
-<wire x1="12.7" y1="25.4" x2="20.32" y2="25.4" width="0.1524" layer="91"/>
-<wire x1="20.32" y1="20.32" x2="12.7" y2="20.32" width="0.1524" layer="91"/>
-<wire x1="12.7" y1="20.32" x2="12.7" y2="25.4" width="0.1524" layer="91"/>
-<junction x="12.7" y="25.4"/>
+<wire x1="5.08" y1="25.4" x2="17.78" y2="25.4" width="0.1524" layer="91"/>
+<wire x1="17.78" y1="25.4" x2="20.32" y2="25.4" width="0.1524" layer="91"/>
+<wire x1="20.32" y1="20.32" x2="17.78" y2="20.32" width="0.1524" layer="91"/>
+<wire x1="17.78" y1="20.32" x2="17.78" y2="25.4" width="0.1524" layer="91"/>
+<junction x="17.78" y="25.4"/>
+<pinref part="U1" gate="G$1" pin="IN"/>
+<pinref part="U1" gate="G$1" pin="EN"/>
 </segment>
 <segment>
 <pinref part="P+9" gate="1" pin="+5V"/>
@@ -26940,6 +27000,10 @@ Source: &lt;a href="https://www.richtek.com/assets/product_file/RT9080/DS9080-05
 <wire x1="73.66" y1="53.34" x2="96.52" y2="53.34" width="0.1524" layer="91"/>
 <wire x1="96.52" y1="53.34" x2="96.52" y2="68.58" width="0.1524" layer="91"/>
 <junction x="96.52" y="68.58"/>
+</segment>
+<segment>
+<pinref part="J_VIN_5V" gate="G$1" pin="2"/>
+<pinref part="P+7" gate="1" pin="+5V"/>
 </segment>
 </net>
 <net name="N$5" class="0">
@@ -27248,6 +27312,10 @@ Source: &lt;a href="https://www.richtek.com/assets/product_file/RT9080/DS9080-05
 </schematic>
 </drawing>
 <compatibility>
+<note version="6.3" minversion="6.2.2" severity="warning">
+Since Version 6.2.2 text objects can contain more than one line,
+which will not be processed correctly with this version.
+</note>
 <note version="8.2" severity="warning">
 Since Version 8.2, EAGLE supports online libraries. The ids
 of those online libraries will not be understood (or retained)
