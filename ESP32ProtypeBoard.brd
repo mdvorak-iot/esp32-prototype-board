@@ -3927,7 +3927,6 @@ design rules under a new name.</description>
 <contactref element="R1" pad="1"/>
 <contactref element="R9" pad="1"/>
 <contactref element="C11" pad="1"/>
-<via x="88.249" y="54.845" extent="1-16" drill="0.35"/>
 <contactref element="U1" pad="5"/>
 <wire x1="43.672" y1="42.926" x2="43.815" y2="43.069" width="0.8128" layer="1"/>
 <wire x1="43.815" y1="43.069" x2="43.815" y2="45.355" width="0.8128" layer="1"/>
@@ -3967,8 +3966,7 @@ design rules under a new name.</description>
 <contactref element="J42" pad="1"/>
 <wire x1="33.2504" y1="28.8054" x2="31.75" y2="27.305" width="0.7112" layer="16"/>
 <wire x1="33.2504" y1="30.3294" x2="33.2504" y2="28.8054" width="0.7112" layer="16"/>
-<wire x1="66.675" y1="50.485" x2="88.249" y2="54.845" width="0" layer="19" extent="16-16"/>
-<wire x1="60.01" y1="38.1" x2="66.675" y2="50.485" width="0" layer="19" extent="16-16"/>
+<wire x1="66.675" y1="50.485" x2="60.01" y2="38.1" width="0" layer="19" extent="16-16"/>
 </signal>
 <signal name="EN">
 <contactref element="R5" pad="2"/>
@@ -4015,7 +4013,7 @@ design rules under a new name.</description>
 <contactref element="PROG" pad="6"/>
 <wire x1="40.64" y1="34.163" x2="41.197" y2="34.72" width="0.2032" layer="16"/>
 <wire x1="41.197" y1="34.72" x2="52.578" y2="34.72" width="0.2032" layer="16"/>
-<wire x1="67.31" y1="47.625" x2="66.675" y2="50.385" width="0" layer="19" extent="1-1"/>
+<wire x1="66.675" y1="50.385" x2="67.31" y2="47.625" width="0" layer="19" extent="1-1"/>
 <wire x1="61.91" y1="35.56" x2="67.31" y2="47.625" width="0" layer="19" extent="16-16"/>
 <wire x1="52.578" y1="34.72" x2="61.91" y2="35.56" width="0" layer="19" extent="16-16"/>
 </signal>
@@ -4553,7 +4551,11 @@ design rules under a new name.</description>
 <signal name="D2A">
 <contactref element="D2" pad="A"/>
 <contactref element="R1" pad="2"/>
-<wire x1="66.675" y1="52.385" x2="66.675" y2="52.485" width="0" layer="19" extent="1-16"/>
+<wire x1="66.675" y1="52.385" x2="65.725" y2="52.385" width="0.1524" layer="16"/>
+<wire x1="65.725" y1="52.385" x2="65.659" y2="52.451" width="0.1524" layer="16"/>
+<via x="65.659" y="52.451" extent="1-16" drill="0.35"/>
+<wire x1="65.659" y1="52.451" x2="66.641" y2="52.451" width="0.1524" layer="1"/>
+<wire x1="66.641" y1="52.451" x2="66.675" y2="52.485" width="0.1524" layer="1"/>
 </signal>
 <signal name="PWR_LED">
 <contactref element="R4" pad="2"/>
