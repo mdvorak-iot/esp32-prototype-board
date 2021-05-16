@@ -20814,6 +20814,31 @@ Thru-hole 1.27mm pitch 6-pin header.</description>
 <wire x1="6.325" y1="3.185" x2="-3.785" y2="3.185" width="0.1524" layer="51"/>
 <wire x1="-3.785" y1="3.185" x2="-3.785" y2="-1.915" width="0.1524" layer="51"/>
 </package>
+<package name="DC3-10-1P27">
+<description>&lt;b&gt;DC3-10-1P27&lt;/b&gt;
+
+Thru-hole 1.27mm pitch 10-pin header, used for JTAG.</description>
+<pad name="1" x="0" y="0" drill="0.55" diameter="1" shape="square" first="yes"/>
+<pad name="2" x="0" y="1.27" drill="0.55" diameter="1"/>
+<pad name="3" x="1.27" y="0" drill="0.55" diameter="1"/>
+<pad name="4" x="1.27" y="1.27" drill="0.55" diameter="1"/>
+<pad name="5" x="2.54" y="0" drill="0.55" diameter="1"/>
+<pad name="6" x="2.54" y="1.27" drill="0.55" diameter="1"/>
+<pad name="7" x="3.81" y="0" drill="0.55" diameter="1"/>
+<pad name="8" x="3.81" y="1.27" drill="0.55" diameter="1"/>
+<pad name="9" x="5.08" y="0" drill="0.55" diameter="1"/>
+<pad name="10" x="5.08" y="1.27" drill="0.55" diameter="1"/>
+<text x="2.54" y="2.413" size="0.8128" layer="25" align="center">&gt;NAME</text>
+<text x="2.54" y="-1.143" size="0.8128" layer="27" align="center">&gt;VALUE</text>
+<wire x1="-3.785" y1="-1.915" x2="1.27" y2="-1.915" width="0.1524" layer="51"/>
+<wire x1="1.27" y1="-1.915" x2="1.27" y2="-1.778" width="0.1524" layer="51"/>
+<wire x1="1.27" y1="-1.778" x2="3.81" y2="-1.778" width="0.1524" layer="51"/>
+<wire x1="3.81" y1="-1.778" x2="3.81" y2="-1.915" width="0.1524" layer="51"/>
+<wire x1="3.81" y1="-1.915" x2="8.865" y2="-1.915" width="0.1524" layer="51"/>
+<wire x1="8.865" y1="-1.915" x2="8.865" y2="3.185" width="0.1524" layer="51"/>
+<wire x1="8.865" y1="3.185" x2="-3.785" y2="3.185" width="0.1524" layer="51"/>
+<wire x1="-3.785" y1="3.185" x2="-3.785" y2="-1.915" width="0.1524" layer="51"/>
+</package>
 </packages>
 <symbols>
 <symbol name="DC3-06-1P27">
@@ -20829,6 +20854,24 @@ Thru-hole 1.27mm pitch 6-pin header.</description>
 <pin name="4" x="22.86" y="-2.54" length="middle" rot="R180"/>
 <pin name="5" x="0" y="-5.08" length="middle"/>
 <pin name="6" x="22.86" y="-5.08" length="middle" rot="R180"/>
+</symbol>
+<symbol name="DC3-10-1P27">
+<wire x1="5.08" y1="2.54" x2="17.78" y2="2.54" width="0.254" layer="94"/>
+<wire x1="17.78" y1="-12.7" x2="17.78" y2="2.54" width="0.254" layer="94"/>
+<wire x1="17.78" y1="-12.7" x2="5.08" y2="-12.7" width="0.254" layer="94"/>
+<wire x1="5.08" y1="2.54" x2="5.08" y2="-12.7" width="0.254" layer="94"/>
+<text x="11.43" y="3.302" size="1.778" layer="95" align="bottom-center">&gt;NAME</text>
+<text x="11.43" y="-13.462" size="1.778" layer="96" align="top-center">&gt;VALUE</text>
+<pin name="1" x="0" y="0" length="middle"/>
+<pin name="2" x="22.86" y="0" length="middle" rot="R180"/>
+<pin name="3" x="0" y="-2.54" length="middle"/>
+<pin name="4" x="22.86" y="-2.54" length="middle" rot="R180"/>
+<pin name="5" x="0" y="-5.08" length="middle"/>
+<pin name="6" x="22.86" y="-5.08" length="middle" rot="R180"/>
+<pin name="7" x="0" y="-7.62" length="middle"/>
+<pin name="8" x="22.86" y="-7.62" length="middle" rot="R180"/>
+<pin name="9" x="0" y="-10.16" length="middle"/>
+<pin name="10" x="22.86" y="-10.16" length="middle" rot="R180"/>
 </symbol>
 </symbols>
 <devicesets>
@@ -20849,6 +20892,41 @@ Thru-hole 1.27mm pitch 6-pin header.</description>
 </connects>
 <technologies>
 <technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="DC3-10-1P27" prefix="J" uservalue="yes">
+<description>&lt;b&gt;Conn Shrouded Header (4 Sides) HDR 10 POS 1.27mm Solder ST Thru-Hole&lt;/b&gt;&lt;p&gt;
+Source: &lt;a href="https://datasheet.datasheetarchive.com/originals/dk/DKDS-7/133059.pdf"&gt; Datasheet &lt;/a&gt;</description>
+<gates>
+<gate name="G$1" symbol="DC3-10-1P27" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="DC3-10-1P27">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="10" pad="10"/>
+<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="G$1" pin="3" pad="3"/>
+<connect gate="G$1" pin="4" pad="4"/>
+<connect gate="G$1" pin="5" pad="5"/>
+<connect gate="G$1" pin="6" pad="6"/>
+<connect gate="G$1" pin="7" pad="7"/>
+<connect gate="G$1" pin="8" pad="8"/>
+<connect gate="G$1" pin="9" pad="9"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="ARROW_PART_NUMBER" value="3220-10-0100-00" constant="no"/>
+<attribute name="ARROW_PRICE-STOCK" value="https://www.arrow.com/en/products/3220-10-0100-00/cnc-tech-llc" constant="no"/>
+<attribute name="DESCRIPTION" value="Conn Shrouded Header (4 Sides) HDR 10 POS 1.27mm Solder ST Thru-Hole" constant="no"/>
+<attribute name="HEIGHT" value="5.6mm" constant="no"/>
+<attribute name="MANUFACTURER_NAME" value="CNC Tech" constant="no"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="3220-10-0100-00" constant="no"/>
+<attribute name="MOUSER_PART_NUMBER" value="" constant="no"/>
+<attribute name="MOUSER_PRICE-STOCK" value="" constant="no"/>
+</technology>
 </technologies>
 </device>
 </devices>
@@ -23331,8 +23409,6 @@ You are welcome to use this library for commercial purposes. For attribution, we
 </spice>
 <attribute name="VOLTAGE" value="16V"/>
 </part>
-<part name="JTAG" library="SparkFun-Connectors" library_urn="urn:adsk.eagle:library:513" deviceset="CONN_05" device="NO_SILK" package3d_urn="urn:adsk.eagle:package:38108/1"/>
-<part name="GND14" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="J29" library="SparkFun-Connectors" deviceset="CONN_02" device="1X02_NO_SILK"/>
 <part name="J1" library="SparkFun-Connectors" library_urn="urn:adsk.eagle:library:513" deviceset="CONN_11" device="1X11_NO_SILK" package3d_urn="urn:adsk.eagle:package:38260/1"/>
 <part name="HI-LINK_AC1" library="SparkFun-Connectors" library_urn="urn:adsk.eagle:library:513" deviceset="CONN_01" device="PTH_NO_SILK_KIT" package3d_urn="urn:adsk.eagle:package:38038/1"/>
@@ -23434,7 +23510,6 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <part name="J38" library="my-connectors" deviceset="CONN_01_NO_SILK" device=""/>
 <part name="J40" library="SparkFun-Connectors" deviceset="CONN_02" device="1X02_NO_SILK"/>
 <part name="+3V8" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+3V3" device=""/>
-<part name="JTAG_NC" library="SparkFun-Connectors" library_urn="urn:adsk.eagle:library:513" deviceset="CONN_05" device="NO_SILK" package3d_urn="urn:adsk.eagle:package:38108/1"/>
 <part name="J41" library="my-connectors" deviceset="CONN_01_NO_SILK" device=""/>
 <part name="J42" library="my-connectors" deviceset="CONN_01_NO_SILK" device=""/>
 <part name="+3V11" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+3V3" device=""/>
@@ -23456,6 +23531,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <part name="J53" library="my-connectors" deviceset="CONN_01_NO_SILK" device=""/>
 <part name="J54" library="my-connectors" deviceset="CONN_01_NO_SILK" device=""/>
 <part name="J57" library="my-connectors" deviceset="CONN_02_NO_SILK_1.27MM" device=""/>
+<part name="JTAG" library="DC3-XX-1P27" deviceset="DC3-10-1P27" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -23686,13 +23762,6 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <attribute name="NAME" x="87.884" y="66.421" size="1.778" layer="95"/>
 <attribute name="VALUE" x="88.646" y="63.627" size="1.778" layer="96"/>
 <attribute name="VOLTAGE" x="88.646" y="61.468" size="1.778" layer="96"/>
-</instance>
-<instance part="JTAG" gate="G$1" x="157.48" y="7.62" smashed="yes">
-<attribute name="VALUE" x="154.94" y="-2.286" size="1.778" layer="96" font="vector"/>
-<attribute name="NAME" x="154.94" y="15.748" size="1.778" layer="95" font="vector"/>
-</instance>
-<instance part="GND14" gate="1" x="175.26" y="2.54" smashed="yes" rot="R90">
-<attribute name="VALUE" x="177.8" y="0" size="1.778" layer="96" rot="R90"/>
 </instance>
 <instance part="J29" gate="G$1" x="241.3" y="-137.16" smashed="yes">
 <attribute name="VALUE" x="238.76" y="-141.986" size="1.778" layer="96" font="vector"/>
@@ -23928,10 +23997,6 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <instance part="+3V8" gate="G$1" x="88.9" y="-12.7" smashed="yes" rot="R270">
 <attribute name="VALUE" x="83.82" y="-10.16" size="1.778" layer="96"/>
 </instance>
-<instance part="JTAG_NC" gate="G$1" x="144.78" y="7.62" smashed="yes">
-<attribute name="VALUE" x="142.24" y="-2.286" size="1.778" layer="96" font="vector"/>
-<attribute name="NAME" x="142.24" y="15.748" size="1.778" layer="95" font="vector"/>
-</instance>
 <instance part="J41" gate="G$1" x="139.7" y="48.26" smashed="yes">
 <attribute name="NAME" x="137.16" y="48.768" size="1.778" layer="95" font="vector"/>
 </instance>
@@ -24005,6 +24070,10 @@ You are welcome to use this library for commercial purposes. For attribution, we
 </instance>
 <instance part="J57" gate="G$1" x="241.3" y="7.62" smashed="yes">
 <attribute name="NAME" x="238.76" y="10.668" size="1.778" layer="95" font="vector"/>
+</instance>
+<instance part="JTAG" gate="G$1" x="264.16" y="119.38" smashed="yes">
+<attribute name="NAME" x="275.59" y="122.682" size="1.778" layer="95" align="bottom-center"/>
+<attribute name="VALUE" x="275.59" y="105.918" size="1.778" layer="96" align="top-center"/>
 </instance>
 </instances>
 <busses>
@@ -24094,14 +24163,6 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <pinref part="GND10" gate="1" pin="GND"/>
 </segment>
 <segment>
-<pinref part="JTAG" gate="G$1" pin="1"/>
-<pinref part="GND14" gate="1" pin="GND"/>
-<wire x1="172.72" y1="2.54" x2="165.1" y2="2.54" width="0.1524" layer="91"/>
-<pinref part="JTAG_NC" gate="G$1" pin="1"/>
-<wire x1="152.4" y1="2.54" x2="165.1" y2="2.54" width="0.1524" layer="91"/>
-<junction x="165.1" y="2.54"/>
-</segment>
-<segment>
 <pinref part="HI-LINK_GND" gate="G$1" pin="1"/>
 <pinref part="GND9" gate="1" pin="GND"/>
 <wire x1="2.54" y1="-167.64" x2="7.62" y2="-167.64" width="0.1524" layer="91"/>
@@ -24188,6 +24249,26 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <pinref part="J57" gate="G$1" pin="1"/>
 <wire x1="248.92" y1="7.62" x2="254" y2="7.62" width="0.1524" layer="91"/>
 <label x="248.92" y="7.62" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="JTAG" gate="G$1" pin="3"/>
+<wire x1="264.16" y1="116.84" x2="256.54" y2="116.84" width="0.1524" layer="91"/>
+<label x="259.08" y="116.84" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="JTAG" gate="G$1" pin="5"/>
+<wire x1="264.16" y1="114.3" x2="256.54" y2="114.3" width="0.1524" layer="91"/>
+<label x="259.08" y="114.3" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="JTAG" gate="G$1" pin="7"/>
+<wire x1="264.16" y1="111.76" x2="256.54" y2="111.76" width="0.1524" layer="91"/>
+<label x="259.08" y="111.76" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="JTAG" gate="G$1" pin="9"/>
+<wire x1="264.16" y1="109.22" x2="256.54" y2="109.22" width="0.1524" layer="91"/>
+<label x="259.08" y="109.22" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="+3V3" class="0">
@@ -24376,9 +24457,9 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <wire x1="175.26" y1="48.26" x2="180.34" y2="48.26" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="JTAG" gate="G$1" pin="5"/>
-<wire x1="165.1" y1="12.7" x2="172.72" y2="12.7" width="0.1524" layer="91"/>
-<label x="165.1" y="12.7" size="1.778" layer="95"/>
+<pinref part="JTAG" gate="G$1" pin="2"/>
+<wire x1="287.02" y1="119.38" x2="294.64" y2="119.38" width="0.1524" layer="91"/>
+<label x="292.1" y="119.38" size="1.778" layer="95" align="bottom-right"/>
 </segment>
 </net>
 <net name="IO12" class="0">
@@ -24388,9 +24469,9 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <wire x1="180.34" y1="45.72" x2="175.26" y2="45.72" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="JTAG" gate="G$1" pin="2"/>
-<wire x1="165.1" y1="5.08" x2="172.72" y2="5.08" width="0.1524" layer="91"/>
-<label x="165.1" y="5.08" size="1.778" layer="95"/>
+<pinref part="JTAG" gate="G$1" pin="8"/>
+<wire x1="287.02" y1="111.76" x2="294.64" y2="111.76" width="0.1524" layer="91"/>
+<label x="292.1" y="111.76" size="1.778" layer="95" align="bottom-right"/>
 </segment>
 </net>
 <net name="IO4" class="0">
@@ -24532,9 +24613,9 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <wire x1="215.9" y1="38.1" x2="220.98" y2="38.1" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="JTAG" gate="G$1" pin="3"/>
-<wire x1="165.1" y1="7.62" x2="172.72" y2="7.62" width="0.1524" layer="91"/>
-<label x="165.1" y="7.62" size="1.778" layer="95"/>
+<pinref part="JTAG" gate="G$1" pin="6"/>
+<wire x1="287.02" y1="114.3" x2="294.64" y2="114.3" width="0.1524" layer="91"/>
+<label x="292.1" y="114.3" size="1.778" layer="95" align="bottom-right"/>
 </segment>
 </net>
 <net name="IO8" class="1">
@@ -24587,8 +24668,8 @@ You are welcome to use this library for commercial purposes. For attribution, we
 </segment>
 <segment>
 <pinref part="JTAG" gate="G$1" pin="4"/>
-<wire x1="165.1" y1="10.16" x2="172.72" y2="10.16" width="0.1524" layer="91"/>
-<label x="165.1" y="10.16" size="1.778" layer="95"/>
+<wire x1="287.02" y1="116.84" x2="294.64" y2="116.84" width="0.1524" layer="91"/>
+<label x="292.1" y="116.84" size="1.778" layer="95" align="bottom-right"/>
 </segment>
 </net>
 <net name="IO39" class="0">
@@ -25006,6 +25087,20 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <label x="147.32" y="53.34" size="1.778" layer="95"/>
 </segment>
 </net>
+<net name="JTAG_VDD" class="0">
+<segment>
+<pinref part="JTAG" gate="G$1" pin="1"/>
+<wire x1="264.16" y1="119.38" x2="256.54" y2="119.38" width="0.1524" layer="91"/>
+<label x="251.46" y="119.38" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="JTAG_NC" class="0">
+<segment>
+<pinref part="JTAG" gate="G$1" pin="10"/>
+<wire x1="287.02" y1="109.22" x2="294.64" y2="109.22" width="0.1524" layer="91"/>
+<label x="299.72" y="109.22" size="1.778" layer="95" align="bottom-right"/>
+</segment>
+</net>
 </nets>
 </sheet>
 </sheets>
@@ -25053,6 +25148,11 @@ Since Version 8.4, EAGLE supports properties for SPICE simulation.
 Probes in schematics and SPICE mapping objects found in parts and library devices
 will not be understood with this version. Update EAGLE to the latest version
 for full support of SPICE simulation. 
+</note>
+<note version="9.0" severity="warning">
+Since Version 9.0, EAGLE supports the align property for labels. 
+Labels in schematic will not be understood with this version. Update EAGLE to the latest version 
+for full support of labels. 
 </note>
 </compatibility>
 </eagle>
