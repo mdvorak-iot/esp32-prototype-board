@@ -32,7 +32,7 @@
 <layer number="22" name="bPlace" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="yes"/>
 <layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="yes"/>
-<layer number="25" name="tNames" color="7" fill="1" visible="no" active="yes"/>
+<layer number="25" name="tNames" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="26" name="bNames" color="7" fill="1" visible="no" active="yes"/>
 <layer number="27" name="tValues" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="28" name="bValues" color="7" fill="1" visible="yes" active="yes"/>
@@ -411,6 +411,8 @@ BDY</text>
 <text x="26.924" y="49.657" size="0.8128" layer="51" font="vector" ratio="20" rot="R180" align="bottom-right">EN</text>
 <wire x1="2.54" y1="51.435" x2="2.54" y2="38.735" width="0" layer="20"/>
 <wire x1="2.54" y1="38.735" x2="0" y2="36.195" width="0" layer="20"/>
+<text x="-13.335" y="38.1" size="0.8128" layer="25">TODO HLK covers PROG
+TODO this</text>
 </plain>
 <libraries>
 <library name="esp32">
