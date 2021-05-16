@@ -3,7 +3,7 @@
 <eagle version="9.6.2">
 <drawing>
 <settings>
-<setting alwaysvectorfont="yes"/>
+<setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
 <grid distance="25" unitdist="mil" unit="mil" style="lines" multiple="1" display="yes" altdistance="5" altunitdist="mil" altunit="mil"/>
@@ -32,7 +32,7 @@
 <layer number="22" name="bPlace" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="yes"/>
 <layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="yes"/>
-<layer number="25" name="tNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="25" name="tNames" color="7" fill="1" visible="no" active="yes"/>
 <layer number="26" name="bNames" color="7" fill="1" visible="no" active="yes"/>
 <layer number="27" name="tValues" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="28" name="bValues" color="7" fill="1" visible="yes" active="yes"/>
@@ -2997,7 +2997,6 @@ design rules under a new name.</description>
 <attribute name="VOLTAGE" value="6V" x="28.067" y="41.656" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
 <element name="RESET" library="4x3mm-tactile-switch" package="TACTILE_SWITCH_SMD_4X3MM" value="RESET" x="28.194" y="50.038" smashed="yes" rot="R270">
-<attribute name="NAME" x="29.845" y="50.038" size="0.8128" layer="25" ratio="20" rot="R270" align="bottom-center"/>
 <attribute name="VALUE" x="29.845" y="50.038" size="0.8128" layer="27" font="vector" ratio="20" rot="R90" align="top-center"/>
 </element>
 <element name="U1" library="SparkFun-IC-Power" library_urn="urn:adsk.eagle:library:526" package="SOT23-5" package3d_urn="urn:adsk.eagle:package:39060/1" value="3.3V" x="26.543" y="38.735" smashed="yes" rot="R270">
@@ -3010,79 +3009,47 @@ design rules under a new name.</description>
 <attribute name="VALUE" x="24.257" y="36.195" size="0.6096" layer="27" font="vector" ratio="20" rot="R90"/>
 </element>
 <element name="J37" library="SparkFun-Connectors" library_urn="urn:adsk.eagle:library:513" package="1X01NS_KIT" package3d_urn="urn:adsk.eagle:package:38038/1" value="" x="12.7" y="43.18" smashed="yes">
-<attribute name="NAME" x="11.43" y="44.323" size="0.6096" layer="25" font="vector" ratio="20"/>
 <attribute name="VALUE" x="11.43" y="42.164" size="0.6096" layer="27" font="vector" ratio="20" align="top-left"/>
 </element>
-<element name="J38" library="my-connectors" package="1X01_NO_SILK" value="CONN_01_NO_SILK" x="42.545" y="24.765" smashed="yes" rot="R90">
-<attribute name="NAME" x="41.148" y="23.495" size="0.6096" layer="25" font="vector" ratio="20" rot="R90"/>
-</element>
-<element name="J40" library="my-connectors" package="1X01_NO_SILK" value="CONN_01_NO_SILK" x="50.165" y="24.765" smashed="yes">
-<attribute name="NAME" x="48.895" y="26.162" size="0.6096" layer="25" font="vector" ratio="20"/>
-</element>
-<element name="J41" library="my-connectors" package="1X01_NO_SILK" value="CONN_01_NO_SILK" x="40.005" y="24.765" smashed="yes" rot="R90">
-<attribute name="NAME" x="38.608" y="23.495" size="0.6096" layer="25" font="vector" ratio="20" rot="R90"/>
-</element>
-<element name="J42" library="my-connectors" package="1X01_NO_SILK" value="CONN_01_NO_SILK" x="52.705" y="40.005" smashed="yes" rot="R180">
-<attribute name="NAME" x="53.975" y="38.608" size="0.6096" layer="25" font="vector" ratio="20" rot="R180"/>
-</element>
-<element name="J43" library="my-connectors" package="1X04_NO_SILK" value="CONN_04_NO_SILK" x="29.845" y="27.305" smashed="yes" rot="R180">
-<attribute name="NAME" x="31.115" y="25.908" size="0.6096" layer="25" font="vector" ratio="20" rot="R180"/>
-</element>
-<element name="J44" library="my-connectors" package="1X03_NO_SILK" value="CONN_03_NO_SILK" x="32.385" y="24.765" smashed="yes">
-<attribute name="NAME" x="31.115" y="26.162" size="0.6096" layer="25" font="vector" ratio="20"/>
-</element>
-<element name="J45" library="my-connectors" package="1X03_NO_SILK" value="CONN_03_NO_SILK" x="1.905" y="6.985" smashed="yes">
-<attribute name="NAME" x="0.635" y="8.382" size="0.6096" layer="25" font="vector" ratio="20"/>
-</element>
+<element name="J38" library="my-connectors" package="1X01_NO_SILK" value="CONN_01_NO_SILK" x="42.545" y="24.765" smashed="yes" rot="R90"/>
+<element name="J40" library="my-connectors" package="1X01_NO_SILK" value="CONN_01_NO_SILK" x="50.165" y="24.765" smashed="yes"/>
+<element name="J41" library="my-connectors" package="1X01_NO_SILK" value="CONN_01_NO_SILK" x="40.005" y="24.765" smashed="yes" rot="R90"/>
+<element name="J42" library="my-connectors" package="1X01_NO_SILK" value="CONN_01_NO_SILK" x="52.705" y="40.005" smashed="yes" rot="R180"/>
+<element name="J43" library="my-connectors" package="1X04_NO_SILK" value="CONN_04_NO_SILK" x="29.845" y="27.305" smashed="yes" rot="R180"/>
+<element name="J44" library="my-connectors" package="1X03_NO_SILK" value="CONN_03_NO_SILK" x="32.385" y="24.765" smashed="yes"/>
+<element name="J45" library="my-connectors" package="1X03_NO_SILK" value="CONN_03_NO_SILK" x="1.905" y="6.985" smashed="yes"/>
 <element name="I2C" library="SparkFun-Connectors" library_urn="urn:adsk.eagle:library:513" package="1X04_NO_SILK" package3d_urn="urn:adsk.eagle:package:38094/1" value="" x="22.225" y="24.765" smashed="yes">
-<attribute name="NAME" x="20.955" y="26.162" size="0.6096" layer="25" font="vector" ratio="20"/>
 <attribute name="PROD_ID" value="CONN-09696" x="22.225" y="24.765" size="1.778" layer="27" display="off"/>
 <attribute name="VALUE" x="20.955" y="22.733" size="0.6096" layer="27" font="vector" ratio="20"/>
 </element>
 <element name="J55" library="SparkFun-Connectors" library_urn="urn:adsk.eagle:library:513" package="1X01_NO_SILK" package3d_urn="urn:adsk.eagle:package:38041/1" value="" x="52.705" y="42.545" smashed="yes">
-<attribute name="NAME" x="51.435" y="43.688" size="0.6096" layer="25" font="vector" ratio="20"/>
 <attribute name="VALUE" x="51.435" y="40.767" size="0.6096" layer="27" font="vector" ratio="20"/>
 </element>
 <element name="J11" library="SparkFun-Connectors" library_urn="urn:adsk.eagle:library:513" package="1X01_NO_SILK" package3d_urn="urn:adsk.eagle:package:38041/1" value="" x="52.705" y="37.465" smashed="yes">
-<attribute name="NAME" x="51.435" y="38.608" size="0.6096" layer="25" font="vector" ratio="20"/>
 <attribute name="VALUE" x="51.435" y="35.687" size="0.6096" layer="27" font="vector" ratio="20"/>
 </element>
 <element name="J12" library="SparkFun-Connectors" library_urn="urn:adsk.eagle:library:513" package="1X01_NO_SILK" package3d_urn="urn:adsk.eagle:package:38041/1" value="" x="52.705" y="34.925" smashed="yes">
-<attribute name="NAME" x="51.435" y="36.068" size="0.6096" layer="25" font="vector" ratio="20"/>
 <attribute name="VALUE" x="51.435" y="33.147" size="0.6096" layer="27" font="vector" ratio="20"/>
 </element>
 <element name="J46" library="SparkFun-Connectors" library_urn="urn:adsk.eagle:library:513" package="1X01_NO_SILK" package3d_urn="urn:adsk.eagle:package:38041/1" value="" x="52.705" y="32.385" smashed="yes">
-<attribute name="NAME" x="51.435" y="33.528" size="0.6096" layer="25" font="vector" ratio="20"/>
 <attribute name="VALUE" x="51.435" y="30.607" size="0.6096" layer="27" font="vector" ratio="20"/>
 </element>
 <element name="J47" library="SparkFun-Connectors" library_urn="urn:adsk.eagle:library:513" package="1X01_NO_SILK" package3d_urn="urn:adsk.eagle:package:38041/1" value="" x="52.705" y="29.845" smashed="yes">
-<attribute name="NAME" x="51.435" y="30.988" size="0.6096" layer="25" font="vector" ratio="20"/>
 <attribute name="VALUE" x="51.435" y="28.067" size="0.6096" layer="27" font="vector" ratio="20"/>
 </element>
 <element name="J48" library="SparkFun-Connectors" library_urn="urn:adsk.eagle:library:513" package="1X01_NO_SILK" package3d_urn="urn:adsk.eagle:package:38041/1" value="" x="52.705" y="27.305" smashed="yes">
-<attribute name="NAME" x="51.435" y="28.448" size="0.6096" layer="25" font="vector" ratio="20"/>
 <attribute name="VALUE" x="51.435" y="25.527" size="0.6096" layer="27" font="vector" ratio="20"/>
 </element>
 <element name="J49" library="SparkFun-Connectors" library_urn="urn:adsk.eagle:library:513" package="1X01_NO_SILK" package3d_urn="urn:adsk.eagle:package:38041/1" value="" x="47.625" y="24.765" smashed="yes">
-<attribute name="NAME" x="46.355" y="25.908" size="0.6096" layer="25" font="vector" ratio="20"/>
 <attribute name="VALUE" x="46.355" y="22.987" size="0.6096" layer="27" font="vector" ratio="20"/>
 </element>
 <element name="J50" library="SparkFun-Connectors" library_urn="urn:adsk.eagle:library:513" package="1X01_NO_SILK" package3d_urn="urn:adsk.eagle:package:38041/1" value="" x="45.085" y="24.765" smashed="yes">
-<attribute name="NAME" x="43.815" y="25.908" size="0.6096" layer="25" font="vector" ratio="20"/>
 <attribute name="VALUE" x="43.815" y="22.987" size="0.6096" layer="27" font="vector" ratio="20"/>
 </element>
-<element name="J51" library="my-connectors" package="1X01_NO_SILK" value="CONN_01_NO_SILK" x="9.525" y="27.305" smashed="yes">
-<attribute name="NAME" x="8.255" y="28.448" size="0.6096" layer="25" font="vector" ratio="20"/>
-</element>
-<element name="J52" library="my-connectors" package="1X01_NO_SILK" value="CONN_01_NO_SILK" x="6.985" y="27.305" smashed="yes">
-<attribute name="NAME" x="5.715" y="28.448" size="0.6096" layer="25" font="vector" ratio="20"/>
-</element>
-<element name="J53" library="my-connectors" package="1X01_NO_SILK" value="CONN_01_NO_SILK" x="4.445" y="27.305" smashed="yes">
-<attribute name="NAME" x="3.175" y="28.448" size="0.6096" layer="25" font="vector" ratio="20"/>
-</element>
-<element name="J54" library="my-connectors" package="1X01_NO_SILK" value="CONN_01_NO_SILK" x="12.065" y="27.305" smashed="yes">
-<attribute name="NAME" x="10.795" y="28.448" size="0.6096" layer="25" font="vector" ratio="20"/>
-</element>
+<element name="J51" library="my-connectors" package="1X01_NO_SILK" value="CONN_01_NO_SILK" x="9.525" y="27.305" smashed="yes"/>
+<element name="J52" library="my-connectors" package="1X01_NO_SILK" value="CONN_01_NO_SILK" x="6.985" y="27.305" smashed="yes"/>
+<element name="J53" library="my-connectors" package="1X01_NO_SILK" value="CONN_01_NO_SILK" x="4.445" y="27.305" smashed="yes"/>
+<element name="J54" library="my-connectors" package="1X01_NO_SILK" value="CONN_01_NO_SILK" x="12.065" y="27.305" smashed="yes"/>
 <element name="JTAG" library="DC3-XX-1P27" package="DC3-10-1P27" value="" x="10.16" y="31.623" smashed="yes">
 <attribute name="ARROW_PART_NUMBER" value="3220-10-0100-00" x="10.16" y="31.623" size="1.778" layer="27" display="off"/>
 <attribute name="ARROW_PRICE-STOCK" value="https://www.arrow.com/en/products/3220-10-0100-00/cnc-tech-llc" x="10.16" y="31.623" size="1.778" layer="27" display="off"/>
@@ -3095,55 +3062,34 @@ design rules under a new name.</description>
 <attribute name="NAME" x="12.7" y="34.036" size="0.8128" layer="25" align="center"/>
 <attribute name="VALUE" x="12.7" y="30.48" size="0.8128" layer="27" align="center"/>
 </element>
-<element name="J31" library="my-connectors" package="1X01_NO_SILK" value="CONN_01_NO_SILK" x="52.705" y="24.765" smashed="yes">
-<attribute name="NAME" x="51.435" y="25.908" size="0.6096" layer="25" font="vector" ratio="20"/>
-</element>
-<element name="J2" library="my-connectors" package="1X04_NO_SILK" value="CONN_04_NO_SILK" x="12.065" y="24.765" smashed="yes">
-<attribute name="NAME" x="10.795" y="26.162" size="0.6096" layer="25" font="vector" ratio="20"/>
-</element>
-<element name="J57" library="my-connectors" package="1X04_NO_SILK" value="CONN_04_NO_SILK" x="1.905" y="24.765" smashed="yes">
-<attribute name="NAME" x="0.635" y="26.162" size="0.6096" layer="25" font="vector" ratio="20"/>
-</element>
-<element name="J1" library="my-connectors" package="1X03_NO_SILK" value="CONN_03_NO_SILK" x="1.905" y="4.445" smashed="yes">
-<attribute name="NAME" x="0.635" y="5.842" size="0.6096" layer="25" font="vector" ratio="20"/>
-</element>
-<element name="J6" library="my-connectors" package="1X04_NO_SILK" value="CONN_04_NO_SILK" x="1.905" y="27.305" smashed="yes" rot="R90">
-<attribute name="NAME" x="0.508" y="26.035" size="0.6096" layer="25" font="vector" ratio="20" rot="R90"/>
-</element>
-<element name="J7" library="my-connectors" package="1X03_NO_SILK" value="CONN_03_NO_SILK" x="4.445" y="29.845" smashed="yes" rot="R90">
-<attribute name="NAME" x="3.048" y="28.575" size="0.6096" layer="25" font="vector" ratio="20" rot="R90"/>
-</element>
+<element name="J31" library="my-connectors" package="1X01_NO_SILK" value="CONN_01_NO_SILK" x="52.705" y="24.765" smashed="yes"/>
+<element name="J2" library="my-connectors" package="1X04_NO_SILK" value="CONN_04_NO_SILK" x="12.065" y="24.765" smashed="yes"/>
+<element name="J57" library="my-connectors" package="1X04_NO_SILK" value="CONN_04_NO_SILK" x="1.905" y="24.765" smashed="yes"/>
+<element name="J1" library="my-connectors" package="1X03_NO_SILK" value="CONN_03_NO_SILK" x="1.905" y="4.445" smashed="yes"/>
+<element name="J6" library="my-connectors" package="1X04_NO_SILK" value="CONN_04_NO_SILK" x="1.905" y="27.305" smashed="yes" rot="R90"/>
+<element name="J7" library="my-connectors" package="1X03_NO_SILK" value="CONN_03_NO_SILK" x="4.445" y="29.845" smashed="yes" rot="R90"/>
 <element name="J9" library="SparkFun-Connectors" library_urn="urn:adsk.eagle:library:513" package="1X08_NO_SILK" package3d_urn="urn:adsk.eagle:package:38149/1" value="" x="32.385" y="22.225" smashed="yes">
-<attribute name="NAME" x="31.115" y="23.622" size="0.6096" layer="25" font="vector" ratio="20"/>
 <attribute name="PROD_ID" value="CONN-08438" x="32.385" y="22.225" size="1.778" layer="27" display="off"/>
 <attribute name="VALUE" x="31.115" y="20.193" size="0.6096" layer="27" font="vector" ratio="20"/>
 </element>
 <element name="J13" library="SparkFun-Connectors" library_urn="urn:adsk.eagle:library:513" package="1X08_NO_SILK" package3d_urn="urn:adsk.eagle:package:38149/1" value="" x="32.385" y="9.525" smashed="yes">
-<attribute name="NAME" x="31.115" y="10.922" size="0.6096" layer="25" font="vector" ratio="20"/>
 <attribute name="PROD_ID" value="CONN-08438" x="32.385" y="9.525" size="1.778" layer="27" display="off"/>
 <attribute name="VALUE" x="31.115" y="7.493" size="0.6096" layer="27" font="vector" ratio="20"/>
 </element>
 <element name="J14" library="SparkFun-Connectors" library_urn="urn:adsk.eagle:library:513" package="1X08_NO_SILK" package3d_urn="urn:adsk.eagle:package:38149/1" value="" x="32.385" y="6.985" smashed="yes">
-<attribute name="NAME" x="31.115" y="8.382" size="0.6096" layer="25" font="vector" ratio="20"/>
 <attribute name="PROD_ID" value="CONN-08438" x="32.385" y="6.985" size="1.778" layer="27" display="off"/>
 <attribute name="VALUE" x="31.115" y="4.953" size="0.6096" layer="27" font="vector" ratio="20"/>
 </element>
 <element name="J15" library="SparkFun-Connectors" library_urn="urn:adsk.eagle:library:513" package="1X08_NO_SILK" package3d_urn="urn:adsk.eagle:package:38149/1" value="" x="32.385" y="4.445" smashed="yes">
-<attribute name="NAME" x="31.115" y="5.842" size="0.6096" layer="25" font="vector" ratio="20"/>
 <attribute name="PROD_ID" value="CONN-08438" x="32.385" y="4.445" size="1.778" layer="27" display="off"/>
 <attribute name="VALUE" x="31.115" y="2.413" size="0.6096" layer="27" font="vector" ratio="20"/>
 </element>
 <element name="J16" library="SparkFun-Connectors" library_urn="urn:adsk.eagle:library:513" package="1X08_NO_SILK" package3d_urn="urn:adsk.eagle:package:38149/1" value="" x="32.385" y="1.905" smashed="yes">
-<attribute name="NAME" x="31.115" y="3.302" size="0.6096" layer="25" font="vector" ratio="20"/>
 <attribute name="PROD_ID" value="CONN-08438" x="32.385" y="1.905" size="1.778" layer="27" display="off"/>
 <attribute name="VALUE" x="31.115" y="-0.127" size="0.6096" layer="27" font="vector" ratio="20"/>
 </element>
-<element name="J20" library="my-connectors" package="1X04_NO_SILK" value="CONN_04_NO_SILK" x="47.625" y="12.065" smashed="yes" rot="R90">
-<attribute name="NAME" x="46.228" y="10.795" size="0.6096" layer="25" font="vector" ratio="20" rot="R90"/>
-</element>
-<element name="J24" library="my-connectors" package="1X04_NO_SILK" value="CONN_04_NO_SILK" x="50.165" y="12.065" smashed="yes" rot="R90">
-<attribute name="NAME" x="48.768" y="10.795" size="0.6096" layer="25" font="vector" ratio="20" rot="R90"/>
-</element>
+<element name="J20" library="my-connectors" package="1X04_NO_SILK" value="CONN_04_NO_SILK" x="47.625" y="12.065" smashed="yes" rot="R90"/>
+<element name="J24" library="my-connectors" package="1X04_NO_SILK" value="CONN_04_NO_SILK" x="50.165" y="12.065" smashed="yes" rot="R90"/>
 </elements>
 <signals>
 <signal name="GND">
