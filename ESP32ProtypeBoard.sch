@@ -17971,83 +17971,6 @@ Source: www.kingbright.com</description>
 </deviceset>
 </devicesets>
 </library>
-<library name="HLK-5M05">
-<description>&lt;5W ultra-compact power module HLK-5M05&lt;/b&gt;&lt;p&gt;
-&lt;author&gt;Created by SamacSys&lt;/author&gt;</description>
-<packages>
-<package name="HLK5M05">
-<description>&lt;b&gt;HLK-5M05&lt;/b&gt;&lt;br&gt;
-</description>
-<pad name="1" x="0" y="0" drill="1" diameter="1.5"/>
-<pad name="2" x="0" y="-6" drill="1" diameter="1.5"/>
-<pad name="3" x="33.6" y="6" drill="1" diameter="1.5"/>
-<pad name="4" x="33.6" y="-12" drill="1" diameter="1.5"/>
-<text x="16.5" y="-3" size="1.27" layer="25" align="center">&gt;NAME</text>
-<text x="16.5" y="-3" size="1.27" layer="27" align="center">&gt;VALUE</text>
-<wire x1="-2.2" y1="8.5" x2="35.8" y2="8.5" width="0.2" layer="51"/>
-<wire x1="35.8" y1="8.5" x2="35.8" y2="-14.5" width="0.2" layer="51"/>
-<wire x1="35.8" y1="-14.5" x2="-2.2" y2="-14.5" width="0.2" layer="51"/>
-<wire x1="-2.2" y1="-14.5" x2="-2.2" y2="8.5" width="0.2" layer="51"/>
-<wire x1="-2.2" y1="8.5" x2="35.8" y2="8.5" width="0.1" layer="21"/>
-<wire x1="35.8" y1="8.5" x2="35.8" y2="-14.5" width="0.1" layer="21"/>
-<wire x1="35.8" y1="-14.5" x2="-2.2" y2="-14.5" width="0.1" layer="21"/>
-<wire x1="-2.2" y1="-14.5" x2="-2.2" y2="8.5" width="0.1" layer="21"/>
-<wire x1="-3.8" y1="9.5" x2="36.8" y2="9.5" width="0.1" layer="51"/>
-<wire x1="36.8" y1="9.5" x2="36.8" y2="-15.5" width="0.1" layer="51"/>
-<wire x1="36.8" y1="-15.5" x2="-3.8" y2="-15.5" width="0.1" layer="51"/>
-<wire x1="-3.8" y1="-15.5" x2="-3.8" y2="9.5" width="0.1" layer="51"/>
-<wire x1="-2.7" y1="0.1" x2="-2.7" y2="0.1" width="0.2" layer="21"/>
-<wire x1="-2.7" y1="0.1" x2="-2.7" y2="-0.1" width="0.2" layer="21" curve="180"/>
-<wire x1="-2.7" y1="-0.1" x2="-2.7" y2="-0.1" width="0.2" layer="21"/>
-<wire x1="-2.7" y1="-0.1" x2="-2.7" y2="0.1" width="0.2" layer="21" curve="180"/>
-</package>
-</packages>
-<symbols>
-<symbol name="HLK-5M05">
-<wire x1="5.08" y1="2.54" x2="22.86" y2="2.54" width="0.254" layer="94"/>
-<wire x1="22.86" y1="-5.08" x2="22.86" y2="2.54" width="0.254" layer="94"/>
-<wire x1="22.86" y1="-5.08" x2="5.08" y2="-5.08" width="0.254" layer="94"/>
-<wire x1="5.08" y1="2.54" x2="5.08" y2="-5.08" width="0.254" layer="94"/>
-<text x="24.13" y="7.62" size="1.778" layer="95" align="center-left">&gt;NAME</text>
-<text x="24.13" y="5.08" size="1.778" layer="96" align="center-left">&gt;VALUE</text>
-<pin name="AC_1" x="0" y="0" length="middle"/>
-<pin name="AC_2" x="0" y="-2.54" length="middle"/>
-<pin name="-VO" x="27.94" y="0" length="middle" rot="R180"/>
-<pin name="+VO" x="27.94" y="-2.54" length="middle" rot="R180"/>
-</symbol>
-</symbols>
-<devicesets>
-<deviceset name="HLK-5M05" prefix="PS">
-<description>&lt;b&gt;5W ultra-compact power module HLK-5M05&lt;/b&gt;&lt;p&gt;
-Source: &lt;a href="http://www.hlktech.net/product_detail.php?ProId=60"&gt; Datasheet &lt;/a&gt;</description>
-<gates>
-<gate name="G$1" symbol="HLK-5M05" x="0" y="0"/>
-</gates>
-<devices>
-<device name="" package="HLK5M05">
-<connects>
-<connect gate="G$1" pin="+VO" pad="4"/>
-<connect gate="G$1" pin="-VO" pad="3"/>
-<connect gate="G$1" pin="AC_1" pad="1"/>
-<connect gate="G$1" pin="AC_2" pad="2"/>
-</connects>
-<technologies>
-<technology name="">
-<attribute name="DESCRIPTION" value="5W ultra-compact power module HLK-5M05" constant="no"/>
-<attribute name="HEIGHT" value="18mm" constant="no"/>
-<attribute name="MANUFACTURER_NAME" value="Hi-Link" constant="no"/>
-<attribute name="MANUFACTURER_PART_NUMBER" value="HLK-5M05" constant="no"/>
-<attribute name="MOUSER_PART_NUMBER" value="" constant="no"/>
-<attribute name="MOUSER_PRICE-STOCK" value="" constant="no"/>
-<attribute name="RS_PART_NUMBER" value="" constant="no"/>
-<attribute name="RS_PRICE-STOCK" value="" constant="no"/>
-</technology>
-</technologies>
-</device>
-</devices>
-</deviceset>
-</devicesets>
-</library>
 <library name="SparkFun-IC-Power" urn="urn:adsk.eagle:library:526">
 <description>&lt;h3&gt;SparkFun Power Driver and Management ICs&lt;/h3&gt;
 In this library you'll find anything that has to do with power delivery, or making power supplies.
@@ -18486,7 +18409,6 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <part name="GND20" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="RESET" library="4x3mm-tactile-switch" deviceset="TACTILE_SWITCH_SMD_4X3MM" device="" value="RESET"/>
 <part name="P+3" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+12V" device=""/>
-<part name="PS1" library="HLK-5M05" deviceset="HLK-5M05" device=""/>
 <part name="GND13" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="U1" library="SparkFun-IC-Power" library_urn="urn:adsk.eagle:library:526" deviceset="V_REG_AP2112" device="K-3.3V" package3d_urn="urn:adsk.eagle:package:39060/1" value="3.3V"/>
 <part name="J_VIN_5V" library="SparkFun-Connectors" deviceset="CONN_02" device="1X02_NO_SILK"/>
@@ -18891,10 +18813,6 @@ You are welcome to use this library for commercial purposes. For attribution, we
 </instance>
 <instance part="P+3" gate="1" x="53.34" y="116.84" smashed="yes" rot="R90">
 <attribute name="VALUE" x="58.42" y="114.3" size="1.778" layer="96" rot="R180"/>
-</instance>
-<instance part="PS1" gate="G$1" x="-5.08" y="-129.54" smashed="yes">
-<attribute name="NAME" x="19.05" y="-121.92" size="1.778" layer="95" align="center-left"/>
-<attribute name="VALUE" x="19.05" y="-124.46" size="1.778" layer="96" align="center-left"/>
 </instance>
 <instance part="GND13" gate="1" x="17.78" y="15.24" smashed="yes" rot="R270">
 <attribute name="VALUE" x="15.24" y="17.78" size="1.778" layer="96" rot="R270"/>
