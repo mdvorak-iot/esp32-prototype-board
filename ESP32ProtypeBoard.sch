@@ -18143,6 +18143,28 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <text x="-1.27" y="1.397" size="0.6096" layer="25" font="vector" ratio="20">&gt;NAME</text>
 <text x="-1.27" y="-2.032" size="0.6096" layer="27" font="vector" ratio="20">&gt;VALUE</text>
 </package>
+<package name="1X05_NO_SILK" urn="urn:adsk.eagle:footprint:37728/1">
+<description>&lt;h3&gt;Plated Through Hole - 5 Pin No Silk Outline&lt;/h3&gt;
+&lt;p&gt;Specifications:
+&lt;ul&gt;&lt;li&gt;Pin count:5&lt;/li&gt;
+&lt;li&gt;Pin pitch:0.1"&lt;/li&gt;
+&lt;/ul&gt;&lt;/p&gt;
+&lt;p&gt;Example device(s):
+&lt;ul&gt;&lt;li&gt;CONN_05&lt;/li&gt;
+&lt;/ul&gt;&lt;/p&gt;</description>
+<pad name="1" x="0" y="0" drill="1.016" diameter="1.8796" rot="R90"/>
+<pad name="2" x="2.54" y="0" drill="1.016" diameter="1.8796" rot="R90"/>
+<pad name="3" x="5.08" y="0" drill="1.016" diameter="1.8796" rot="R90"/>
+<pad name="4" x="7.62" y="0" drill="1.016" diameter="1.8796" rot="R90"/>
+<pad name="5" x="10.16" y="0" drill="1.016" diameter="1.8796" rot="R90"/>
+<rectangle x1="9.906" y1="-0.254" x2="10.414" y2="0.254" layer="51"/>
+<rectangle x1="7.366" y1="-0.254" x2="7.874" y2="0.254" layer="51"/>
+<rectangle x1="4.826" y1="-0.254" x2="5.334" y2="0.254" layer="51"/>
+<rectangle x1="2.286" y1="-0.254" x2="2.794" y2="0.254" layer="51"/>
+<rectangle x1="-0.254" y1="-0.254" x2="0.254" y2="0.254" layer="51"/>
+<text x="-1.27" y="1.397" size="0.6096" layer="25" font="vector" ratio="20">&gt;NAME</text>
+<text x="-1.27" y="-2.032" size="0.6096" layer="27" font="vector" ratio="20">&gt;VALUE</text>
+</package>
 </packages>
 <symbols>
 <symbol name="CONN_03">
@@ -18187,6 +18209,25 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <pin name="2" x="5.08" y="0" visible="pad" length="middle" direction="pas" swaplevel="1" rot="R180"/>
 <pin name="3" x="5.08" y="2.54" visible="pad" length="middle" direction="pas" swaplevel="1" rot="R180"/>
 <pin name="4" x="5.08" y="5.08" visible="pad" length="middle" direction="pas" swaplevel="1" rot="R180"/>
+</symbol>
+<symbol name="CONN_05">
+<description>&lt;h3&gt;5 Pin Connection&lt;/h3&gt;</description>
+<wire x1="3.81" y1="-7.62" x2="-2.54" y2="-7.62" width="0.4064" layer="94"/>
+<wire x1="1.27" y1="0" x2="2.54" y2="0" width="0.6096" layer="94"/>
+<wire x1="1.27" y1="-2.54" x2="2.54" y2="-2.54" width="0.6096" layer="94"/>
+<wire x1="1.27" y1="-5.08" x2="2.54" y2="-5.08" width="0.6096" layer="94"/>
+<wire x1="-2.54" y1="7.62" x2="-2.54" y2="-7.62" width="0.4064" layer="94"/>
+<wire x1="3.81" y1="-7.62" x2="3.81" y2="7.62" width="0.4064" layer="94"/>
+<wire x1="-2.54" y1="7.62" x2="3.81" y2="7.62" width="0.4064" layer="94"/>
+<wire x1="1.27" y1="5.08" x2="2.54" y2="5.08" width="0.6096" layer="94"/>
+<wire x1="1.27" y1="2.54" x2="2.54" y2="2.54" width="0.6096" layer="94"/>
+<text x="-2.54" y="-9.906" size="1.778" layer="96" font="vector">&gt;VALUE</text>
+<text x="-2.54" y="8.128" size="1.778" layer="95" font="vector">&gt;NAME</text>
+<pin name="1" x="7.62" y="-5.08" visible="pad" length="middle" direction="pas" swaplevel="1" rot="R180"/>
+<pin name="2" x="7.62" y="-2.54" visible="pad" length="middle" direction="pas" swaplevel="1" rot="R180"/>
+<pin name="3" x="7.62" y="0" visible="pad" length="middle" direction="pas" swaplevel="1" rot="R180"/>
+<pin name="4" x="7.62" y="2.54" visible="pad" length="middle" direction="pas" swaplevel="1" rot="R180"/>
+<pin name="5" x="7.62" y="5.08" visible="pad" length="middle" direction="pas" swaplevel="1" rot="R180"/>
 </symbol>
 </symbols>
 <devicesets>
@@ -18233,6 +18274,25 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <connect gate="G$1" pin="2" pad="2"/>
 <connect gate="G$1" pin="3" pad="3"/>
 <connect gate="G$1" pin="4" pad="4"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="CONN_05_NO_SILK">
+<gates>
+<gate name="G$1" symbol="CONN_05" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="1X05_NO_SILK">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="G$1" pin="3" pad="3"/>
+<connect gate="G$1" pin="4" pad="4"/>
+<connect gate="G$1" pin="5" pad="5"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -18302,7 +18362,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <part name="P+8" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+12V" device=""/>
 <part name="D2" library="led" library_urn="urn:adsk.eagle:library:259" deviceset="LED" device="CHIPLED_0805" package3d_urn="urn:adsk.eagle:package:15821/2" value="GREEN"/>
 <part name="R1" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="10K"/>
-<part name="J8" library="SparkFun-Connectors" library_urn="urn:adsk.eagle:library:513" deviceset="CONN_12" device="NO_SILK" package3d_urn="urn:adsk.eagle:package:38179/1"/>
+<part name="J8" library="my-connectors" deviceset="CONN_05_NO_SILK" device=""/>
 <part name="R2" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="10K"/>
 <part name="+3V2" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+3V3" device=""/>
 <part name="P+11" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="VCC" device=""/>
@@ -18336,11 +18396,9 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <part name="J4" library="SparkFun-Connectors" library_urn="urn:adsk.eagle:library:513" deviceset="CONN_01" device="PTH_LONGPAD" package3d_urn="urn:adsk.eagle:package:38030/1" value="VCC_TERMINAL"/>
 <part name="GND15" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="P+6" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="VCC" device=""/>
-<part name="J6" library="SparkFun-Connectors" library_urn="urn:adsk.eagle:library:513" deviceset="CONN_01" device="PTH_2MM" package3d_urn="urn:adsk.eagle:package:38029/1"/>
-<part name="J7" library="SparkFun-Connectors" library_urn="urn:adsk.eagle:library:513" deviceset="CONN_01" device="PTH_2MM" package3d_urn="urn:adsk.eagle:package:38029/1"/>
 <part name="GND_SIDE" library="SparkFun-Connectors" library_urn="urn:adsk.eagle:library:513" deviceset="CONN_09" device="NO_SILK" package3d_urn="urn:adsk.eagle:package:38156/1"/>
 <part name="J17" library="SparkFun-Connectors" library_urn="urn:adsk.eagle:library:513" deviceset="CONN_12" device="NO_SILK" package3d_urn="urn:adsk.eagle:package:38179/1"/>
-<part name="J21" library="SparkFun-Connectors" library_urn="urn:adsk.eagle:library:513" deviceset="CONN_12" device="NO_SILK" package3d_urn="urn:adsk.eagle:package:38179/1"/>
+<part name="J21" library="my-connectors" deviceset="CONN_05_NO_SILK" device=""/>
 <part name="J22" library="SparkFun-Connectors" library_urn="urn:adsk.eagle:library:513" deviceset="CONN_12" device="NO_SILK" package3d_urn="urn:adsk.eagle:package:38179/1"/>
 <part name="J23" library="SparkFun-Connectors" library_urn="urn:adsk.eagle:library:513" deviceset="CONN_12" device="NO_SILK" package3d_urn="urn:adsk.eagle:package:38179/1"/>
 <part name="J25" library="SparkFun-Connectors" library_urn="urn:adsk.eagle:library:513" deviceset="CONN_12" device="NO_SILK" package3d_urn="urn:adsk.eagle:package:38179/1"/>
@@ -18654,20 +18712,20 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <attribute name="VALUE" x="88.646" y="63.627" size="1.778" layer="96"/>
 <attribute name="VOLTAGE" x="88.646" y="61.468" size="1.778" layer="96"/>
 </instance>
-<instance part="HI-LINK_AC1" gate="G$1" x="-5.08" y="-152.4" smashed="yes">
-<attribute name="VALUE" x="-7.62" y="-157.226" size="1.778" layer="96" font="vector"/>
-<attribute name="NAME" x="-7.62" y="-149.352" size="1.778" layer="95" font="vector"/>
+<instance part="HI-LINK_AC1" gate="G$1" x="2.54" y="-38.1" smashed="yes">
+<attribute name="VALUE" x="0" y="-42.926" size="1.778" layer="96" font="vector"/>
+<attribute name="NAME" x="0" y="-35.052" size="1.778" layer="95" font="vector"/>
 </instance>
-<instance part="HI-LINK_AC2" gate="G$1" x="-5.08" y="-160.02" smashed="yes">
-<attribute name="VALUE" x="-7.62" y="-164.846" size="1.778" layer="96" font="vector"/>
-<attribute name="NAME" x="-7.62" y="-156.972" size="1.778" layer="95" font="vector"/>
+<instance part="HI-LINK_AC2" gate="G$1" x="2.54" y="-45.72" smashed="yes">
+<attribute name="VALUE" x="0" y="-50.546" size="1.778" layer="96" font="vector"/>
+<attribute name="NAME" x="0" y="-42.672" size="1.778" layer="95" font="vector"/>
 </instance>
-<instance part="HI-LINK_GND" gate="G$1" x="-5.08" y="-167.64" smashed="yes">
-<attribute name="VALUE" x="-7.62" y="-172.466" size="1.778" layer="96" font="vector"/>
-<attribute name="NAME" x="-7.62" y="-164.592" size="1.778" layer="95" font="vector"/>
+<instance part="HI-LINK_GND" gate="G$1" x="2.54" y="-30.48" smashed="yes">
+<attribute name="VALUE" x="0" y="-35.306" size="1.778" layer="96" font="vector"/>
+<attribute name="NAME" x="0" y="-27.432" size="1.778" layer="95" font="vector"/>
 </instance>
-<instance part="GND9" gate="1" x="10.16" y="-167.64" smashed="yes" rot="R90">
-<attribute name="VALUE" x="12.7" y="-170.18" size="1.778" layer="96" rot="R90"/>
+<instance part="GND9" gate="1" x="17.78" y="-30.48" smashed="yes" rot="R90">
+<attribute name="VALUE" x="20.32" y="-33.02" size="1.778" layer="96" rot="R90"/>
 </instance>
 <instance part="J3" gate="G$1" x="7.62" y="114.3" smashed="yes">
 <attribute name="VALUE" x="5.08" y="109.474" size="1.778" layer="96" font="vector"/>
@@ -18682,14 +18740,6 @@ You are welcome to use this library for commercial purposes. For attribution, we
 </instance>
 <instance part="P+6" gate="VCC" x="17.78" y="119.38" smashed="yes" rot="R270">
 <attribute name="VALUE" x="18.796" y="119.38" size="1.778" layer="96"/>
-</instance>
-<instance part="J6" gate="G$1" x="22.86" y="-152.4" smashed="yes" rot="R180">
-<attribute name="VALUE" x="25.4" y="-147.574" size="1.778" layer="96" font="vector" rot="R180"/>
-<attribute name="NAME" x="25.4" y="-155.448" size="1.778" layer="95" font="vector" rot="R180"/>
-</instance>
-<instance part="J7" gate="G$1" x="22.86" y="-160.02" smashed="yes" rot="R180">
-<attribute name="VALUE" x="25.4" y="-155.194" size="1.778" layer="96" font="vector" rot="R180"/>
-<attribute name="NAME" x="22.86" y="-163.068" size="1.778" layer="95" font="vector" rot="R180"/>
 </instance>
 <instance part="GND_SIDE" gate="G$1" x="276.86" y="-45.72" smashed="yes">
 <attribute name="VALUE" x="271.78" y="-55.626" size="1.778" layer="96" font="vector"/>
@@ -19019,7 +19069,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <segment>
 <pinref part="HI-LINK_GND" gate="G$1" pin="1"/>
 <pinref part="GND9" gate="1" pin="GND"/>
-<wire x1="2.54" y1="-167.64" x2="7.62" y2="-167.64" width="0.1524" layer="91"/>
+<wire x1="10.16" y1="-30.48" x2="15.24" y2="-30.48" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="J3" gate="G$1" pin="1"/>
@@ -19822,15 +19872,13 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <net name="AC1" class="0">
 <segment>
 <pinref part="HI-LINK_AC1" gate="G$1" pin="1"/>
-<pinref part="J6" gate="G$1" pin="1"/>
-<wire x1="2.54" y1="-152.4" x2="15.24" y2="-152.4" width="0.1524" layer="91"/>
+<wire x1="10.16" y1="-38.1" x2="15.24" y2="-38.1" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="AC2" class="0">
 <segment>
-<pinref part="J7" gate="G$1" pin="1"/>
 <pinref part="HI-LINK_AC2" gate="G$1" pin="1"/>
-<wire x1="15.24" y1="-160.02" x2="2.54" y2="-160.02" width="0.1524" layer="91"/>
+<wire x1="15.24" y1="-45.72" x2="10.16" y2="-45.72" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$1" class="0">
