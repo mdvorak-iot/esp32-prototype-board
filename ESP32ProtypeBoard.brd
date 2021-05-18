@@ -8,7 +8,7 @@
 </settings>
 <grid distance="25" unitdist="mil" unit="mil" style="lines" multiple="1" display="yes" altdistance="5" altunitdist="mil" altunit="mil"/>
 <layers>
-<layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
+<layer number="1" name="Top" color="4" fill="1" visible="no" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="yes"/>
 <layer number="3" name="Route3" color="4" fill="3" visible="no" active="yes"/>
 <layer number="4" name="Route4" color="1" fill="4" visible="no" active="yes"/>
@@ -28,16 +28,16 @@
 <layer number="18" name="Vias" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="yes"/>
 <layer number="20" name="Dimension" color="24" fill="1" visible="yes" active="yes"/>
-<layer number="21" name="tPlace" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="21" name="tPlace" color="7" fill="1" visible="no" active="yes"/>
 <layer number="22" name="bPlace" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="23" name="tOrigins" color="15" fill="1" visible="no" active="yes"/>
 <layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="yes"/>
 <layer number="25" name="tNames" color="7" fill="1" visible="no" active="yes"/>
 <layer number="26" name="bNames" color="7" fill="1" visible="no" active="yes"/>
-<layer number="27" name="tValues" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="27" name="tValues" color="7" fill="1" visible="no" active="yes"/>
 <layer number="28" name="bValues" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="29" name="tStop" color="7" fill="3" visible="yes" active="yes"/>
-<layer number="30" name="bStop" color="7" fill="6" visible="yes" active="yes"/>
+<layer number="29" name="tStop" color="7" fill="3" visible="no" active="yes"/>
+<layer number="30" name="bStop" color="7" fill="6" visible="no" active="yes"/>
 <layer number="31" name="tCream" color="7" fill="4" visible="no" active="yes"/>
 <layer number="32" name="bCream" color="7" fill="5" visible="no" active="yes"/>
 <layer number="33" name="tFinish" color="6" fill="3" visible="no" active="yes"/>
@@ -46,9 +46,9 @@
 <layer number="36" name="bGlue" color="7" fill="5" visible="no" active="yes"/>
 <layer number="37" name="tTest" color="7" fill="1" visible="no" active="yes"/>
 <layer number="38" name="bTest" color="7" fill="1" visible="no" active="yes"/>
-<layer number="39" name="tKeepout" color="4" fill="11" visible="yes" active="yes"/>
+<layer number="39" name="tKeepout" color="4" fill="11" visible="no" active="yes"/>
 <layer number="40" name="bKeepout" color="1" fill="11" visible="yes" active="yes"/>
-<layer number="41" name="tRestrict" color="4" fill="10" visible="yes" active="yes"/>
+<layer number="41" name="tRestrict" color="4" fill="10" visible="no" active="yes"/>
 <layer number="42" name="bRestrict" color="1" fill="10" visible="yes" active="yes"/>
 <layer number="43" name="vRestrict" color="2" fill="10" visible="no" active="yes"/>
 <layer number="44" name="Drills" color="7" fill="1" visible="no" active="yes"/>
@@ -58,7 +58,7 @@
 <layer number="48" name="Document" color="7" fill="1" visible="no" active="yes"/>
 <layer number="49" name="Reference" color="7" fill="1" visible="no" active="yes"/>
 <layer number="50" name="dxf" color="7" fill="1" visible="no" active="no"/>
-<layer number="51" name="tDocu" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="51" name="tDocu" color="7" fill="1" visible="no" active="yes"/>
 <layer number="52" name="bDocu" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="53" name="tGND_GNDA" color="7" fill="9" visible="no" active="no"/>
 <layer number="54" name="bGND_GNDA" color="1" fill="9" visible="no" active="no"/>
@@ -177,7 +177,7 @@
 <text x="53.594" y="5.715" size="0.8128" layer="51" font="vector" ratio="20" rot="R270" align="bottom-center">GND</text>
 <text x="24.765" y="33.655" size="0.8128" layer="51" font="vector" ratio="20" align="bottom-center">GND</text>
 <text x="24.765" y="30.861" size="0.8128" layer="51" font="vector" ratio="20" rot="R180" align="bottom-center">TXD</text>
-<text x="26.289" y="30.861" size="0.8128" layer="51" font="vector" ratio="20" align="top-left">RXD</text>
+<text x="26.416" y="30.861" size="0.8128" layer="51" font="vector" ratio="20" align="top-left">RXD</text>
 <text x="9.017" y="51.308" size="0.8128" layer="51" font="vector" ratio="20" rot="R270" align="center">GND</text>
 <text x="7.747" y="51.181" size="0.8128" layer="51" font="vector" ratio="20" rot="R270" align="center">VIN</text>
 <wire x1="31.75" y1="20.955" x2="31.115" y2="20.32" width="0.127" layer="51"/>
@@ -230,7 +230,7 @@
 <wire x1="44.45" y1="20.955" x2="43.815" y2="20.32" width="0.127" layer="52"/>
 <text x="53.0225" y="50.8" size="0.8128" layer="51" font="vector" ratio="17" rot="R270" align="bottom-center">STATE</text>
 <text x="23.241" y="30.861" size="0.8128" layer="51" font="vector" ratio="20" rot="R180">EN</text>
-<text x="26.289" y="33.655" size="0.8128" layer="51" font="vector" ratio="20">IO0</text>
+<text x="26.416" y="33.655" size="0.8128" layer="51" font="vector" ratio="20">IO0</text>
 <wire x1="42.545" y1="43.942" x2="38.735" y2="43.942" width="0.4064" layer="52" curve="100"/>
 <wire x1="41.91" y1="43.307" x2="39.37" y2="43.307" width="0.4064" layer="52" curve="100"/>
 <wire x1="41.275" y1="42.672" x2="40.005" y2="42.672" width="0.4064" layer="52" curve="100"/>
@@ -268,7 +268,7 @@
 <wire x1="33.655" y1="12.7" x2="33.655" y2="11.43" width="0.127" layer="51"/>
 <wire x1="33.655" y1="20.32" x2="33.655" y2="19.05" width="0.127" layer="51"/>
 <wire x1="33.655" y1="19.05" x2="34.29" y2="18.415" width="0.127" layer="51"/>
-<text x="23.241" y="33.655" size="0.8128" layer="51" font="vector" ratio="20" align="bottom-right">NC</text>
+<text x="22.987" y="33.655" size="0.8128" layer="51" font="vector" ratio="20" align="bottom-right">NC</text>
 <text x="12.7" y="39.751" size="0.8128" layer="51" font="vector" ratio="20" rot="R180" align="center">VIN</text>
 <text x="16.51" y="39.751" size="0.8128" layer="52" rot="MR270" align="center">SI4431
 BDY</text>
@@ -289,7 +289,7 @@ BDY</text>
 <text x="14.478" y="33.655" size="0.8128" layer="51" font="vector" ratio="20" align="bottom-center">12</text>
 <text x="12.7" y="33.655" size="0.8128" layer="51" font="vector" ratio="20" align="bottom-center">15</text>
 <text x="10.922" y="33.655" size="0.8128" layer="51" font="vector" ratio="20" align="bottom-center">13</text>
-<text x="9.398" y="33.528" size="0.8128" layer="51" font="vector" ratio="20" align="bottom-center">14</text>
+<text x="9.144" y="33.655" size="0.8128" layer="51" font="vector" ratio="20" align="bottom-center">14</text>
 <text x="42.545" y="25.781" size="0.8128" layer="51" font="vector" ratio="20" align="bottom-center">32</text>
 <text x="9.525" y="28.702" size="0.8128" layer="51" font="vector" ratio="20" align="bottom-center">35</text>
 <text x="7.239" y="28.702" size="0.8128" layer="51" font="vector" ratio="20" align="bottom-center">34</text>
@@ -300,7 +300,7 @@ BDY</text>
 <text x="17.145" y="28.702" size="0.8128" layer="52" font="vector" ratio="20" rot="MR0" align="bottom-center">VCC</text>
 <text x="12.065" y="28.702" size="0.8128" layer="52" font="vector" ratio="20" rot="MR0" align="bottom-center">36</text>
 <text x="9.525" y="28.702" size="0.8128" layer="52" font="vector" ratio="20" rot="MR0" align="bottom-center">35</text>
-<text x="9.398" y="33.528" size="0.8128" layer="52" font="vector" ratio="20" rot="MR0" align="bottom-center">14</text>
+<text x="9.271" y="33.655" size="0.8128" layer="52" font="vector" ratio="20" rot="MR0" align="bottom-center">14</text>
 <text x="10.922" y="33.655" size="0.8128" layer="52" font="vector" ratio="20" rot="MR0" align="bottom-center">13</text>
 <text x="12.7" y="33.655" size="0.8128" layer="52" font="vector" ratio="20" rot="MR0" align="bottom-center">15</text>
 <text x="14.478" y="33.655" size="0.8128" layer="52" font="vector" ratio="20" rot="MR0" align="bottom-center">12</text>
@@ -352,15 +352,15 @@ BDY</text>
 <text x="23.495" y="40.005" size="0.8128" layer="52" font="vector" ratio="20" rot="MR90" align="bottom-center">5V</text>
 <text x="21.082" y="39.878" size="0.8128" layer="51" font="vector" ratio="20" rot="R90" align="bottom-center">5V</text>
 <text x="20.828" y="42.799" size="0.8128" layer="27" rot="R180" align="top-center">ACT4088</text>
-<text x="16.002" y="33.528" size="0.8128" layer="51" font="vector" ratio="20" align="bottom-center">NC</text>
-<text x="16.002" y="33.528" size="0.8128" layer="52" font="vector" ratio="20" rot="MR0" align="bottom-center">NC</text>
+<text x="16.256" y="33.655" size="0.8128" layer="51" font="vector" ratio="20" align="bottom-center">NC</text>
+<text x="16.256" y="33.655" size="0.8128" layer="52" font="vector" ratio="20" rot="MR0" align="bottom-center">NC</text>
 <text x="24.765" y="35.052" size="0.8128" layer="51" font="vector" ratio="20" align="bottom-center">PROG</text>
-<text x="22.987" y="33.528" size="0.8128" layer="52" font="vector" ratio="20" rot="MR180" align="top-right">NC</text>
+<text x="22.987" y="33.655" size="0.8128" layer="52" font="vector" ratio="20" rot="MR180" align="top-right">NC</text>
 <text x="24.765" y="33.655" size="0.8128" layer="52" font="vector" ratio="20" rot="MR0" align="bottom-center">GND</text>
-<text x="26.416" y="33.528" size="0.8128" layer="52" font="vector" ratio="20" rot="MR0" align="bottom-right">IO0</text>
+<text x="26.416" y="33.655" size="0.8128" layer="52" font="vector" ratio="20" rot="MR0" align="bottom-right">IO0</text>
 <text x="23.495" y="30.861" size="0.8128" layer="52" font="vector" ratio="20" rot="MR180" align="bottom-right">EN</text>
-<text x="24.765" y="30.861" size="0.8128" layer="52" font="vector" ratio="20" rot="MR180" align="bottom-center">TXD</text>
-<text x="26.416" y="30.988" size="0.8128" layer="52" font="vector" ratio="20" rot="MR0" align="top-right">RXD</text>
+<text x="24.892" y="30.861" size="0.8128" layer="52" font="vector" ratio="20" rot="MR180" align="bottom-center">TXD</text>
+<text x="26.416" y="30.861" size="0.8128" layer="52" font="vector" ratio="20" rot="MR0" align="top-right">RXD</text>
 <text x="53.594" y="18.415" size="0.8128" layer="52" font="vector" ratio="20" rot="MR90" align="bottom-center">GND</text>
 <text x="53.594" y="18.415" size="0.8128" layer="51" font="vector" ratio="20" rot="R270" align="bottom-center">GND</text>
 <text x="13.208" y="2.159" size="0.8128" layer="52" font="vector" ratio="20" rot="MR0" align="center">HLK-5M05</text>
@@ -423,21 +423,6 @@ TODO this</text>
 <wire x1="36.195" y1="25.4" x2="35.56" y2="26.035" width="0.127" layer="52"/>
 <wire x1="35.56" y1="26.035" x2="34.29" y2="26.035" width="0.127" layer="52"/>
 <wire x1="34.29" y1="26.035" x2="33.655" y2="25.4" width="0.127" layer="52"/>
-<wire x1="33.655" y1="25.4" x2="33.02" y2="26.035" width="0.127" layer="52"/>
-<wire x1="33.02" y1="26.035" x2="31.75" y2="26.035" width="0.127" layer="52"/>
-<wire x1="31.75" y1="26.035" x2="31.115" y2="25.4" width="0.127" layer="52"/>
-<wire x1="31.115" y1="25.4" x2="30.48" y2="26.035" width="0.127" layer="52"/>
-<wire x1="30.48" y1="26.035" x2="29.21" y2="26.035" width="0.127" layer="52"/>
-<wire x1="29.21" y1="26.035" x2="28.575" y2="25.4" width="0.127" layer="52"/>
-<wire x1="28.575" y1="25.4" x2="27.94" y2="26.035" width="0.127" layer="52"/>
-<wire x1="27.94" y1="26.035" x2="26.67" y2="26.035" width="0.127" layer="52"/>
-<wire x1="26.67" y1="26.035" x2="26.035" y2="25.4" width="0.127" layer="52"/>
-<wire x1="26.035" y1="25.4" x2="25.4" y2="26.035" width="0.127" layer="52"/>
-<wire x1="25.4" y1="26.035" x2="24.13" y2="26.035" width="0.127" layer="52"/>
-<wire x1="24.13" y1="26.035" x2="23.495" y2="25.4" width="0.127" layer="52"/>
-<wire x1="23.495" y1="25.4" x2="22.86" y2="26.035" width="0.127" layer="52"/>
-<wire x1="22.86" y1="26.035" x2="21.59" y2="26.035" width="0.127" layer="52"/>
-<wire x1="21.59" y1="26.035" x2="20.955" y2="25.4" width="0.127" layer="52"/>
 <wire x1="20.955" y1="25.4" x2="20.955" y2="24.13" width="0.127" layer="52"/>
 <wire x1="20.955" y1="24.13" x2="21.59" y2="23.495" width="0.127" layer="52"/>
 <wire x1="21.59" y1="23.495" x2="22.86" y2="23.495" width="0.127" layer="52"/>
@@ -549,7 +534,7 @@ TODO this</text>
 <text x="40.005" y="26.162" size="0.8128" layer="52" font="vector" ratio="20" rot="MR0" align="bottom-center">33</text>
 <text x="37.465" y="26.162" size="0.8128" layer="52" font="vector" ratio="20" rot="MR0" align="bottom-center">25</text>
 <text x="34.925" y="26.162" size="0.8128" layer="52" font="vector" ratio="20" rot="MR0" align="bottom-center">26</text>
-<text x="32.385" y="26.162" size="0.8128" layer="52" font="vector" ratio="20" rot="MR0" align="bottom-center">27</text>
+<text x="32.639" y="26.162" size="0.8128" layer="52" font="vector" ratio="20" rot="MR0" align="bottom-center">27</text>
 <text x="51.562" y="25.4" size="0.8128" layer="52" font="vector" ratio="20" rot="MR0" align="bottom-center">G</text>
 <text x="51.308" y="27.686" size="0.8128" layer="52" font="vector" ratio="20" rot="MR270" align="bottom-center">16</text>
 <text x="51.308" y="29.845" size="0.8128" layer="52" font="vector" ratio="20" rot="MR270" align="bottom-center">17</text>
@@ -559,21 +544,6 @@ TODO this</text>
 <text x="51.308" y="37.465" size="0.8128" layer="52" font="vector" ratio="20" rot="MR270" align="bottom-center">19</text>
 <text x="51.308" y="40.005" size="0.8128" layer="52" font="vector" ratio="20" rot="MR270" align="bottom-center">3V3</text>
 <text x="51.308" y="42.545" size="0.8128" layer="52" font="vector" ratio="20" rot="MR270" align="bottom-center">23</text>
-<text x="28.575" y="28.448" size="0.8128" layer="52" font="vector" ratio="20" rot="MR0" align="bottom-center">22</text>
-<wire x1="27.94" y1="26.035" x2="28.321" y2="26.543" width="0.127" layer="52"/>
-<wire x1="28.321" y1="26.543" x2="28.575" y2="27.559" width="0.127" layer="52" curve="36.869898"/>
-<wire x1="28.575" y1="27.559" x2="28.575" y2="28.321" width="0.127" layer="52"/>
-<text x="26.035" y="28.448" size="0.8128" layer="52" font="vector" ratio="20" rot="MR0" align="bottom-center">GND</text>
-<wire x1="25.4" y1="26.035" x2="25.781" y2="26.543" width="0.127" layer="52"/>
-<wire x1="25.781" y1="26.543" x2="26.035" y2="27.559" width="0.127" layer="52" curve="36.869898"/>
-<wire x1="26.035" y1="27.559" x2="26.035" y2="28.321" width="0.127" layer="52"/>
-<text x="23.495" y="28.448" size="0.8128" layer="52" font="vector" ratio="20" rot="MR0" align="bottom-center">3V3</text>
-<wire x1="23.241" y1="26.543" x2="23.495" y2="27.559" width="0.127" layer="52" curve="36.869898"/>
-<wire x1="23.495" y1="27.559" x2="23.495" y2="28.321" width="0.127" layer="52"/>
-<text x="31.115" y="28.448" size="0.8128" layer="52" font="vector" ratio="20" rot="MR0" align="bottom-center">21</text>
-<wire x1="30.48" y1="26.035" x2="30.861" y2="26.543" width="0.127" layer="52"/>
-<wire x1="30.861" y1="26.543" x2="31.115" y2="27.559" width="0.127" layer="52" curve="36.869898"/>
-<wire x1="31.115" y1="27.559" x2="31.115" y2="28.321" width="0.127" layer="52"/>
 <wire x1="3.81" y1="28.575" x2="3.175" y2="29.21" width="0.127" layer="52"/>
 <wire x1="3.175" y1="29.21" x2="3.175" y2="30.48" width="0.127" layer="52"/>
 <wire x1="3.175" y1="30.48" x2="3.81" y2="31.115" width="0.127" layer="52"/>
@@ -712,47 +682,21 @@ TODO this</text>
 <wire x1="53.34" y1="46.355" x2="51.943" y2="46.355" width="0.127" layer="51"/>
 <wire x1="51.943" y1="46.355" x2="51.689" y2="46.101" width="0.127" layer="51"/>
 <wire x1="20.955" y1="24.13" x2="20.955" y2="25.4" width="0.127" layer="51"/>
-<wire x1="20.955" y1="25.4" x2="21.59" y2="26.035" width="0.127" layer="51"/>
 <wire x1="21.59" y1="26.035" x2="22.86" y2="26.035" width="0.127" layer="51"/>
 <wire x1="22.86" y1="26.035" x2="23.495" y2="25.4" width="0.127" layer="51"/>
 <wire x1="23.495" y1="25.4" x2="24.13" y2="26.035" width="0.127" layer="51"/>
-<wire x1="24.13" y1="26.035" x2="25.4" y2="26.035" width="0.127" layer="51"/>
-<wire x1="25.4" y1="26.035" x2="26.035" y2="25.4" width="0.127" layer="51"/>
-<wire x1="26.035" y1="25.4" x2="26.67" y2="26.035" width="0.127" layer="51"/>
-<wire x1="26.67" y1="26.035" x2="27.94" y2="26.035" width="0.127" layer="51"/>
-<wire x1="27.94" y1="26.035" x2="28.575" y2="25.4" width="0.127" layer="51"/>
-<wire x1="28.575" y1="25.4" x2="29.21" y2="26.035" width="0.127" layer="51"/>
-<wire x1="29.21" y1="26.035" x2="30.48" y2="26.035" width="0.127" layer="51"/>
-<wire x1="30.48" y1="26.035" x2="31.115" y2="25.4" width="0.127" layer="51"/>
-<wire x1="31.115" y1="25.4" x2="31.75" y2="26.035" width="0.127" layer="51"/>
-<wire x1="31.75" y1="26.035" x2="33.02" y2="26.035" width="0.127" layer="51"/>
-<wire x1="33.02" y1="26.035" x2="33.655" y2="25.4" width="0.127" layer="51"/>
 <wire x1="5.715" y1="29.21" x2="5.461" y2="28.956" width="0.127" layer="51"/>
 <wire x1="5.715" y1="28.067" x2="5.207" y2="27.559" width="0.127" layer="51"/>
-<text x="23.495" y="28.448" size="0.8128" layer="52" font="vector" ratio="20" rot="MR0" align="bottom-center">3V3</text>
-<wire x1="22.86" y1="26.035" x2="23.241" y2="26.543" width="0.127" layer="52"/>
-<text x="20.955" y="28.448" size="0.8128" layer="51" font="vector" ratio="20" align="bottom-center">3V3</text>
-<wire x1="21.59" y1="26.035" x2="21.209" y2="26.543" width="0.127" layer="51"/>
-<wire x1="21.209" y1="26.543" x2="20.955" y2="27.305" width="0.127" layer="51" curve="-36.869898"/>
-<wire x1="20.955" y1="27.305" x2="20.955" y2="28.321" width="0.127" layer="51"/>
-<text x="23.495" y="28.448" size="0.8128" layer="51" font="vector" ratio="20" align="bottom-center">GND</text>
-<wire x1="24.13" y1="26.035" x2="23.749" y2="26.543" width="0.127" layer="51"/>
-<wire x1="23.749" y1="26.543" x2="23.495" y2="27.305" width="0.127" layer="51" curve="-36.869898"/>
-<wire x1="23.495" y1="27.305" x2="23.495" y2="28.321" width="0.127" layer="51"/>
-<text x="26.035" y="28.448" size="0.8128" layer="51" font="vector" ratio="20" align="bottom-center">22</text>
-<wire x1="26.67" y1="26.035" x2="26.289" y2="26.543" width="0.127" layer="51"/>
-<wire x1="26.289" y1="26.543" x2="26.035" y2="27.305" width="0.127" layer="51" curve="-36.869898"/>
-<wire x1="26.035" y1="27.305" x2="26.035" y2="28.321" width="0.127" layer="51"/>
-<text x="28.575" y="28.448" size="0.8128" layer="51" font="vector" ratio="20" align="bottom-center">21</text>
-<wire x1="29.21" y1="26.035" x2="28.829" y2="26.543" width="0.127" layer="51"/>
-<wire x1="28.829" y1="26.543" x2="28.575" y2="27.305" width="0.127" layer="51" curve="-36.869898"/>
-<wire x1="28.575" y1="27.305" x2="28.575" y2="28.321" width="0.127" layer="51"/>
-<text x="32.385" y="26.162" size="0.8128" layer="51" font="vector" ratio="20" align="bottom-center">27</text>
+<text x="20.193" y="26.035" size="0.8128" layer="51" font="vector" ratio="20" align="bottom-center">3V3</text>
+<text x="25.908" y="25.654" size="0.8128" layer="51" font="vector" ratio="20" align="bottom-center">G</text>
+<text x="28.575" y="25.654" size="0.8128" layer="51" font="vector" ratio="20" align="bottom-center">22</text>
+<text x="31.115" y="25.654" size="0.8128" layer="51" font="vector" ratio="20" align="bottom-center">21</text>
+<text x="32.639" y="25.908" size="0.8128" layer="51" font="vector" ratio="20" align="bottom-center">27</text>
 <text x="34.925" y="25.781" size="0.8128" layer="51" font="vector" ratio="20" align="bottom-center">26</text>
 <text x="37.465" y="25.781" size="0.8128" layer="51" font="vector" ratio="20" align="bottom-center">25</text>
 <text x="40.005" y="25.781" size="0.8128" layer="51" font="vector" ratio="20" align="bottom-center">33</text>
 <text x="45.085" y="25.781" size="0.8128" layer="51" font="vector" ratio="20" align="bottom-center">2</text>
-<text x="47.625" y="26.162" size="0.8128" layer="51" font="vector" ratio="20" align="bottom-center">4</text>
+<text x="47.625" y="25.781" size="0.8128" layer="51" font="vector" ratio="20" align="bottom-center">4</text>
 <wire x1="33.655" y1="25.4" x2="34.036" y2="25.781" width="0.127" layer="51"/>
 <wire x1="36.195" y1="25.4" x2="35.814" y2="25.781" width="0.127" layer="51"/>
 <wire x1="36.195" y1="25.4" x2="36.576" y2="25.781" width="0.127" layer="51"/>
@@ -764,17 +708,11 @@ TODO this</text>
 <wire x1="43.815" y1="25.4" x2="44.45" y2="26.035" width="0.127" layer="51"/>
 <wire x1="46.355" y1="25.4" x2="45.72" y2="26.035" width="0.127" layer="51"/>
 <wire x1="46.355" y1="25.4" x2="46.99" y2="26.035" width="0.127" layer="51"/>
-<wire x1="46.99" y1="26.035" x2="48.26" y2="26.035" width="0.127" layer="51"/>
 <wire x1="48.26" y1="26.035" x2="48.895" y2="25.4" width="0.127" layer="51"/>
-<wire x1="48.895" y1="25.4" x2="49.53" y2="26.035" width="0.127" layer="51"/>
-<wire x1="49.53" y1="26.035" x2="50.8" y2="26.035" width="0.127" layer="51"/>
 <text x="51.562" y="25.4" size="0.8128" layer="51" font="vector" ratio="20" align="bottom-center">G</text>
 <wire x1="51.181" y1="25.654" x2="50.8" y2="26.035" width="0.127" layer="51"/>
-<wire x1="52.07" y1="26.035" x2="51.435" y2="26.67" width="0.127" layer="51"/>
-<wire x1="51.435" y1="26.67" x2="51.435" y2="27.94" width="0.127" layer="51"/>
-<wire x1="51.435" y1="27.94" x2="52.07" y2="28.575" width="0.127" layer="51"/>
-<text x="51.308" y="27.686" size="0.8128" layer="51" font="vector" ratio="20" rot="R90" align="bottom-center">16</text>
-<text x="49.53" y="26.162" size="0.8128" layer="51" font="vector" ratio="20" align="bottom-center">3V3</text>
+<text x="51.562" y="27.305" size="0.8128" layer="51" font="vector" ratio="20" rot="R90" align="bottom-center">16</text>
+<text x="49.657" y="25.781" size="0.8128" layer="51" font="vector" ratio="20" align="bottom-center">3V3</text>
 <text x="51.562" y="29.845" size="0.8128" layer="51" font="vector" ratio="20" rot="R90" align="bottom-center">17</text>
 <text x="51.562" y="32.385" size="0.8128" layer="51" font="vector" ratio="20" rot="R90" align="bottom-center">5</text>
 <text x="51.562" y="34.925" size="0.8128" layer="51" font="vector" ratio="20" rot="R90" align="bottom-center">18</text>
@@ -810,6 +748,33 @@ TODO this</text>
 <text x="12.827" y="47.371" size="0.8128" layer="52" font="vector" ratio="20" rot="MR180" align="center">GND</text>
 <wire x1="51.435" y1="24.13" x2="50.8" y2="23.495" width="0.127" layer="51"/>
 <wire x1="50.8" y1="23.495" x2="51.435" y2="24.13" width="0.127" layer="52"/>
+<wire x1="33.655" y1="25.4" x2="33.274" y2="25.781" width="0.127" layer="51"/>
+<wire x1="29.337" y1="26.035" x2="30.353" y2="26.035" width="0.127" layer="51"/>
+<wire x1="27.813" y1="26.035" x2="26.67" y2="26.035" width="0.127" layer="51"/>
+<wire x1="26.67" y1="26.035" x2="26.162" y2="25.527" width="0.127" layer="51"/>
+<wire x1="25.4" y1="26.035" x2="24.13" y2="26.035" width="0.127" layer="51"/>
+<wire x1="29.337" y1="26.035" x2="29.21" y2="25.908" width="0.127" layer="51"/>
+<wire x1="31.75" y1="25.908" x2="31.877" y2="26.035" width="0.127" layer="51"/>
+<wire x1="21.463" y1="25.527" x2="21.082" y2="25.908" width="0.127" layer="51" curve="-45"/>
+<text x="20.193" y="26.035" size="0.8128" layer="52" font="vector" ratio="20" rot="MR0" align="bottom-center">3V3</text>
+<text x="25.908" y="25.654" size="0.8128" layer="52" font="vector" ratio="20" rot="MR0" align="bottom-center">G</text>
+<text x="28.575" y="25.654" size="0.8128" layer="52" font="vector" ratio="20" rot="MR0" align="bottom-center">22</text>
+<text x="31.115" y="25.654" size="0.8128" layer="52" font="vector" ratio="20" rot="MR0" align="bottom-center">21</text>
+<wire x1="21.59" y1="26.035" x2="22.86" y2="26.035" width="0.127" layer="52"/>
+<wire x1="22.86" y1="26.035" x2="23.495" y2="25.4" width="0.127" layer="52"/>
+<wire x1="23.495" y1="25.4" x2="24.13" y2="26.035" width="0.127" layer="52"/>
+<wire x1="24.13" y1="26.035" x2="25.4" y2="26.035" width="0.127" layer="52"/>
+<wire x1="26.162" y1="25.527" x2="26.67" y2="26.035" width="0.127" layer="52"/>
+<wire x1="26.67" y1="26.035" x2="27.813" y2="26.035" width="0.127" layer="52"/>
+<wire x1="29.21" y1="25.908" x2="29.337" y2="26.035" width="0.127" layer="52"/>
+<wire x1="29.337" y1="26.035" x2="30.353" y2="26.035" width="0.127" layer="52"/>
+<wire x1="31.75" y1="25.908" x2="31.877" y2="26.035" width="0.127" layer="52"/>
+<wire x1="33.655" y1="25.4" x2="33.02" y2="26.035" width="0.127" layer="52"/>
+<wire x1="33.02" y1="26.035" x2="31.877" y2="26.035" width="0.127" layer="52"/>
+<wire x1="21.463" y1="25.527" x2="21.082" y2="25.908" width="0.127" layer="52" curve="-45"/>
+<wire x1="52.07" y1="26.035" x2="51.562" y2="26.543" width="0.127" layer="51"/>
+<wire x1="52.07" y1="28.575" x2="51.562" y2="28.067" width="0.127" layer="51"/>
+<wire x1="48.895" y1="25.4" x2="49.149" y2="25.654" width="0.127" layer="51"/>
 </plain>
 <libraries>
 <library name="esp32">
