@@ -19762,7 +19762,8 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <sheet>
 <plain>
 <text x="32.512" y="151.384" size="1.778" layer="97" rot="R180" align="bottom-center">AP2112K-3.3
-(RT9080-33GJ5)</text>
+(RT9080-33GJ5)
+(XC6220B331MR-G)</text>
 </plain>
 <instances>
 <instance part="U2" gate="G$1" x="200.66" y="193.04" smashed="yes">
