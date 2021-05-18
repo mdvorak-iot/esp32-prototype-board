@@ -686,12 +686,11 @@ TODO this</text>
 <wire x1="22.86" y1="26.035" x2="23.495" y2="25.4" width="0.127" layer="51"/>
 <wire x1="23.495" y1="25.4" x2="24.13" y2="26.035" width="0.127" layer="51"/>
 <wire x1="5.715" y1="29.21" x2="5.461" y2="28.956" width="0.127" layer="51"/>
-<wire x1="5.715" y1="28.067" x2="5.207" y2="27.559" width="0.127" layer="51"/>
 <text x="20.193" y="26.035" size="0.8128" layer="51" font="vector" ratio="20" align="bottom-center">3V3</text>
 <text x="25.908" y="25.654" size="0.8128" layer="51" font="vector" ratio="20" align="bottom-center">G</text>
 <text x="28.575" y="25.654" size="0.8128" layer="51" font="vector" ratio="20" align="bottom-center">22</text>
 <text x="31.115" y="25.654" size="0.8128" layer="51" font="vector" ratio="20" align="bottom-center">21</text>
-<text x="32.639" y="25.908" size="0.8128" layer="51" font="vector" ratio="20" align="bottom-center">27</text>
+<text x="32.639" y="25.781" size="0.8128" layer="51" font="vector" ratio="20" align="bottom-center">27</text>
 <text x="34.925" y="25.781" size="0.8128" layer="51" font="vector" ratio="20" align="bottom-center">26</text>
 <text x="37.465" y="25.781" size="0.8128" layer="51" font="vector" ratio="20" align="bottom-center">25</text>
 <text x="40.005" y="25.781" size="0.8128" layer="51" font="vector" ratio="20" align="bottom-center">33</text>
@@ -740,7 +739,6 @@ TODO this</text>
 <wire x1="5.715" y1="35.56" x2="5.715" y2="35.306" width="0.127" layer="52"/>
 <wire x1="5.715" y1="29.464" x2="5.715" y2="29.21" width="0.127" layer="52"/>
 <text x="5.715" y="28.067" size="0.8128" layer="52" font="vector" ratio="20" rot="MR0" align="bottom-center">39</text>
-<wire x1="5.715" y1="28.067" x2="5.207" y2="27.559" width="0.127" layer="52"/>
 <wire x1="5.715" y1="29.21" x2="5.461" y2="28.956" width="0.127" layer="52"/>
 <wire x1="4.953" y1="28.575" x2="3.81" y2="28.575" width="0.127" layer="51"/>
 <wire x1="51.435" y1="45.72" x2="51.435" y2="44.45" width="0.127" layer="52"/>
@@ -775,6 +773,8 @@ TODO this</text>
 <wire x1="52.07" y1="26.035" x2="51.562" y2="26.543" width="0.127" layer="51"/>
 <wire x1="52.07" y1="28.575" x2="51.562" y2="28.067" width="0.127" layer="51"/>
 <wire x1="48.895" y1="25.4" x2="49.149" y2="25.654" width="0.127" layer="51"/>
+<wire x1="5.715" y1="27.94" x2="5.334" y2="27.559" width="0.127" layer="51" curve="-45"/>
+<wire x1="5.715" y1="27.94" x2="5.334" y2="27.559" width="0.127" layer="52" curve="-45"/>
 </plain>
 <libraries>
 <library name="esp32">
