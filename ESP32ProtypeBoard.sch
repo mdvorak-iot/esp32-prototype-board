@@ -19400,10 +19400,6 @@ Created by Upverter.com</description>
 <wire x1="0.875" y1="-1.525" x2="-0.875" y2="-1.525" width="0.15" layer="51"/>
 <wire x1="-0.425" y1="1.525" x2="0.425" y2="1.525" width="0.15" layer="21"/>
 <wire x1="-0.425" y1="-1.525" x2="0.425" y2="-1.525" width="0.15" layer="21"/>
-<wire x1="-2" y1="-1.625" x2="-2" y2="1.625" width="0.1" layer="41"/>
-<wire x1="-2" y1="1.625" x2="2" y2="1.625" width="0.1" layer="41"/>
-<wire x1="2" y1="1.625" x2="2" y2="-1.625" width="0.1" layer="41"/>
-<wire x1="2" y1="-1.625" x2="-2" y2="-1.625" width="0.1" layer="41"/>
 <text x="-1.8" y="1.9" size="1" layer="25">&gt;NAME</text>
 <circle x="-2.45" y="0.95" radius="0.25" width="0" layer="21"/>
 <smd name="1" x="-1.35" y="0.95" dx="1.1" dy="0.6" layer="1" roundness="17"/>
@@ -21434,7 +21430,7 @@ Created by Upverter.com</description>
 <wire x1="33.02" y1="212.09" x2="52.07" y2="212.09" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="FB" class="0">
+<net name="VFB" class="0">
 <segment>
 <pinref part="R13" gate="G$1" pin="2"/>
 <pinref part="R12" gate="G$1" pin="1"/>
@@ -21509,7 +21505,7 @@ Created by Upverter.com</description>
 <label x="226.06" y="170.18" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="N$12" class="0">
+<net name="VBST" class="0">
 <segment>
 <pinref part="C7" gate="G$1" pin="2"/>
 <wire x1="59.69" y1="212.09" x2="73.66" y2="212.09" width="0.1524" layer="91"/>
@@ -21518,7 +21514,7 @@ Created by Upverter.com</description>
 <wire x1="73.66" y1="203.2" x2="71.12" y2="203.2" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="N$14" class="0">
+<net name="VEN" class="0">
 <segment>
 <pinref part="U3" gate="G$0" pin="EN"/>
 <pinref part="R3" gate="G$1" pin="2"/>
