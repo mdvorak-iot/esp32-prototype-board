@@ -16480,87 +16480,6 @@ Source: &lt;a href="http://www.fairchildsemi.com/datasheets/BS/BSS138.pdf"&gt;ht
 </deviceset>
 </devicesets>
 </library>
-<library name="ACT4088US-T">
-<description>&lt;IC REG BUCK ADJ 1.5A SOT23-6&lt;/b&gt;&lt;p&gt;
-&lt;author&gt;Created by SamacSys&lt;/author&gt;</description>
-<packages>
-<package name="SOT95P280X145-6N">
-<description>&lt;b&gt;SOT23-6 PACKAGE OUTLINE AND DIMENSIONS&lt;/b&gt;&lt;br&gt;
-</description>
-<smd name="1" x="-1.25" y="0.95" dx="1.15" dy="0.6" layer="1"/>
-<smd name="2" x="-1.25" y="0" dx="1.15" dy="0.6" layer="1"/>
-<smd name="3" x="-1.25" y="-0.95" dx="1.15" dy="0.6" layer="1"/>
-<smd name="4" x="1.25" y="-0.95" dx="1.15" dy="0.6" layer="1"/>
-<smd name="5" x="1.25" y="0" dx="1.15" dy="0.6" layer="1"/>
-<smd name="6" x="1.25" y="0.95" dx="1.15" dy="0.6" layer="1"/>
-<text x="0" y="0" size="1.27" layer="25" align="center">&gt;NAME</text>
-<text x="0" y="0" size="1.27" layer="27" align="center">&gt;VALUE</text>
-<wire x1="-2.075" y1="1.7" x2="2.075" y2="1.7" width="0.05" layer="51"/>
-<wire x1="2.075" y1="1.7" x2="2.075" y2="-1.7" width="0.05" layer="51"/>
-<wire x1="2.075" y1="-1.7" x2="-2.075" y2="-1.7" width="0.05" layer="51"/>
-<wire x1="-2.075" y1="-1.7" x2="-2.075" y2="1.7" width="0.05" layer="51"/>
-<wire x1="-0.8" y1="1.45" x2="0.8" y2="1.45" width="0.1" layer="51"/>
-<wire x1="0.8" y1="1.45" x2="0.8" y2="-1.45" width="0.1" layer="51"/>
-<wire x1="0.8" y1="-1.45" x2="-0.8" y2="-1.45" width="0.1" layer="51"/>
-<wire x1="-0.8" y1="-1.45" x2="-0.8" y2="1.45" width="0.1" layer="51"/>
-<wire x1="-0.8" y1="0.5" x2="0.15" y2="1.45" width="0.1" layer="51"/>
-<wire x1="-0.325" y1="1.45" x2="0.325" y2="1.45" width="0.2" layer="21"/>
-<wire x1="0.325" y1="1.45" x2="0.325" y2="-1.45" width="0.2" layer="21"/>
-<wire x1="0.325" y1="-1.45" x2="-0.325" y2="-1.45" width="0.2" layer="21"/>
-<wire x1="-0.325" y1="-1.45" x2="-0.325" y2="1.45" width="0.2" layer="21"/>
-<wire x1="-1.825" y1="1.6" x2="-0.675" y2="1.6" width="0.2" layer="21"/>
-</package>
-</packages>
-<symbols>
-<symbol name="ACT4088US-T">
-<wire x1="5.08" y1="2.54" x2="20.32" y2="2.54" width="0.254" layer="94"/>
-<wire x1="20.32" y1="-7.62" x2="20.32" y2="2.54" width="0.254" layer="94"/>
-<wire x1="20.32" y1="-7.62" x2="5.08" y2="-7.62" width="0.254" layer="94"/>
-<wire x1="5.08" y1="2.54" x2="5.08" y2="-7.62" width="0.254" layer="94"/>
-<text x="21.59" y="7.62" size="1.778" layer="95" align="center-left">&gt;NAME</text>
-<text x="21.59" y="5.08" size="1.778" layer="96" align="center-left">&gt;VALUE</text>
-<pin name="SW" x="0" y="0" length="middle"/>
-<pin name="IN" x="0" y="-2.54" length="middle"/>
-<pin name="EN" x="0" y="-5.08" length="middle"/>
-<pin name="BST" x="25.4" y="0" length="middle" rot="R180"/>
-<pin name="G" x="25.4" y="-2.54" length="middle" rot="R180"/>
-<pin name="FB" x="25.4" y="-5.08" length="middle" rot="R180"/>
-</symbol>
-</symbols>
-<devicesets>
-<deviceset name="ACT4088US-T" prefix="IC">
-<description>&lt;b&gt;IC REG BUCK ADJ 1.5A SOT23-6&lt;/b&gt;&lt;p&gt;
-Source: &lt;a href="https://active-semi.com/wp-content/uploads/ACT4088_Datasheet.pdf"&gt; Datasheet &lt;/a&gt;</description>
-<gates>
-<gate name="G$1" symbol="ACT4088US-T" x="0" y="0"/>
-</gates>
-<devices>
-<device name="" package="SOT95P280X145-6N">
-<connects>
-<connect gate="G$1" pin="BST" pad="6"/>
-<connect gate="G$1" pin="EN" pad="3"/>
-<connect gate="G$1" pin="FB" pad="4"/>
-<connect gate="G$1" pin="G" pad="5"/>
-<connect gate="G$1" pin="IN" pad="2"/>
-<connect gate="G$1" pin="SW" pad="1"/>
-</connects>
-<technologies>
-<technology name="">
-<attribute name="ARROW_PART_NUMBER" value="" constant="no"/>
-<attribute name="ARROW_PRICE-STOCK" value="" constant="no"/>
-<attribute name="DESCRIPTION" value="IC REG BUCK ADJ 1.5A SOT23-6" constant="no"/>
-<attribute name="HEIGHT" value="1.45mm" constant="no"/>
-<attribute name="MANUFACTURER_NAME" value="Qorvo" constant="no"/>
-<attribute name="MANUFACTURER_PART_NUMBER" value="ACT4088US-T" constant="no"/>
-<attribute name="MOUSER_PART_NUMBER" value="107-ACT4088US-T" constant="no"/>
-<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/Qorvo/ACT4088US-T?qs=QQJxVsr8EGZznLQLhk8tEQ%3D%3D" constant="no"/>
-</technology>
-</technologies>
-</device>
-</devices>
-</deviceset>
-</devicesets>
-</library>
 <library name="TYA40124R7M-10">
 <description>&lt;Fixed Inductors 4.7uH 2.3A 20% Wire Wound&lt;/b&gt;&lt;p&gt;
 &lt;author&gt;Created by SamacSys&lt;/author&gt;</description>
@@ -16617,79 +16536,6 @@ Source: &lt;a href=""&gt; Datasheet &lt;/a&gt;</description>
 <attribute name="MANUFACTURER_PART_NUMBER" value="TYA40124R7M-10" constant="no"/>
 <attribute name="MOUSER_PART_NUMBER" value="" constant="no"/>
 <attribute name="MOUSER_PRICE-STOCK" value="" constant="no"/>
-</technology>
-</technologies>
-</device>
-</devices>
-</deviceset>
-</devicesets>
-</library>
-<library name="B240AE-13">
-<description>&lt;Schottky Diodes &amp; Rectifiers Schottky Rectifier&lt;/b&gt;&lt;p&gt;
-&lt;author&gt;Created by SamacSys&lt;/author&gt;</description>
-<packages>
-<package name="DIOC4326X240N">
-<description>&lt;b&gt;B240AE-13&lt;/b&gt;&lt;br&gt;
-</description>
-<smd name="1" x="-1.7" y="0" dx="2.95" dy="1.95" layer="1" rot="R90"/>
-<smd name="2" x="1.7" y="0" dx="2.95" dy="1.95" layer="1" rot="R90"/>
-<text x="0" y="0" size="1.27" layer="25" align="center">&gt;NAME</text>
-<text x="0" y="0" size="1.27" layer="27" align="center">&gt;VALUE</text>
-<wire x1="-3.125" y1="1.925" x2="3.125" y2="1.925" width="0.05" layer="51"/>
-<wire x1="3.125" y1="1.925" x2="3.125" y2="-1.925" width="0.05" layer="51"/>
-<wire x1="3.125" y1="-1.925" x2="-3.125" y2="-1.925" width="0.05" layer="51"/>
-<wire x1="-3.125" y1="-1.925" x2="-3.125" y2="1.925" width="0.05" layer="51"/>
-<wire x1="-2.15" y1="1.302" x2="2.15" y2="1.302" width="0.1" layer="51"/>
-<wire x1="2.15" y1="1.302" x2="2.15" y2="-1.302" width="0.1" layer="51"/>
-<wire x1="2.15" y1="-1.302" x2="-2.15" y2="-1.302" width="0.1" layer="51"/>
-<wire x1="-2.15" y1="-1.302" x2="-2.15" y2="1.302" width="0.1" layer="51"/>
-<wire x1="-2.15" y1="0.328" x2="-1.175" y2="1.302" width="0.1" layer="51"/>
-<wire x1="1.7" y1="1.825" x2="-3.025" y2="1.825" width="0.2" layer="21"/>
-<wire x1="-3.025" y1="1.825" x2="-3.025" y2="-1.825" width="0.2" layer="21"/>
-<wire x1="-3.025" y1="-1.825" x2="1.7" y2="-1.825" width="0.2" layer="21"/>
-</package>
-</packages>
-<symbols>
-<symbol name="B240AE-13">
-<wire x1="7.62" y1="2.54" x2="7.62" y2="-2.54" width="0.254" layer="94"/>
-<wire x1="7.62" y1="2.54" x2="8.636" y2="2.54" width="0.254" layer="94"/>
-<wire x1="8.636" y1="1.524" x2="8.636" y2="2.54" width="0.254" layer="94"/>
-<wire x1="7.62" y1="-2.54" x2="6.604" y2="-2.54" width="0.254" layer="94"/>
-<wire x1="6.604" y1="-1.524" x2="6.604" y2="-2.54" width="0.254" layer="94"/>
-<wire x1="5.08" y1="0" x2="7.62" y2="0" width="0.254" layer="94"/>
-<wire x1="12.7" y1="0" x2="15.24" y2="0" width="0.254" layer="94"/>
-<text x="12.7" y="8.89" size="1.778" layer="95" align="center-left">&gt;NAME</text>
-<text x="12.7" y="6.35" size="1.778" layer="96" align="center-left">&gt;VALUE</text>
-<pin name="K" x="2.54" y="0" visible="pad" length="short"/>
-<pin name="A" x="17.78" y="0" visible="pad" length="short" rot="R180"/>
-<polygon width="0.254" layer="94">
-<vertex x="7.62" y="0"/>
-<vertex x="12.7" y="2.54"/>
-<vertex x="12.7" y="-2.54"/>
-</polygon>
-</symbol>
-</symbols>
-<devicesets>
-<deviceset name="B240AE-13" prefix="D">
-<description>&lt;b&gt;Schottky Diodes &amp; Rectifiers Schottky Rectifier&lt;/b&gt;&lt;p&gt;
-Source: &lt;a href="https://componentsearchengine.com/Datasheets/1/B240AE-13.pdf"&gt; Datasheet &lt;/a&gt;</description>
-<gates>
-<gate name="G$1" symbol="B240AE-13" x="0" y="0"/>
-</gates>
-<devices>
-<device name="" package="DIOC4326X240N">
-<connects>
-<connect gate="G$1" pin="A" pad="2"/>
-<connect gate="G$1" pin="K" pad="1"/>
-</connects>
-<technologies>
-<technology name="">
-<attribute name="DESCRIPTION" value="Schottky Diodes &amp; Rectifiers Schottky Rectifier" constant="no"/>
-<attribute name="HEIGHT" value="2.4mm" constant="no"/>
-<attribute name="MANUFACTURER_NAME" value="Diodes Inc." constant="no"/>
-<attribute name="MANUFACTURER_PART_NUMBER" value="B240AE-13" constant="no"/>
-<attribute name="MOUSER_PART_NUMBER" value="621-B240AE-13" constant="no"/>
-<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/Diodes-Incorporated/B240AE-13?qs=AQlKX63v8RtEN213HyLfoA%3D%3D" constant="no"/>
 </technology>
 </technologies>
 </device>
@@ -19541,6 +19387,352 @@ You are welcome to use this library for commercial purposes. For attribution, we
 </deviceset>
 </devicesets>
 </library>
+<library name="TPS562201DDCT">
+<description>Upverter Parts Library
+
+Created by Upverter.com</description>
+<packages>
+<package name="TEXAS_INSTRUMENTS_TPS562201DDCT_0">
+<description>Buck Switching Regulator IC Positive Adjustable 0.768V 1 Output 2A SOT-23-6 Thin, TSOT-23-6</description>
+<wire x1="-0.875" y1="-1.525" x2="-0.875" y2="1.525" width="0.15" layer="51"/>
+<wire x1="-0.875" y1="1.525" x2="0.875" y2="1.525" width="0.15" layer="51"/>
+<wire x1="0.875" y1="1.525" x2="0.875" y2="-1.525" width="0.15" layer="51"/>
+<wire x1="0.875" y1="-1.525" x2="-0.875" y2="-1.525" width="0.15" layer="51"/>
+<wire x1="-0.425" y1="1.525" x2="0.425" y2="1.525" width="0.15" layer="21"/>
+<wire x1="-0.425" y1="-1.525" x2="0.425" y2="-1.525" width="0.15" layer="21"/>
+<wire x1="-2" y1="-1.625" x2="-2" y2="1.625" width="0.1" layer="41"/>
+<wire x1="-2" y1="1.625" x2="2" y2="1.625" width="0.1" layer="41"/>
+<wire x1="2" y1="1.625" x2="2" y2="-1.625" width="0.1" layer="41"/>
+<wire x1="2" y1="-1.625" x2="-2" y2="-1.625" width="0.1" layer="41"/>
+<text x="-1.8" y="1.9" size="1" layer="25">&gt;NAME</text>
+<circle x="-2.45" y="0.95" radius="0.25" width="0" layer="21"/>
+<smd name="1" x="-1.35" y="0.95" dx="1.1" dy="0.6" layer="1" roundness="17"/>
+<smd name="2" x="-1.35" y="0" dx="1.1" dy="0.6" layer="1" roundness="17"/>
+<smd name="3" x="-1.35" y="-0.95" dx="1.1" dy="0.6" layer="1" roundness="17"/>
+<smd name="4" x="1.35" y="-0.95" dx="1.1" dy="0.6" layer="1" roundness="17"/>
+<smd name="5" x="1.35" y="0" dx="1.1" dy="0.6" layer="1" roundness="17"/>
+<smd name="6" x="1.35" y="0.95" dx="1.1" dy="0.6" layer="1" roundness="17"/>
+</package>
+<package name="TEXAS_INSTRUMENTS_TPS562201DDCT_1">
+<description>Buck Switching Regulator IC Positive Adjustable 0.768V 1 Output 2A SOT-23-6 Thin, TSOT-23-6</description>
+<wire x1="-0.8" y1="-1.45" x2="-0.8" y2="1.45" width="0.15" layer="51"/>
+<wire x1="-0.8" y1="1.45" x2="0.8" y2="1.45" width="0.15" layer="51"/>
+<wire x1="0.8" y1="1.45" x2="0.8" y2="-1.45" width="0.15" layer="51"/>
+<wire x1="0.8" y1="-1.45" x2="-0.8" y2="-1.45" width="0.15" layer="51"/>
+<wire x1="-2.577" y1="-1.95" x2="-2.577" y2="1.95" width="0.1" layer="41"/>
+<wire x1="-2.577" y1="1.95" x2="2.577" y2="1.95" width="0.1" layer="41"/>
+<wire x1="2.577" y1="1.95" x2="2.577" y2="-1.95" width="0.1" layer="41"/>
+<wire x1="2.577" y1="-1.95" x2="-2.577" y2="-1.95" width="0.1" layer="41"/>
+<wire x1="-1.4" y1="-1.7" x2="1.4" y2="-1.7" width="0.15" layer="21"/>
+<wire x1="-1.4" y1="1.7" x2="1.4" y2="1.7" width="0.15" layer="21"/>
+<text x="-2.652" y="2.175" size="1" layer="25">&gt;NAME</text>
+<circle x="-2.65" y="0.95" radius="0.25" width="0" layer="21"/>
+<smd name="1" x="-1.15" y="0.95" dx="1.854" dy="0.612" layer="1"/>
+<smd name="2" x="-1.15" y="0" dx="1.854" dy="0.612" layer="1" roundness="100"/>
+<smd name="3" x="-1.15" y="-0.95" dx="1.854" dy="0.612" layer="1" roundness="100"/>
+<smd name="4" x="1.15" y="-0.95" dx="1.854" dy="0.612" layer="1" roundness="100"/>
+<smd name="5" x="1.15" y="0" dx="1.854" dy="0.612" layer="1" roundness="100"/>
+<smd name="6" x="1.15" y="0.95" dx="1.854" dy="0.612" layer="1" roundness="100"/>
+</package>
+<package name="TEXAS_INSTRUMENTS_TPS562201DDCT_2">
+<description>Buck Switching Regulator IC Positive Adjustable 0.768V 1 Output 2A SOT-23-6 Thin, TSOT-23-6</description>
+<wire x1="-0.8" y1="-1.45" x2="-0.8" y2="1.45" width="0.15" layer="51"/>
+<wire x1="-0.8" y1="1.45" x2="0.8" y2="1.45" width="0.15" layer="51"/>
+<wire x1="0.8" y1="1.45" x2="0.8" y2="-1.45" width="0.15" layer="51"/>
+<wire x1="0.8" y1="-1.45" x2="-0.8" y2="-1.45" width="0.15" layer="51"/>
+<wire x1="-2.127" y1="-1.7" x2="-2.127" y2="1.7" width="0.1" layer="41"/>
+<wire x1="-2.127" y1="1.7" x2="2.127" y2="1.7" width="0.1" layer="41"/>
+<wire x1="2.127" y1="1.7" x2="2.127" y2="-1.7" width="0.1" layer="41"/>
+<wire x1="2.127" y1="-1.7" x2="-2.127" y2="-1.7" width="0.1" layer="41"/>
+<wire x1="-1.4" y1="-1.7" x2="1.4" y2="-1.7" width="0.15" layer="21"/>
+<wire x1="-1.4" y1="1.7" x2="1.4" y2="1.7" width="0.15" layer="21"/>
+<text x="-2.377" y="2.15" size="1" layer="25">&gt;NAME</text>
+<circle x="-2.45" y="0.95" radius="0.25" width="0" layer="21"/>
+<smd name="1" x="-1.1" y="0.95" dx="1.554" dy="0.572" layer="1"/>
+<smd name="2" x="-1.1" y="0" dx="1.554" dy="0.572" layer="1" roundness="100"/>
+<smd name="3" x="-1.1" y="-0.95" dx="1.554" dy="0.572" layer="1" roundness="100"/>
+<smd name="4" x="1.1" y="-0.95" dx="1.554" dy="0.572" layer="1" roundness="100"/>
+<smd name="5" x="1.1" y="0" dx="1.554" dy="0.572" layer="1" roundness="100"/>
+<smd name="6" x="1.1" y="0.95" dx="1.554" dy="0.572" layer="1" roundness="100"/>
+</package>
+<package name="TEXAS_INSTRUMENTS_TPS562201DDCT_3">
+<description>Buck Switching Regulator IC Positive Adjustable 0.768V 1 Output 2A SOT-23-6 Thin, TSOT-23-6</description>
+<wire x1="-0.8" y1="-1.45" x2="-0.8" y2="1.45" width="0.15" layer="51"/>
+<wire x1="-0.8" y1="1.45" x2="0.8" y2="1.45" width="0.15" layer="51"/>
+<wire x1="0.8" y1="1.45" x2="0.8" y2="-1.45" width="0.15" layer="51"/>
+<wire x1="0.8" y1="-1.45" x2="-0.8" y2="-1.45" width="0.15" layer="51"/>
+<wire x1="-1.777" y1="-1.55" x2="-1.777" y2="1.55" width="0.1" layer="41"/>
+<wire x1="-1.777" y1="1.55" x2="1.777" y2="1.55" width="0.1" layer="41"/>
+<wire x1="1.777" y1="1.55" x2="1.777" y2="-1.55" width="0.1" layer="41"/>
+<wire x1="1.777" y1="-1.55" x2="-1.777" y2="-1.55" width="0.1" layer="41"/>
+<wire x1="-1.4" y1="-1.7" x2="1.4" y2="-1.7" width="0.15" layer="21"/>
+<wire x1="-1.4" y1="1.7" x2="1.4" y2="1.7" width="0.15" layer="21"/>
+<text x="-1.977" y="2.05" size="1" layer="25">&gt;NAME</text>
+<circle x="-2.25" y="0.95" radius="0.25" width="0" layer="21"/>
+<smd name="1" x="-1.05" y="0.95" dx="1.254" dy="0.532" layer="1"/>
+<smd name="2" x="-1.05" y="0" dx="1.254" dy="0.532" layer="1" roundness="100"/>
+<smd name="3" x="-1.05" y="-0.95" dx="1.254" dy="0.532" layer="1" roundness="100"/>
+<smd name="4" x="1.05" y="-0.95" dx="1.254" dy="0.532" layer="1" roundness="100"/>
+<smd name="5" x="1.05" y="0" dx="1.254" dy="0.532" layer="1" roundness="100"/>
+<smd name="6" x="1.05" y="0.95" dx="1.254" dy="0.532" layer="1" roundness="100"/>
+</package>
+</packages>
+<symbols>
+<symbol name="TEXAS_INSTRUMENTS_TPS562201DDCT_0_0">
+<description>Buck Switching Regulator IC Positive Adjustable 0.768V 1 Output 2A SOT-23-6 Thin, TSOT-23-6</description>
+<wire x1="-10.16" y1="-7.62" x2="-10.16" y2="7.62" width="0.254" layer="94"/>
+<wire x1="-10.16" y1="7.62" x2="10.16" y2="7.62" width="0.254" layer="94"/>
+<wire x1="10.16" y1="7.62" x2="10.16" y2="-7.62" width="0.254" layer="94"/>
+<wire x1="10.16" y1="-7.62" x2="-10.16" y2="-7.62" width="0.254" layer="94"/>
+<text x="0" y="8.382" size="2.54" layer="95" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-8.382" size="2.54" layer="95" align="top-center">TPS562201DDCT</text>
+<pin name="VIN" x="-15.24" y="-5.08" length="middle" direction="pwr"/>
+<pin name="EN" x="15.24" y="0" length="middle" direction="in" rot="R180"/>
+<pin name="SW" x="-15.24" y="0" length="middle" direction="pas"/>
+<pin name="VBST" x="15.24" y="5.08" length="middle" direction="pwr" rot="R180"/>
+<pin name="VFB" x="15.24" y="-5.08" length="middle" direction="pas" rot="R180"/>
+<pin name="GND" x="-15.24" y="5.08" length="middle" direction="pwr"/>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="TPS562201DDCT" prefix="U">
+<description>Buck Switching Regulator IC Positive Adjustable 0.768V 1 Output 2A SOT-23-6 Thin, TSOT-23-6</description>
+<gates>
+<gate name="G$0" symbol="TEXAS_INSTRUMENTS_TPS562201DDCT_0_0" x="0" y="0"/>
+</gates>
+<devices>
+<device name="TEXAS_INSTRUMENTS_TPS562201DDCT_0_0" package="TEXAS_INSTRUMENTS_TPS562201DDCT_0">
+<connects>
+<connect gate="G$0" pin="EN" pad="5"/>
+<connect gate="G$0" pin="GND" pad="1"/>
+<connect gate="G$0" pin="SW" pad="2"/>
+<connect gate="G$0" pin="VBST" pad="6"/>
+<connect gate="G$0" pin="VFB" pad="4"/>
+<connect gate="G$0" pin="VIN" pad="3"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="AUTOMOTIVE" value="No"/>
+<attribute name="CENTROID_NOT_SPECIFIED" value="No"/>
+<attribute name="DATASHEET" value="http://www.ti.com/lit/ds/symlink/tps562201.pdf"/>
+<attribute name="DEVICE_CLASS_L1" value="Integrated Circuits (ICs)"/>
+<attribute name="DEVICE_CLASS_L2" value="Power Management ICs"/>
+<attribute name="DEVICE_CLASS_L3" value="Voltage Regulators - Switching"/>
+<attribute name="DIGIKEY_DESCRIPTION" value="IC REG BUCK ADJ 2A TSOT23-6"/>
+<attribute name="DIGIKEY_PART_NUMBER" value="296-43699-1-ND"/>
+<attribute name="FOOTPRINT_PARAMETERS_0" value="{&quot;fp_type&quot;:&quot;SOT23&quot;,&quot;params&quot;:{&quot;N&quot;:{&quot;default&quot;:&quot;6&quot;,&quot;long name&quot;:&quot;Number of leads&quot;,&quot;type&quot;:&quot;multichoice&quot;,&quot;short name&quot;:&quot;N&quot;},&quot;A&quot;:{&quot;nom&quot;:false,&quot;long name&quot;:&quot;Height&quot;,&quot;min&quot;:false,&quot;max&quot;:1100000,&quot;short name&quot;:&quot;A&quot;,&quot;type&quot;:&quot;measurement&quot;},&quot;A1&quot;:{&quot;nom&quot;:false,&quot;long name&quot;:&quot;Package clearance&quot;,&quot;min&quot;:0,&quot;max&quot;:100000,&quot;short name&quot;:&quot;A1&quot;,&quot;type&quot;:&quot;measurement&quot;},&quot;A2&quot;:{&quot;nom&quot;:false,&quot;long name&quot;:&quot;Package height&quot;,&quot;min&quot;:false,&quot;max&quot;:1000000,&quot;short name&quot;:&quot;A2&quot;,&quot;type&quot;:&quot;measurement&quot;},&quot;D&quot;:{&quot;nom&quot;:false,&quot;long name&quot;:&quot;Package length&quot;,&quot;min&quot;:2750000,&quot;max&quot;:3050000,&quot;short name&quot;:&quot;D&quot;,&quot;type&quot;:&quot;measurement&quot;},&quot;E&quot;:{&quot;nom&quot;:false,&quot;long name&quot;:&quot;Width /w leads&quot;,&quot;min&quot;:2550000,&quot;max&quot;:3050000,&quot;short name&quot;:&quot;E&quot;,&quot;type&quot;:&quot;measurement&quot;},&quot;E1&quot;:{&quot;nom&quot;:false,&quot;long name&quot;:&quot;Package width&quot;,&quot;min&quot;:1450000,&quot;max&quot;:1750000,&quot;short name&quot;:&quot;E1&quot;,&quot;type&quot;:&quot;measurement&quot;},&quot;B&quot;:{&quot;nom&quot;:false,&quot;long name&quot;:&quot;Lead width&quot;,&quot;min&quot;:300000,&quot;max&quot;:500000,&quot;short name&quot;:&quot;B&quot;,&quot;type&quot;:&quot;measurement&quot;},&quot;C&quot;:{&quot;nom&quot;:false,&quot;long name&quot;:&quot;Lead thickness&quot;,&quot;min&quot;:120000,&quot;max&quot;:200000,&quot;short name&quot;:&quot;C&quot;,&quot;type&quot;:&quot;measurement&quot;},&quot;L&quot;:{&quot;nom&quot;:false,&quot;long name&quot;:&quot;Lead foot length&quot;,&quot;min&quot;:300000,&quot;max&quot;:600000,&quot;short name&quot;:&quot;L&quot;,&quot;type&quot;:&quot;measurement&quot;},&quot;e&quot;:{&quot;nom&quot;:950000,&quot;long name&quot;:&quot;Lead pitch&quot;,&quot;min&quot;:null,&quot;max&quot;:null,&quot;short name&quot;:&quot;e&quot;,&quot;type&quot;:&quot;measurement&quot;},&quot;PHI&quot;:{&quot;nom&quot;:false,&quot;long name&quot;:&quot;Lead angle&quot;,&quot;min&quot;:0,&quot;max&quot;:8,&quot;short name&quot;:&quot;PHI&quot;,&quot;type&quot;:&quot;measurement&quot;},&quot;offset x&quot;:{&quot;nom&quot;:0,&quot;long name&quot;:&quot;X Center offset&quot;,&quot;min&quot;:null,&quot;max&quot;:null,&quot;short name&quot;:&quot;offset x&quot;,&quot;type&quot;:&quot;measurement&quot;},&quot;offset y&quot;:{&quot;nom&quot;:0,&quot;long name&quot;:&quot;Y Center offset&quot;,&quot;min&quot;:null,&quot;max&quot;:null,&quot;short name&quot;:&quot;offset y&quot;,&quot;type&quot;:&quot;measurement&quot;},&quot;LS&quot;:{&quot;default&quot;:&quot;Rounded rectangle&quot;,&quot;long name&quot;:&quot;Land shape&quot;,&quot;type&quot;:&quot;multichoice&quot;,&quot;short name&quot;:&quot;LS&quot;},&quot;LS1&quot;:{&quot;default&quot;:&quot;Rectangle&quot;,&quot;long name&quot;:&quot;Land shape (Pin 1)&quot;,&quot;type&quot;:&quot;multichoice&quot;,&quot;short name&quot;:&quot;LS1&quot;},&quot;solder toe&quot;:{&quot;nom&quot;:550000,&quot;long name&quot;:&quot;Solder fillet (toe)&quot;,&quot;min&quot;:null,&quot;max&quot;:null,&quot;short name&quot;:&quot;solder toe&quot;,&quot;type&quot;:&quot;fixedmeasurement&quot;},&quot;solder heel&quot;:{&quot;nom&quot;:450000,&quot;long name&quot;:&quot;Solder fillet (heel)&quot;,&quot;min&quot;:null,&quot;max&quot;:null,&quot;short name&quot;:&quot;solder heel&quot;,&quot;type&quot;:&quot;fixedmeasurement&quot;},&quot;solder side&quot;:{&quot;nom&quot;:50000,&quot;long name&quot;:&quot;Solder fillet (side)&quot;,&quot;min&quot;:null,&quot;max&quot;:null,&quot;short name&quot;:&quot;solder side&quot;,&quot;type&quot;:&quot;fixedmeasurement&quot;},&quot;courtyard&quot;:{&quot;nom&quot;:500000,&quot;long name&quot;:&quot;Courtyard&quot;,&quot;min&quot;:null,&quot;max&quot;:null,&quot;short name&quot;:&quot;courtyard&quot;,&quot;type&quot;:&quot;fixedmeasurement&quot;},&quot;SF&quot;:{&quot;default&quot;:&quot;A&quot;,&quot;long name&quot;:&quot;Packing level&quot;,&quot;type&quot;:&quot;multichoiceparent&quot;,&quot;short name&quot;:&quot;SF&quot;,&quot;help&quot;:&quot;http://support.upverter.com/customer/portal/articles/978783-what-is-a-footprint-packing-level&quot;,&quot;children&quot;:[&quot;solder toe&quot;,&quot;solder heel&quot;,&quot;solder side&quot;,&quot;courtyard&quot;]}}}"/>
+<attribute name="FOOTPRINT_PARAMETERS_2" value="{&quot;fp_type&quot;:&quot;SOT23&quot;,&quot;params&quot;:{&quot;N&quot;:{&quot;default&quot;:&quot;6&quot;,&quot;long name&quot;:&quot;Number of leads&quot;,&quot;type&quot;:&quot;multichoice&quot;,&quot;short name&quot;:&quot;N&quot;},&quot;A&quot;:{&quot;nom&quot;:false,&quot;long name&quot;:&quot;Height&quot;,&quot;min&quot;:false,&quot;max&quot;:1100000,&quot;short name&quot;:&quot;A&quot;,&quot;type&quot;:&quot;measurement&quot;},&quot;A1&quot;:{&quot;nom&quot;:false,&quot;long name&quot;:&quot;Package clearance&quot;,&quot;min&quot;:0,&quot;max&quot;:100000,&quot;short name&quot;:&quot;A1&quot;,&quot;type&quot;:&quot;measurement&quot;},&quot;A2&quot;:{&quot;nom&quot;:false,&quot;long name&quot;:&quot;Package height&quot;,&quot;min&quot;:false,&quot;max&quot;:1000000,&quot;short name&quot;:&quot;A2&quot;,&quot;type&quot;:&quot;measurement&quot;},&quot;D&quot;:{&quot;nom&quot;:false,&quot;long name&quot;:&quot;Package length&quot;,&quot;min&quot;:2750000,&quot;max&quot;:3050000,&quot;short name&quot;:&quot;D&quot;,&quot;type&quot;:&quot;measurement&quot;},&quot;E&quot;:{&quot;nom&quot;:false,&quot;long name&quot;:&quot;Width /w leads&quot;,&quot;min&quot;:2550000,&quot;max&quot;:3050000,&quot;short name&quot;:&quot;E&quot;,&quot;type&quot;:&quot;measurement&quot;},&quot;E1&quot;:{&quot;nom&quot;:false,&quot;long name&quot;:&quot;Package width&quot;,&quot;min&quot;:1450000,&quot;max&quot;:1750000,&quot;short name&quot;:&quot;E1&quot;,&quot;type&quot;:&quot;measurement&quot;},&quot;B&quot;:{&quot;nom&quot;:false,&quot;long name&quot;:&quot;Lead width&quot;,&quot;min&quot;:300000,&quot;max&quot;:500000,&quot;short name&quot;:&quot;B&quot;,&quot;type&quot;:&quot;measurement&quot;},&quot;C&quot;:{&quot;nom&quot;:false,&quot;long name&quot;:&quot;Lead thickness&quot;,&quot;min&quot;:120000,&quot;max&quot;:200000,&quot;short name&quot;:&quot;C&quot;,&quot;type&quot;:&quot;measurement&quot;},&quot;L&quot;:{&quot;nom&quot;:false,&quot;long name&quot;:&quot;Lead foot length&quot;,&quot;min&quot;:300000,&quot;max&quot;:600000,&quot;short name&quot;:&quot;L&quot;,&quot;type&quot;:&quot;measurement&quot;},&quot;e&quot;:{&quot;nom&quot;:950000,&quot;long name&quot;:&quot;Lead pitch&quot;,&quot;min&quot;:null,&quot;max&quot;:null,&quot;short name&quot;:&quot;e&quot;,&quot;type&quot;:&quot;measurement&quot;},&quot;PHI&quot;:{&quot;nom&quot;:false,&quot;long name&quot;:&quot;Lead angle&quot;,&quot;min&quot;:0,&quot;max&quot;:8,&quot;short name&quot;:&quot;PHI&quot;,&quot;type&quot;:&quot;measurement&quot;},&quot;offset x&quot;:{&quot;nom&quot;:0,&quot;long name&quot;:&quot;X Center offset&quot;,&quot;min&quot;:null,&quot;max&quot;:null,&quot;short name&quot;:&quot;offset x&quot;,&quot;type&quot;:&quot;measurement&quot;},&quot;offset y&quot;:{&quot;nom&quot;:0,&quot;long name&quot;:&quot;Y Center offset&quot;,&quot;min&quot;:null,&quot;max&quot;:null,&quot;short name&quot;:&quot;offset y&quot;,&quot;type&quot;:&quot;measurement&quot;},&quot;LS&quot;:{&quot;default&quot;:&quot;Rounded rectangle&quot;,&quot;long name&quot;:&quot;Land shape&quot;,&quot;type&quot;:&quot;multichoice&quot;,&quot;short name&quot;:&quot;LS&quot;},&quot;LS1&quot;:{&quot;default&quot;:&quot;Rectangle&quot;,&quot;long name&quot;:&quot;Land shape (Pin 1)&quot;,&quot;type&quot;:&quot;multichoice&quot;,&quot;short name&quot;:&quot;LS1&quot;},&quot;solder toe&quot;:{&quot;nom&quot;:350000,&quot;long name&quot;:&quot;Solder fillet (toe)&quot;,&quot;min&quot;:null,&quot;max&quot;:null,&quot;short name&quot;:&quot;solder toe&quot;,&quot;type&quot;:&quot;fixedmeasurement&quot;},&quot;solder heel&quot;:{&quot;nom&quot;:350000,&quot;long name&quot;:&quot;Solder fillet (heel)&quot;,&quot;min&quot;:null,&quot;max&quot;:null,&quot;short name&quot;:&quot;solder heel&quot;,&quot;type&quot;:&quot;fixedmeasurement&quot;},&quot;solder side&quot;:{&quot;nom&quot;:30000,&quot;long name&quot;:&quot;Solder fillet (side)&quot;,&quot;min&quot;:null,&quot;max&quot;:null,&quot;short name&quot;:&quot;solder side&quot;,&quot;type&quot;:&quot;fixedmeasurement&quot;},&quot;courtyard&quot;:{&quot;nom&quot;:250000,&quot;long name&quot;:&quot;Courtyard&quot;,&quot;min&quot;:null,&quot;max&quot;:null,&quot;short name&quot;:&quot;courtyard&quot;,&quot;type&quot;:&quot;fixedmeasurement&quot;},&quot;SF&quot;:{&quot;default&quot;:&quot;B&quot;,&quot;long name&quot;:&quot;Packing level&quot;,&quot;type&quot;:&quot;multichoiceparent&quot;,&quot;short name&quot;:&quot;SF&quot;,&quot;help&quot;:&quot;http://support.upverter.com/customer/portal/articles/978783-what-is-a-footprint-packing-level&quot;,&quot;children&quot;:[&quot;solder toe&quot;,&quot;solder heel&quot;,&quot;solder side&quot;,&quot;courtyard&quot;]}}}"/>
+<attribute name="FOOTPRINT_PARAMETERS_3" value="{&quot;fp_type&quot;:&quot;SOT23&quot;,&quot;params&quot;:{&quot;N&quot;:{&quot;default&quot;:&quot;6&quot;,&quot;long name&quot;:&quot;Number of leads&quot;,&quot;type&quot;:&quot;multichoice&quot;,&quot;short name&quot;:&quot;N&quot;},&quot;A&quot;:{&quot;nom&quot;:false,&quot;long name&quot;:&quot;Height&quot;,&quot;min&quot;:false,&quot;max&quot;:1100000,&quot;short name&quot;:&quot;A&quot;,&quot;type&quot;:&quot;measurement&quot;},&quot;A1&quot;:{&quot;nom&quot;:false,&quot;long name&quot;:&quot;Package clearance&quot;,&quot;min&quot;:0,&quot;max&quot;:100000,&quot;short name&quot;:&quot;A1&quot;,&quot;type&quot;:&quot;measurement&quot;},&quot;A2&quot;:{&quot;nom&quot;:false,&quot;long name&quot;:&quot;Package height&quot;,&quot;min&quot;:false,&quot;max&quot;:1000000,&quot;short name&quot;:&quot;A2&quot;,&quot;type&quot;:&quot;measurement&quot;},&quot;D&quot;:{&quot;nom&quot;:false,&quot;long name&quot;:&quot;Package length&quot;,&quot;min&quot;:2750000,&quot;max&quot;:3050000,&quot;short name&quot;:&quot;D&quot;,&quot;type&quot;:&quot;measurement&quot;},&quot;E&quot;:{&quot;nom&quot;:false,&quot;long name&quot;:&quot;Width /w leads&quot;,&quot;min&quot;:2550000,&quot;max&quot;:3050000,&quot;short name&quot;:&quot;E&quot;,&quot;type&quot;:&quot;measurement&quot;},&quot;E1&quot;:{&quot;nom&quot;:false,&quot;long name&quot;:&quot;Package width&quot;,&quot;min&quot;:1450000,&quot;max&quot;:1750000,&quot;short name&quot;:&quot;E1&quot;,&quot;type&quot;:&quot;measurement&quot;},&quot;B&quot;:{&quot;nom&quot;:false,&quot;long name&quot;:&quot;Lead width&quot;,&quot;min&quot;:300000,&quot;max&quot;:500000,&quot;short name&quot;:&quot;B&quot;,&quot;type&quot;:&quot;measurement&quot;},&quot;C&quot;:{&quot;nom&quot;:false,&quot;long name&quot;:&quot;Lead thickness&quot;,&quot;min&quot;:120000,&quot;max&quot;:200000,&quot;short name&quot;:&quot;C&quot;,&quot;type&quot;:&quot;measurement&quot;},&quot;L&quot;:{&quot;nom&quot;:false,&quot;long name&quot;:&quot;Lead foot length&quot;,&quot;min&quot;:300000,&quot;max&quot;:600000,&quot;short name&quot;:&quot;L&quot;,&quot;type&quot;:&quot;measurement&quot;},&quot;e&quot;:{&quot;nom&quot;:950000,&quot;long name&quot;:&quot;Lead pitch&quot;,&quot;min&quot;:null,&quot;max&quot;:null,&quot;short name&quot;:&quot;e&quot;,&quot;type&quot;:&quot;measurement&quot;},&quot;PHI&quot;:{&quot;nom&quot;:false,&quot;long name&quot;:&quot;Lead angle&quot;,&quot;min&quot;:0,&quot;max&quot;:8,&quot;short name&quot;:&quot;PHI&quot;,&quot;type&quot;:&quot;measurement&quot;},&quot;offset x&quot;:{&quot;nom&quot;:0,&quot;long name&quot;:&quot;X Center offset&quot;,&quot;min&quot;:null,&quot;max&quot;:null,&quot;short name&quot;:&quot;offset x&quot;,&quot;type&quot;:&quot;measurement&quot;},&quot;offset y&quot;:{&quot;nom&quot;:0,&quot;long name&quot;:&quot;Y Center offset&quot;,&quot;min&quot;:null,&quot;max&quot;:null,&quot;short name&quot;:&quot;offset y&quot;,&quot;type&quot;:&quot;measurement&quot;},&quot;LS&quot;:{&quot;default&quot;:&quot;Rounded rectangle&quot;,&quot;long name&quot;:&quot;Land shape&quot;,&quot;type&quot;:&quot;multichoice&quot;,&quot;short name&quot;:&quot;LS&quot;},&quot;LS1&quot;:{&quot;default&quot;:&quot;Rectangle&quot;,&quot;long name&quot;:&quot;Land shape (Pin 1)&quot;,&quot;type&quot;:&quot;multichoice&quot;,&quot;short name&quot;:&quot;LS1&quot;},&quot;solder toe&quot;:{&quot;nom&quot;:150000,&quot;long name&quot;:&quot;Solder fillet (toe)&quot;,&quot;min&quot;:null,&quot;max&quot;:null,&quot;short name&quot;:&quot;solder toe&quot;,&quot;type&quot;:&quot;fixedmeasurement&quot;},&quot;solder heel&quot;:{&quot;nom&quot;:250000,&quot;long name&quot;:&quot;Solder fillet (heel)&quot;,&quot;min&quot;:null,&quot;max&quot;:null,&quot;short name&quot;:&quot;solder heel&quot;,&quot;type&quot;:&quot;fixedmeasurement&quot;},&quot;solder side&quot;:{&quot;nom&quot;:10000,&quot;long name&quot;:&quot;Solder fillet (side)&quot;,&quot;min&quot;:null,&quot;max&quot;:null,&quot;short name&quot;:&quot;solder side&quot;,&quot;type&quot;:&quot;fixedmeasurement&quot;},&quot;courtyard&quot;:{&quot;nom&quot;:100000,&quot;long name&quot;:&quot;Courtyard&quot;,&quot;min&quot;:null,&quot;max&quot;:null,&quot;short name&quot;:&quot;courtyard&quot;,&quot;type&quot;:&quot;fixedmeasurement&quot;},&quot;SF&quot;:{&quot;default&quot;:&quot;C&quot;,&quot;long name&quot;:&quot;Packing level&quot;,&quot;type&quot;:&quot;multichoiceparent&quot;,&quot;short name&quot;:&quot;SF&quot;,&quot;help&quot;:&quot;http://support.upverter.com/customer/portal/articles/978783-what-is-a-footprint-packing-level&quot;,&quot;children&quot;:[&quot;solder toe&quot;,&quot;solder heel&quot;,&quot;solder side&quot;,&quot;courtyard&quot;]}}}"/>
+<attribute name="FOOTPRINT_VARIANT_NAME_0" value="Recommended_Land_Pattern"/>
+<attribute name="FOOTPRINT_VARIANT_NAME_1" value="IPC_A"/>
+<attribute name="FOOTPRINT_VARIANT_NAME_2" value="IPC_B"/>
+<attribute name="FOOTPRINT_VARIANT_NAME_3" value="IPC_C"/>
+<attribute name="HEIGHT" value="1.1mm"/>
+<attribute name="LEAD_FREE" value="Yes"/>
+<attribute name="MAX_DUTY_CYCLE" value="80%"/>
+<attribute name="MAX_JUNCTION_TEMP" value="+125°C"/>
+<attribute name="MAX_SUPPLY_VOLTAGE" value="17V"/>
+<attribute name="MF" value="Texas Instruments"/>
+<attribute name="MFG_PACKAGE_IDENT" value="DDC0006A"/>
+<attribute name="MFG_PACKAGE_IDENT_COMPONENT_ID" value="d979acf83414fc4e"/>
+<attribute name="MFG_PACKAGE_IDENT_DATE" value="0"/>
+<attribute name="MFG_PACKAGE_IDENT_REV" value="0"/>
+<attribute name="MIN_SUPPLY_VOLTAGE" value="4.5V"/>
+<attribute name="MOUSER_DESCRIPTION" value="Conv DC-DC 4.5V to 17V Synchronous Step Down Single-Out 0.76V to 7V 2A 6-Pin TSOT-23 T/R"/>
+<attribute name="MOUSER_PART_NUMBER" value="595-TPS562201DDCT"/>
+<attribute name="MPN" value="TPS562201DDCT"/>
+<attribute name="NOMINAL_SUPPLY_CURRENT" value="380uA"/>
+<attribute name="NUMBER_OF_OUTPUTS" value="1"/>
+<attribute name="OUTPUT_CURRENT" value="2A"/>
+<attribute name="OUTPUT_TYPE" value="AdjustableProgrammable"/>
+<attribute name="OUTPUT_VOLTAGE" value="0.76-7V"/>
+<attribute name="PACKAGE" value="TSOT23-6"/>
+<attribute name="PREFIX" value="U"/>
+<attribute name="ROHS" value="Yes"/>
+<attribute name="STANDOFF_HEIGHT" value="0mm"/>
+<attribute name="SWITCHING_FREQUENCY" value="580kHz"/>
+<attribute name="SWITCHING_TOPOLOGY" value="Buck"/>
+<attribute name="TEMPERATURE_RANGE_HIGH" value="+125°C"/>
+<attribute name="TEMPERATURE_RANGE_LOW" value="-40°C"/>
+<attribute name="VERIFICATION_VERSION" value="0.0.0.3"/>
+</technology>
+</technologies>
+</device>
+<device name="TEXAS_INSTRUMENTS_TPS562201DDCT_0_1" package="TEXAS_INSTRUMENTS_TPS562201DDCT_1">
+<connects>
+<connect gate="G$0" pin="EN" pad="5"/>
+<connect gate="G$0" pin="GND" pad="1"/>
+<connect gate="G$0" pin="SW" pad="2"/>
+<connect gate="G$0" pin="VBST" pad="6"/>
+<connect gate="G$0" pin="VFB" pad="4"/>
+<connect gate="G$0" pin="VIN" pad="3"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="AUTOMOTIVE" value="No"/>
+<attribute name="CENTROID_NOT_SPECIFIED" value="No"/>
+<attribute name="DATASHEET" value="http://www.ti.com/lit/ds/symlink/tps562201.pdf"/>
+<attribute name="DEVICE_CLASS_L1" value="Integrated Circuits (ICs)"/>
+<attribute name="DEVICE_CLASS_L2" value="Power Management ICs"/>
+<attribute name="DEVICE_CLASS_L3" value="Voltage Regulators - Switching"/>
+<attribute name="DIGIKEY_DESCRIPTION" value="IC REG BUCK ADJ 2A TSOT23-6"/>
+<attribute name="DIGIKEY_PART_NUMBER" value="296-43699-1-ND"/>
+<attribute name="FOOTPRINT_PARAMETERS_0" value="{&quot;fp_type&quot;:&quot;SOT23&quot;,&quot;params&quot;:{&quot;N&quot;:{&quot;default&quot;:&quot;6&quot;,&quot;long name&quot;:&quot;Number of leads&quot;,&quot;type&quot;:&quot;multichoice&quot;,&quot;short name&quot;:&quot;N&quot;},&quot;A&quot;:{&quot;nom&quot;:false,&quot;long name&quot;:&quot;Height&quot;,&quot;min&quot;:false,&quot;max&quot;:1100000,&quot;short name&quot;:&quot;A&quot;,&quot;type&quot;:&quot;measurement&quot;},&quot;A1&quot;:{&quot;nom&quot;:false,&quot;long name&quot;:&quot;Package clearance&quot;,&quot;min&quot;:0,&quot;max&quot;:100000,&quot;short name&quot;:&quot;A1&quot;,&quot;type&quot;:&quot;measurement&quot;},&quot;A2&quot;:{&quot;nom&quot;:false,&quot;long name&quot;:&quot;Package height&quot;,&quot;min&quot;:false,&quot;max&quot;:1000000,&quot;short name&quot;:&quot;A2&quot;,&quot;type&quot;:&quot;measurement&quot;},&quot;D&quot;:{&quot;nom&quot;:false,&quot;long name&quot;:&quot;Package length&quot;,&quot;min&quot;:2750000,&quot;max&quot;:3050000,&quot;short name&quot;:&quot;D&quot;,&quot;type&quot;:&quot;measurement&quot;},&quot;E&quot;:{&quot;nom&quot;:false,&quot;long name&quot;:&quot;Width /w leads&quot;,&quot;min&quot;:2550000,&quot;max&quot;:3050000,&quot;short name&quot;:&quot;E&quot;,&quot;type&quot;:&quot;measurement&quot;},&quot;E1&quot;:{&quot;nom&quot;:false,&quot;long name&quot;:&quot;Package width&quot;,&quot;min&quot;:1450000,&quot;max&quot;:1750000,&quot;short name&quot;:&quot;E1&quot;,&quot;type&quot;:&quot;measurement&quot;},&quot;B&quot;:{&quot;nom&quot;:false,&quot;long name&quot;:&quot;Lead width&quot;,&quot;min&quot;:300000,&quot;max&quot;:500000,&quot;short name&quot;:&quot;B&quot;,&quot;type&quot;:&quot;measurement&quot;},&quot;C&quot;:{&quot;nom&quot;:false,&quot;long name&quot;:&quot;Lead thickness&quot;,&quot;min&quot;:120000,&quot;max&quot;:200000,&quot;short name&quot;:&quot;C&quot;,&quot;type&quot;:&quot;measurement&quot;},&quot;L&quot;:{&quot;nom&quot;:false,&quot;long name&quot;:&quot;Lead foot length&quot;,&quot;min&quot;:300000,&quot;max&quot;:600000,&quot;short name&quot;:&quot;L&quot;,&quot;type&quot;:&quot;measurement&quot;},&quot;e&quot;:{&quot;nom&quot;:950000,&quot;long name&quot;:&quot;Lead pitch&quot;,&quot;min&quot;:null,&quot;max&quot;:null,&quot;short name&quot;:&quot;e&quot;,&quot;type&quot;:&quot;measurement&quot;},&quot;PHI&quot;:{&quot;nom&quot;:false,&quot;long name&quot;:&quot;Lead angle&quot;,&quot;min&quot;:0,&quot;max&quot;:8,&quot;short name&quot;:&quot;PHI&quot;,&quot;type&quot;:&quot;measurement&quot;},&quot;offset x&quot;:{&quot;nom&quot;:0,&quot;long name&quot;:&quot;X Center offset&quot;,&quot;min&quot;:null,&quot;max&quot;:null,&quot;short name&quot;:&quot;offset x&quot;,&quot;type&quot;:&quot;measurement&quot;},&quot;offset y&quot;:{&quot;nom&quot;:0,&quot;long name&quot;:&quot;Y Center offset&quot;,&quot;min&quot;:null,&quot;max&quot;:null,&quot;short name&quot;:&quot;offset y&quot;,&quot;type&quot;:&quot;measurement&quot;},&quot;LS&quot;:{&quot;default&quot;:&quot;Rounded rectangle&quot;,&quot;long name&quot;:&quot;Land shape&quot;,&quot;type&quot;:&quot;multichoice&quot;,&quot;short name&quot;:&quot;LS&quot;},&quot;LS1&quot;:{&quot;default&quot;:&quot;Rectangle&quot;,&quot;long name&quot;:&quot;Land shape (Pin 1)&quot;,&quot;type&quot;:&quot;multichoice&quot;,&quot;short name&quot;:&quot;LS1&quot;},&quot;solder toe&quot;:{&quot;nom&quot;:550000,&quot;long name&quot;:&quot;Solder fillet (toe)&quot;,&quot;min&quot;:null,&quot;max&quot;:null,&quot;short name&quot;:&quot;solder toe&quot;,&quot;type&quot;:&quot;fixedmeasurement&quot;},&quot;solder heel&quot;:{&quot;nom&quot;:450000,&quot;long name&quot;:&quot;Solder fillet (heel)&quot;,&quot;min&quot;:null,&quot;max&quot;:null,&quot;short name&quot;:&quot;solder heel&quot;,&quot;type&quot;:&quot;fixedmeasurement&quot;},&quot;solder side&quot;:{&quot;nom&quot;:50000,&quot;long name&quot;:&quot;Solder fillet (side)&quot;,&quot;min&quot;:null,&quot;max&quot;:null,&quot;short name&quot;:&quot;solder side&quot;,&quot;type&quot;:&quot;fixedmeasurement&quot;},&quot;courtyard&quot;:{&quot;nom&quot;:500000,&quot;long name&quot;:&quot;Courtyard&quot;,&quot;min&quot;:null,&quot;max&quot;:null,&quot;short name&quot;:&quot;courtyard&quot;,&quot;type&quot;:&quot;fixedmeasurement&quot;},&quot;SF&quot;:{&quot;default&quot;:&quot;A&quot;,&quot;long name&quot;:&quot;Packing level&quot;,&quot;type&quot;:&quot;multichoiceparent&quot;,&quot;short name&quot;:&quot;SF&quot;,&quot;help&quot;:&quot;http://support.upverter.com/customer/portal/articles/978783-what-is-a-footprint-packing-level&quot;,&quot;children&quot;:[&quot;solder toe&quot;,&quot;solder heel&quot;,&quot;solder side&quot;,&quot;courtyard&quot;]}}}"/>
+<attribute name="FOOTPRINT_PARAMETERS_2" value="{&quot;fp_type&quot;:&quot;SOT23&quot;,&quot;params&quot;:{&quot;N&quot;:{&quot;default&quot;:&quot;6&quot;,&quot;long name&quot;:&quot;Number of leads&quot;,&quot;type&quot;:&quot;multichoice&quot;,&quot;short name&quot;:&quot;N&quot;},&quot;A&quot;:{&quot;nom&quot;:false,&quot;long name&quot;:&quot;Height&quot;,&quot;min&quot;:false,&quot;max&quot;:1100000,&quot;short name&quot;:&quot;A&quot;,&quot;type&quot;:&quot;measurement&quot;},&quot;A1&quot;:{&quot;nom&quot;:false,&quot;long name&quot;:&quot;Package clearance&quot;,&quot;min&quot;:0,&quot;max&quot;:100000,&quot;short name&quot;:&quot;A1&quot;,&quot;type&quot;:&quot;measurement&quot;},&quot;A2&quot;:{&quot;nom&quot;:false,&quot;long name&quot;:&quot;Package height&quot;,&quot;min&quot;:false,&quot;max&quot;:1000000,&quot;short name&quot;:&quot;A2&quot;,&quot;type&quot;:&quot;measurement&quot;},&quot;D&quot;:{&quot;nom&quot;:false,&quot;long name&quot;:&quot;Package length&quot;,&quot;min&quot;:2750000,&quot;max&quot;:3050000,&quot;short name&quot;:&quot;D&quot;,&quot;type&quot;:&quot;measurement&quot;},&quot;E&quot;:{&quot;nom&quot;:false,&quot;long name&quot;:&quot;Width /w leads&quot;,&quot;min&quot;:2550000,&quot;max&quot;:3050000,&quot;short name&quot;:&quot;E&quot;,&quot;type&quot;:&quot;measurement&quot;},&quot;E1&quot;:{&quot;nom&quot;:false,&quot;long name&quot;:&quot;Package width&quot;,&quot;min&quot;:1450000,&quot;max&quot;:1750000,&quot;short name&quot;:&quot;E1&quot;,&quot;type&quot;:&quot;measurement&quot;},&quot;B&quot;:{&quot;nom&quot;:false,&quot;long name&quot;:&quot;Lead width&quot;,&quot;min&quot;:300000,&quot;max&quot;:500000,&quot;short name&quot;:&quot;B&quot;,&quot;type&quot;:&quot;measurement&quot;},&quot;C&quot;:{&quot;nom&quot;:false,&quot;long name&quot;:&quot;Lead thickness&quot;,&quot;min&quot;:120000,&quot;max&quot;:200000,&quot;short name&quot;:&quot;C&quot;,&quot;type&quot;:&quot;measurement&quot;},&quot;L&quot;:{&quot;nom&quot;:false,&quot;long name&quot;:&quot;Lead foot length&quot;,&quot;min&quot;:300000,&quot;max&quot;:600000,&quot;short name&quot;:&quot;L&quot;,&quot;type&quot;:&quot;measurement&quot;},&quot;e&quot;:{&quot;nom&quot;:950000,&quot;long name&quot;:&quot;Lead pitch&quot;,&quot;min&quot;:null,&quot;max&quot;:null,&quot;short name&quot;:&quot;e&quot;,&quot;type&quot;:&quot;measurement&quot;},&quot;PHI&quot;:{&quot;nom&quot;:false,&quot;long name&quot;:&quot;Lead angle&quot;,&quot;min&quot;:0,&quot;max&quot;:8,&quot;short name&quot;:&quot;PHI&quot;,&quot;type&quot;:&quot;measurement&quot;},&quot;offset x&quot;:{&quot;nom&quot;:0,&quot;long name&quot;:&quot;X Center offset&quot;,&quot;min&quot;:null,&quot;max&quot;:null,&quot;short name&quot;:&quot;offset x&quot;,&quot;type&quot;:&quot;measurement&quot;},&quot;offset y&quot;:{&quot;nom&quot;:0,&quot;long name&quot;:&quot;Y Center offset&quot;,&quot;min&quot;:null,&quot;max&quot;:null,&quot;short name&quot;:&quot;offset y&quot;,&quot;type&quot;:&quot;measurement&quot;},&quot;LS&quot;:{&quot;default&quot;:&quot;Rounded rectangle&quot;,&quot;long name&quot;:&quot;Land shape&quot;,&quot;type&quot;:&quot;multichoice&quot;,&quot;short name&quot;:&quot;LS&quot;},&quot;LS1&quot;:{&quot;default&quot;:&quot;Rectangle&quot;,&quot;long name&quot;:&quot;Land shape (Pin 1)&quot;,&quot;type&quot;:&quot;multichoice&quot;,&quot;short name&quot;:&quot;LS1&quot;},&quot;solder toe&quot;:{&quot;nom&quot;:350000,&quot;long name&quot;:&quot;Solder fillet (toe)&quot;,&quot;min&quot;:null,&quot;max&quot;:null,&quot;short name&quot;:&quot;solder toe&quot;,&quot;type&quot;:&quot;fixedmeasurement&quot;},&quot;solder heel&quot;:{&quot;nom&quot;:350000,&quot;long name&quot;:&quot;Solder fillet (heel)&quot;,&quot;min&quot;:null,&quot;max&quot;:null,&quot;short name&quot;:&quot;solder heel&quot;,&quot;type&quot;:&quot;fixedmeasurement&quot;},&quot;solder side&quot;:{&quot;nom&quot;:30000,&quot;long name&quot;:&quot;Solder fillet (side)&quot;,&quot;min&quot;:null,&quot;max&quot;:null,&quot;short name&quot;:&quot;solder side&quot;,&quot;type&quot;:&quot;fixedmeasurement&quot;},&quot;courtyard&quot;:{&quot;nom&quot;:250000,&quot;long name&quot;:&quot;Courtyard&quot;,&quot;min&quot;:null,&quot;max&quot;:null,&quot;short name&quot;:&quot;courtyard&quot;,&quot;type&quot;:&quot;fixedmeasurement&quot;},&quot;SF&quot;:{&quot;default&quot;:&quot;B&quot;,&quot;long name&quot;:&quot;Packing level&quot;,&quot;type&quot;:&quot;multichoiceparent&quot;,&quot;short name&quot;:&quot;SF&quot;,&quot;help&quot;:&quot;http://support.upverter.com/customer/portal/articles/978783-what-is-a-footprint-packing-level&quot;,&quot;children&quot;:[&quot;solder toe&quot;,&quot;solder heel&quot;,&quot;solder side&quot;,&quot;courtyard&quot;]}}}"/>
+<attribute name="FOOTPRINT_PARAMETERS_3" value="{&quot;fp_type&quot;:&quot;SOT23&quot;,&quot;params&quot;:{&quot;N&quot;:{&quot;default&quot;:&quot;6&quot;,&quot;long name&quot;:&quot;Number of leads&quot;,&quot;type&quot;:&quot;multichoice&quot;,&quot;short name&quot;:&quot;N&quot;},&quot;A&quot;:{&quot;nom&quot;:false,&quot;long name&quot;:&quot;Height&quot;,&quot;min&quot;:false,&quot;max&quot;:1100000,&quot;short name&quot;:&quot;A&quot;,&quot;type&quot;:&quot;measurement&quot;},&quot;A1&quot;:{&quot;nom&quot;:false,&quot;long name&quot;:&quot;Package clearance&quot;,&quot;min&quot;:0,&quot;max&quot;:100000,&quot;short name&quot;:&quot;A1&quot;,&quot;type&quot;:&quot;measurement&quot;},&quot;A2&quot;:{&quot;nom&quot;:false,&quot;long name&quot;:&quot;Package height&quot;,&quot;min&quot;:false,&quot;max&quot;:1000000,&quot;short name&quot;:&quot;A2&quot;,&quot;type&quot;:&quot;measurement&quot;},&quot;D&quot;:{&quot;nom&quot;:false,&quot;long name&quot;:&quot;Package length&quot;,&quot;min&quot;:2750000,&quot;max&quot;:3050000,&quot;short name&quot;:&quot;D&quot;,&quot;type&quot;:&quot;measurement&quot;},&quot;E&quot;:{&quot;nom&quot;:false,&quot;long name&quot;:&quot;Width /w leads&quot;,&quot;min&quot;:2550000,&quot;max&quot;:3050000,&quot;short name&quot;:&quot;E&quot;,&quot;type&quot;:&quot;measurement&quot;},&quot;E1&quot;:{&quot;nom&quot;:false,&quot;long name&quot;:&quot;Package width&quot;,&quot;min&quot;:1450000,&quot;max&quot;:1750000,&quot;short name&quot;:&quot;E1&quot;,&quot;type&quot;:&quot;measurement&quot;},&quot;B&quot;:{&quot;nom&quot;:false,&quot;long name&quot;:&quot;Lead width&quot;,&quot;min&quot;:300000,&quot;max&quot;:500000,&quot;short name&quot;:&quot;B&quot;,&quot;type&quot;:&quot;measurement&quot;},&quot;C&quot;:{&quot;nom&quot;:false,&quot;long name&quot;:&quot;Lead thickness&quot;,&quot;min&quot;:120000,&quot;max&quot;:200000,&quot;short name&quot;:&quot;C&quot;,&quot;type&quot;:&quot;measurement&quot;},&quot;L&quot;:{&quot;nom&quot;:false,&quot;long name&quot;:&quot;Lead foot length&quot;,&quot;min&quot;:300000,&quot;max&quot;:600000,&quot;short name&quot;:&quot;L&quot;,&quot;type&quot;:&quot;measurement&quot;},&quot;e&quot;:{&quot;nom&quot;:950000,&quot;long name&quot;:&quot;Lead pitch&quot;,&quot;min&quot;:null,&quot;max&quot;:null,&quot;short name&quot;:&quot;e&quot;,&quot;type&quot;:&quot;measurement&quot;},&quot;PHI&quot;:{&quot;nom&quot;:false,&quot;long name&quot;:&quot;Lead angle&quot;,&quot;min&quot;:0,&quot;max&quot;:8,&quot;short name&quot;:&quot;PHI&quot;,&quot;type&quot;:&quot;measurement&quot;},&quot;offset x&quot;:{&quot;nom&quot;:0,&quot;long name&quot;:&quot;X Center offset&quot;,&quot;min&quot;:null,&quot;max&quot;:null,&quot;short name&quot;:&quot;offset x&quot;,&quot;type&quot;:&quot;measurement&quot;},&quot;offset y&quot;:{&quot;nom&quot;:0,&quot;long name&quot;:&quot;Y Center offset&quot;,&quot;min&quot;:null,&quot;max&quot;:null,&quot;short name&quot;:&quot;offset y&quot;,&quot;type&quot;:&quot;measurement&quot;},&quot;LS&quot;:{&quot;default&quot;:&quot;Rounded rectangle&quot;,&quot;long name&quot;:&quot;Land shape&quot;,&quot;type&quot;:&quot;multichoice&quot;,&quot;short name&quot;:&quot;LS&quot;},&quot;LS1&quot;:{&quot;default&quot;:&quot;Rectangle&quot;,&quot;long name&quot;:&quot;Land shape (Pin 1)&quot;,&quot;type&quot;:&quot;multichoice&quot;,&quot;short name&quot;:&quot;LS1&quot;},&quot;solder toe&quot;:{&quot;nom&quot;:150000,&quot;long name&quot;:&quot;Solder fillet (toe)&quot;,&quot;min&quot;:null,&quot;max&quot;:null,&quot;short name&quot;:&quot;solder toe&quot;,&quot;type&quot;:&quot;fixedmeasurement&quot;},&quot;solder heel&quot;:{&quot;nom&quot;:250000,&quot;long name&quot;:&quot;Solder fillet (heel)&quot;,&quot;min&quot;:null,&quot;max&quot;:null,&quot;short name&quot;:&quot;solder heel&quot;,&quot;type&quot;:&quot;fixedmeasurement&quot;},&quot;solder side&quot;:{&quot;nom&quot;:10000,&quot;long name&quot;:&quot;Solder fillet (side)&quot;,&quot;min&quot;:null,&quot;max&quot;:null,&quot;short name&quot;:&quot;solder side&quot;,&quot;type&quot;:&quot;fixedmeasurement&quot;},&quot;courtyard&quot;:{&quot;nom&quot;:100000,&quot;long name&quot;:&quot;Courtyard&quot;,&quot;min&quot;:null,&quot;max&quot;:null,&quot;short name&quot;:&quot;courtyard&quot;,&quot;type&quot;:&quot;fixedmeasurement&quot;},&quot;SF&quot;:{&quot;default&quot;:&quot;C&quot;,&quot;long name&quot;:&quot;Packing level&quot;,&quot;type&quot;:&quot;multichoiceparent&quot;,&quot;short name&quot;:&quot;SF&quot;,&quot;help&quot;:&quot;http://support.upverter.com/customer/portal/articles/978783-what-is-a-footprint-packing-level&quot;,&quot;children&quot;:[&quot;solder toe&quot;,&quot;solder heel&quot;,&quot;solder side&quot;,&quot;courtyard&quot;]}}}"/>
+<attribute name="FOOTPRINT_VARIANT_NAME_0" value="Recommended_Land_Pattern"/>
+<attribute name="FOOTPRINT_VARIANT_NAME_1" value="IPC_A"/>
+<attribute name="FOOTPRINT_VARIANT_NAME_2" value="IPC_B"/>
+<attribute name="FOOTPRINT_VARIANT_NAME_3" value="IPC_C"/>
+<attribute name="HEIGHT" value="1.1mm"/>
+<attribute name="LEAD_FREE" value="Yes"/>
+<attribute name="MAX_DUTY_CYCLE" value="80%"/>
+<attribute name="MAX_JUNCTION_TEMP" value="+125°C"/>
+<attribute name="MAX_SUPPLY_VOLTAGE" value="17V"/>
+<attribute name="MF" value="Texas Instruments"/>
+<attribute name="MFG_PACKAGE_IDENT" value="DDC0006A"/>
+<attribute name="MFG_PACKAGE_IDENT_COMPONENT_ID" value="d979acf83414fc4e"/>
+<attribute name="MFG_PACKAGE_IDENT_DATE" value="0"/>
+<attribute name="MFG_PACKAGE_IDENT_REV" value="0"/>
+<attribute name="MIN_SUPPLY_VOLTAGE" value="4.5V"/>
+<attribute name="MOUSER_DESCRIPTION" value="Conv DC-DC 4.5V to 17V Synchronous Step Down Single-Out 0.76V to 7V 2A 6-Pin TSOT-23 T/R"/>
+<attribute name="MOUSER_PART_NUMBER" value="595-TPS562201DDCT"/>
+<attribute name="MPN" value="TPS562201DDCT"/>
+<attribute name="NOMINAL_SUPPLY_CURRENT" value="380uA"/>
+<attribute name="NUMBER_OF_OUTPUTS" value="1"/>
+<attribute name="OUTPUT_CURRENT" value="2A"/>
+<attribute name="OUTPUT_TYPE" value="AdjustableProgrammable"/>
+<attribute name="OUTPUT_VOLTAGE" value="0.76-7V"/>
+<attribute name="PACKAGE" value="TSOT23-6"/>
+<attribute name="PREFIX" value="U"/>
+<attribute name="ROHS" value="Yes"/>
+<attribute name="STANDOFF_HEIGHT" value="0mm"/>
+<attribute name="SWITCHING_FREQUENCY" value="580kHz"/>
+<attribute name="SWITCHING_TOPOLOGY" value="Buck"/>
+<attribute name="TEMPERATURE_RANGE_HIGH" value="+125°C"/>
+<attribute name="TEMPERATURE_RANGE_LOW" value="-40°C"/>
+<attribute name="VERIFICATION_VERSION" value="0.0.0.3"/>
+</technology>
+</technologies>
+</device>
+<device name="TEXAS_INSTRUMENTS_TPS562201DDCT_0_2" package="TEXAS_INSTRUMENTS_TPS562201DDCT_2">
+<connects>
+<connect gate="G$0" pin="EN" pad="5"/>
+<connect gate="G$0" pin="GND" pad="1"/>
+<connect gate="G$0" pin="SW" pad="2"/>
+<connect gate="G$0" pin="VBST" pad="6"/>
+<connect gate="G$0" pin="VFB" pad="4"/>
+<connect gate="G$0" pin="VIN" pad="3"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="AUTOMOTIVE" value="No"/>
+<attribute name="CENTROID_NOT_SPECIFIED" value="No"/>
+<attribute name="DATASHEET" value="http://www.ti.com/lit/ds/symlink/tps562201.pdf"/>
+<attribute name="DEVICE_CLASS_L1" value="Integrated Circuits (ICs)"/>
+<attribute name="DEVICE_CLASS_L2" value="Power Management ICs"/>
+<attribute name="DEVICE_CLASS_L3" value="Voltage Regulators - Switching"/>
+<attribute name="DIGIKEY_DESCRIPTION" value="IC REG BUCK ADJ 2A TSOT23-6"/>
+<attribute name="DIGIKEY_PART_NUMBER" value="296-43699-1-ND"/>
+<attribute name="FOOTPRINT_PARAMETERS_0" value="{&quot;fp_type&quot;:&quot;SOT23&quot;,&quot;params&quot;:{&quot;N&quot;:{&quot;default&quot;:&quot;6&quot;,&quot;long name&quot;:&quot;Number of leads&quot;,&quot;type&quot;:&quot;multichoice&quot;,&quot;short name&quot;:&quot;N&quot;},&quot;A&quot;:{&quot;nom&quot;:false,&quot;long name&quot;:&quot;Height&quot;,&quot;min&quot;:false,&quot;max&quot;:1100000,&quot;short name&quot;:&quot;A&quot;,&quot;type&quot;:&quot;measurement&quot;},&quot;A1&quot;:{&quot;nom&quot;:false,&quot;long name&quot;:&quot;Package clearance&quot;,&quot;min&quot;:0,&quot;max&quot;:100000,&quot;short name&quot;:&quot;A1&quot;,&quot;type&quot;:&quot;measurement&quot;},&quot;A2&quot;:{&quot;nom&quot;:false,&quot;long name&quot;:&quot;Package height&quot;,&quot;min&quot;:false,&quot;max&quot;:1000000,&quot;short name&quot;:&quot;A2&quot;,&quot;type&quot;:&quot;measurement&quot;},&quot;D&quot;:{&quot;nom&quot;:false,&quot;long name&quot;:&quot;Package length&quot;,&quot;min&quot;:2750000,&quot;max&quot;:3050000,&quot;short name&quot;:&quot;D&quot;,&quot;type&quot;:&quot;measurement&quot;},&quot;E&quot;:{&quot;nom&quot;:false,&quot;long name&quot;:&quot;Width /w leads&quot;,&quot;min&quot;:2550000,&quot;max&quot;:3050000,&quot;short name&quot;:&quot;E&quot;,&quot;type&quot;:&quot;measurement&quot;},&quot;E1&quot;:{&quot;nom&quot;:false,&quot;long name&quot;:&quot;Package width&quot;,&quot;min&quot;:1450000,&quot;max&quot;:1750000,&quot;short name&quot;:&quot;E1&quot;,&quot;type&quot;:&quot;measurement&quot;},&quot;B&quot;:{&quot;nom&quot;:false,&quot;long name&quot;:&quot;Lead width&quot;,&quot;min&quot;:300000,&quot;max&quot;:500000,&quot;short name&quot;:&quot;B&quot;,&quot;type&quot;:&quot;measurement&quot;},&quot;C&quot;:{&quot;nom&quot;:false,&quot;long name&quot;:&quot;Lead thickness&quot;,&quot;min&quot;:120000,&quot;max&quot;:200000,&quot;short name&quot;:&quot;C&quot;,&quot;type&quot;:&quot;measurement&quot;},&quot;L&quot;:{&quot;nom&quot;:false,&quot;long name&quot;:&quot;Lead foot length&quot;,&quot;min&quot;:300000,&quot;max&quot;:600000,&quot;short name&quot;:&quot;L&quot;,&quot;type&quot;:&quot;measurement&quot;},&quot;e&quot;:{&quot;nom&quot;:950000,&quot;long name&quot;:&quot;Lead pitch&quot;,&quot;min&quot;:null,&quot;max&quot;:null,&quot;short name&quot;:&quot;e&quot;,&quot;type&quot;:&quot;measurement&quot;},&quot;PHI&quot;:{&quot;nom&quot;:false,&quot;long name&quot;:&quot;Lead angle&quot;,&quot;min&quot;:0,&quot;max&quot;:8,&quot;short name&quot;:&quot;PHI&quot;,&quot;type&quot;:&quot;measurement&quot;},&quot;offset x&quot;:{&quot;nom&quot;:0,&quot;long name&quot;:&quot;X Center offset&quot;,&quot;min&quot;:null,&quot;max&quot;:null,&quot;short name&quot;:&quot;offset x&quot;,&quot;type&quot;:&quot;measurement&quot;},&quot;offset y&quot;:{&quot;nom&quot;:0,&quot;long name&quot;:&quot;Y Center offset&quot;,&quot;min&quot;:null,&quot;max&quot;:null,&quot;short name&quot;:&quot;offset y&quot;,&quot;type&quot;:&quot;measurement&quot;},&quot;LS&quot;:{&quot;default&quot;:&quot;Rounded rectangle&quot;,&quot;long name&quot;:&quot;Land shape&quot;,&quot;type&quot;:&quot;multichoice&quot;,&quot;short name&quot;:&quot;LS&quot;},&quot;LS1&quot;:{&quot;default&quot;:&quot;Rectangle&quot;,&quot;long name&quot;:&quot;Land shape (Pin 1)&quot;,&quot;type&quot;:&quot;multichoice&quot;,&quot;short name&quot;:&quot;LS1&quot;},&quot;solder toe&quot;:{&quot;nom&quot;:550000,&quot;long name&quot;:&quot;Solder fillet (toe)&quot;,&quot;min&quot;:null,&quot;max&quot;:null,&quot;short name&quot;:&quot;solder toe&quot;,&quot;type&quot;:&quot;fixedmeasurement&quot;},&quot;solder heel&quot;:{&quot;nom&quot;:450000,&quot;long name&quot;:&quot;Solder fillet (heel)&quot;,&quot;min&quot;:null,&quot;max&quot;:null,&quot;short name&quot;:&quot;solder heel&quot;,&quot;type&quot;:&quot;fixedmeasurement&quot;},&quot;solder side&quot;:{&quot;nom&quot;:50000,&quot;long name&quot;:&quot;Solder fillet (side)&quot;,&quot;min&quot;:null,&quot;max&quot;:null,&quot;short name&quot;:&quot;solder side&quot;,&quot;type&quot;:&quot;fixedmeasurement&quot;},&quot;courtyard&quot;:{&quot;nom&quot;:500000,&quot;long name&quot;:&quot;Courtyard&quot;,&quot;min&quot;:null,&quot;max&quot;:null,&quot;short name&quot;:&quot;courtyard&quot;,&quot;type&quot;:&quot;fixedmeasurement&quot;},&quot;SF&quot;:{&quot;default&quot;:&quot;A&quot;,&quot;long name&quot;:&quot;Packing level&quot;,&quot;type&quot;:&quot;multichoiceparent&quot;,&quot;short name&quot;:&quot;SF&quot;,&quot;help&quot;:&quot;http://support.upverter.com/customer/portal/articles/978783-what-is-a-footprint-packing-level&quot;,&quot;children&quot;:[&quot;solder toe&quot;,&quot;solder heel&quot;,&quot;solder side&quot;,&quot;courtyard&quot;]}}}"/>
+<attribute name="FOOTPRINT_PARAMETERS_2" value="{&quot;fp_type&quot;:&quot;SOT23&quot;,&quot;params&quot;:{&quot;N&quot;:{&quot;default&quot;:&quot;6&quot;,&quot;long name&quot;:&quot;Number of leads&quot;,&quot;type&quot;:&quot;multichoice&quot;,&quot;short name&quot;:&quot;N&quot;},&quot;A&quot;:{&quot;nom&quot;:false,&quot;long name&quot;:&quot;Height&quot;,&quot;min&quot;:false,&quot;max&quot;:1100000,&quot;short name&quot;:&quot;A&quot;,&quot;type&quot;:&quot;measurement&quot;},&quot;A1&quot;:{&quot;nom&quot;:false,&quot;long name&quot;:&quot;Package clearance&quot;,&quot;min&quot;:0,&quot;max&quot;:100000,&quot;short name&quot;:&quot;A1&quot;,&quot;type&quot;:&quot;measurement&quot;},&quot;A2&quot;:{&quot;nom&quot;:false,&quot;long name&quot;:&quot;Package height&quot;,&quot;min&quot;:false,&quot;max&quot;:1000000,&quot;short name&quot;:&quot;A2&quot;,&quot;type&quot;:&quot;measurement&quot;},&quot;D&quot;:{&quot;nom&quot;:false,&quot;long name&quot;:&quot;Package length&quot;,&quot;min&quot;:2750000,&quot;max&quot;:3050000,&quot;short name&quot;:&quot;D&quot;,&quot;type&quot;:&quot;measurement&quot;},&quot;E&quot;:{&quot;nom&quot;:false,&quot;long name&quot;:&quot;Width /w leads&quot;,&quot;min&quot;:2550000,&quot;max&quot;:3050000,&quot;short name&quot;:&quot;E&quot;,&quot;type&quot;:&quot;measurement&quot;},&quot;E1&quot;:{&quot;nom&quot;:false,&quot;long name&quot;:&quot;Package width&quot;,&quot;min&quot;:1450000,&quot;max&quot;:1750000,&quot;short name&quot;:&quot;E1&quot;,&quot;type&quot;:&quot;measurement&quot;},&quot;B&quot;:{&quot;nom&quot;:false,&quot;long name&quot;:&quot;Lead width&quot;,&quot;min&quot;:300000,&quot;max&quot;:500000,&quot;short name&quot;:&quot;B&quot;,&quot;type&quot;:&quot;measurement&quot;},&quot;C&quot;:{&quot;nom&quot;:false,&quot;long name&quot;:&quot;Lead thickness&quot;,&quot;min&quot;:120000,&quot;max&quot;:200000,&quot;short name&quot;:&quot;C&quot;,&quot;type&quot;:&quot;measurement&quot;},&quot;L&quot;:{&quot;nom&quot;:false,&quot;long name&quot;:&quot;Lead foot length&quot;,&quot;min&quot;:300000,&quot;max&quot;:600000,&quot;short name&quot;:&quot;L&quot;,&quot;type&quot;:&quot;measurement&quot;},&quot;e&quot;:{&quot;nom&quot;:950000,&quot;long name&quot;:&quot;Lead pitch&quot;,&quot;min&quot;:null,&quot;max&quot;:null,&quot;short name&quot;:&quot;e&quot;,&quot;type&quot;:&quot;measurement&quot;},&quot;PHI&quot;:{&quot;nom&quot;:false,&quot;long name&quot;:&quot;Lead angle&quot;,&quot;min&quot;:0,&quot;max&quot;:8,&quot;short name&quot;:&quot;PHI&quot;,&quot;type&quot;:&quot;measurement&quot;},&quot;offset x&quot;:{&quot;nom&quot;:0,&quot;long name&quot;:&quot;X Center offset&quot;,&quot;min&quot;:null,&quot;max&quot;:null,&quot;short name&quot;:&quot;offset x&quot;,&quot;type&quot;:&quot;measurement&quot;},&quot;offset y&quot;:{&quot;nom&quot;:0,&quot;long name&quot;:&quot;Y Center offset&quot;,&quot;min&quot;:null,&quot;max&quot;:null,&quot;short name&quot;:&quot;offset y&quot;,&quot;type&quot;:&quot;measurement&quot;},&quot;LS&quot;:{&quot;default&quot;:&quot;Rounded rectangle&quot;,&quot;long name&quot;:&quot;Land shape&quot;,&quot;type&quot;:&quot;multichoice&quot;,&quot;short name&quot;:&quot;LS&quot;},&quot;LS1&quot;:{&quot;default&quot;:&quot;Rectangle&quot;,&quot;long name&quot;:&quot;Land shape (Pin 1)&quot;,&quot;type&quot;:&quot;multichoice&quot;,&quot;short name&quot;:&quot;LS1&quot;},&quot;solder toe&quot;:{&quot;nom&quot;:350000,&quot;long name&quot;:&quot;Solder fillet (toe)&quot;,&quot;min&quot;:null,&quot;max&quot;:null,&quot;short name&quot;:&quot;solder toe&quot;,&quot;type&quot;:&quot;fixedmeasurement&quot;},&quot;solder heel&quot;:{&quot;nom&quot;:350000,&quot;long name&quot;:&quot;Solder fillet (heel)&quot;,&quot;min&quot;:null,&quot;max&quot;:null,&quot;short name&quot;:&quot;solder heel&quot;,&quot;type&quot;:&quot;fixedmeasurement&quot;},&quot;solder side&quot;:{&quot;nom&quot;:30000,&quot;long name&quot;:&quot;Solder fillet (side)&quot;,&quot;min&quot;:null,&quot;max&quot;:null,&quot;short name&quot;:&quot;solder side&quot;,&quot;type&quot;:&quot;fixedmeasurement&quot;},&quot;courtyard&quot;:{&quot;nom&quot;:250000,&quot;long name&quot;:&quot;Courtyard&quot;,&quot;min&quot;:null,&quot;max&quot;:null,&quot;short name&quot;:&quot;courtyard&quot;,&quot;type&quot;:&quot;fixedmeasurement&quot;},&quot;SF&quot;:{&quot;default&quot;:&quot;B&quot;,&quot;long name&quot;:&quot;Packing level&quot;,&quot;type&quot;:&quot;multichoiceparent&quot;,&quot;short name&quot;:&quot;SF&quot;,&quot;help&quot;:&quot;http://support.upverter.com/customer/portal/articles/978783-what-is-a-footprint-packing-level&quot;,&quot;children&quot;:[&quot;solder toe&quot;,&quot;solder heel&quot;,&quot;solder side&quot;,&quot;courtyard&quot;]}}}"/>
+<attribute name="FOOTPRINT_PARAMETERS_3" value="{&quot;fp_type&quot;:&quot;SOT23&quot;,&quot;params&quot;:{&quot;N&quot;:{&quot;default&quot;:&quot;6&quot;,&quot;long name&quot;:&quot;Number of leads&quot;,&quot;type&quot;:&quot;multichoice&quot;,&quot;short name&quot;:&quot;N&quot;},&quot;A&quot;:{&quot;nom&quot;:false,&quot;long name&quot;:&quot;Height&quot;,&quot;min&quot;:false,&quot;max&quot;:1100000,&quot;short name&quot;:&quot;A&quot;,&quot;type&quot;:&quot;measurement&quot;},&quot;A1&quot;:{&quot;nom&quot;:false,&quot;long name&quot;:&quot;Package clearance&quot;,&quot;min&quot;:0,&quot;max&quot;:100000,&quot;short name&quot;:&quot;A1&quot;,&quot;type&quot;:&quot;measurement&quot;},&quot;A2&quot;:{&quot;nom&quot;:false,&quot;long name&quot;:&quot;Package height&quot;,&quot;min&quot;:false,&quot;max&quot;:1000000,&quot;short name&quot;:&quot;A2&quot;,&quot;type&quot;:&quot;measurement&quot;},&quot;D&quot;:{&quot;nom&quot;:false,&quot;long name&quot;:&quot;Package length&quot;,&quot;min&quot;:2750000,&quot;max&quot;:3050000,&quot;short name&quot;:&quot;D&quot;,&quot;type&quot;:&quot;measurement&quot;},&quot;E&quot;:{&quot;nom&quot;:false,&quot;long name&quot;:&quot;Width /w leads&quot;,&quot;min&quot;:2550000,&quot;max&quot;:3050000,&quot;short name&quot;:&quot;E&quot;,&quot;type&quot;:&quot;measurement&quot;},&quot;E1&quot;:{&quot;nom&quot;:false,&quot;long name&quot;:&quot;Package width&quot;,&quot;min&quot;:1450000,&quot;max&quot;:1750000,&quot;short name&quot;:&quot;E1&quot;,&quot;type&quot;:&quot;measurement&quot;},&quot;B&quot;:{&quot;nom&quot;:false,&quot;long name&quot;:&quot;Lead width&quot;,&quot;min&quot;:300000,&quot;max&quot;:500000,&quot;short name&quot;:&quot;B&quot;,&quot;type&quot;:&quot;measurement&quot;},&quot;C&quot;:{&quot;nom&quot;:false,&quot;long name&quot;:&quot;Lead thickness&quot;,&quot;min&quot;:120000,&quot;max&quot;:200000,&quot;short name&quot;:&quot;C&quot;,&quot;type&quot;:&quot;measurement&quot;},&quot;L&quot;:{&quot;nom&quot;:false,&quot;long name&quot;:&quot;Lead foot length&quot;,&quot;min&quot;:300000,&quot;max&quot;:600000,&quot;short name&quot;:&quot;L&quot;,&quot;type&quot;:&quot;measurement&quot;},&quot;e&quot;:{&quot;nom&quot;:950000,&quot;long name&quot;:&quot;Lead pitch&quot;,&quot;min&quot;:null,&quot;max&quot;:null,&quot;short name&quot;:&quot;e&quot;,&quot;type&quot;:&quot;measurement&quot;},&quot;PHI&quot;:{&quot;nom&quot;:false,&quot;long name&quot;:&quot;Lead angle&quot;,&quot;min&quot;:0,&quot;max&quot;:8,&quot;short name&quot;:&quot;PHI&quot;,&quot;type&quot;:&quot;measurement&quot;},&quot;offset x&quot;:{&quot;nom&quot;:0,&quot;long name&quot;:&quot;X Center offset&quot;,&quot;min&quot;:null,&quot;max&quot;:null,&quot;short name&quot;:&quot;offset x&quot;,&quot;type&quot;:&quot;measurement&quot;},&quot;offset y&quot;:{&quot;nom&quot;:0,&quot;long name&quot;:&quot;Y Center offset&quot;,&quot;min&quot;:null,&quot;max&quot;:null,&quot;short name&quot;:&quot;offset y&quot;,&quot;type&quot;:&quot;measurement&quot;},&quot;LS&quot;:{&quot;default&quot;:&quot;Rounded rectangle&quot;,&quot;long name&quot;:&quot;Land shape&quot;,&quot;type&quot;:&quot;multichoice&quot;,&quot;short name&quot;:&quot;LS&quot;},&quot;LS1&quot;:{&quot;default&quot;:&quot;Rectangle&quot;,&quot;long name&quot;:&quot;Land shape (Pin 1)&quot;,&quot;type&quot;:&quot;multichoice&quot;,&quot;short name&quot;:&quot;LS1&quot;},&quot;solder toe&quot;:{&quot;nom&quot;:150000,&quot;long name&quot;:&quot;Solder fillet (toe)&quot;,&quot;min&quot;:null,&quot;max&quot;:null,&quot;short name&quot;:&quot;solder toe&quot;,&quot;type&quot;:&quot;fixedmeasurement&quot;},&quot;solder heel&quot;:{&quot;nom&quot;:250000,&quot;long name&quot;:&quot;Solder fillet (heel)&quot;,&quot;min&quot;:null,&quot;max&quot;:null,&quot;short name&quot;:&quot;solder heel&quot;,&quot;type&quot;:&quot;fixedmeasurement&quot;},&quot;solder side&quot;:{&quot;nom&quot;:10000,&quot;long name&quot;:&quot;Solder fillet (side)&quot;,&quot;min&quot;:null,&quot;max&quot;:null,&quot;short name&quot;:&quot;solder side&quot;,&quot;type&quot;:&quot;fixedmeasurement&quot;},&quot;courtyard&quot;:{&quot;nom&quot;:100000,&quot;long name&quot;:&quot;Courtyard&quot;,&quot;min&quot;:null,&quot;max&quot;:null,&quot;short name&quot;:&quot;courtyard&quot;,&quot;type&quot;:&quot;fixedmeasurement&quot;},&quot;SF&quot;:{&quot;default&quot;:&quot;C&quot;,&quot;long name&quot;:&quot;Packing level&quot;,&quot;type&quot;:&quot;multichoiceparent&quot;,&quot;short name&quot;:&quot;SF&quot;,&quot;help&quot;:&quot;http://support.upverter.com/customer/portal/articles/978783-what-is-a-footprint-packing-level&quot;,&quot;children&quot;:[&quot;solder toe&quot;,&quot;solder heel&quot;,&quot;solder side&quot;,&quot;courtyard&quot;]}}}"/>
+<attribute name="FOOTPRINT_VARIANT_NAME_0" value="Recommended_Land_Pattern"/>
+<attribute name="FOOTPRINT_VARIANT_NAME_1" value="IPC_A"/>
+<attribute name="FOOTPRINT_VARIANT_NAME_2" value="IPC_B"/>
+<attribute name="FOOTPRINT_VARIANT_NAME_3" value="IPC_C"/>
+<attribute name="HEIGHT" value="1.1mm"/>
+<attribute name="LEAD_FREE" value="Yes"/>
+<attribute name="MAX_DUTY_CYCLE" value="80%"/>
+<attribute name="MAX_JUNCTION_TEMP" value="+125°C"/>
+<attribute name="MAX_SUPPLY_VOLTAGE" value="17V"/>
+<attribute name="MF" value="Texas Instruments"/>
+<attribute name="MFG_PACKAGE_IDENT" value="DDC0006A"/>
+<attribute name="MFG_PACKAGE_IDENT_COMPONENT_ID" value="d979acf83414fc4e"/>
+<attribute name="MFG_PACKAGE_IDENT_DATE" value="0"/>
+<attribute name="MFG_PACKAGE_IDENT_REV" value="0"/>
+<attribute name="MIN_SUPPLY_VOLTAGE" value="4.5V"/>
+<attribute name="MOUSER_DESCRIPTION" value="Conv DC-DC 4.5V to 17V Synchronous Step Down Single-Out 0.76V to 7V 2A 6-Pin TSOT-23 T/R"/>
+<attribute name="MOUSER_PART_NUMBER" value="595-TPS562201DDCT"/>
+<attribute name="MPN" value="TPS562201DDCT"/>
+<attribute name="NOMINAL_SUPPLY_CURRENT" value="380uA"/>
+<attribute name="NUMBER_OF_OUTPUTS" value="1"/>
+<attribute name="OUTPUT_CURRENT" value="2A"/>
+<attribute name="OUTPUT_TYPE" value="AdjustableProgrammable"/>
+<attribute name="OUTPUT_VOLTAGE" value="0.76-7V"/>
+<attribute name="PACKAGE" value="TSOT23-6"/>
+<attribute name="PREFIX" value="U"/>
+<attribute name="ROHS" value="Yes"/>
+<attribute name="STANDOFF_HEIGHT" value="0mm"/>
+<attribute name="SWITCHING_FREQUENCY" value="580kHz"/>
+<attribute name="SWITCHING_TOPOLOGY" value="Buck"/>
+<attribute name="TEMPERATURE_RANGE_HIGH" value="+125°C"/>
+<attribute name="TEMPERATURE_RANGE_LOW" value="-40°C"/>
+<attribute name="VERIFICATION_VERSION" value="0.0.0.3"/>
+</technology>
+</technologies>
+</device>
+<device name="TEXAS_INSTRUMENTS_TPS562201DDCT_0_3" package="TEXAS_INSTRUMENTS_TPS562201DDCT_3">
+<connects>
+<connect gate="G$0" pin="EN" pad="5"/>
+<connect gate="G$0" pin="GND" pad="1"/>
+<connect gate="G$0" pin="SW" pad="2"/>
+<connect gate="G$0" pin="VBST" pad="6"/>
+<connect gate="G$0" pin="VFB" pad="4"/>
+<connect gate="G$0" pin="VIN" pad="3"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="AUTOMOTIVE" value="No"/>
+<attribute name="CENTROID_NOT_SPECIFIED" value="No"/>
+<attribute name="DATASHEET" value="http://www.ti.com/lit/ds/symlink/tps562201.pdf"/>
+<attribute name="DEVICE_CLASS_L1" value="Integrated Circuits (ICs)"/>
+<attribute name="DEVICE_CLASS_L2" value="Power Management ICs"/>
+<attribute name="DEVICE_CLASS_L3" value="Voltage Regulators - Switching"/>
+<attribute name="DIGIKEY_DESCRIPTION" value="IC REG BUCK ADJ 2A TSOT23-6"/>
+<attribute name="DIGIKEY_PART_NUMBER" value="296-43699-1-ND"/>
+<attribute name="FOOTPRINT_PARAMETERS_0" value="{&quot;fp_type&quot;:&quot;SOT23&quot;,&quot;params&quot;:{&quot;N&quot;:{&quot;default&quot;:&quot;6&quot;,&quot;long name&quot;:&quot;Number of leads&quot;,&quot;type&quot;:&quot;multichoice&quot;,&quot;short name&quot;:&quot;N&quot;},&quot;A&quot;:{&quot;nom&quot;:false,&quot;long name&quot;:&quot;Height&quot;,&quot;min&quot;:false,&quot;max&quot;:1100000,&quot;short name&quot;:&quot;A&quot;,&quot;type&quot;:&quot;measurement&quot;},&quot;A1&quot;:{&quot;nom&quot;:false,&quot;long name&quot;:&quot;Package clearance&quot;,&quot;min&quot;:0,&quot;max&quot;:100000,&quot;short name&quot;:&quot;A1&quot;,&quot;type&quot;:&quot;measurement&quot;},&quot;A2&quot;:{&quot;nom&quot;:false,&quot;long name&quot;:&quot;Package height&quot;,&quot;min&quot;:false,&quot;max&quot;:1000000,&quot;short name&quot;:&quot;A2&quot;,&quot;type&quot;:&quot;measurement&quot;},&quot;D&quot;:{&quot;nom&quot;:false,&quot;long name&quot;:&quot;Package length&quot;,&quot;min&quot;:2750000,&quot;max&quot;:3050000,&quot;short name&quot;:&quot;D&quot;,&quot;type&quot;:&quot;measurement&quot;},&quot;E&quot;:{&quot;nom&quot;:false,&quot;long name&quot;:&quot;Width /w leads&quot;,&quot;min&quot;:2550000,&quot;max&quot;:3050000,&quot;short name&quot;:&quot;E&quot;,&quot;type&quot;:&quot;measurement&quot;},&quot;E1&quot;:{&quot;nom&quot;:false,&quot;long name&quot;:&quot;Package width&quot;,&quot;min&quot;:1450000,&quot;max&quot;:1750000,&quot;short name&quot;:&quot;E1&quot;,&quot;type&quot;:&quot;measurement&quot;},&quot;B&quot;:{&quot;nom&quot;:false,&quot;long name&quot;:&quot;Lead width&quot;,&quot;min&quot;:300000,&quot;max&quot;:500000,&quot;short name&quot;:&quot;B&quot;,&quot;type&quot;:&quot;measurement&quot;},&quot;C&quot;:{&quot;nom&quot;:false,&quot;long name&quot;:&quot;Lead thickness&quot;,&quot;min&quot;:120000,&quot;max&quot;:200000,&quot;short name&quot;:&quot;C&quot;,&quot;type&quot;:&quot;measurement&quot;},&quot;L&quot;:{&quot;nom&quot;:false,&quot;long name&quot;:&quot;Lead foot length&quot;,&quot;min&quot;:300000,&quot;max&quot;:600000,&quot;short name&quot;:&quot;L&quot;,&quot;type&quot;:&quot;measurement&quot;},&quot;e&quot;:{&quot;nom&quot;:950000,&quot;long name&quot;:&quot;Lead pitch&quot;,&quot;min&quot;:null,&quot;max&quot;:null,&quot;short name&quot;:&quot;e&quot;,&quot;type&quot;:&quot;measurement&quot;},&quot;PHI&quot;:{&quot;nom&quot;:false,&quot;long name&quot;:&quot;Lead angle&quot;,&quot;min&quot;:0,&quot;max&quot;:8,&quot;short name&quot;:&quot;PHI&quot;,&quot;type&quot;:&quot;measurement&quot;},&quot;offset x&quot;:{&quot;nom&quot;:0,&quot;long name&quot;:&quot;X Center offset&quot;,&quot;min&quot;:null,&quot;max&quot;:null,&quot;short name&quot;:&quot;offset x&quot;,&quot;type&quot;:&quot;measurement&quot;},&quot;offset y&quot;:{&quot;nom&quot;:0,&quot;long name&quot;:&quot;Y Center offset&quot;,&quot;min&quot;:null,&quot;max&quot;:null,&quot;short name&quot;:&quot;offset y&quot;,&quot;type&quot;:&quot;measurement&quot;},&quot;LS&quot;:{&quot;default&quot;:&quot;Rounded rectangle&quot;,&quot;long name&quot;:&quot;Land shape&quot;,&quot;type&quot;:&quot;multichoice&quot;,&quot;short name&quot;:&quot;LS&quot;},&quot;LS1&quot;:{&quot;default&quot;:&quot;Rectangle&quot;,&quot;long name&quot;:&quot;Land shape (Pin 1)&quot;,&quot;type&quot;:&quot;multichoice&quot;,&quot;short name&quot;:&quot;LS1&quot;},&quot;solder toe&quot;:{&quot;nom&quot;:550000,&quot;long name&quot;:&quot;Solder fillet (toe)&quot;,&quot;min&quot;:null,&quot;max&quot;:null,&quot;short name&quot;:&quot;solder toe&quot;,&quot;type&quot;:&quot;fixedmeasurement&quot;},&quot;solder heel&quot;:{&quot;nom&quot;:450000,&quot;long name&quot;:&quot;Solder fillet (heel)&quot;,&quot;min&quot;:null,&quot;max&quot;:null,&quot;short name&quot;:&quot;solder heel&quot;,&quot;type&quot;:&quot;fixedmeasurement&quot;},&quot;solder side&quot;:{&quot;nom&quot;:50000,&quot;long name&quot;:&quot;Solder fillet (side)&quot;,&quot;min&quot;:null,&quot;max&quot;:null,&quot;short name&quot;:&quot;solder side&quot;,&quot;type&quot;:&quot;fixedmeasurement&quot;},&quot;courtyard&quot;:{&quot;nom&quot;:500000,&quot;long name&quot;:&quot;Courtyard&quot;,&quot;min&quot;:null,&quot;max&quot;:null,&quot;short name&quot;:&quot;courtyard&quot;,&quot;type&quot;:&quot;fixedmeasurement&quot;},&quot;SF&quot;:{&quot;default&quot;:&quot;A&quot;,&quot;long name&quot;:&quot;Packing level&quot;,&quot;type&quot;:&quot;multichoiceparent&quot;,&quot;short name&quot;:&quot;SF&quot;,&quot;help&quot;:&quot;http://support.upverter.com/customer/portal/articles/978783-what-is-a-footprint-packing-level&quot;,&quot;children&quot;:[&quot;solder toe&quot;,&quot;solder heel&quot;,&quot;solder side&quot;,&quot;courtyard&quot;]}}}"/>
+<attribute name="FOOTPRINT_PARAMETERS_2" value="{&quot;fp_type&quot;:&quot;SOT23&quot;,&quot;params&quot;:{&quot;N&quot;:{&quot;default&quot;:&quot;6&quot;,&quot;long name&quot;:&quot;Number of leads&quot;,&quot;type&quot;:&quot;multichoice&quot;,&quot;short name&quot;:&quot;N&quot;},&quot;A&quot;:{&quot;nom&quot;:false,&quot;long name&quot;:&quot;Height&quot;,&quot;min&quot;:false,&quot;max&quot;:1100000,&quot;short name&quot;:&quot;A&quot;,&quot;type&quot;:&quot;measurement&quot;},&quot;A1&quot;:{&quot;nom&quot;:false,&quot;long name&quot;:&quot;Package clearance&quot;,&quot;min&quot;:0,&quot;max&quot;:100000,&quot;short name&quot;:&quot;A1&quot;,&quot;type&quot;:&quot;measurement&quot;},&quot;A2&quot;:{&quot;nom&quot;:false,&quot;long name&quot;:&quot;Package height&quot;,&quot;min&quot;:false,&quot;max&quot;:1000000,&quot;short name&quot;:&quot;A2&quot;,&quot;type&quot;:&quot;measurement&quot;},&quot;D&quot;:{&quot;nom&quot;:false,&quot;long name&quot;:&quot;Package length&quot;,&quot;min&quot;:2750000,&quot;max&quot;:3050000,&quot;short name&quot;:&quot;D&quot;,&quot;type&quot;:&quot;measurement&quot;},&quot;E&quot;:{&quot;nom&quot;:false,&quot;long name&quot;:&quot;Width /w leads&quot;,&quot;min&quot;:2550000,&quot;max&quot;:3050000,&quot;short name&quot;:&quot;E&quot;,&quot;type&quot;:&quot;measurement&quot;},&quot;E1&quot;:{&quot;nom&quot;:false,&quot;long name&quot;:&quot;Package width&quot;,&quot;min&quot;:1450000,&quot;max&quot;:1750000,&quot;short name&quot;:&quot;E1&quot;,&quot;type&quot;:&quot;measurement&quot;},&quot;B&quot;:{&quot;nom&quot;:false,&quot;long name&quot;:&quot;Lead width&quot;,&quot;min&quot;:300000,&quot;max&quot;:500000,&quot;short name&quot;:&quot;B&quot;,&quot;type&quot;:&quot;measurement&quot;},&quot;C&quot;:{&quot;nom&quot;:false,&quot;long name&quot;:&quot;Lead thickness&quot;,&quot;min&quot;:120000,&quot;max&quot;:200000,&quot;short name&quot;:&quot;C&quot;,&quot;type&quot;:&quot;measurement&quot;},&quot;L&quot;:{&quot;nom&quot;:false,&quot;long name&quot;:&quot;Lead foot length&quot;,&quot;min&quot;:300000,&quot;max&quot;:600000,&quot;short name&quot;:&quot;L&quot;,&quot;type&quot;:&quot;measurement&quot;},&quot;e&quot;:{&quot;nom&quot;:950000,&quot;long name&quot;:&quot;Lead pitch&quot;,&quot;min&quot;:null,&quot;max&quot;:null,&quot;short name&quot;:&quot;e&quot;,&quot;type&quot;:&quot;measurement&quot;},&quot;PHI&quot;:{&quot;nom&quot;:false,&quot;long name&quot;:&quot;Lead angle&quot;,&quot;min&quot;:0,&quot;max&quot;:8,&quot;short name&quot;:&quot;PHI&quot;,&quot;type&quot;:&quot;measurement&quot;},&quot;offset x&quot;:{&quot;nom&quot;:0,&quot;long name&quot;:&quot;X Center offset&quot;,&quot;min&quot;:null,&quot;max&quot;:null,&quot;short name&quot;:&quot;offset x&quot;,&quot;type&quot;:&quot;measurement&quot;},&quot;offset y&quot;:{&quot;nom&quot;:0,&quot;long name&quot;:&quot;Y Center offset&quot;,&quot;min&quot;:null,&quot;max&quot;:null,&quot;short name&quot;:&quot;offset y&quot;,&quot;type&quot;:&quot;measurement&quot;},&quot;LS&quot;:{&quot;default&quot;:&quot;Rounded rectangle&quot;,&quot;long name&quot;:&quot;Land shape&quot;,&quot;type&quot;:&quot;multichoice&quot;,&quot;short name&quot;:&quot;LS&quot;},&quot;LS1&quot;:{&quot;default&quot;:&quot;Rectangle&quot;,&quot;long name&quot;:&quot;Land shape (Pin 1)&quot;,&quot;type&quot;:&quot;multichoice&quot;,&quot;short name&quot;:&quot;LS1&quot;},&quot;solder toe&quot;:{&quot;nom&quot;:350000,&quot;long name&quot;:&quot;Solder fillet (toe)&quot;,&quot;min&quot;:null,&quot;max&quot;:null,&quot;short name&quot;:&quot;solder toe&quot;,&quot;type&quot;:&quot;fixedmeasurement&quot;},&quot;solder heel&quot;:{&quot;nom&quot;:350000,&quot;long name&quot;:&quot;Solder fillet (heel)&quot;,&quot;min&quot;:null,&quot;max&quot;:null,&quot;short name&quot;:&quot;solder heel&quot;,&quot;type&quot;:&quot;fixedmeasurement&quot;},&quot;solder side&quot;:{&quot;nom&quot;:30000,&quot;long name&quot;:&quot;Solder fillet (side)&quot;,&quot;min&quot;:null,&quot;max&quot;:null,&quot;short name&quot;:&quot;solder side&quot;,&quot;type&quot;:&quot;fixedmeasurement&quot;},&quot;courtyard&quot;:{&quot;nom&quot;:250000,&quot;long name&quot;:&quot;Courtyard&quot;,&quot;min&quot;:null,&quot;max&quot;:null,&quot;short name&quot;:&quot;courtyard&quot;,&quot;type&quot;:&quot;fixedmeasurement&quot;},&quot;SF&quot;:{&quot;default&quot;:&quot;B&quot;,&quot;long name&quot;:&quot;Packing level&quot;,&quot;type&quot;:&quot;multichoiceparent&quot;,&quot;short name&quot;:&quot;SF&quot;,&quot;help&quot;:&quot;http://support.upverter.com/customer/portal/articles/978783-what-is-a-footprint-packing-level&quot;,&quot;children&quot;:[&quot;solder toe&quot;,&quot;solder heel&quot;,&quot;solder side&quot;,&quot;courtyard&quot;]}}}"/>
+<attribute name="FOOTPRINT_PARAMETERS_3" value="{&quot;fp_type&quot;:&quot;SOT23&quot;,&quot;params&quot;:{&quot;N&quot;:{&quot;default&quot;:&quot;6&quot;,&quot;long name&quot;:&quot;Number of leads&quot;,&quot;type&quot;:&quot;multichoice&quot;,&quot;short name&quot;:&quot;N&quot;},&quot;A&quot;:{&quot;nom&quot;:false,&quot;long name&quot;:&quot;Height&quot;,&quot;min&quot;:false,&quot;max&quot;:1100000,&quot;short name&quot;:&quot;A&quot;,&quot;type&quot;:&quot;measurement&quot;},&quot;A1&quot;:{&quot;nom&quot;:false,&quot;long name&quot;:&quot;Package clearance&quot;,&quot;min&quot;:0,&quot;max&quot;:100000,&quot;short name&quot;:&quot;A1&quot;,&quot;type&quot;:&quot;measurement&quot;},&quot;A2&quot;:{&quot;nom&quot;:false,&quot;long name&quot;:&quot;Package height&quot;,&quot;min&quot;:false,&quot;max&quot;:1000000,&quot;short name&quot;:&quot;A2&quot;,&quot;type&quot;:&quot;measurement&quot;},&quot;D&quot;:{&quot;nom&quot;:false,&quot;long name&quot;:&quot;Package length&quot;,&quot;min&quot;:2750000,&quot;max&quot;:3050000,&quot;short name&quot;:&quot;D&quot;,&quot;type&quot;:&quot;measurement&quot;},&quot;E&quot;:{&quot;nom&quot;:false,&quot;long name&quot;:&quot;Width /w leads&quot;,&quot;min&quot;:2550000,&quot;max&quot;:3050000,&quot;short name&quot;:&quot;E&quot;,&quot;type&quot;:&quot;measurement&quot;},&quot;E1&quot;:{&quot;nom&quot;:false,&quot;long name&quot;:&quot;Package width&quot;,&quot;min&quot;:1450000,&quot;max&quot;:1750000,&quot;short name&quot;:&quot;E1&quot;,&quot;type&quot;:&quot;measurement&quot;},&quot;B&quot;:{&quot;nom&quot;:false,&quot;long name&quot;:&quot;Lead width&quot;,&quot;min&quot;:300000,&quot;max&quot;:500000,&quot;short name&quot;:&quot;B&quot;,&quot;type&quot;:&quot;measurement&quot;},&quot;C&quot;:{&quot;nom&quot;:false,&quot;long name&quot;:&quot;Lead thickness&quot;,&quot;min&quot;:120000,&quot;max&quot;:200000,&quot;short name&quot;:&quot;C&quot;,&quot;type&quot;:&quot;measurement&quot;},&quot;L&quot;:{&quot;nom&quot;:false,&quot;long name&quot;:&quot;Lead foot length&quot;,&quot;min&quot;:300000,&quot;max&quot;:600000,&quot;short name&quot;:&quot;L&quot;,&quot;type&quot;:&quot;measurement&quot;},&quot;e&quot;:{&quot;nom&quot;:950000,&quot;long name&quot;:&quot;Lead pitch&quot;,&quot;min&quot;:null,&quot;max&quot;:null,&quot;short name&quot;:&quot;e&quot;,&quot;type&quot;:&quot;measurement&quot;},&quot;PHI&quot;:{&quot;nom&quot;:false,&quot;long name&quot;:&quot;Lead angle&quot;,&quot;min&quot;:0,&quot;max&quot;:8,&quot;short name&quot;:&quot;PHI&quot;,&quot;type&quot;:&quot;measurement&quot;},&quot;offset x&quot;:{&quot;nom&quot;:0,&quot;long name&quot;:&quot;X Center offset&quot;,&quot;min&quot;:null,&quot;max&quot;:null,&quot;short name&quot;:&quot;offset x&quot;,&quot;type&quot;:&quot;measurement&quot;},&quot;offset y&quot;:{&quot;nom&quot;:0,&quot;long name&quot;:&quot;Y Center offset&quot;,&quot;min&quot;:null,&quot;max&quot;:null,&quot;short name&quot;:&quot;offset y&quot;,&quot;type&quot;:&quot;measurement&quot;},&quot;LS&quot;:{&quot;default&quot;:&quot;Rounded rectangle&quot;,&quot;long name&quot;:&quot;Land shape&quot;,&quot;type&quot;:&quot;multichoice&quot;,&quot;short name&quot;:&quot;LS&quot;},&quot;LS1&quot;:{&quot;default&quot;:&quot;Rectangle&quot;,&quot;long name&quot;:&quot;Land shape (Pin 1)&quot;,&quot;type&quot;:&quot;multichoice&quot;,&quot;short name&quot;:&quot;LS1&quot;},&quot;solder toe&quot;:{&quot;nom&quot;:150000,&quot;long name&quot;:&quot;Solder fillet (toe)&quot;,&quot;min&quot;:null,&quot;max&quot;:null,&quot;short name&quot;:&quot;solder toe&quot;,&quot;type&quot;:&quot;fixedmeasurement&quot;},&quot;solder heel&quot;:{&quot;nom&quot;:250000,&quot;long name&quot;:&quot;Solder fillet (heel)&quot;,&quot;min&quot;:null,&quot;max&quot;:null,&quot;short name&quot;:&quot;solder heel&quot;,&quot;type&quot;:&quot;fixedmeasurement&quot;},&quot;solder side&quot;:{&quot;nom&quot;:10000,&quot;long name&quot;:&quot;Solder fillet (side)&quot;,&quot;min&quot;:null,&quot;max&quot;:null,&quot;short name&quot;:&quot;solder side&quot;,&quot;type&quot;:&quot;fixedmeasurement&quot;},&quot;courtyard&quot;:{&quot;nom&quot;:100000,&quot;long name&quot;:&quot;Courtyard&quot;,&quot;min&quot;:null,&quot;max&quot;:null,&quot;short name&quot;:&quot;courtyard&quot;,&quot;type&quot;:&quot;fixedmeasurement&quot;},&quot;SF&quot;:{&quot;default&quot;:&quot;C&quot;,&quot;long name&quot;:&quot;Packing level&quot;,&quot;type&quot;:&quot;multichoiceparent&quot;,&quot;short name&quot;:&quot;SF&quot;,&quot;help&quot;:&quot;http://support.upverter.com/customer/portal/articles/978783-what-is-a-footprint-packing-level&quot;,&quot;children&quot;:[&quot;solder toe&quot;,&quot;solder heel&quot;,&quot;solder side&quot;,&quot;courtyard&quot;]}}}"/>
+<attribute name="FOOTPRINT_VARIANT_NAME_0" value="Recommended_Land_Pattern"/>
+<attribute name="FOOTPRINT_VARIANT_NAME_1" value="IPC_A"/>
+<attribute name="FOOTPRINT_VARIANT_NAME_2" value="IPC_B"/>
+<attribute name="FOOTPRINT_VARIANT_NAME_3" value="IPC_C"/>
+<attribute name="HEIGHT" value="1.1mm"/>
+<attribute name="LEAD_FREE" value="Yes"/>
+<attribute name="MAX_DUTY_CYCLE" value="80%"/>
+<attribute name="MAX_JUNCTION_TEMP" value="+125°C"/>
+<attribute name="MAX_SUPPLY_VOLTAGE" value="17V"/>
+<attribute name="MF" value="Texas Instruments"/>
+<attribute name="MFG_PACKAGE_IDENT" value="DDC0006A"/>
+<attribute name="MFG_PACKAGE_IDENT_COMPONENT_ID" value="d979acf83414fc4e"/>
+<attribute name="MFG_PACKAGE_IDENT_DATE" value="0"/>
+<attribute name="MFG_PACKAGE_IDENT_REV" value="0"/>
+<attribute name="MIN_SUPPLY_VOLTAGE" value="4.5V"/>
+<attribute name="MOUSER_DESCRIPTION" value="Conv DC-DC 4.5V to 17V Synchronous Step Down Single-Out 0.76V to 7V 2A 6-Pin TSOT-23 T/R"/>
+<attribute name="MOUSER_PART_NUMBER" value="595-TPS562201DDCT"/>
+<attribute name="MPN" value="TPS562201DDCT"/>
+<attribute name="NOMINAL_SUPPLY_CURRENT" value="380uA"/>
+<attribute name="NUMBER_OF_OUTPUTS" value="1"/>
+<attribute name="OUTPUT_CURRENT" value="2A"/>
+<attribute name="OUTPUT_TYPE" value="AdjustableProgrammable"/>
+<attribute name="OUTPUT_VOLTAGE" value="0.76-7V"/>
+<attribute name="PACKAGE" value="TSOT23-6"/>
+<attribute name="PREFIX" value="U"/>
+<attribute name="ROHS" value="Yes"/>
+<attribute name="STANDOFF_HEIGHT" value="0mm"/>
+<attribute name="SWITCHING_FREQUENCY" value="580kHz"/>
+<attribute name="SWITCHING_TOPOLOGY" value="Buck"/>
+<attribute name="TEMPERATURE_RANGE_HIGH" value="+125°C"/>
+<attribute name="TEMPERATURE_RANGE_LOW" value="-40°C"/>
+<attribute name="VERIFICATION_VERSION" value="0.0.0.3"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
 </libraries>
 <attributes>
 </attributes>
@@ -19572,7 +19764,6 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <part name="+3V4" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+3V3" device=""/>
 <part name="J10" library="SparkFun-Connectors" deviceset="POWER_JACK" device="PTH_LOCK" value=""/>
 <part name="GND12" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="GND3" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="P+1" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+5V" device=""/>
 <part name="P+5" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+5V" device=""/>
 <part name="C8" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0805K" package3d_urn="urn:adsk.eagle:package:23681/2" value="0.1uF">
@@ -19655,7 +19846,6 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <part name="IO0" library="SparkFun-Connectors" library_urn="urn:adsk.eagle:library:513" deviceset="CONN_01" device="PTH_NO_SILK_KIT" package3d_urn="urn:adsk.eagle:package:38038/1"/>
 <part name="Q4" library="bss138_10" deviceset="BSS138" device=""/>
 <part name="SMD4" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2"/>
-<part name="IC1" library="ACT4088US-T" deviceset="ACT4088US-T" device=""/>
 <part name="C9" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0805K" package3d_urn="urn:adsk.eagle:package:23681/2" value="10uF">
 <spice>
 <pinmapping spiceprefix="C">
@@ -19665,7 +19855,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 </spice>
 <attribute name="VOLTAGE" value="25V"/>
 </part>
-<part name="C7" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0805K" package3d_urn="urn:adsk.eagle:package:23681/2" value="22nF">
+<part name="C7" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0805K" package3d_urn="urn:adsk.eagle:package:23681/2" value="0.1uF">
 <spice>
 <pinmapping spiceprefix="C">
 <pinmap gate="G$1" pin="1" pinorder="1"/>
@@ -19675,10 +19865,9 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <attribute name="VOLTAGE" value="50V"/>
 </part>
 <part name="L1" library="TYA40124R7M-10" deviceset="TYA40124R7M-10" device=""/>
-<part name="D3" library="B240AE-13" deviceset="B240AE-13" device=""/>
 <part name="GND18" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="R12" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="150K"/>
-<part name="R13" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="28.7K"/>
+<part name="R12" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="54.9K"/>
+<part name="R13" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="10K"/>
 <part name="GND22" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="C10" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0805K" package3d_urn="urn:adsk.eagle:package:23681/2" value="10uF">
 <spice>
@@ -19769,6 +19958,10 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <part name="+3V7" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+3V3" device=""/>
 <part name="J5" library="SparkFun-Connectors" library_urn="urn:adsk.eagle:library:513" deviceset="CONN_01" device="PTH_NO_SILK_KIT" package3d_urn="urn:adsk.eagle:package:38038/1"/>
 <part name="GND17" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
+<part name="U3" library="TPS562201DDCT" deviceset="TPS562201DDCT" device="TEXAS_INSTRUMENTS_TPS562201DDCT_0_0"/>
+<part name="P+9" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+5V" device=""/>
+<part name="R3" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="10K"/>
+<part name="P+13" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+12V" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -19796,13 +19989,13 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <attribute name="NAME" x="182.88" y="230.759" size="1.778" layer="95" rot="R180"/>
 <attribute name="VALUE" x="191.516" y="228.219" size="1.778" layer="96" rot="R180"/>
 </instance>
-<instance part="R5" gate="G$1" x="96.52" y="172.72" smashed="yes" rot="R270">
-<attribute name="NAME" x="98.0186" y="176.53" size="1.778" layer="95" rot="R270"/>
-<attribute name="VALUE" x="93.218" y="176.53" size="1.778" layer="96" rot="R270"/>
+<instance part="R5" gate="G$1" x="96.52" y="162.56" smashed="yes" rot="R270">
+<attribute name="NAME" x="98.0186" y="166.37" size="1.778" layer="95" rot="R270"/>
+<attribute name="VALUE" x="93.218" y="166.37" size="1.778" layer="96" rot="R270"/>
 </instance>
-<instance part="C6" gate="G$1" x="86.36" y="165.1" smashed="yes" rot="R90">
-<attribute name="NAME" x="86.106" y="167.259" size="1.778" layer="95" rot="R180"/>
-<attribute name="VALUE" x="94.996" y="167.259" size="1.778" layer="96" rot="R180"/>
+<instance part="C6" gate="G$1" x="86.36" y="154.94" smashed="yes" rot="R90">
+<attribute name="NAME" x="86.106" y="157.099" size="1.778" layer="95" rot="R180"/>
+<attribute name="VALUE" x="94.996" y="157.099" size="1.778" layer="96" rot="R180"/>
 </instance>
 <instance part="GND6" gate="1" x="223.52" y="223.52" smashed="yes" rot="R180">
 <attribute name="VALUE" x="226.06" y="226.06" size="1.778" layer="96" rot="R180"/>
@@ -19810,11 +20003,11 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <instance part="GND8" gate="1" x="175.26" y="180.34" smashed="yes" rot="R270">
 <attribute name="VALUE" x="172.72" y="182.88" size="1.778" layer="96" rot="R270"/>
 </instance>
-<instance part="GND19" gate="1" x="81.28" y="154.94" smashed="yes">
-<attribute name="VALUE" x="78.74" y="152.4" size="1.778" layer="96"/>
+<instance part="GND19" gate="1" x="81.28" y="144.78" smashed="yes">
+<attribute name="VALUE" x="78.74" y="142.24" size="1.778" layer="96"/>
 </instance>
-<instance part="+3V3" gate="G$1" x="96.52" y="182.88" smashed="yes">
-<attribute name="VALUE" x="93.98" y="177.8" size="1.778" layer="96" rot="R90"/>
+<instance part="+3V3" gate="G$1" x="96.52" y="172.72" smashed="yes">
+<attribute name="VALUE" x="93.98" y="167.64" size="1.778" layer="96" rot="R90"/>
 </instance>
 <instance part="R7" gate="G$1" x="231.14" y="261.62" smashed="yes">
 <attribute name="NAME" x="227.33" y="263.1186" size="1.778" layer="95"/>
@@ -19840,11 +20033,8 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <instance part="GND12" gate="1" x="22.86" y="228.6" smashed="yes" rot="R90">
 <attribute name="VALUE" x="25.4" y="226.06" size="1.778" layer="96" rot="R90"/>
 </instance>
-<instance part="GND3" gate="1" x="104.14" y="198.12" smashed="yes" rot="R90">
-<attribute name="VALUE" x="106.68" y="195.58" size="1.778" layer="96" rot="R90"/>
-</instance>
-<instance part="P+1" gate="1" x="104.14" y="208.28" smashed="yes" rot="R270">
-<attribute name="VALUE" x="104.14" y="205.74" size="1.778" layer="96"/>
+<instance part="P+1" gate="1" x="0" y="198.12" smashed="yes" rot="R90">
+<attribute name="VALUE" x="0" y="200.66" size="1.778" layer="96" rot="R180"/>
 </instance>
 <instance part="P+5" gate="1" x="0" y="165.1" smashed="yes" rot="R90">
 <attribute name="VALUE" x="0" y="166.878" size="1.778" layer="96"/>
@@ -19907,15 +20097,15 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <instance part="P+4" gate="1" x="104.14" y="231.14" smashed="yes" rot="R270">
 <attribute name="VALUE" x="99.06" y="233.68" size="1.778" layer="96"/>
 </instance>
-<instance part="P+8" gate="1" x="0" y="198.12" smashed="yes" rot="R90">
-<attribute name="VALUE" x="-0.508" y="200.406" size="1.778" layer="96" rot="R180"/>
+<instance part="P+8" gate="1" x="0" y="182.88" smashed="yes" rot="R90">
+<attribute name="VALUE" x="-0.508" y="185.166" size="1.778" layer="96" rot="R180"/>
 </instance>
-<instance part="D2" gate="G$1" x="114.3" y="160.02" smashed="yes">
-<attribute name="NAME" x="110.871" y="155.448" size="1.778" layer="95" font="vector" rot="R90"/>
+<instance part="D2" gate="G$1" x="114.3" y="149.86" smashed="yes">
+<attribute name="NAME" x="110.871" y="145.288" size="1.778" layer="95" font="vector" rot="R90"/>
 </instance>
-<instance part="R1" gate="G$1" x="114.3" y="170.18" smashed="yes" rot="R270">
-<attribute name="NAME" x="115.7986" y="173.99" size="1.778" layer="95" rot="R270"/>
-<attribute name="VALUE" x="110.998" y="173.99" size="1.778" layer="96" rot="R270"/>
+<instance part="R1" gate="G$1" x="114.3" y="160.02" smashed="yes" rot="R270">
+<attribute name="NAME" x="115.7986" y="163.83" size="1.778" layer="95" rot="R270"/>
+<attribute name="VALUE" x="110.998" y="163.83" size="1.778" layer="96" rot="R270"/>
 </instance>
 <instance part="J8" gate="G$1" x="205.74" y="91.44" smashed="yes">
 <attribute name="NAME" x="203.2" y="99.568" size="1.778" layer="95" font="vector"/>
@@ -19962,32 +20152,32 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <instance part="+3V6" gate="G$1" x="243.84" y="243.84" smashed="yes" rot="R270">
 <attribute name="VALUE" x="241.3" y="241.3" size="1.778" layer="96"/>
 </instance>
-<instance part="J_12V1" gate="G$1" x="27.94" y="127" smashed="yes">
-<attribute name="VALUE" x="25.4" y="122.174" size="1.778" layer="96" font="vector"/>
-<attribute name="NAME" x="25.4" y="132.588" size="1.778" layer="95" font="vector"/>
+<instance part="J_12V1" gate="G$1" x="27.94" y="119.38" smashed="yes">
+<attribute name="VALUE" x="25.4" y="114.554" size="1.778" layer="96" font="vector"/>
+<attribute name="NAME" x="25.4" y="124.968" size="1.778" layer="95" font="vector"/>
 </instance>
-<instance part="GND10" gate="1" x="35.56" y="124.46" smashed="yes">
-<attribute name="VALUE" x="33.02" y="121.92" size="1.778" layer="96"/>
+<instance part="GND10" gate="1" x="35.56" y="116.84" smashed="yes">
+<attribute name="VALUE" x="33.02" y="114.3" size="1.778" layer="96"/>
 </instance>
-<instance part="P+12" gate="1" x="38.1" y="129.54" smashed="yes" rot="MR90">
-<attribute name="VALUE" x="35.306" y="133.858" size="1.778" layer="96" rot="MR180"/>
+<instance part="P+12" gate="1" x="38.1" y="121.92" smashed="yes" rot="MR90">
+<attribute name="VALUE" x="35.306" y="126.238" size="1.778" layer="96" rot="MR180"/>
 </instance>
-<instance part="C1" gate="G$1" x="88.9" y="205.74" smashed="yes">
-<attribute name="NAME" x="90.424" y="206.121" size="1.778" layer="95"/>
-<attribute name="VALUE" x="91.186" y="203.327" size="1.778" layer="96"/>
-<attribute name="VOLTAGE" x="91.186" y="201.168" size="1.778" layer="96"/>
+<instance part="C1" gate="G$1" x="7.62" y="195.58" smashed="yes">
+<attribute name="NAME" x="9.144" y="195.961" size="1.778" layer="95"/>
+<attribute name="VALUE" x="9.906" y="193.167" size="1.778" layer="96"/>
+<attribute name="VOLTAGE" x="9.906" y="191.008" size="1.778" layer="96"/>
 </instance>
-<instance part="HI-LINK_AC1" gate="G$1" x="5.08" y="101.6" smashed="yes">
-<attribute name="VALUE" x="2.54" y="96.774" size="1.778" layer="96" font="vector"/>
-<attribute name="NAME" x="2.54" y="104.648" size="1.778" layer="95" font="vector"/>
-</instance>
-<instance part="HI-LINK_AC2" gate="G$1" x="5.08" y="93.98" smashed="yes">
+<instance part="HI-LINK_AC1" gate="G$1" x="5.08" y="93.98" smashed="yes">
 <attribute name="VALUE" x="2.54" y="89.154" size="1.778" layer="96" font="vector"/>
 <attribute name="NAME" x="2.54" y="97.028" size="1.778" layer="95" font="vector"/>
 </instance>
-<instance part="HI-LINK_VOUT+" gate="G$1" x="5.08" y="109.22" smashed="yes">
-<attribute name="VALUE" x="2.54" y="104.394" size="1.778" layer="96" font="vector"/>
-<attribute name="NAME" x="2.54" y="112.268" size="1.778" layer="95" font="vector"/>
+<instance part="HI-LINK_AC2" gate="G$1" x="5.08" y="86.36" smashed="yes">
+<attribute name="VALUE" x="2.54" y="81.534" size="1.778" layer="96" font="vector"/>
+<attribute name="NAME" x="2.54" y="89.408" size="1.778" layer="95" font="vector"/>
+</instance>
+<instance part="HI-LINK_VOUT+" gate="G$1" x="5.08" y="101.6" smashed="yes">
+<attribute name="VALUE" x="2.54" y="96.774" size="1.778" layer="96" font="vector"/>
+<attribute name="NAME" x="2.54" y="104.648" size="1.778" layer="95" font="vector"/>
 </instance>
 <instance part="J3" gate="G$1" x="10.16" y="254" smashed="yes">
 <attribute name="VALUE" x="7.62" y="249.174" size="1.778" layer="96" font="vector"/>
@@ -20058,41 +20248,33 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <attribute name="NAME" x="290.83" y="100.5586" size="1.778" layer="95"/>
 <attribute name="VALUE" x="290.83" y="95.758" size="1.778" layer="96"/>
 </instance>
-<instance part="IC1" gate="G$1" x="25.4" y="200.66" smashed="yes">
-<attribute name="NAME" x="36.83" y="198.12" size="1.778" layer="95" align="center-left"/>
-<attribute name="VALUE" x="30.48" y="191.008" size="1.778" layer="96" align="center-left"/>
+<instance part="C9" gate="G$1" x="33.02" y="185.42" smashed="yes" rot="R180">
+<attribute name="NAME" x="31.496" y="185.039" size="1.778" layer="95" rot="R180"/>
+<attribute name="VALUE" x="30.226" y="187.579" size="1.778" layer="96" rot="R180"/>
+<attribute name="VOLTAGE" x="30.226" y="189.738" size="1.778" layer="96" rot="R180"/>
 </instance>
-<instance part="C9" gate="G$1" x="15.24" y="195.58" smashed="yes">
-<attribute name="NAME" x="16.764" y="195.961" size="1.778" layer="95"/>
-<attribute name="VALUE" x="18.034" y="193.421" size="1.778" layer="96"/>
-<attribute name="VOLTAGE" x="18.034" y="191.262" size="1.778" layer="96"/>
+<instance part="C7" gate="G$1" x="54.61" y="212.09" smashed="yes" rot="R90">
+<attribute name="VOLTAGE" x="61.976" y="213.614" size="1.778" layer="96" rot="R90"/>
+<attribute name="NAME" x="54.229" y="213.614" size="1.778" layer="95" rot="R90"/>
+<attribute name="VALUE" x="59.309" y="213.614" size="1.778" layer="96" rot="R90"/>
 </instance>
-<instance part="C7" gate="G$1" x="55.88" y="205.74" smashed="yes">
-<attribute name="NAME" x="57.404" y="206.121" size="1.778" layer="95"/>
-<attribute name="VALUE" x="58.166" y="203.581" size="1.778" layer="96"/>
-<attribute name="VOLTAGE" x="58.166" y="201.422" size="1.778" layer="96"/>
+<instance part="L1" gate="G$1" x="33.02" y="198.12" smashed="yes" rot="MR0">
+<attribute name="NAME" x="24.13" y="204.47" size="1.778" layer="95" rot="MR0" align="center-left"/>
+<attribute name="VALUE" x="31.75" y="201.93" size="1.778" layer="96" rot="MR0" align="center-left"/>
 </instance>
-<instance part="L1" gate="G$1" x="66.04" y="208.28" smashed="yes">
-<attribute name="NAME" x="74.93" y="214.63" size="1.778" layer="95" align="center-left"/>
-<attribute name="VALUE" x="67.31" y="212.09" size="1.778" layer="96" align="center-left"/>
+<instance part="GND18" gate="1" x="38.1" y="203.2" smashed="yes" rot="R270">
+<attribute name="VALUE" x="35.56" y="205.74" size="1.778" layer="96" rot="R270"/>
 </instance>
-<instance part="D3" gate="G$1" x="27.94" y="208.28" smashed="yes" rot="R180">
-<attribute name="NAME" x="15.24" y="199.39" size="1.778" layer="95" rot="R180" align="center-left"/>
-<attribute name="VALUE" x="22.86" y="212.598" size="1.778" layer="96" rot="R180" align="center-left"/>
+<instance part="R12" gate="G$1" x="86.36" y="193.04" smashed="yes">
+<attribute name="NAME" x="82.55" y="194.5386" size="1.778" layer="95"/>
+<attribute name="VALUE" x="82.55" y="189.738" size="1.778" layer="96"/>
 </instance>
-<instance part="GND18" gate="1" x="2.54" y="208.28" smashed="yes" rot="R270">
-<attribute name="VALUE" x="0" y="210.82" size="1.778" layer="96" rot="R270"/>
+<instance part="R13" gate="G$1" x="76.2" y="187.96" smashed="yes" rot="R90">
+<attribute name="NAME" x="74.7014" y="184.15" size="1.778" layer="95" rot="R90"/>
+<attribute name="VALUE" x="79.502" y="184.15" size="1.778" layer="96" rot="R90"/>
 </instance>
-<instance part="R12" gate="G$1" x="71.12" y="193.04" smashed="yes">
-<attribute name="NAME" x="67.31" y="194.5386" size="1.778" layer="95"/>
-<attribute name="VALUE" x="67.31" y="189.738" size="1.778" layer="96"/>
-</instance>
-<instance part="R13" gate="G$1" x="53.34" y="187.96" smashed="yes" rot="R90">
-<attribute name="NAME" x="51.8414" y="184.15" size="1.778" layer="95" rot="R90"/>
-<attribute name="VALUE" x="56.642" y="184.15" size="1.778" layer="96" rot="R90"/>
-</instance>
-<instance part="GND22" gate="1" x="53.34" y="180.34" smashed="yes">
-<attribute name="VALUE" x="50.8" y="177.8" size="1.778" layer="96"/>
+<instance part="GND22" gate="1" x="76.2" y="180.34" smashed="yes">
+<attribute name="VALUE" x="73.66" y="177.8" size="1.778" layer="96"/>
 </instance>
 <instance part="C10" gate="G$1" x="7.62" y="162.56" smashed="yes">
 <attribute name="NAME" x="9.144" y="162.941" size="1.778" layer="95"/>
@@ -20111,8 +20293,8 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <instance part="GND20" gate="1" x="48.26" y="152.4" smashed="yes">
 <attribute name="VALUE" x="45.72" y="149.86" size="1.778" layer="96"/>
 </instance>
-<instance part="RESET" gate="G$1" x="88.9" y="157.48" smashed="yes">
-<attribute name="NAME" x="88.9" y="159.004" size="1.778" layer="95" font="vector" align="bottom-center"/>
+<instance part="RESET" gate="G$1" x="88.9" y="147.32" smashed="yes">
+<attribute name="NAME" x="88.9" y="148.844" size="1.778" layer="95" font="vector" align="bottom-center"/>
 </instance>
 <instance part="P+3" gate="1" x="55.88" y="256.54" smashed="yes" rot="R90">
 <attribute name="VALUE" x="60.96" y="254" size="1.778" layer="96" rot="R180"/>
@@ -20124,34 +20306,34 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <attribute name="NAME" x="25.4" y="167.894" size="1.778" layer="95" font="vector"/>
 <attribute name="VALUE" x="33.02" y="169.926" size="1.778" layer="96" font="vector" align="top-left"/>
 </instance>
-<instance part="J_VIN_5V" gate="G$1" x="55.88" y="127" smashed="yes">
-<attribute name="VALUE" x="53.34" y="122.174" size="1.778" layer="96" font="vector"/>
-<attribute name="NAME" x="50.8" y="132.588" size="1.778" layer="95" font="vector"/>
+<instance part="J_VIN_5V" gate="G$1" x="55.88" y="119.38" smashed="yes">
+<attribute name="VALUE" x="53.34" y="114.554" size="1.778" layer="96" font="vector"/>
+<attribute name="NAME" x="50.8" y="124.968" size="1.778" layer="95" font="vector"/>
 </instance>
-<instance part="P+7" gate="1" x="66.04" y="129.54" smashed="yes" rot="R270">
-<attribute name="VALUE" x="63.5" y="132.08" size="1.778" layer="96"/>
+<instance part="P+7" gate="1" x="66.04" y="121.92" smashed="yes" rot="R270">
+<attribute name="VALUE" x="63.5" y="124.46" size="1.778" layer="96"/>
 </instance>
-<instance part="GND23" gate="1" x="63.5" y="124.46" smashed="yes">
-<attribute name="VALUE" x="60.96" y="121.92" size="1.778" layer="96"/>
+<instance part="GND23" gate="1" x="63.5" y="116.84" smashed="yes">
+<attribute name="VALUE" x="60.96" y="114.3" size="1.778" layer="96"/>
 </instance>
-<instance part="J37" gate="G$1" x="5.08" y="132.08" smashed="yes">
-<attribute name="VALUE" x="2.54" y="127.254" size="1.778" layer="96" font="vector"/>
-<attribute name="NAME" x="2.54" y="135.128" size="1.778" layer="95" font="vector"/>
+<instance part="J37" gate="G$1" x="5.08" y="124.46" smashed="yes">
+<attribute name="VALUE" x="2.54" y="119.634" size="1.778" layer="96" font="vector"/>
+<attribute name="NAME" x="2.54" y="127.508" size="1.778" layer="95" font="vector"/>
 </instance>
-<instance part="P+10" gate="VCC" x="15.24" y="132.08" smashed="yes" rot="R270">
-<attribute name="VALUE" x="12.7" y="134.62" size="1.778" layer="96"/>
+<instance part="P+10" gate="VCC" x="15.24" y="124.46" smashed="yes" rot="R270">
+<attribute name="VALUE" x="12.7" y="127" size="1.778" layer="96"/>
 </instance>
 <instance part="J38" gate="G$1" x="147.32" y="190.5" smashed="yes">
 <attribute name="NAME" x="144.78" y="191.008" size="1.778" layer="95" font="vector"/>
 </instance>
-<instance part="J40" gate="G$1" x="78.74" y="132.08" smashed="yes">
-<attribute name="NAME" x="76.708" y="132.588" size="1.778" layer="95" font="vector"/>
+<instance part="J40" gate="G$1" x="78.74" y="124.46" smashed="yes">
+<attribute name="NAME" x="76.708" y="124.968" size="1.778" layer="95" font="vector"/>
 </instance>
 <instance part="J41" gate="G$1" x="147.32" y="185.42" smashed="yes">
 <attribute name="NAME" x="144.78" y="185.928" size="1.778" layer="95" font="vector"/>
 </instance>
-<instance part="J42" gate="G$1" x="104.14" y="132.08" smashed="yes">
-<attribute name="NAME" x="101.6" y="132.588" size="1.778" layer="95" font="vector"/>
+<instance part="J42" gate="G$1" x="104.14" y="124.46" smashed="yes">
+<attribute name="NAME" x="101.6" y="124.968" size="1.778" layer="95" font="vector"/>
 </instance>
 <instance part="J43" gate="G$1" x="101.6" y="91.44" smashed="yes">
 <attribute name="NAME" x="99.06" y="97.028" size="1.778" layer="95" font="vector"/>
@@ -20214,11 +20396,11 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <attribute name="NAME" x="278.13" y="262.382" size="1.778" layer="95" align="bottom-center"/>
 <attribute name="VALUE" x="278.13" y="245.618" size="1.778" layer="96" align="top-center"/>
 </instance>
-<instance part="J31" gate="G$1" x="129.54" y="132.08" smashed="yes">
-<attribute name="NAME" x="127" y="132.588" size="1.778" layer="95" font="vector"/>
+<instance part="J31" gate="G$1" x="129.54" y="124.46" smashed="yes">
+<attribute name="NAME" x="127" y="124.968" size="1.778" layer="95" font="vector"/>
 </instance>
-<instance part="GND14" gate="1" x="139.7" y="132.08" smashed="yes" rot="R90">
-<attribute name="VALUE" x="142.24" y="129.54" size="1.778" layer="96" rot="R90"/>
+<instance part="GND14" gate="1" x="139.7" y="124.46" smashed="yes" rot="R90">
+<attribute name="VALUE" x="142.24" y="121.92" size="1.778" layer="96" rot="R90"/>
 </instance>
 <instance part="J2" gate="G$1" x="129.54" y="91.44" smashed="yes">
 <attribute name="NAME" x="127" y="97.028" size="1.778" layer="95" font="vector"/>
@@ -20261,21 +20443,21 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <instance part="J24" gate="G$1" x="195.58" y="91.44" smashed="yes">
 <attribute name="NAME" x="193.04" y="97.028" size="1.778" layer="95" font="vector"/>
 </instance>
-<instance part="C3" gate="G$1" x="86.36" y="129.54" smashed="yes">
-<attribute name="NAME" x="87.884" y="129.921" size="1.778" layer="95"/>
-<attribute name="VALUE" x="84.328" y="128.905" size="1.778" layer="96" rot="R180"/>
-<attribute name="VOLTAGE" x="84.328" y="126.238" size="1.778" layer="96" rot="R180"/>
+<instance part="C3" gate="G$1" x="86.36" y="121.92" smashed="yes">
+<attribute name="NAME" x="87.884" y="122.301" size="1.778" layer="95"/>
+<attribute name="VALUE" x="84.328" y="121.285" size="1.778" layer="96" rot="R180"/>
+<attribute name="VOLTAGE" x="84.328" y="118.618" size="1.778" layer="96" rot="R180"/>
 </instance>
-<instance part="C12" gate="G$1" x="111.76" y="129.54" smashed="yes">
-<attribute name="NAME" x="113.284" y="129.921" size="1.778" layer="95"/>
-<attribute name="VALUE" x="109.728" y="128.905" size="1.778" layer="96" rot="R180"/>
-<attribute name="VOLTAGE" x="109.728" y="126.238" size="1.778" layer="96" rot="R180"/>
+<instance part="C12" gate="G$1" x="111.76" y="121.92" smashed="yes">
+<attribute name="NAME" x="113.284" y="122.301" size="1.778" layer="95"/>
+<attribute name="VALUE" x="109.728" y="121.285" size="1.778" layer="96" rot="R180"/>
+<attribute name="VOLTAGE" x="109.728" y="118.618" size="1.778" layer="96" rot="R180"/>
 </instance>
-<instance part="GND9" gate="1" x="86.36" y="121.92" smashed="yes">
-<attribute name="VALUE" x="83.82" y="119.38" size="1.778" layer="96"/>
+<instance part="GND9" gate="1" x="86.36" y="114.3" smashed="yes">
+<attribute name="VALUE" x="83.82" y="111.76" size="1.778" layer="96"/>
 </instance>
-<instance part="GND16" gate="1" x="111.76" y="121.92" smashed="yes">
-<attribute name="VALUE" x="109.22" y="119.38" size="1.778" layer="96"/>
+<instance part="GND16" gate="1" x="111.76" y="114.3" smashed="yes">
+<attribute name="VALUE" x="109.22" y="111.76" size="1.778" layer="96"/>
 </instance>
 <instance part="F1" gate="G$1" x="147.32" y="149.86" smashed="yes">
 <attribute name="NAME" x="149.225" y="153.035" size="1.778" layer="95" font="vector" align="bottom-center"/>
@@ -20284,15 +20466,28 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <instance part="+3V5" gate="G$1" x="134.62" y="149.86" smashed="yes" rot="R90">
 <attribute name="VALUE" x="139.7" y="147.32" size="1.778" layer="96" rot="R180"/>
 </instance>
-<instance part="+3V7" gate="G$1" x="114.3" y="182.88" smashed="yes">
-<attribute name="VALUE" x="111.76" y="177.8" size="1.778" layer="96" rot="R90"/>
+<instance part="+3V7" gate="G$1" x="114.3" y="172.72" smashed="yes">
+<attribute name="VALUE" x="111.76" y="167.64" size="1.778" layer="96" rot="R90"/>
 </instance>
-<instance part="J5" gate="G$1" x="5.08" y="127" smashed="yes">
-<attribute name="VALUE" x="2.54" y="122.174" size="1.778" layer="96" font="vector"/>
-<attribute name="NAME" x="2.54" y="130.048" size="1.778" layer="95" font="vector"/>
+<instance part="J5" gate="G$1" x="5.08" y="119.38" smashed="yes">
+<attribute name="VALUE" x="2.54" y="114.554" size="1.778" layer="96" font="vector"/>
+<attribute name="NAME" x="2.54" y="122.428" size="1.778" layer="95" font="vector"/>
 </instance>
-<instance part="GND17" gate="1" x="15.24" y="127" smashed="yes" rot="R90">
-<attribute name="VALUE" x="17.78" y="124.46" size="1.778" layer="96" rot="R90"/>
+<instance part="GND17" gate="1" x="15.24" y="119.38" smashed="yes" rot="R90">
+<attribute name="VALUE" x="17.78" y="116.84" size="1.778" layer="96" rot="R90"/>
+</instance>
+<instance part="U3" gate="G$0" x="55.88" y="198.12" smashed="yes">
+<attribute name="NAME" x="55.88" y="206.502" size="2.54" layer="95" align="bottom-center"/>
+</instance>
+<instance part="P+9" gate="1" x="96.52" y="193.04" smashed="yes" rot="R270">
+<attribute name="VALUE" x="96.52" y="190.5" size="1.778" layer="96"/>
+</instance>
+<instance part="R3" gate="G$1" x="81.28" y="203.2" smashed="yes" rot="R270">
+<attribute name="NAME" x="82.7786" y="207.01" size="1.778" layer="95" rot="R270"/>
+<attribute name="VALUE" x="77.978" y="207.01" size="1.778" layer="96" rot="R270"/>
+</instance>
+<instance part="P+13" gate="1" x="81.28" y="213.36" smashed="yes">
+<attribute name="VALUE" x="83.566" y="213.868" size="1.778" layer="96" rot="R90"/>
 </instance>
 </instances>
 <busses>
@@ -20335,11 +20530,11 @@ You are welcome to use this library for commercial purposes. For attribution, we
 </segment>
 <segment>
 <pinref part="C6" gate="G$1" pin="1"/>
-<wire x1="83.82" y1="165.1" x2="81.28" y2="165.1" width="0.1524" layer="91"/>
+<wire x1="83.82" y1="154.94" x2="81.28" y2="154.94" width="0.1524" layer="91"/>
 <pinref part="GND19" gate="1" pin="GND"/>
-<wire x1="81.28" y1="165.1" x2="81.28" y2="157.48" width="0.1524" layer="91"/>
-<wire x1="81.28" y1="157.48" x2="83.82" y2="157.48" width="0.1524" layer="91"/>
-<junction x="81.28" y="157.48"/>
+<wire x1="81.28" y1="154.94" x2="81.28" y2="147.32" width="0.1524" layer="91"/>
+<wire x1="81.28" y1="147.32" x2="83.82" y2="147.32" width="0.1524" layer="91"/>
+<junction x="81.28" y="147.32"/>
 <pinref part="RESET" gate="G$1" pin="1"/>
 </segment>
 <segment>
@@ -20415,23 +20610,16 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <pinref part="GND7" gate="1" pin="GND"/>
 </segment>
 <segment>
+<pinref part="C1" gate="G$1" pin="2"/>
 <pinref part="GND1" gate="1" pin="GND"/>
 <pinref part="C9" gate="G$1" pin="2"/>
-<wire x1="2.54" y1="190.5" x2="15.24" y2="190.5" width="0.1524" layer="91"/>
+<wire x1="2.54" y1="190.5" x2="7.62" y2="190.5" width="0.1524" layer="91"/>
+<wire x1="7.62" y1="190.5" x2="33.02" y2="190.5" width="0.1524" layer="91"/>
+<junction x="7.62" y="190.5"/>
 </segment>
 <segment>
-<pinref part="GND3" gate="1" pin="GND"/>
-<pinref part="IC1" gate="G$1" pin="G"/>
-<wire x1="101.6" y1="198.12" x2="88.9" y2="198.12" width="0.1524" layer="91"/>
-<pinref part="C1" gate="G$1" pin="2"/>
-<wire x1="88.9" y1="198.12" x2="50.8" y2="198.12" width="0.1524" layer="91"/>
-<wire x1="88.9" y1="200.66" x2="88.9" y2="198.12" width="0.1524" layer="91"/>
-<junction x="88.9" y="198.12"/>
-</segment>
-<segment>
-<pinref part="D3" gate="G$1" pin="A"/>
 <pinref part="GND18" gate="1" pin="GND"/>
-<wire x1="10.16" y1="208.28" x2="5.08" y2="208.28" width="0.1524" layer="91"/>
+<pinref part="U3" gate="G$0" pin="GND"/>
 </segment>
 <segment>
 <pinref part="R13" gate="G$1" pin="1"/>
@@ -20513,7 +20701,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 </segment>
 <segment>
 <pinref part="R5" gate="G$1" pin="1"/>
-<wire x1="96.52" y1="177.8" x2="96.52" y2="180.34" width="0.1524" layer="91"/>
+<wire x1="96.52" y1="167.64" x2="96.52" y2="170.18" width="0.1524" layer="91"/>
 <pinref part="+3V3" gate="G$1" pin="+3V3"/>
 </segment>
 <segment>
@@ -20542,22 +20730,22 @@ You are welcome to use this library for commercial purposes. For attribution, we
 </segment>
 <segment>
 <pinref part="R1" gate="G$1" pin="1"/>
-<wire x1="114.3" y1="175.26" x2="114.3" y2="180.34" width="0.1524" layer="91"/>
+<wire x1="114.3" y1="165.1" x2="114.3" y2="170.18" width="0.1524" layer="91"/>
 <pinref part="+3V7" gate="G$1" pin="+3V3"/>
 </segment>
 </net>
 <net name="EN" class="0">
 <segment>
 <pinref part="R5" gate="G$1" pin="2"/>
-<label x="92.964" y="153.162" size="1.778" layer="95"/>
-<wire x1="96.52" y1="167.64" x2="96.52" y2="165.1" width="0.1524" layer="91"/>
-<wire x1="96.52" y1="165.1" x2="96.52" y2="157.48" width="0.1524" layer="91"/>
+<label x="92.964" y="143.002" size="1.778" layer="95"/>
+<wire x1="96.52" y1="157.48" x2="96.52" y2="154.94" width="0.1524" layer="91"/>
+<wire x1="96.52" y1="154.94" x2="96.52" y2="147.32" width="0.1524" layer="91"/>
 <pinref part="C6" gate="G$1" pin="2"/>
-<wire x1="96.52" y1="157.48" x2="96.52" y2="152.4" width="0.1524" layer="91"/>
-<wire x1="91.44" y1="165.1" x2="96.52" y2="165.1" width="0.1524" layer="91"/>
-<junction x="96.52" y="165.1"/>
-<wire x1="93.98" y1="157.48" x2="96.52" y2="157.48" width="0.1524" layer="91"/>
-<junction x="96.52" y="157.48"/>
+<wire x1="96.52" y1="147.32" x2="96.52" y2="142.24" width="0.1524" layer="91"/>
+<wire x1="91.44" y1="154.94" x2="96.52" y2="154.94" width="0.1524" layer="91"/>
+<junction x="96.52" y="154.94"/>
+<wire x1="93.98" y1="147.32" x2="96.52" y2="147.32" width="0.1524" layer="91"/>
+<junction x="96.52" y="147.32"/>
 <pinref part="RESET" gate="G$1" pin="2"/>
 </segment>
 <segment>
@@ -20584,8 +20772,8 @@ You are welcome to use this library for commercial purposes. For attribution, we
 </segment>
 <segment>
 <pinref part="D2" gate="G$1" pin="C"/>
-<label x="114.3" y="149.86" size="1.778" layer="95"/>
-<wire x1="114.3" y1="154.94" x2="114.3" y2="149.86" width="0.1524" layer="91"/>
+<label x="114.3" y="139.7" size="1.778" layer="95"/>
+<wire x1="114.3" y1="144.78" x2="114.3" y2="139.7" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <wire x1="226.06" y1="152.4" x2="231.14" y2="152.4" width="0.1524" layer="91"/>
@@ -20951,12 +21139,13 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <junction x="88.9" y="231.14"/>
 </segment>
 <segment>
-<wire x1="2.54" y1="198.12" x2="15.24" y2="198.12" width="0.1524" layer="91"/>
+<wire x1="2.54" y1="182.88" x2="33.02" y2="182.88" width="0.1524" layer="91"/>
 <pinref part="P+8" gate="1" pin="+12V"/>
 <pinref part="C9" gate="G$1" pin="1"/>
-<junction x="15.24" y="198.12"/>
-<pinref part="IC1" gate="G$1" pin="IN"/>
-<wire x1="15.24" y1="198.12" x2="25.4" y2="198.12" width="0.1524" layer="91"/>
+<wire x1="33.02" y1="182.88" x2="40.64" y2="182.88" width="0.1524" layer="91"/>
+<junction x="33.02" y="182.88"/>
+<pinref part="U3" gate="G$0" pin="VIN"/>
+<wire x1="40.64" y1="182.88" x2="40.64" y2="193.04" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="J_12V1" gate="G$1" pin="2"/>
@@ -20966,6 +21155,11 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <pinref part="R4" gate="G$1" pin="1"/>
 <wire x1="58.42" y1="256.54" x2="63.5" y2="256.54" width="0.1524" layer="91"/>
 <pinref part="P+3" gate="1" pin="+12V"/>
+</segment>
+<segment>
+<pinref part="P+13" gate="1" pin="+12V"/>
+<pinref part="R3" gate="G$1" pin="1"/>
+<wire x1="81.28" y1="210.82" x2="81.28" y2="208.28" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="+5V" class="0">
@@ -20983,17 +21177,17 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <pinref part="U1" gate="G$1" pin="EN"/>
 </segment>
 <segment>
+<pinref part="P+9" gate="1" pin="+5V"/>
+<pinref part="R12" gate="G$1" pin="2"/>
+<wire x1="91.44" y1="193.04" x2="93.98" y2="193.04" width="0.1524" layer="91"/>
+</segment>
+<segment>
 <pinref part="L1" gate="G$1" pin="2"/>
 <pinref part="C1" gate="G$1" pin="1"/>
-<wire x1="86.36" y1="208.28" x2="88.9" y2="208.28" width="0.1524" layer="91"/>
-<wire x1="88.9" y1="208.28" x2="99.06" y2="208.28" width="0.1524" layer="91"/>
-<junction x="88.9" y="208.28"/>
 <pinref part="P+1" gate="1" pin="+5V"/>
-<pinref part="R12" gate="G$1" pin="2"/>
-<wire x1="99.06" y1="208.28" x2="101.6" y2="208.28" width="0.1524" layer="91"/>
-<wire x1="76.2" y1="193.04" x2="99.06" y2="193.04" width="0.1524" layer="91"/>
-<wire x1="99.06" y1="193.04" x2="99.06" y2="208.28" width="0.1524" layer="91"/>
-<junction x="99.06" y="208.28"/>
+<wire x1="2.54" y1="198.12" x2="7.62" y2="198.12" width="0.1524" layer="91"/>
+<wire x1="7.62" y1="198.12" x2="12.7" y2="198.12" width="0.1524" layer="91"/>
+<junction x="7.62" y="198.12"/>
 </segment>
 <segment>
 <pinref part="J_VIN_5V" gate="G$1" pin="2"/>
@@ -21145,7 +21339,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <segment>
 <pinref part="D2" gate="G$1" pin="A"/>
 <pinref part="R1" gate="G$1" pin="2"/>
-<wire x1="114.3" y1="162.56" x2="114.3" y2="165.1" width="0.1524" layer="91"/>
+<wire x1="114.3" y1="152.4" x2="114.3" y2="154.94" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="PWR_LED" class="0">
@@ -21186,13 +21380,13 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <net name="AC1" class="0">
 <segment>
 <pinref part="HI-LINK_AC1" gate="G$1" pin="1"/>
-<wire x1="12.7" y1="101.6" x2="17.78" y2="101.6" width="0.1524" layer="91"/>
+<wire x1="12.7" y1="93.98" x2="17.78" y2="93.98" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="AC2" class="0">
 <segment>
 <pinref part="HI-LINK_AC2" gate="G$1" pin="1"/>
-<wire x1="17.78" y1="93.98" x2="12.7" y2="93.98" width="0.1524" layer="91"/>
+<wire x1="17.78" y1="86.36" x2="12.7" y2="86.36" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$1" class="0">
@@ -21231,33 +21425,23 @@ You are welcome to use this library for commercial purposes. For attribution, we
 </net>
 <net name="SW" class="0">
 <segment>
-<pinref part="IC1" gate="G$1" pin="SW"/>
-<wire x1="25.4" y1="200.66" x2="25.4" y2="208.28" width="0.1524" layer="91"/>
 <pinref part="C7" gate="G$1" pin="1"/>
-<wire x1="25.4" y1="208.28" x2="55.88" y2="208.28" width="0.1524" layer="91"/>
 <pinref part="L1" gate="G$1" pin="1"/>
-<wire x1="55.88" y1="208.28" x2="66.04" y2="208.28" width="0.1524" layer="91"/>
-<junction x="55.88" y="208.28"/>
-<pinref part="D3" gate="G$1" pin="K"/>
-<junction x="25.4" y="208.28"/>
-</segment>
-</net>
-<net name="BST" class="0">
-<segment>
-<pinref part="C7" gate="G$1" pin="2"/>
-<pinref part="IC1" gate="G$1" pin="BST"/>
-<wire x1="55.88" y1="200.66" x2="50.8" y2="200.66" width="0.1524" layer="91"/>
+<pinref part="U3" gate="G$0" pin="SW"/>
+<wire x1="33.02" y1="198.12" x2="40.64" y2="198.12" width="0.1524" layer="91"/>
+<wire x1="33.02" y1="198.12" x2="33.02" y2="212.09" width="0.1524" layer="91"/>
+<junction x="33.02" y="198.12"/>
+<wire x1="33.02" y1="212.09" x2="52.07" y2="212.09" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="FB" class="0">
 <segment>
-<pinref part="IC1" gate="G$1" pin="FB"/>
-<wire x1="50.8" y1="195.58" x2="53.34" y2="195.58" width="0.1524" layer="91"/>
 <pinref part="R13" gate="G$1" pin="2"/>
-<wire x1="53.34" y1="195.58" x2="53.34" y2="193.04" width="0.1524" layer="91"/>
 <pinref part="R12" gate="G$1" pin="1"/>
-<wire x1="53.34" y1="193.04" x2="66.04" y2="193.04" width="0.1524" layer="91"/>
-<junction x="53.34" y="193.04"/>
+<wire x1="76.2" y1="193.04" x2="81.28" y2="193.04" width="0.1524" layer="91"/>
+<junction x="76.2" y="193.04"/>
+<pinref part="U3" gate="G$0" pin="VFB"/>
+<wire x1="76.2" y1="193.04" x2="71.12" y2="193.04" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="PROG_VDD" class="0">
@@ -21296,7 +21480,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <net name="N$13" class="0">
 <segment>
 <pinref part="HI-LINK_VOUT+" gate="G$1" pin="1"/>
-<wire x1="12.7" y1="109.22" x2="17.78" y2="109.22" width="0.1524" layer="91"/>
+<wire x1="12.7" y1="101.6" x2="17.78" y2="101.6" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="+3V3_OUT" class="0">
@@ -21307,22 +21491,38 @@ You are welcome to use this library for commercial purposes. For attribution, we
 </segment>
 <segment>
 <pinref part="J42" gate="G$1" pin="1"/>
-<wire x1="116.84" y1="132.08" x2="111.76" y2="132.08" width="0.1524" layer="91"/>
+<wire x1="116.84" y1="124.46" x2="111.76" y2="124.46" width="0.1524" layer="91"/>
 <pinref part="C12" gate="G$1" pin="1"/>
-<junction x="111.76" y="132.08"/>
-<label x="109.22" y="132.08" size="1.778" layer="95"/>
+<junction x="111.76" y="124.46"/>
+<label x="109.22" y="124.46" size="1.778" layer="95"/>
 </segment>
 <segment>
 <pinref part="J40" gate="G$1" pin="1"/>
-<wire x1="93.98" y1="132.08" x2="86.36" y2="132.08" width="0.1524" layer="91"/>
+<wire x1="93.98" y1="124.46" x2="86.36" y2="124.46" width="0.1524" layer="91"/>
 <pinref part="C3" gate="G$1" pin="1"/>
-<junction x="86.36" y="132.08"/>
-<label x="83.82" y="132.08" size="1.778" layer="95"/>
+<junction x="86.36" y="124.46"/>
+<label x="83.82" y="124.46" size="1.778" layer="95"/>
 </segment>
 <segment>
 <pinref part="I2C" gate="G$1" pin="1"/>
 <wire x1="236.22" y1="170.18" x2="231.14" y2="170.18" width="0.1524" layer="91"/>
 <label x="226.06" y="170.18" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="N$12" class="0">
+<segment>
+<pinref part="C7" gate="G$1" pin="2"/>
+<wire x1="59.69" y1="212.09" x2="73.66" y2="212.09" width="0.1524" layer="91"/>
+<pinref part="U3" gate="G$0" pin="VBST"/>
+<wire x1="73.66" y1="212.09" x2="73.66" y2="203.2" width="0.1524" layer="91"/>
+<wire x1="73.66" y1="203.2" x2="71.12" y2="203.2" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$14" class="0">
+<segment>
+<pinref part="U3" gate="G$0" pin="EN"/>
+<pinref part="R3" gate="G$1" pin="2"/>
+<wire x1="71.12" y1="198.12" x2="81.28" y2="198.12" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>
