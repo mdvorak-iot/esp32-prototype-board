@@ -16427,102 +16427,6 @@ This footprint was designed to help hold the alignment of a through-hole compone
 </deviceset>
 </devicesets>
 </library>
-<library name="bss138_10">
-<description>&lt;b&gt;Fairchild BSS138 Field Effect Transistor&lt;/b&gt;&lt;br&gt;
-&lt;br&gt;
-Version 1.0&lt;br&gt;
-&amp;copy; 2015 Samuel Lourenço</description>
-<packages>
-<package name="SOT23">
-<description>&lt;b&gt;SOT-23 Plastic Small Outline&lt;/b&gt;</description>
-<wire x1="1.45" y1="0.65" x2="1.45" y2="-0.37" width="0.1524" layer="21"/>
-<wire x1="1.45" y1="-0.37" x2="1.45" y2="-0.65" width="0.1524" layer="51"/>
-<wire x1="-0.37" y1="-0.65" x2="0.37" y2="-0.65" width="0.1524" layer="21"/>
-<wire x1="-1.45" y1="-0.65" x2="-1.45" y2="-0.37" width="0.1524" layer="51"/>
-<wire x1="-1.45" y1="-0.37" x2="-1.45" y2="0.65" width="0.1524" layer="21"/>
-<wire x1="-1.45" y1="0.65" x2="-0.58" y2="0.65" width="0.1524" layer="21"/>
-<wire x1="0.58" y1="0.65" x2="1.45" y2="0.65" width="0.1524" layer="21"/>
-<smd name="1" x="-0.95" y="-1" dx="0.8" dy="0.9" layer="1"/>
-<smd name="2" x="0.95" y="-1" dx="0.8" dy="0.9" layer="1"/>
-<smd name="3" x="0" y="1" dx="0.8" dy="0.9" layer="1"/>
-<text x="-1.85" y="-0.6" size="1.27" layer="25" rot="R90">&gt;NAME</text>
-<text x="3.15" y="-0.6" size="1.27" layer="27" rot="R90">&gt;VALUE</text>
-<rectangle x1="-1.15" y1="-1.2" x2="-0.75" y2="-0.65" layer="51"/>
-<rectangle x1="-0.2" y1="0.65" x2="0.2" y2="1.2" layer="51"/>
-<rectangle x1="0.75" y1="-1.2" x2="1.15" y2="-0.65" layer="51"/>
-<wire x1="-1.45" y1="-0.65" x2="-0.37" y2="-0.65" width="0.1524" layer="51"/>
-<wire x1="0.37" y1="-0.65" x2="1.45" y2="-0.65" width="0.1524" layer="51"/>
-<wire x1="-0.58" y1="0.65" x2="0.58" y2="0.65" width="0.1524" layer="51"/>
-<rectangle x1="-0.6" y1="-0.4" x2="0.6" y2="0.4" layer="35"/>
-</package>
-</packages>
-<symbols>
-<symbol name="N-MOSFET">
-<wire x1="0.762" y1="0.762" x2="0.762" y2="0" width="0.254" layer="94"/>
-<wire x1="0.762" y1="0" x2="0.762" y2="-0.762" width="0.254" layer="94"/>
-<wire x1="0.762" y1="3.175" x2="0.762" y2="2.54" width="0.254" layer="94"/>
-<wire x1="0.762" y1="2.54" x2="0.762" y2="1.905" width="0.254" layer="94"/>
-<wire x1="0.762" y1="0" x2="2.54" y2="0" width="0.1524" layer="94"/>
-<wire x1="2.54" y1="0" x2="2.54" y2="-2.54" width="0.1524" layer="94"/>
-<wire x1="0.762" y1="-1.905" x2="0.762" y2="-2.54" width="0.254" layer="94"/>
-<wire x1="0.762" y1="-2.54" x2="0.762" y2="-3.175" width="0.254" layer="94"/>
-<wire x1="0" y1="2.54" x2="0" y2="-2.54" width="0.254" layer="94"/>
-<wire x1="2.54" y1="-2.54" x2="0.762" y2="-2.54" width="0.1524" layer="94"/>
-<wire x1="3.81" y1="2.54" x2="3.81" y2="0.508" width="0.1524" layer="94"/>
-<wire x1="3.81" y1="0.508" x2="3.81" y2="-2.54" width="0.1524" layer="94"/>
-<wire x1="2.54" y1="-2.54" x2="3.81" y2="-2.54" width="0.1524" layer="94"/>
-<wire x1="0.762" y1="2.54" x2="3.81" y2="2.54" width="0.1524" layer="94"/>
-<wire x1="4.572" y1="0.762" x2="4.318" y2="0.508" width="0.1524" layer="94"/>
-<wire x1="4.318" y1="0.508" x2="3.81" y2="0.508" width="0.1524" layer="94"/>
-<wire x1="3.81" y1="0.508" x2="3.302" y2="0.508" width="0.1524" layer="94"/>
-<wire x1="3.302" y1="0.508" x2="3.048" y2="0.254" width="0.1524" layer="94"/>
-<circle x="2.54" y="-2.54" radius="0.3592" width="0" layer="94"/>
-<circle x="2.54" y="2.54" radius="0.3592" width="0" layer="94"/>
-<text x="-11.43" y="0" size="1.778" layer="96">&gt;VALUE</text>
-<text x="-11.43" y="2.54" size="1.778" layer="95">&gt;NAME</text>
-<pin name="S" x="2.54" y="-5.08" visible="off" length="short" direction="pas" rot="R90"/>
-<pin name="G" x="-2.54" y="-2.54" visible="off" length="short" direction="pas"/>
-<pin name="D" x="2.54" y="5.08" visible="off" length="short" direction="pas" rot="R270"/>
-<polygon width="0.1524" layer="94">
-<vertex x="3.81" y="0.508"/>
-<vertex x="3.302" y="-0.254"/>
-<vertex x="4.318" y="-0.254"/>
-</polygon>
-<polygon width="0.1524" layer="94">
-<vertex x="1.016" y="0"/>
-<vertex x="2.032" y="0.762"/>
-<vertex x="2.032" y="-0.762"/>
-</polygon>
-</symbol>
-</symbols>
-<devicesets>
-<deviceset name="BSS138" prefix="Q">
-<description>&lt;b&gt;BSS138&lt;/b&gt; N-Channel Logic Level Enhancement Mode Field Effect Transistor&lt;br&gt;
-&lt;br&gt;
-Source: &lt;a href="http://www.fairchildsemi.com/datasheets/BS/BSS138.pdf"&gt;http://www.fairchildsemi.com/datasheets/BS/BSS138.pdf&lt;/a&gt;</description>
-<gates>
-<gate name="G$1" symbol="N-MOSFET" x="0" y="0"/>
-</gates>
-<devices>
-<device name="" package="SOT23">
-<connects>
-<connect gate="G$1" pin="D" pad="3"/>
-<connect gate="G$1" pin="G" pad="1"/>
-<connect gate="G$1" pin="S" pad="2"/>
-</connects>
-<technologies>
-<technology name="">
-<attribute name="MF" value="Fairchild" constant="no"/>
-<attribute name="MPN" value="BSS138" constant="no"/>
-<attribute name="OC_FARNELL" value="9845330" constant="no"/>
-<attribute name="OC_NEWARK" value="67R2009" constant="no"/>
-</technology>
-</technologies>
-</device>
-</devices>
-</deviceset>
-</devicesets>
-</library>
 <library name="TYA40124R7M-10">
 <description>&lt;Fixed Inductors 4.7uH 2.3A 20% Wire Wound&lt;/b&gt;&lt;p&gt;
 &lt;author&gt;Created by SamacSys&lt;/author&gt;</description>
@@ -19971,8 +19875,6 @@ Source: &lt;a href="https://datasheet.lcsc.com/szlcsc/1903151807_XKB-Enterprise-
 <attribute name="VOLTAGE" value="25V"/>
 </part>
 <part name="IO0" library="SparkFun-Connectors" library_urn="urn:adsk.eagle:library:513" deviceset="CONN_01" device="PTH_NO_SILK_KIT" package3d_urn="urn:adsk.eagle:package:38038/1"/>
-<part name="Q4" library="bss138_10" deviceset="BSS138" device=""/>
-<part name="SMD4" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2"/>
 <part name="C9" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0805K" package3d_urn="urn:adsk.eagle:package:23681/2" value="10uF">
 <spice>
 <pinmapping spiceprefix="C">
@@ -20028,7 +19930,6 @@ Source: &lt;a href="https://datasheet.lcsc.com/szlcsc/1903151807_XKB-Enterprise-
 <part name="J41" library="my-connectors" deviceset="CONN_01_NO_SILK" device=""/>
 <part name="J42" library="my-connectors" deviceset="CONN_01_NO_SILK" device=""/>
 <part name="J43" library="my-connectors" deviceset="CONN_04_NO_SILK" device=""/>
-<part name="J44" library="my-connectors" deviceset="CONN_03_NO_SILK" device=""/>
 <part name="J45" library="my-connectors" deviceset="CONN_03_NO_SILK" device=""/>
 <part name="I2C" library="SparkFun-Connectors" library_urn="urn:adsk.eagle:library:513" deviceset="CONN_04" device="1X04_NO_SILK" package3d_urn="urn:adsk.eagle:package:38094/1"/>
 <part name="J55" library="SparkFun-Connectors" library_urn="urn:adsk.eagle:library:513" deviceset="CONN_01" device="PTH_NO_SILK_YES_STOP" package3d_urn="urn:adsk.eagle:package:38041/1"/>
@@ -20050,7 +19951,6 @@ Source: &lt;a href="https://datasheet.lcsc.com/szlcsc/1903151807_XKB-Enterprise-
 <part name="J57" library="my-connectors" deviceset="CONN_04_NO_SILK" device=""/>
 <part name="J1" library="my-connectors" deviceset="CONN_03_NO_SILK" device=""/>
 <part name="J6" library="my-connectors" deviceset="CONN_04_NO_SILK" device=""/>
-<part name="J7" library="my-connectors" deviceset="CONN_03_NO_SILK" device=""/>
 <part name="J9" library="SparkFun-Connectors" library_urn="urn:adsk.eagle:library:513" deviceset="CONN_08" device="NO_SILK_FEMALE_PTH" package3d_urn="urn:adsk.eagle:package:38149/1"/>
 <part name="J13" library="SparkFun-Connectors" library_urn="urn:adsk.eagle:library:513" deviceset="CONN_08" device="NO_SILK_FEMALE_PTH" package3d_urn="urn:adsk.eagle:package:38149/1"/>
 <part name="J14" library="SparkFun-Connectors" library_urn="urn:adsk.eagle:library:513" deviceset="CONN_08" device="NO_SILK_FEMALE_PTH" package3d_urn="urn:adsk.eagle:package:38149/1"/>
@@ -20085,6 +19985,12 @@ Source: &lt;a href="https://datasheet.lcsc.com/szlcsc/1903151807_XKB-Enterprise-
 <part name="P+9" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+5V" device=""/>
 <part name="R3" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="10K"/>
 <part name="P+13" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+12V" device=""/>
+<part name="J5" library="my-connectors" deviceset="CONN_01_NO_SILK" device=""/>
+<part name="J7" library="my-connectors" deviceset="CONN_01_NO_SILK" device=""/>
+<part name="GND3" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
+<part name="J29" library="my-connectors" deviceset="CONN_01_NO_SILK" device=""/>
+<part name="J30" library="my-connectors" deviceset="CONN_01_NO_SILK" device=""/>
+<part name="J36" library="my-connectors" deviceset="CONN_01_NO_SILK" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -20363,14 +20269,6 @@ Source: &lt;a href="https://datasheet.lcsc.com/szlcsc/1903151807_XKB-Enterprise-
 <attribute name="VALUE" x="215.9" y="147.574" size="1.778" layer="96" font="vector"/>
 <attribute name="NAME" x="215.9" y="155.448" size="1.778" layer="95" font="vector"/>
 </instance>
-<instance part="Q4" gate="G$1" x="297.18" y="91.44" smashed="yes" rot="MR180">
-<attribute name="NAME" x="299.72" y="88.9" size="1.778" layer="95" rot="MR180"/>
-<attribute name="VALUE" x="294.64" y="83.82" size="1.778" layer="96" rot="MR90"/>
-</instance>
-<instance part="SMD4" gate="G$1" x="294.64" y="99.06" smashed="yes">
-<attribute name="NAME" x="290.83" y="100.5586" size="1.778" layer="95"/>
-<attribute name="VALUE" x="290.83" y="95.758" size="1.778" layer="96"/>
-</instance>
 <instance part="C9" gate="G$1" x="33.02" y="185.42" smashed="yes" rot="R180">
 <attribute name="NAME" x="31.496" y="185.039" size="1.778" layer="95" rot="R180"/>
 <attribute name="VALUE" x="30.226" y="187.579" size="1.778" layer="96" rot="R180"/>
@@ -20454,9 +20352,6 @@ Source: &lt;a href="https://datasheet.lcsc.com/szlcsc/1903151807_XKB-Enterprise-
 <instance part="J43" gate="G$1" x="101.6" y="91.44" smashed="yes">
 <attribute name="NAME" x="99.06" y="97.028" size="1.778" layer="95" font="vector"/>
 </instance>
-<instance part="J44" gate="G$1" x="167.64" y="193.04" smashed="yes">
-<attribute name="NAME" x="165.1" y="196.088" size="1.778" layer="95" font="vector"/>
-</instance>
 <instance part="J45" gate="G$1" x="114.3" y="93.98" smashed="yes">
 <attribute name="NAME" x="111.76" y="97.028" size="1.778" layer="95" font="vector"/>
 </instance>
@@ -20530,9 +20425,6 @@ Source: &lt;a href="https://datasheet.lcsc.com/szlcsc/1903151807_XKB-Enterprise-
 <instance part="J6" gate="G$1" x="203.2" y="71.12" smashed="yes">
 <attribute name="NAME" x="203.2" y="79.248" size="1.778" layer="95" font="vector"/>
 </instance>
-<instance part="J7" gate="G$1" x="274.32" y="91.44" smashed="yes">
-<attribute name="NAME" x="271.78" y="94.488" size="1.778" layer="95" font="vector"/>
-</instance>
 <instance part="J9" gate="G$1" x="104.14" y="27.94" smashed="yes">
 <attribute name="VALUE" x="99.06" y="15.494" size="1.778" layer="96" font="vector"/>
 <attribute name="NAME" x="99.06" y="41.148" size="1.778" layer="95" font="vector"/>
@@ -20597,6 +20489,24 @@ Source: &lt;a href="https://datasheet.lcsc.com/szlcsc/1903151807_XKB-Enterprise-
 </instance>
 <instance part="P+13" gate="1" x="81.28" y="213.36" smashed="yes">
 <attribute name="VALUE" x="83.566" y="213.868" size="1.778" layer="96" rot="R90"/>
+</instance>
+<instance part="J5" gate="G$1" x="147.32" y="170.18" smashed="yes">
+<attribute name="NAME" x="144.78" y="170.688" size="1.778" layer="95" font="vector"/>
+</instance>
+<instance part="J7" gate="G$1" x="129.54" y="116.84" smashed="yes">
+<attribute name="NAME" x="127" y="117.348" size="1.778" layer="95" font="vector"/>
+</instance>
+<instance part="GND3" gate="1" x="139.7" y="116.84" smashed="yes" rot="R90">
+<attribute name="VALUE" x="142.24" y="114.3" size="1.778" layer="96" rot="R90"/>
+</instance>
+<instance part="J29" gate="G$1" x="149.86" y="124.46" smashed="yes">
+<attribute name="NAME" x="147.32" y="124.968" size="1.778" layer="95" font="vector"/>
+</instance>
+<instance part="J30" gate="G$1" x="147.32" y="180.34" smashed="yes">
+<attribute name="NAME" x="144.78" y="180.848" size="1.778" layer="95" font="vector"/>
+</instance>
+<instance part="J36" gate="G$1" x="147.32" y="175.26" smashed="yes">
+<attribute name="NAME" x="144.78" y="175.768" size="1.778" layer="95" font="vector"/>
 </instance>
 </instances>
 <busses>
@@ -20788,6 +20698,10 @@ Source: &lt;a href="https://datasheet.lcsc.com/szlcsc/1903151807_XKB-Enterprise-
 <pinref part="C12" gate="G$1" pin="2"/>
 <pinref part="GND16" gate="1" pin="GND"/>
 </segment>
+<segment>
+<pinref part="J7" gate="G$1" pin="1"/>
+<pinref part="GND3" gate="1" pin="GND"/>
+</segment>
 </net>
 <net name="+3V3" class="0">
 <segment>
@@ -20931,24 +20845,36 @@ Source: &lt;a href="https://datasheet.lcsc.com/szlcsc/1903151807_XKB-Enterprise-
 <segment>
 <pinref part="U2" gate="G$1" pin="IO25"/>
 <label x="177.8" y="195.58" size="1.778" layer="95"/>
-<wire x1="175.26" y1="195.58" x2="182.88" y2="195.58" width="0.1524" layer="91"/>
-<pinref part="J44" gate="G$1" pin="3"/>
+<wire x1="177.8" y1="195.58" x2="182.88" y2="195.58" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="J30" gate="G$1" pin="1"/>
+<wire x1="154.94" y1="180.34" x2="160.02" y2="180.34" width="0.1524" layer="91"/>
+<label x="154.94" y="180.34" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="IO26" class="0">
 <segment>
 <pinref part="U2" gate="G$1" pin="IO26"/>
 <label x="177.8" y="193.04" size="1.778" layer="95"/>
-<wire x1="182.88" y1="193.04" x2="175.26" y2="193.04" width="0.1524" layer="91"/>
-<pinref part="J44" gate="G$1" pin="2"/>
+<wire x1="182.88" y1="193.04" x2="177.8" y2="193.04" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="J36" gate="G$1" pin="1"/>
+<wire x1="154.94" y1="175.26" x2="160.02" y2="175.26" width="0.1524" layer="91"/>
+<label x="154.94" y="175.26" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="IO27" class="0">
 <segment>
 <pinref part="U2" gate="G$1" pin="IO27"/>
 <label x="177.8" y="190.5" size="1.778" layer="95"/>
-<wire x1="175.26" y1="190.5" x2="182.88" y2="190.5" width="0.1524" layer="91"/>
-<pinref part="J44" gate="G$1" pin="1"/>
+<wire x1="177.8" y1="190.5" x2="182.88" y2="190.5" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="J5" gate="G$1" pin="1"/>
+<wire x1="154.94" y1="170.18" x2="160.02" y2="170.18" width="0.1524" layer="91"/>
+<label x="154.94" y="170.18" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="IO14" class="0">
@@ -21490,40 +21416,6 @@ Source: &lt;a href="https://datasheet.lcsc.com/szlcsc/1903151807_XKB-Enterprise-
 <wire x1="17.78" y1="86.36" x2="12.7" y2="86.36" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="N$1" class="0">
-<segment>
-<pinref part="Q4" gate="G$1" pin="S"/>
-<wire x1="299.72" y1="96.52" x2="299.72" y2="99.06" width="0.1524" layer="91"/>
-<pinref part="SMD4" gate="G$1" pin="2"/>
-<junction x="299.72" y="99.06"/>
-<wire x1="299.72" y1="99.06" x2="299.72" y2="104.14" width="0.1524" layer="91"/>
-<wire x1="299.72" y1="104.14" x2="287.02" y2="104.14" width="0.1524" layer="91"/>
-<wire x1="281.94" y1="93.98" x2="287.02" y2="93.98" width="0.1524" layer="91"/>
-<wire x1="287.02" y1="93.98" x2="287.02" y2="104.14" width="0.1524" layer="91"/>
-<pinref part="J7" gate="G$1" pin="3"/>
-</segment>
-</net>
-<net name="N$2" class="0">
-<segment>
-<pinref part="Q4" gate="G$1" pin="D"/>
-<wire x1="299.72" y1="86.36" x2="284.48" y2="86.36" width="0.1524" layer="91"/>
-<wire x1="284.48" y1="86.36" x2="284.48" y2="88.9" width="0.1524" layer="91"/>
-<wire x1="284.48" y1="88.9" x2="281.94" y2="88.9" width="0.1524" layer="91"/>
-<pinref part="J7" gate="G$1" pin="1"/>
-</segment>
-</net>
-<net name="N$11" class="0">
-<segment>
-<pinref part="SMD4" gate="G$1" pin="1"/>
-<pinref part="Q4" gate="G$1" pin="G"/>
-<wire x1="289.56" y1="93.98" x2="289.56" y2="99.06" width="0.1524" layer="91"/>
-<wire x1="294.64" y1="93.98" x2="289.56" y2="93.98" width="0.1524" layer="91"/>
-<wire x1="289.56" y1="93.98" x2="289.56" y2="91.44" width="0.1524" layer="91"/>
-<junction x="289.56" y="93.98"/>
-<wire x1="289.56" y1="91.44" x2="281.94" y2="91.44" width="0.1524" layer="91"/>
-<pinref part="J7" gate="G$1" pin="2"/>
-</segment>
-</net>
 <net name="SW" class="0">
 <segment>
 <pinref part="C7" gate="G$1" pin="1"/>
@@ -21608,6 +21500,12 @@ Source: &lt;a href="https://datasheet.lcsc.com/szlcsc/1903151807_XKB-Enterprise-
 <pinref part="I2C" gate="G$1" pin="1"/>
 <wire x1="236.22" y1="170.18" x2="231.14" y2="170.18" width="0.1524" layer="91"/>
 <label x="226.06" y="170.18" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="J29" gate="G$1" pin="1"/>
+<wire x1="162.56" y1="124.46" x2="157.48" y2="124.46" width="0.1524" layer="91"/>
+<junction x="157.48" y="124.46"/>
+<label x="154.94" y="124.46" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="VBST" class="0">
