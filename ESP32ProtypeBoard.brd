@@ -3,7 +3,7 @@
 <eagle version="9.6.2">
 <drawing>
 <settings>
-<setting alwaysvectorfont="no"/>
+<setting alwaysvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
 <grid distance="25" unitdist="mil" unit="mil" style="lines" multiple="1" display="yes" altdistance="5" altunitdist="mil" altunit="mil"/>
@@ -775,6 +775,7 @@ TODO this</text>
 <text x="12.065" y="47.879" size="0.8128" layer="51" font="vector" ratio="20" rot="R180" align="center">GND</text>
 <text x="12.065" y="49.784" size="0.8128" layer="51" font="vector" ratio="20" rot="R180" align="center">GND</text>
 <text x="13.335" y="49.784" size="0.8128" layer="52" font="vector" ratio="20" rot="MR0" align="center">GND</text>
+<wire x1="20.828" y1="50.419" x2="22.352" y2="50.419" width="0.2032" layer="51"/>
 </plain>
 <libraries>
 <library name="rcl" urn="urn:adsk.eagle:library:334">
@@ -2841,8 +2842,10 @@ Created by Upverter.com</description>
 <rectangle x1="-1.143" y1="-0.5588" x2="1.143" y2="0.5588" layer="46"/>
 <rectangle x1="-1.143" y1="-5.8166" x2="1.143" y2="-4.699" layer="46"/>
 <rectangle x1="-1.143" y1="-9.1186" x2="1.143" y2="-8.001" layer="46"/>
-<rectangle x1="-7.3406" y1="-6.3246" x2="-5.3086" y2="-4.2926" layer="46"/>
-<rectangle x1="-7.3406" y1="-6.3246" x2="-5.3086" y2="-4.2926" layer="21"/>
+<rectangle x1="-7.366" y1="-6.35" x2="-5.2832" y2="-4.2672" layer="46"/>
+<rectangle x1="-7.366" y1="-6.35" x2="-5.2832" y2="-4.2672" layer="21"/>
+<rectangle x1="-7.62" y1="-6.604" x2="-5.0292" y2="-4.0132" layer="41"/>
+<rectangle x1="-7.62" y1="-6.604" x2="-5.0292" y2="-4.0132" layer="42"/>
 </package>
 </packages>
 </library>
