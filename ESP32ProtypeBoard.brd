@@ -776,6 +776,22 @@ TODO this</text>
 <text x="12.065" y="49.784" size="0.8128" layer="51" font="vector" ratio="20" rot="R180" align="center">GND</text>
 <text x="13.335" y="49.784" size="0.8128" layer="52" font="vector" ratio="20" rot="MR0" align="center">GND</text>
 <wire x1="20.828" y1="50.419" x2="22.352" y2="50.419" width="0.2032" layer="51"/>
+<wire x1="35.179" y1="17.653" x2="34.29" y2="17.653" width="0.127" layer="51"/>
+<wire x1="34.29" y1="17.653" x2="32.893" y2="19.05" width="0.127" layer="51"/>
+<wire x1="32.512" y1="16.891" x2="33.02" y2="16.383" width="0.127" layer="51"/>
+<wire x1="33.02" y1="16.383" x2="35.179" y2="16.383" width="0.127" layer="51"/>
+<wire x1="35.179" y1="15.113" x2="33.02" y2="15.113" width="0.127" layer="51"/>
+<wire x1="33.02" y1="15.113" x2="32.385" y2="14.478" width="0.127" layer="51"/>
+<wire x1="35.179" y1="13.843" x2="34.29" y2="13.843" width="0.127" layer="51"/>
+<wire x1="34.29" y1="13.843" x2="32.385" y2="11.938" width="0.127" layer="51"/>
+<wire x1="42.291" y1="13.843" x2="43.18" y2="13.843" width="0.127" layer="51"/>
+<wire x1="43.18" y1="13.843" x2="45.085" y2="11.938" width="0.127" layer="51"/>
+<wire x1="42.291" y1="15.113" x2="44.577" y2="15.113" width="0.127" layer="51"/>
+<wire x1="44.577" y1="15.113" x2="45.085" y2="14.605" width="0.127" layer="51"/>
+<wire x1="42.545" y1="16.383" x2="44.45" y2="16.383" width="0.127" layer="51"/>
+<wire x1="44.45" y1="16.383" x2="45.085" y2="17.018" width="0.127" layer="51"/>
+<wire x1="42.418" y1="17.653" x2="43.18" y2="17.653" width="0.127" layer="51"/>
+<wire x1="43.18" y1="17.653" x2="45.085" y2="19.558" width="0.127" layer="51"/>
 </plain>
 <libraries>
 <library name="rcl" urn="urn:adsk.eagle:library:334">
