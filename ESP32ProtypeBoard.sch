@@ -19869,6 +19869,10 @@ Source: &lt;a href="https://datasheet.lcsc.com/szlcsc/1903151807_XKB-Enterprise-
 <part name="C16" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0805K" package3d_urn="urn:adsk.eagle:package:23681/2" value="(0.1uF)"/>
 <part name="+3V5" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+3V3" device=""/>
 <part name="+3V8" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+3V3" device=""/>
+<part name="R18" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="(1M)"/>
+<part name="C17" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0805K" package3d_urn="urn:adsk.eagle:package:23681/2" value="(0.1uF)"/>
+<part name="R19" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="(1M)"/>
+<part name="C18" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0805K" package3d_urn="urn:adsk.eagle:package:23681/2" value="(0.1uF)"/>
 </parts>
 <sheets>
 <sheet>
@@ -20400,46 +20404,62 @@ Source: &lt;a href="https://datasheet.lcsc.com/szlcsc/1903151807_XKB-Enterprise-
 <attribute name="NAME" x="153.4414" y="156.21" size="1.778" layer="95" rot="R90"/>
 <attribute name="VALUE" x="158.242" y="156.21" size="1.778" layer="96" rot="R90"/>
 </instance>
-<instance part="R14" gate="G$1" x="142.24" y="127" smashed="yes" rot="R90">
-<attribute name="NAME" x="140.7414" y="123.19" size="1.778" layer="95" rot="R90"/>
-<attribute name="VALUE" x="145.542" y="123.19" size="1.778" layer="96" rot="R90"/>
+<instance part="R14" gate="G$1" x="127" y="124.46" smashed="yes" rot="R90">
+<attribute name="NAME" x="125.5014" y="120.65" size="1.778" layer="95" rot="R90"/>
+<attribute name="VALUE" x="130.302" y="120.65" size="1.778" layer="96" rot="R90"/>
 </instance>
-<instance part="R15" gate="G$1" x="157.48" y="127" smashed="yes" rot="R90">
-<attribute name="NAME" x="155.9814" y="123.19" size="1.778" layer="95" rot="R90"/>
-<attribute name="VALUE" x="160.782" y="123.19" size="1.778" layer="96" rot="R90"/>
+<instance part="R15" gate="G$1" x="142.24" y="124.46" smashed="yes" rot="R90">
+<attribute name="NAME" x="140.7414" y="120.65" size="1.778" layer="95" rot="R90"/>
+<attribute name="VALUE" x="145.542" y="120.65" size="1.778" layer="96" rot="R90"/>
 </instance>
-<instance part="R16" gate="G$1" x="172.72" y="127" smashed="yes" rot="R90">
-<attribute name="NAME" x="171.2214" y="123.19" size="1.778" layer="95" rot="R90"/>
-<attribute name="VALUE" x="176.022" y="123.19" size="1.778" layer="96" rot="R90"/>
+<instance part="R16" gate="G$1" x="157.48" y="124.46" smashed="yes" rot="R90">
+<attribute name="NAME" x="155.9814" y="120.65" size="1.778" layer="95" rot="R90"/>
+<attribute name="VALUE" x="160.782" y="120.65" size="1.778" layer="96" rot="R90"/>
 </instance>
-<instance part="R17" gate="G$1" x="187.96" y="127" smashed="yes" rot="R90">
-<attribute name="NAME" x="186.4614" y="123.19" size="1.778" layer="95" rot="R90"/>
-<attribute name="VALUE" x="191.262" y="123.19" size="1.778" layer="96" rot="R90"/>
+<instance part="R17" gate="G$1" x="172.72" y="124.46" smashed="yes" rot="R90">
+<attribute name="NAME" x="171.2214" y="120.65" size="1.778" layer="95" rot="R90"/>
+<attribute name="VALUE" x="176.022" y="120.65" size="1.778" layer="96" rot="R90"/>
 </instance>
-<instance part="GND25" gate="1" x="203.2" y="121.92" smashed="yes" rot="R90">
-<attribute name="VALUE" x="205.74" y="119.38" size="1.778" layer="96" rot="R90"/>
+<instance part="GND25" gate="1" x="218.44" y="119.38" smashed="yes" rot="R90">
+<attribute name="VALUE" x="220.98" y="116.84" size="1.778" layer="96" rot="R90"/>
 </instance>
-<instance part="C13" gate="G$1" x="149.86" y="124.46" smashed="yes" rot="R180">
-<attribute name="NAME" x="149.479" y="127" size="1.778" layer="95" rot="R90"/>
-<attribute name="VALUE" x="151.765" y="127" size="1.778" layer="96" rot="R90"/>
+<instance part="C13" gate="G$1" x="134.62" y="121.92" smashed="yes" rot="R180">
+<attribute name="NAME" x="134.239" y="124.46" size="1.778" layer="95" rot="R90"/>
+<attribute name="VALUE" x="136.525" y="124.46" size="1.778" layer="96" rot="R90"/>
 </instance>
-<instance part="C14" gate="G$1" x="165.1" y="124.46" smashed="yes" rot="R180">
-<attribute name="NAME" x="164.719" y="127" size="1.778" layer="95" rot="R90"/>
-<attribute name="VALUE" x="167.005" y="127" size="1.778" layer="96" rot="R90"/>
+<instance part="C14" gate="G$1" x="149.86" y="121.92" smashed="yes" rot="R180">
+<attribute name="NAME" x="149.479" y="124.46" size="1.778" layer="95" rot="R90"/>
+<attribute name="VALUE" x="151.765" y="124.46" size="1.778" layer="96" rot="R90"/>
 </instance>
-<instance part="C15" gate="G$1" x="180.34" y="124.46" smashed="yes" rot="R180">
-<attribute name="NAME" x="179.959" y="127" size="1.778" layer="95" rot="R90"/>
-<attribute name="VALUE" x="182.245" y="127" size="1.778" layer="96" rot="R90"/>
+<instance part="C15" gate="G$1" x="165.1" y="121.92" smashed="yes" rot="R180">
+<attribute name="NAME" x="164.719" y="124.46" size="1.778" layer="95" rot="R90"/>
+<attribute name="VALUE" x="167.005" y="124.46" size="1.778" layer="96" rot="R90"/>
 </instance>
-<instance part="C16" gate="G$1" x="195.58" y="124.46" smashed="yes" rot="R180">
-<attribute name="NAME" x="195.199" y="127" size="1.778" layer="95" rot="R90"/>
-<attribute name="VALUE" x="197.485" y="127" size="1.778" layer="96" rot="R90"/>
+<instance part="C16" gate="G$1" x="180.34" y="121.92" smashed="yes" rot="R180">
+<attribute name="NAME" x="179.959" y="124.46" size="1.778" layer="95" rot="R90"/>
+<attribute name="VALUE" x="182.245" y="124.46" size="1.778" layer="96" rot="R90"/>
 </instance>
 <instance part="+3V5" gate="G$1" x="154.94" y="149.86" smashed="yes" rot="R180">
 <attribute name="VALUE" x="158.242" y="148.082" size="1.778" layer="96" rot="R90"/>
 </instance>
 <instance part="+3V8" gate="G$1" x="241.3" y="165.1" smashed="yes" rot="R90">
 <attribute name="VALUE" x="248.92" y="167.64" size="1.778" layer="96" rot="R180"/>
+</instance>
+<instance part="R18" gate="G$1" x="187.96" y="124.46" smashed="yes" rot="R90">
+<attribute name="NAME" x="186.4614" y="120.65" size="1.778" layer="95" rot="R90"/>
+<attribute name="VALUE" x="191.262" y="120.65" size="1.778" layer="96" rot="R90"/>
+</instance>
+<instance part="C17" gate="G$1" x="195.58" y="121.92" smashed="yes" rot="R180">
+<attribute name="NAME" x="195.199" y="124.46" size="1.778" layer="95" rot="R90"/>
+<attribute name="VALUE" x="197.485" y="124.46" size="1.778" layer="96" rot="R90"/>
+</instance>
+<instance part="R19" gate="G$1" x="203.2" y="124.46" smashed="yes" rot="R90">
+<attribute name="NAME" x="201.7014" y="120.65" size="1.778" layer="95" rot="R90"/>
+<attribute name="VALUE" x="206.502" y="120.65" size="1.778" layer="96" rot="R90"/>
+</instance>
+<instance part="C18" gate="G$1" x="210.82" y="121.92" smashed="yes" rot="R180">
+<attribute name="NAME" x="210.439" y="124.46" size="1.778" layer="95" rot="R90"/>
+<attribute name="VALUE" x="212.725" y="124.46" size="1.778" layer="96" rot="R90"/>
 </instance>
 </instances>
 <busses>
@@ -20641,28 +20661,40 @@ Source: &lt;a href="https://datasheet.lcsc.com/szlcsc/1903151807_XKB-Enterprise-
 <segment>
 <pinref part="GND25" gate="1" pin="GND"/>
 <pinref part="R17" gate="G$1" pin="1"/>
-<wire x1="200.66" y1="121.92" x2="195.58" y2="121.92" width="0.1524" layer="91"/>
+<wire x1="215.9" y1="119.38" x2="210.82" y2="119.38" width="0.1524" layer="91"/>
 <pinref part="R16" gate="G$1" pin="1"/>
-<wire x1="195.58" y1="121.92" x2="187.96" y2="121.92" width="0.1524" layer="91"/>
-<wire x1="187.96" y1="121.92" x2="180.34" y2="121.92" width="0.1524" layer="91"/>
-<junction x="187.96" y="121.92"/>
+<wire x1="210.82" y1="119.38" x2="203.2" y2="119.38" width="0.1524" layer="91"/>
+<wire x1="203.2" y1="119.38" x2="195.58" y2="119.38" width="0.1524" layer="91"/>
+<wire x1="195.58" y1="119.38" x2="187.96" y2="119.38" width="0.1524" layer="91"/>
+<wire x1="187.96" y1="119.38" x2="180.34" y2="119.38" width="0.1524" layer="91"/>
+<wire x1="180.34" y1="119.38" x2="172.72" y2="119.38" width="0.1524" layer="91"/>
+<wire x1="172.72" y1="119.38" x2="165.1" y2="119.38" width="0.1524" layer="91"/>
+<junction x="172.72" y="119.38"/>
 <pinref part="R15" gate="G$1" pin="1"/>
-<wire x1="180.34" y1="121.92" x2="172.72" y2="121.92" width="0.1524" layer="91"/>
-<wire x1="172.72" y1="121.92" x2="165.1" y2="121.92" width="0.1524" layer="91"/>
-<junction x="172.72" y="121.92"/>
+<wire x1="165.1" y1="119.38" x2="157.48" y2="119.38" width="0.1524" layer="91"/>
+<wire x1="157.48" y1="119.38" x2="149.86" y2="119.38" width="0.1524" layer="91"/>
+<junction x="157.48" y="119.38"/>
 <pinref part="R14" gate="G$1" pin="1"/>
-<wire x1="165.1" y1="121.92" x2="157.48" y2="121.92" width="0.1524" layer="91"/>
-<wire x1="157.48" y1="121.92" x2="149.86" y2="121.92" width="0.1524" layer="91"/>
-<junction x="157.48" y="121.92"/>
+<wire x1="149.86" y1="119.38" x2="142.24" y2="119.38" width="0.1524" layer="91"/>
+<wire x1="142.24" y1="119.38" x2="134.62" y2="119.38" width="0.1524" layer="91"/>
+<junction x="142.24" y="119.38"/>
 <pinref part="C13" gate="G$1" pin="1"/>
-<wire x1="149.86" y1="121.92" x2="142.24" y2="121.92" width="0.1524" layer="91"/>
-<junction x="149.86" y="121.92"/>
+<wire x1="134.62" y1="119.38" x2="127" y2="119.38" width="0.1524" layer="91"/>
+<junction x="134.62" y="119.38"/>
 <pinref part="C14" gate="G$1" pin="1"/>
-<junction x="165.1" y="121.92"/>
+<junction x="149.86" y="119.38"/>
 <pinref part="C15" gate="G$1" pin="1"/>
-<junction x="180.34" y="121.92"/>
+<junction x="165.1" y="119.38"/>
 <pinref part="C16" gate="G$1" pin="1"/>
-<junction x="195.58" y="121.92"/>
+<junction x="180.34" y="119.38"/>
+<pinref part="R18" gate="G$1" pin="1"/>
+<junction x="187.96" y="119.38"/>
+<pinref part="C17" gate="G$1" pin="1"/>
+<junction x="195.58" y="119.38"/>
+<pinref part="R19" gate="G$1" pin="1"/>
+<junction x="203.2" y="119.38"/>
+<pinref part="C18" gate="G$1" pin="1"/>
+<junction x="210.82" y="119.38"/>
 </segment>
 </net>
 <net name="+3V3" class="0">
@@ -20813,13 +20845,13 @@ Source: &lt;a href="https://datasheet.lcsc.com/szlcsc/1903151807_XKB-Enterprise-
 </segment>
 <segment>
 <pinref part="R16" gate="G$1" pin="2"/>
-<wire x1="172.72" y1="132.08" x2="172.72" y2="134.62" width="0.1524" layer="91"/>
-<label x="172.72" y="137.16" size="1.778" layer="95" rot="R90"/>
+<wire x1="157.48" y1="129.54" x2="157.48" y2="132.08" width="0.1524" layer="91"/>
+<label x="157.48" y="134.62" size="1.778" layer="95" rot="R90"/>
 <pinref part="C15" gate="G$1" pin="2"/>
-<wire x1="172.72" y1="134.62" x2="172.72" y2="142.24" width="0.1524" layer="91"/>
-<wire x1="180.34" y1="129.54" x2="180.34" y2="134.62" width="0.1524" layer="91"/>
-<wire x1="180.34" y1="134.62" x2="172.72" y2="134.62" width="0.1524" layer="91"/>
-<junction x="172.72" y="134.62"/>
+<wire x1="157.48" y1="132.08" x2="157.48" y2="139.7" width="0.1524" layer="91"/>
+<wire x1="165.1" y1="127" x2="165.1" y2="132.08" width="0.1524" layer="91"/>
+<wire x1="165.1" y1="132.08" x2="157.48" y2="132.08" width="0.1524" layer="91"/>
+<junction x="157.48" y="132.08"/>
 </segment>
 </net>
 <net name="IO35" class="0">
@@ -20835,13 +20867,13 @@ Source: &lt;a href="https://datasheet.lcsc.com/szlcsc/1903151807_XKB-Enterprise-
 </segment>
 <segment>
 <pinref part="R17" gate="G$1" pin="2"/>
-<wire x1="187.96" y1="132.08" x2="187.96" y2="134.62" width="0.1524" layer="91"/>
-<label x="187.96" y="137.16" size="1.778" layer="95" rot="R90"/>
+<wire x1="172.72" y1="129.54" x2="172.72" y2="132.08" width="0.1524" layer="91"/>
+<label x="172.72" y="134.62" size="1.778" layer="95" rot="R90"/>
 <pinref part="C16" gate="G$1" pin="2"/>
-<wire x1="187.96" y1="134.62" x2="187.96" y2="142.24" width="0.1524" layer="91"/>
-<wire x1="195.58" y1="129.54" x2="195.58" y2="134.62" width="0.1524" layer="91"/>
-<wire x1="195.58" y1="134.62" x2="187.96" y2="134.62" width="0.1524" layer="91"/>
-<junction x="187.96" y="134.62"/>
+<wire x1="172.72" y1="132.08" x2="172.72" y2="139.7" width="0.1524" layer="91"/>
+<wire x1="180.34" y1="127" x2="180.34" y2="132.08" width="0.1524" layer="91"/>
+<wire x1="180.34" y1="132.08" x2="172.72" y2="132.08" width="0.1524" layer="91"/>
+<junction x="172.72" y="132.08"/>
 </segment>
 </net>
 <net name="IO33" class="0">
@@ -20854,6 +20886,16 @@ Source: &lt;a href="https://datasheet.lcsc.com/szlcsc/1903151807_XKB-Enterprise-
 <pinref part="J41" gate="G$1" pin="1"/>
 <wire x1="149.86" y1="187.96" x2="154.94" y2="187.96" width="0.1524" layer="91"/>
 <label x="149.86" y="187.96" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="R19" gate="G$1" pin="2"/>
+<wire x1="203.2" y1="129.54" x2="203.2" y2="132.08" width="0.1524" layer="91"/>
+<label x="203.2" y="134.62" size="1.778" layer="95" rot="R90"/>
+<pinref part="C18" gate="G$1" pin="2"/>
+<wire x1="203.2" y1="132.08" x2="203.2" y2="139.7" width="0.1524" layer="91"/>
+<wire x1="210.82" y1="127" x2="210.82" y2="132.08" width="0.1524" layer="91"/>
+<wire x1="210.82" y1="132.08" x2="203.2" y2="132.08" width="0.1524" layer="91"/>
+<junction x="203.2" y="132.08"/>
 </segment>
 </net>
 <net name="IO25" class="0">
@@ -21139,13 +21181,13 @@ Source: &lt;a href="https://datasheet.lcsc.com/szlcsc/1903151807_XKB-Enterprise-
 </segment>
 <segment>
 <pinref part="R15" gate="G$1" pin="2"/>
-<wire x1="157.48" y1="132.08" x2="157.48" y2="134.62" width="0.1524" layer="91"/>
-<label x="157.48" y="137.16" size="1.778" layer="95" rot="R90"/>
+<wire x1="142.24" y1="129.54" x2="142.24" y2="132.08" width="0.1524" layer="91"/>
+<label x="142.24" y="134.62" size="1.778" layer="95" rot="R90"/>
 <pinref part="C14" gate="G$1" pin="2"/>
-<wire x1="157.48" y1="134.62" x2="157.48" y2="142.24" width="0.1524" layer="91"/>
-<wire x1="165.1" y1="129.54" x2="165.1" y2="134.62" width="0.1524" layer="91"/>
-<wire x1="165.1" y1="134.62" x2="157.48" y2="134.62" width="0.1524" layer="91"/>
-<junction x="157.48" y="134.62"/>
+<wire x1="142.24" y1="132.08" x2="142.24" y2="139.7" width="0.1524" layer="91"/>
+<wire x1="149.86" y1="127" x2="149.86" y2="132.08" width="0.1524" layer="91"/>
+<wire x1="149.86" y1="132.08" x2="142.24" y2="132.08" width="0.1524" layer="91"/>
+<junction x="142.24" y="132.08"/>
 </segment>
 </net>
 <net name="IO36" class="0">
@@ -21161,13 +21203,13 @@ Source: &lt;a href="https://datasheet.lcsc.com/szlcsc/1903151807_XKB-Enterprise-
 </segment>
 <segment>
 <pinref part="R14" gate="G$1" pin="2"/>
-<wire x1="142.24" y1="132.08" x2="142.24" y2="134.62" width="0.1524" layer="91"/>
-<label x="142.24" y="137.16" size="1.778" layer="95" rot="R90"/>
+<wire x1="127" y1="129.54" x2="127" y2="132.08" width="0.1524" layer="91"/>
+<label x="127" y="134.62" size="1.778" layer="95" rot="R90"/>
 <pinref part="C13" gate="G$1" pin="2"/>
-<wire x1="142.24" y1="134.62" x2="142.24" y2="142.24" width="0.1524" layer="91"/>
-<wire x1="149.86" y1="129.54" x2="149.86" y2="134.62" width="0.1524" layer="91"/>
-<wire x1="142.24" y1="134.62" x2="149.86" y2="134.62" width="0.1524" layer="91"/>
-<junction x="142.24" y="134.62"/>
+<wire x1="127" y1="132.08" x2="127" y2="139.7" width="0.1524" layer="91"/>
+<wire x1="134.62" y1="127" x2="134.62" y2="132.08" width="0.1524" layer="91"/>
+<wire x1="127" y1="132.08" x2="134.62" y2="132.08" width="0.1524" layer="91"/>
+<junction x="127" y="132.08"/>
 </segment>
 </net>
 <net name="PROG_TXD" class="0">
@@ -21498,6 +21540,16 @@ Source: &lt;a href="https://datasheet.lcsc.com/szlcsc/1903151807_XKB-Enterprise-
 <pinref part="J38" gate="G$1" pin="1"/>
 <wire x1="149.86" y1="193.04" x2="154.94" y2="193.04" width="0.1524" layer="91"/>
 <label x="149.86" y="193.04" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="R18" gate="G$1" pin="2"/>
+<wire x1="187.96" y1="129.54" x2="187.96" y2="132.08" width="0.1524" layer="91"/>
+<label x="187.96" y="134.62" size="1.778" layer="95" rot="R90"/>
+<pinref part="C17" gate="G$1" pin="2"/>
+<wire x1="187.96" y1="132.08" x2="187.96" y2="139.7" width="0.1524" layer="91"/>
+<wire x1="195.58" y1="127" x2="195.58" y2="132.08" width="0.1524" layer="91"/>
+<wire x1="195.58" y1="132.08" x2="187.96" y2="132.08" width="0.1524" layer="91"/>
+<junction x="187.96" y="132.08"/>
 </segment>
 </net>
 <net name="JTAG_VDD" class="0">
