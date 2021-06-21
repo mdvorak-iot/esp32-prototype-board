@@ -19627,6 +19627,72 @@ Source: &lt;a href="https://datasheet.lcsc.com/szlcsc/1903151807_XKB-Enterprise-
 </deviceset>
 </devicesets>
 </library>
+<library name="DS18B20+">
+<description>&lt;Board Mount Temperature Sensors Programmable Resolution 1-Wire Digital Thermometer&lt;/b&gt;&lt;p&gt;
+&lt;author&gt;Created by SamacSys&lt;/author&gt;</description>
+<packages>
+<package name="DS18B20">
+<description>&lt;b&gt;DS18B20+-6&lt;/b&gt;&lt;br&gt;
+</description>
+<pad name="1" x="-1.27" y="0" drill="0.65" diameter="1.016"/>
+<pad name="2" x="0" y="0" drill="0.65" diameter="1.016"/>
+<pad name="3" x="1.27" y="0" drill="0.65" diameter="1.016"/>
+<text x="0" y="3.145" size="1.27" layer="25" align="center">&gt;NAME</text>
+<text x="0" y="-1.935" size="1.27" layer="27" align="center">&gt;VALUE</text>
+<wire x1="-2.35" y1="0" x2="2.35" y2="0" width="0.1" layer="51"/>
+<wire x1="2.35" y1="0" x2="-2.35" y2="0" width="0.1" layer="51" curve="180"/>
+<wire x1="-2.35" y1="0" x2="-2.2" y2="-1.14" width="0.1" layer="51"/>
+<wire x1="-2.2" y1="-1.14" x2="2.2" y2="-1.14" width="0.1" layer="51"/>
+<wire x1="2.2" y1="-1.14" x2="2.35" y2="0" width="0.1" layer="51"/>
+<wire x1="-2.2" y1="-1.14" x2="2.2" y2="-1.14" width="0.2" layer="21"/>
+<wire x1="-2.8" y1="0" x2="-2.9" y2="0" width="0.1" layer="21" curve="180"/>
+<wire x1="-2.9" y1="0" x2="-2.8" y2="0" width="0.1" layer="21" curve="180"/>
+</package>
+</packages>
+<symbols>
+<symbol name="DS18B20+">
+<wire x1="5.08" y1="2.54" x2="17.78" y2="2.54" width="0.254" layer="94"/>
+<wire x1="17.78" y1="-7.62" x2="17.78" y2="2.54" width="0.254" layer="94"/>
+<wire x1="17.78" y1="-7.62" x2="5.08" y2="-7.62" width="0.254" layer="94"/>
+<wire x1="5.08" y1="2.54" x2="5.08" y2="-7.62" width="0.254" layer="94"/>
+<text x="19.05" y="7.62" size="1.778" layer="95" align="center-left">&gt;NAME</text>
+<text x="19.05" y="5.08" size="1.778" layer="96" align="center-left">&gt;VALUE</text>
+<pin name="GND" x="0" y="0" length="middle"/>
+<pin name="DQ" x="0" y="-2.54" length="middle"/>
+<pin name="VDD" x="0" y="-5.08" length="middle"/>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="DS18B20+" prefix="IC">
+<description>&lt;b&gt;Board Mount Temperature Sensors Programmable Resolution 1-Wire Digital Thermometer&lt;/b&gt;&lt;p&gt;
+Source: &lt;a href="https://ms.componentsearchengine.com/Datasheets/2/DS18B20 .pdf"&gt; Datasheet &lt;/a&gt;</description>
+<gates>
+<gate name="G$1" symbol="DS18B20+" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="DS18B20">
+<connects>
+<connect gate="G$1" pin="DQ" pad="2"/>
+<connect gate="G$1" pin="GND" pad="1"/>
+<connect gate="G$1" pin="VDD" pad="3"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="ARROW_PART_NUMBER" value="" constant="no"/>
+<attribute name="ARROW_PRICE-STOCK" value="" constant="no"/>
+<attribute name="DESCRIPTION" value="Board Mount Temperature Sensors Programmable Resolution 1-Wire Digital Thermometer" constant="no"/>
+<attribute name="HEIGHT" value="4.95mm" constant="no"/>
+<attribute name="MANUFACTURER_NAME" value="Maxim Integrated" constant="no"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="DS18B20+" constant="no"/>
+<attribute name="MOUSER_PART_NUMBER" value="700-DS18B20+" constant="no"/>
+<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/Maxim-Integrated/DS18B20%2b?qs=7H2Jq%252ByxpJKegCKabDbglA%3D%3D" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
 </libraries>
 <attributes>
 </attributes>
@@ -19711,9 +19777,6 @@ Source: &lt;a href="https://datasheet.lcsc.com/szlcsc/1903151807_XKB-Enterprise-
 </spice>
 <attribute name="VOLTAGE" value="16V"/>
 </part>
-<part name="HI-LINK_AC1" library="SparkFun-Connectors" library_urn="urn:adsk.eagle:library:513" deviceset="CONN_01" device="PTH_NO_SILK_KIT" package3d_urn="urn:adsk.eagle:package:38038/1"/>
-<part name="HI-LINK_AC2" library="SparkFun-Connectors" library_urn="urn:adsk.eagle:library:513" deviceset="CONN_01" device="PTH_NO_SILK_KIT" package3d_urn="urn:adsk.eagle:package:38038/1"/>
-<part name="HI-LINK_VOUT+" library="SparkFun-Connectors" library_urn="urn:adsk.eagle:library:513" deviceset="CONN_01" device="PTH_NO_SILK_KIT" package3d_urn="urn:adsk.eagle:package:38038/1"/>
 <part name="J3" library="my-connectors" deviceset="CONN_01_NO_SILK" device="_LONGPAD" value="CONN_01_NO_SILK_LONGPAD"/>
 <part name="J4" library="my-connectors" deviceset="CONN_01_NO_SILK" device="_LONGPAD" value="VCC_TERMINAL"/>
 <part name="GND15" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
@@ -19792,7 +19855,6 @@ Source: &lt;a href="https://datasheet.lcsc.com/szlcsc/1903151807_XKB-Enterprise-
 <part name="J40" library="my-connectors" deviceset="CONN_01_NO_SILK" device=""/>
 <part name="J41" library="my-connectors" deviceset="CONN_01_NO_SILK" device=""/>
 <part name="J42" library="my-connectors" deviceset="CONN_01_NO_SILK" device=""/>
-<part name="J43" library="my-connectors" deviceset="CONN_04_NO_SILK" device=""/>
 <part name="J45" library="my-connectors" deviceset="CONN_03_NO_SILK" device=""/>
 <part name="I2C" library="SparkFun-Connectors" library_urn="urn:adsk.eagle:library:513" deviceset="CONN_04" device="1X04_NO_SILK" package3d_urn="urn:adsk.eagle:package:38094/1"/>
 <part name="J55" library="SparkFun-Connectors" library_urn="urn:adsk.eagle:library:513" deviceset="CONN_01" device="PTH_NO_SILK_YES_STOP" package3d_urn="urn:adsk.eagle:package:38041/1"/>
@@ -19846,10 +19908,6 @@ Source: &lt;a href="https://datasheet.lcsc.com/szlcsc/1903151807_XKB-Enterprise-
 <part name="P+9" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+5V" device=""/>
 <part name="R3" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="10K"/>
 <part name="P+13" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+12V" device=""/>
-<part name="J5" library="my-connectors" deviceset="CONN_01_NO_SILK" device=""/>
-<part name="J7" library="my-connectors" deviceset="CONN_01_NO_SILK" device=""/>
-<part name="GND3" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="J29" library="my-connectors" deviceset="CONN_01_NO_SILK" device=""/>
 <part name="J30" library="my-connectors" deviceset="CONN_01_NO_SILK" device=""/>
 <part name="J36" library="my-connectors" deviceset="CONN_01_NO_SILK" device=""/>
 <part name="J37" library="my-connectors" deviceset="CONN_01_NO_SILK" device=""/>
@@ -19857,24 +19915,26 @@ Source: &lt;a href="https://datasheet.lcsc.com/szlcsc/1903151807_XKB-Enterprise-
 <part name="R6" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="(4K7)"/>
 <part name="R10" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="(4K7)"/>
 <part name="GND24" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="R11" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="(4K7)"/>
-<part name="R14" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="(1M)"/>
-<part name="R15" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="(1M)"/>
-<part name="R16" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="(1M)"/>
-<part name="R17" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="(1M)"/>
+<part name="R11" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="4K7"/>
+<part name="R14" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="1M"/>
+<part name="R15" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="1M"/>
+<part name="R16" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="1M"/>
+<part name="R17" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="1M"/>
 <part name="GND25" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="C36" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0805K" package3d_urn="urn:adsk.eagle:package:23681/2" value="(C36)"/>
-<part name="C39" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0805K" package3d_urn="urn:adsk.eagle:package:23681/2" value="(C39)"/>
-<part name="C34" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0805K" package3d_urn="urn:adsk.eagle:package:23681/2" value="(C34)"/>
-<part name="C35" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0805K" package3d_urn="urn:adsk.eagle:package:23681/2" value="(C35)"/>
+<part name="C36" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0805K" package3d_urn="urn:adsk.eagle:package:23681/2" value="0.1uF"/>
+<part name="C39" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0805K" package3d_urn="urn:adsk.eagle:package:23681/2" value="0.1uF"/>
+<part name="C34" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0805K" package3d_urn="urn:adsk.eagle:package:23681/2" value="0.1uF"/>
+<part name="C35" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0805K" package3d_urn="urn:adsk.eagle:package:23681/2" value="0.1uF"/>
 <part name="+3V5" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+3V3" device=""/>
 <part name="+3V8" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+3V3" device=""/>
-<part name="R18" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="(1M)"/>
-<part name="C32" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0805K" package3d_urn="urn:adsk.eagle:package:23681/2" value="(C32)"/>
-<part name="R19" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="(1M)"/>
-<part name="C33" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0805K" package3d_urn="urn:adsk.eagle:package:23681/2" value="(C33)"/>
+<part name="R18" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="1M"/>
+<part name="C32" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0805K" package3d_urn="urn:adsk.eagle:package:23681/2" value="0.1uF"/>
+<part name="R19" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="1M"/>
+<part name="C33" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0805K" package3d_urn="urn:adsk.eagle:package:23681/2" value="0.1uF"/>
 <part name="R26" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="(RD26)"/>
 <part name="GND26" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
+<part name="IC1" library="DS18B20+" deviceset="DS18B20+" device=""/>
+<part name="GND27" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -20080,18 +20140,6 @@ Source: &lt;a href="https://datasheet.lcsc.com/szlcsc/1903151807_XKB-Enterprise-
 <attribute name="VALUE" x="9.906" y="193.167" size="1.778" layer="96"/>
 <attribute name="VOLTAGE" x="9.906" y="191.008" size="1.778" layer="96"/>
 </instance>
-<instance part="HI-LINK_AC1" gate="G$1" x="10.16" y="71.12" smashed="yes">
-<attribute name="VALUE" x="7.62" y="66.294" size="1.778" layer="96" font="vector"/>
-<attribute name="NAME" x="7.62" y="74.168" size="1.778" layer="95" font="vector"/>
-</instance>
-<instance part="HI-LINK_AC2" gate="G$1" x="10.16" y="63.5" smashed="yes">
-<attribute name="VALUE" x="7.62" y="58.674" size="1.778" layer="96" font="vector"/>
-<attribute name="NAME" x="7.62" y="66.548" size="1.778" layer="95" font="vector"/>
-</instance>
-<instance part="HI-LINK_VOUT+" gate="G$1" x="10.16" y="78.74" smashed="yes">
-<attribute name="VALUE" x="7.62" y="73.914" size="1.778" layer="96" font="vector"/>
-<attribute name="NAME" x="7.62" y="81.788" size="1.778" layer="95" font="vector"/>
-</instance>
 <instance part="J3" gate="G$1" x="10.16" y="254" smashed="yes">
 <attribute name="VALUE" x="7.62" y="249.174" size="1.778" layer="96" font="vector"/>
 <attribute name="NAME" x="8.382" y="254.254" size="1.778" layer="95" font="vector"/>
@@ -20233,9 +20281,6 @@ Source: &lt;a href="https://datasheet.lcsc.com/szlcsc/1903151807_XKB-Enterprise-
 <instance part="J42" gate="G$1" x="109.22" y="101.6" smashed="yes">
 <attribute name="NAME" x="106.68" y="102.108" size="1.778" layer="95" font="vector"/>
 </instance>
-<instance part="J43" gate="G$1" x="106.68" y="68.58" smashed="yes">
-<attribute name="NAME" x="104.14" y="74.168" size="1.778" layer="95" font="vector"/>
-</instance>
 <instance part="J45" gate="G$1" x="119.38" y="71.12" smashed="yes">
 <attribute name="NAME" x="116.84" y="74.168" size="1.778" layer="95" font="vector"/>
 </instance>
@@ -20367,18 +20412,6 @@ Source: &lt;a href="https://datasheet.lcsc.com/szlcsc/1903151807_XKB-Enterprise-
 <instance part="P+13" gate="1" x="81.28" y="213.36" smashed="yes">
 <attribute name="VALUE" x="83.566" y="213.868" size="1.778" layer="96" rot="R90"/>
 </instance>
-<instance part="J5" gate="G$1" x="142.24" y="165.1" smashed="yes">
-<attribute name="NAME" x="139.7" y="165.608" size="1.778" layer="95" font="vector"/>
-</instance>
-<instance part="J7" gate="G$1" x="134.62" y="93.98" smashed="yes">
-<attribute name="NAME" x="132.08" y="94.488" size="1.778" layer="95" font="vector"/>
-</instance>
-<instance part="GND3" gate="1" x="144.78" y="93.98" smashed="yes" rot="R90">
-<attribute name="VALUE" x="147.32" y="91.44" size="1.778" layer="96" rot="R90"/>
-</instance>
-<instance part="J29" gate="G$1" x="154.94" y="101.6" smashed="yes">
-<attribute name="NAME" x="152.4" y="102.108" size="1.778" layer="95" font="vector"/>
-</instance>
 <instance part="J30" gate="G$1" x="142.24" y="180.34" smashed="yes">
 <attribute name="NAME" x="139.7" y="180.848" size="1.778" layer="95" font="vector"/>
 </instance>
@@ -20402,9 +20435,9 @@ Source: &lt;a href="https://datasheet.lcsc.com/szlcsc/1903151807_XKB-Enterprise-
 <instance part="GND24" gate="1" x="228.6" y="144.78" smashed="yes" rot="R90">
 <attribute name="VALUE" x="231.14" y="142.24" size="1.778" layer="96" rot="R90"/>
 </instance>
-<instance part="R11" gate="G$1" x="154.94" y="160.02" smashed="yes" rot="R90">
-<attribute name="NAME" x="153.4414" y="156.21" size="1.778" layer="95" rot="R90"/>
-<attribute name="VALUE" x="158.242" y="156.21" size="1.778" layer="96" rot="R90"/>
+<instance part="R11" gate="G$1" x="284.48" y="121.92" smashed="yes" rot="R180">
+<attribute name="NAME" x="288.29" y="120.4214" size="1.778" layer="95" rot="R180"/>
+<attribute name="VALUE" x="288.29" y="125.222" size="1.778" layer="96" rot="R180"/>
 </instance>
 <instance part="R14" gate="G$1" x="127" y="124.46" smashed="yes" rot="R90">
 <attribute name="NAME" x="125.5014" y="120.65" size="1.778" layer="95" rot="R90"/>
@@ -20441,8 +20474,8 @@ Source: &lt;a href="https://datasheet.lcsc.com/szlcsc/1903151807_XKB-Enterprise-
 <attribute name="NAME" x="179.959" y="124.46" size="1.778" layer="95" rot="R90"/>
 <attribute name="VALUE" x="182.245" y="124.46" size="1.778" layer="96" rot="R90"/>
 </instance>
-<instance part="+3V5" gate="G$1" x="154.94" y="149.86" smashed="yes" rot="R180">
-<attribute name="VALUE" x="158.242" y="148.082" size="1.778" layer="96" rot="R90"/>
+<instance part="+3V5" gate="G$1" x="289.56" y="132.08" smashed="yes">
+<attribute name="VALUE" x="286.258" y="133.858" size="1.778" layer="96" rot="R270"/>
 </instance>
 <instance part="+3V8" gate="G$1" x="241.3" y="165.1" smashed="yes" rot="R90">
 <attribute name="VALUE" x="248.92" y="167.64" size="1.778" layer="96" rot="R180"/>
@@ -20469,6 +20502,13 @@ Source: &lt;a href="https://datasheet.lcsc.com/szlcsc/1903151807_XKB-Enterprise-
 </instance>
 <instance part="GND26" gate="1" x="271.78" y="187.96" smashed="yes">
 <attribute name="VALUE" x="269.24" y="185.42" size="1.778" layer="96"/>
+</instance>
+<instance part="IC1" gate="G$1" x="274.32" y="119.38" smashed="yes" rot="R180">
+<attribute name="NAME" x="255.27" y="111.76" size="1.778" layer="95" rot="R180" align="center-left"/>
+<attribute name="VALUE" x="255.27" y="114.3" size="1.778" layer="96" rot="R180" align="center-left"/>
+</instance>
+<instance part="GND27" gate="1" x="274.32" y="116.84" smashed="yes">
+<attribute name="VALUE" x="271.78" y="114.3" size="1.778" layer="96"/>
 </instance>
 </instances>
 <busses>
@@ -20660,10 +20700,6 @@ Source: &lt;a href="https://datasheet.lcsc.com/szlcsc/1903151807_XKB-Enterprise-
 <pinref part="GND16" gate="1" pin="GND"/>
 </segment>
 <segment>
-<pinref part="J7" gate="G$1" pin="1"/>
-<pinref part="GND3" gate="1" pin="GND"/>
-</segment>
-<segment>
 <pinref part="J37" gate="G$1" pin="1"/>
 <pinref part="GND17" gate="1" pin="GND"/>
 </segment>
@@ -20708,6 +20744,10 @@ Source: &lt;a href="https://datasheet.lcsc.com/szlcsc/1903151807_XKB-Enterprise-
 <segment>
 <pinref part="R26" gate="G$1" pin="1"/>
 <pinref part="GND26" gate="1" pin="GND"/>
+</segment>
+<segment>
+<pinref part="IC1" gate="G$1" pin="GND"/>
+<pinref part="GND27" gate="1" pin="GND"/>
 </segment>
 </net>
 <net name="+3V3" class="0">
@@ -20756,8 +20796,12 @@ Source: &lt;a href="https://datasheet.lcsc.com/szlcsc/1903151807_XKB-Enterprise-
 </segment>
 <segment>
 <pinref part="R11" gate="G$1" pin="1"/>
-<wire x1="154.94" y1="154.94" x2="154.94" y2="152.4" width="0.1524" layer="91"/>
+<wire x1="289.56" y1="121.92" x2="289.56" y2="124.46" width="0.1524" layer="91"/>
 <pinref part="+3V5" gate="G$1" pin="+3V3"/>
+<pinref part="IC1" gate="G$1" pin="VDD"/>
+<wire x1="289.56" y1="124.46" x2="289.56" y2="129.54" width="0.1524" layer="91"/>
+<wire x1="274.32" y1="124.46" x2="289.56" y2="124.46" width="0.1524" layer="91"/>
+<junction x="289.56" y="124.46"/>
 </segment>
 <segment>
 <pinref part="J42" gate="G$1" pin="1"/>
@@ -20785,12 +20829,6 @@ Source: &lt;a href="https://datasheet.lcsc.com/szlcsc/1903151807_XKB-Enterprise-
 <junction x="256.54" y="165.1"/>
 <wire x1="261.62" y1="165.1" x2="261.62" y2="157.48" width="0.1524" layer="91"/>
 <pinref part="+3V8" gate="G$1" pin="+3V3"/>
-</segment>
-<segment>
-<pinref part="J29" gate="G$1" pin="1"/>
-<wire x1="167.64" y1="101.6" x2="162.56" y2="101.6" width="0.1524" layer="91"/>
-<junction x="162.56" y="101.6"/>
-<label x="160.02" y="101.6" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="EN" class="0">
@@ -20947,10 +20985,12 @@ Source: &lt;a href="https://datasheet.lcsc.com/szlcsc/1903151807_XKB-Enterprise-
 <wire x1="177.8" y1="190.5" x2="182.88" y2="190.5" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="J5" gate="G$1" pin="1"/>
-<wire x1="149.86" y1="165.1" x2="154.94" y2="165.1" width="0.1524" layer="91"/>
-<label x="149.86" y="165.1" size="1.778" layer="95"/>
+<label x="279.4" y="119.38" size="1.778" layer="95" rot="R270"/>
 <pinref part="R11" gate="G$1" pin="2"/>
+<pinref part="IC1" gate="G$1" pin="DQ"/>
+<wire x1="274.32" y1="121.92" x2="279.4" y2="121.92" width="0.1524" layer="91"/>
+<wire x1="279.4" y1="121.92" x2="279.4" y2="114.3" width="0.1524" layer="91"/>
+<junction x="279.4" y="121.92"/>
 </segment>
 </net>
 <net name="IO14" class="0">
@@ -21508,18 +21548,6 @@ Source: &lt;a href="https://datasheet.lcsc.com/szlcsc/1903151807_XKB-Enterprise-
 <pinref part="Q1" gate="G$1" pin="E"/>
 </segment>
 </net>
-<net name="AC1" class="0">
-<segment>
-<pinref part="HI-LINK_AC1" gate="G$1" pin="1"/>
-<wire x1="17.78" y1="71.12" x2="22.86" y2="71.12" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="AC2" class="0">
-<segment>
-<pinref part="HI-LINK_AC2" gate="G$1" pin="1"/>
-<wire x1="22.86" y1="63.5" x2="17.78" y2="63.5" width="0.1524" layer="91"/>
-</segment>
-</net>
 <net name="SW" class="0">
 <segment>
 <pinref part="C7" gate="G$1" pin="1"/>
@@ -21582,12 +21610,6 @@ Source: &lt;a href="https://datasheet.lcsc.com/szlcsc/1903151807_XKB-Enterprise-
 <pinref part="JTAG" gate="G$1" pin="10"/>
 <wire x1="289.56" y1="248.92" x2="297.18" y2="248.92" width="0.1524" layer="91"/>
 <label x="302.26" y="248.92" size="1.778" layer="95" align="bottom-right"/>
-</segment>
-</net>
-<net name="N$13" class="0">
-<segment>
-<pinref part="HI-LINK_VOUT+" gate="G$1" pin="1"/>
-<wire x1="17.78" y1="78.74" x2="22.86" y2="78.74" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="VBST" class="0">
