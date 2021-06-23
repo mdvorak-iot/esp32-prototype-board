@@ -22857,9 +22857,8 @@ Created by Upverter.com</description>
 <part name="J_VIN_5V" library="SparkFun-Connectors" deviceset="CONN_02" device="1X02_NO_SILK" package3d_urn="urn:adsk.eagle:package:38051/1"/>
 <part name="P+7" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+5V" device=""/>
 <part name="GND23" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="J38" library="my-connectors" deviceset="CONN_01_NO_SILK" device=""/>
+<part name="SOIL_TOUCH" library="my-connectors" deviceset="CONN_01_NO_SILK" device=""/>
 <part name="J40" library="my-connectors" deviceset="CONN_01_NO_SILK" device=""/>
-<part name="J41" library="my-connectors" deviceset="CONN_01_NO_SILK" device=""/>
 <part name="J42" library="my-connectors" deviceset="CONN_01_NO_SILK" device=""/>
 <part name="J45" library="my-connectors" deviceset="CONN_03_NO_SILK" device=""/>
 <part name="I2C" library="SparkFun-Connectors" library_urn="urn:adsk.eagle:library:513" deviceset="CONN_04" device="1X04_NO_SILK" package3d_urn="urn:adsk.eagle:package:38094/1"/>
@@ -22871,10 +22870,10 @@ Created by Upverter.com</description>
 <part name="J48" library="SparkFun-Connectors" library_urn="urn:adsk.eagle:library:513" deviceset="CONN_01" device="PTH_NO_SILK_YES_STOP" package3d_urn="urn:adsk.eagle:package:38041/1"/>
 <part name="J49" library="SparkFun-Connectors" library_urn="urn:adsk.eagle:library:513" deviceset="CONN_01" device="PTH_NO_SILK_YES_STOP" package3d_urn="urn:adsk.eagle:package:38041/1"/>
 <part name="J50" library="SparkFun-Connectors" library_urn="urn:adsk.eagle:library:513" deviceset="CONN_01" device="PTH_NO_SILK_YES_STOP" package3d_urn="urn:adsk.eagle:package:38041/1"/>
-<part name="J51" library="my-connectors" deviceset="CONN_01_NO_SILK" device=""/>
-<part name="J52" library="my-connectors" deviceset="CONN_01_NO_SILK" device=""/>
-<part name="J53" library="my-connectors" deviceset="CONN_01_NO_SILK" device=""/>
-<part name="J54" library="my-connectors" deviceset="CONN_01_NO_SILK" device=""/>
+<part name="W3" library="my-connectors" deviceset="CONN_01_NO_SILK" device=""/>
+<part name="W2" library="my-connectors" deviceset="CONN_01_NO_SILK" device=""/>
+<part name="W1" library="my-connectors" deviceset="CONN_01_NO_SILK" device=""/>
+<part name="W4" library="my-connectors" deviceset="CONN_01_NO_SILK" device=""/>
 <part name="JTAG" library="DC3-XX-1P27" deviceset="DC3-10-1P27" device=""/>
 <part name="J31" library="my-connectors" deviceset="CONN_01_NO_SILK" device=""/>
 <part name="GND14" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
@@ -22938,7 +22937,7 @@ Created by Upverter.com</description>
 <part name="GND26" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="IC1" library="DS18B20+" deviceset="DS18B20+" device=""/>
 <part name="GND27" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="J5" library="my-connectors" deviceset="CONN_01_NO_SILK" device=""/>
+<part name="W0" library="my-connectors" deviceset="CONN_01_NO_SILK" device=""/>
 <part name="R20" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="470R"/>
 <part name="Q2" library="Infineon - IRF7832PBF" deviceset="INFINEON_IRF7832PBF" device="" value="INFINEON_IRF7832PBF"/>
 <part name="R21" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="3R0"/>
@@ -23284,14 +23283,11 @@ Created by Upverter.com</description>
 <instance part="GND23" gate="1" x="68.58" y="93.98" smashed="yes">
 <attribute name="VALUE" x="66.04" y="91.44" size="1.778" layer="96"/>
 </instance>
-<instance part="J38" gate="G$1" x="142.24" y="193.04" smashed="yes">
-<attribute name="NAME" x="139.7" y="193.548" size="1.778" layer="95" font="vector"/>
+<instance part="SOIL_TOUCH" gate="G$1" x="365.76" y="83.82" smashed="yes">
+<attribute name="NAME" x="363.22" y="86.868" size="1.778" layer="95" font="vector"/>
 </instance>
 <instance part="J40" gate="G$1" x="83.82" y="101.6" smashed="yes">
 <attribute name="NAME" x="81.788" y="102.108" size="1.778" layer="95" font="vector"/>
-</instance>
-<instance part="J41" gate="G$1" x="142.24" y="187.96" smashed="yes">
-<attribute name="NAME" x="139.7" y="188.468" size="1.778" layer="95" font="vector"/>
 </instance>
 <instance part="J42" gate="G$1" x="109.22" y="101.6" smashed="yes">
 <attribute name="NAME" x="106.68" y="102.108" size="1.778" layer="95" font="vector"/>
@@ -23335,16 +23331,16 @@ Created by Upverter.com</description>
 <attribute name="VALUE" x="246.38" y="182.626" size="1.778" layer="96" font="vector" rot="R180"/>
 <attribute name="NAME" x="246.38" y="177.292" size="1.778" layer="95" font="vector" rot="R180"/>
 </instance>
-<instance part="J51" gate="G$1" x="317.5" y="182.88" smashed="yes" grouprefs="WATER_SENSORS">
+<instance part="W3" gate="G$1" x="317.5" y="182.88" smashed="yes" grouprefs="WATER_SENSORS">
 <attribute name="NAME" x="314.96" y="183.388" size="1.778" layer="95" font="vector"/>
 </instance>
-<instance part="J52" gate="G$1" x="317.5" y="187.96" smashed="yes" grouprefs="WATER_SENSORS">
+<instance part="W2" gate="G$1" x="317.5" y="187.96" smashed="yes" grouprefs="WATER_SENSORS">
 <attribute name="NAME" x="314.96" y="188.468" size="1.778" layer="95" font="vector"/>
 </instance>
-<instance part="J53" gate="G$1" x="317.5" y="193.04" smashed="yes" grouprefs="WATER_SENSORS">
+<instance part="W1" gate="G$1" x="317.5" y="193.04" smashed="yes" grouprefs="WATER_SENSORS">
 <attribute name="NAME" x="314.96" y="193.548" size="1.778" layer="95" font="vector"/>
 </instance>
-<instance part="J54" gate="G$1" x="317.5" y="177.8" smashed="yes" grouprefs="WATER_SENSORS">
+<instance part="W4" gate="G$1" x="317.5" y="177.8" smashed="yes" grouprefs="WATER_SENSORS">
 <attribute name="NAME" x="314.96" y="178.308" size="1.778" layer="95" font="vector"/>
 </instance>
 <instance part="JTAG" gate="G$1" x="266.7" y="259.08" smashed="yes">
@@ -23513,7 +23509,7 @@ Created by Upverter.com</description>
 <instance part="GND27" gate="1" x="332.74" y="223.52" smashed="yes">
 <attribute name="VALUE" x="330.2" y="220.98" size="1.778" layer="96"/>
 </instance>
-<instance part="J5" gate="G$1" x="317.5" y="198.12" smashed="yes" grouprefs="WATER_SENSORS">
+<instance part="W0" gate="G$1" x="317.5" y="198.12" smashed="yes" grouprefs="WATER_SENSORS">
 <attribute name="NAME" x="314.96" y="198.628" size="1.778" layer="95" font="vector"/>
 </instance>
 <instance part="R20" gate="G$1" x="340.36" y="198.12" smashed="yes">
@@ -23946,7 +23942,7 @@ Created by Upverter.com</description>
 <wire x1="182.88" y1="205.74" x2="177.8" y2="205.74" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="J52" gate="G$1" pin="1"/>
+<pinref part="W2" gate="G$1" pin="1"/>
 <wire x1="325.12" y1="187.96" x2="330.2" y2="187.96" width="0.1524" layer="91"/>
 <label x="325.12" y="187.96" size="1.778" layer="95"/>
 </segment>
@@ -23968,7 +23964,7 @@ Created by Upverter.com</description>
 <wire x1="177.8" y1="203.2" x2="182.88" y2="203.2" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="J51" gate="G$1" pin="1"/>
+<pinref part="W3" gate="G$1" pin="1"/>
 <wire x1="325.12" y1="182.88" x2="330.2" y2="182.88" width="0.1524" layer="91"/>
 <label x="325.12" y="182.88" size="1.778" layer="95"/>
 </segment>
@@ -23988,11 +23984,6 @@ Created by Upverter.com</description>
 <pinref part="U2" gate="G$1" pin="IO33"/>
 <label x="177.8" y="198.12" size="1.778" layer="95"/>
 <wire x1="177.8" y1="198.12" x2="182.88" y2="198.12" width="0.1524" layer="91"/>
-</segment>
-<segment>
-<pinref part="J41" gate="G$1" pin="1"/>
-<wire x1="149.86" y1="187.96" x2="154.94" y2="187.96" width="0.1524" layer="91"/>
-<label x="149.86" y="187.96" size="1.778" layer="95"/>
 </segment>
 <segment>
 <pinref part="C33" gate="G$1" pin="2"/>
@@ -24016,6 +24007,11 @@ Created by Upverter.com</description>
 <wire x1="149.86" y1="180.34" x2="154.94" y2="180.34" width="0.1524" layer="91"/>
 <label x="149.86" y="180.34" size="1.778" layer="95"/>
 </segment>
+<segment>
+<pinref part="R20" gate="G$1" pin="2"/>
+<wire x1="345.44" y1="198.12" x2="353.06" y2="198.12" width="0.1524" layer="91"/>
+<label x="347.98" y="198.12" size="1.778" layer="95"/>
+</segment>
 </net>
 <net name="IO26" class="0">
 <segment>
@@ -24032,11 +24028,6 @@ Created by Upverter.com</description>
 <pinref part="R21" gate="G$1" pin="1"/>
 <wire x1="320.04" y1="114.3" x2="312.42" y2="114.3" width="0.1524" layer="91"/>
 <label x="312.42" y="114.3" size="1.778" layer="95"/>
-</segment>
-<segment>
-<pinref part="R20" gate="G$1" pin="2"/>
-<wire x1="345.44" y1="198.12" x2="353.06" y2="198.12" width="0.1524" layer="91"/>
-<label x="347.98" y="198.12" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="IO27" class="0">
@@ -24294,7 +24285,7 @@ Created by Upverter.com</description>
 <wire x1="177.8" y1="208.28" x2="182.88" y2="208.28" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="J53" gate="G$1" pin="1"/>
+<pinref part="W1" gate="G$1" pin="1"/>
 <wire x1="325.12" y1="193.04" x2="330.2" y2="193.04" width="0.1524" layer="91"/>
 <label x="325.12" y="193.04" size="1.778" layer="95"/>
 </segment>
@@ -24316,7 +24307,7 @@ Created by Upverter.com</description>
 <wire x1="177.8" y1="210.82" x2="182.88" y2="210.82" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="J54" gate="G$1" pin="1"/>
+<pinref part="W4" gate="G$1" pin="1"/>
 <wire x1="325.12" y1="177.8" x2="330.2" y2="177.8" width="0.1524" layer="91"/>
 <label x="325.12" y="177.8" size="1.778" layer="95"/>
 </segment>
@@ -24649,9 +24640,9 @@ Created by Upverter.com</description>
 <label x="177.8" y="200.66" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="J38" gate="G$1" pin="1"/>
-<wire x1="149.86" y1="193.04" x2="154.94" y2="193.04" width="0.1524" layer="91"/>
-<label x="149.86" y="193.04" size="1.778" layer="95"/>
+<pinref part="SOIL_TOUCH" gate="G$1" pin="1"/>
+<wire x1="373.38" y1="83.82" x2="378.46" y2="83.82" width="0.1524" layer="91"/>
+<label x="373.38" y="83.82" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="JTAG_VDD" class="0">
@@ -24684,9 +24675,9 @@ Created by Upverter.com</description>
 <wire x1="71.12" y1="198.12" x2="81.28" y2="198.12" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="VWATER" class="0">
+<net name="W0" class="0">
 <segment>
-<pinref part="J5" gate="G$1" pin="1"/>
+<pinref part="W0" gate="G$1" pin="1"/>
 <wire x1="325.12" y1="198.12" x2="335.28" y2="198.12" width="0.1524" layer="91"/>
 <pinref part="R20" gate="G$1" pin="1"/>
 </segment>
