@@ -22696,6 +22696,71 @@ Created by Upverter.com</description>
 </deviceset>
 </devicesets>
 </library>
+<library name="1N4001">
+<packages>
+<package name="DO41-7" urn="urn:adsk.eagle:footprint:43262/1" locally_modified="yes">
+<description>&lt;B&gt;DIODE&lt;/B&gt;&lt;p&gt;
+diameter 2.54 mm, horizontal, grid 7.62 mm</description>
+<wire x1="2.032" y1="-1.27" x2="-2.032" y2="-1.27" width="0.1524" layer="21"/>
+<wire x1="2.032" y1="-1.27" x2="2.032" y2="1.27" width="0.1524" layer="21"/>
+<wire x1="-2.032" y1="1.27" x2="2.032" y2="1.27" width="0.1524" layer="21"/>
+<wire x1="-2.032" y1="1.27" x2="-2.032" y2="-1.27" width="0.1524" layer="21"/>
+<wire x1="3.81" y1="0" x2="2.794" y2="0" width="0.762" layer="51"/>
+<wire x1="-3.81" y1="0" x2="-2.794" y2="0" width="0.762" layer="51"/>
+<wire x1="-0.635" y1="0" x2="0" y2="0" width="0.1524" layer="21"/>
+<wire x1="1.016" y1="0.635" x2="1.016" y2="0" width="0.1524" layer="21"/>
+<wire x1="1.016" y1="0" x2="1.016" y2="-0.635" width="0.1524" layer="21"/>
+<wire x1="1.016" y1="-0.635" x2="0" y2="0" width="0.1524" layer="21"/>
+<wire x1="0" y1="0" x2="1.016" y2="0.635" width="0.1524" layer="21"/>
+<wire x1="0" y1="0.635" x2="0" y2="0" width="0.1524" layer="21"/>
+<wire x1="0" y1="0" x2="0" y2="-0.635" width="0.1524" layer="21"/>
+<pad name="C" x="-3.81" y="0" drill="1.1176"/>
+<pad name="A" x="3.81" y="0" drill="1.1176"/>
+<text x="0" y="1.778" size="1.27" layer="25" ratio="10" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-1.778" size="1.27" layer="27" ratio="10" rot="R180" align="bottom-center">&gt;VALUE</text>
+<rectangle x1="-1.651" y1="-1.27" x2="-1.143" y2="1.27" layer="21"/>
+<rectangle x1="2.032" y1="-0.381" x2="2.667" y2="0.381" layer="21"/>
+<rectangle x1="-2.667" y1="-0.381" x2="-2.032" y2="0.381" layer="21"/>
+<wire x1="1.016" y1="0" x2="1.524" y2="0" width="0.1524" layer="21"/>
+</package>
+</packages>
+<symbols>
+<symbol name="DIODE">
+<wire x1="-1.27" y1="-1.27" x2="1.27" y2="0" width="0.254" layer="94"/>
+<wire x1="1.27" y1="0" x2="-1.27" y2="1.27" width="0.254" layer="94"/>
+<wire x1="1.27" y1="1.27" x2="1.27" y2="0" width="0.254" layer="94"/>
+<wire x1="-1.27" y1="1.27" x2="-1.27" y2="0" width="0.254" layer="94"/>
+<wire x1="-1.27" y1="0" x2="-1.27" y2="-1.27" width="0.254" layer="94"/>
+<wire x1="1.27" y1="0" x2="1.27" y2="-1.27" width="0.254" layer="94"/>
+<wire x1="-1.27" y1="0" x2="-2.54" y2="0" width="0.254" layer="94"/>
+<wire x1="2.54" y1="0" x2="1.27" y2="0" width="0.254" layer="94"/>
+<text x="0" y="2.0066" size="1.778" layer="95" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-1.7526" size="1.778" layer="96" rot="R180" align="bottom-center">&gt;VALUE</text>
+<text x="-2.54" y="0" size="0.4064" layer="99" align="center">SpiceOrder 1</text>
+<text x="2.54" y="0" size="0.4064" layer="99" align="center">SpiceOrder 2</text>
+<pin name="A" x="-2.54" y="0" visible="off" length="point" direction="pas"/>
+<pin name="C" x="2.54" y="0" visible="off" length="point" direction="pas" rot="R180"/>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="1N4001" uservalue="yes">
+<gates>
+<gate name="G$1" symbol="DIODE" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="DO41-7">
+<connects>
+<connect gate="G$1" pin="A" pad="A"/>
+<connect gate="G$1" pin="C" pad="C"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
 </libraries>
 <attributes>
 </attributes>
@@ -22949,6 +23014,7 @@ Created by Upverter.com</description>
 <part name="+3V9" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+3V3" device=""/>
 <part name="GND29" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="R18" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="1M"/>
+<part name="D3" library="1N4001" deviceset="1N4001" device="" value="1N4001"/>
 </parts>
 <sheets>
 <sheet>
@@ -23526,12 +23592,12 @@ Created by Upverter.com</description>
 <instance part="GND28" gate="1" x="340.36" y="101.6" smashed="yes">
 <attribute name="VALUE" x="337.82" y="99.06" size="1.778" layer="96"/>
 </instance>
-<instance part="VALVE" gate="G$1" x="317.5" y="129.54" smashed="yes">
-<attribute name="VALUE" x="314.96" y="124.714" size="1.778" layer="96" font="vector"/>
-<attribute name="NAME" x="314.96" y="135.128" size="1.778" layer="95" font="vector"/>
+<instance part="VALVE" gate="G$1" x="314.96" y="129.54" smashed="yes">
+<attribute name="VALUE" x="312.42" y="124.714" size="1.778" layer="96" font="vector"/>
+<attribute name="NAME" x="312.42" y="135.128" size="1.778" layer="95" font="vector"/>
 </instance>
-<instance part="P+10" gate="1" x="332.74" y="129.54" smashed="yes" rot="R270">
-<attribute name="VALUE" x="325.12" y="127" size="1.778" layer="96"/>
+<instance part="P+10" gate="1" x="312.42" y="121.92" smashed="yes" rot="R90">
+<attribute name="VALUE" x="320.04" y="124.46" size="1.778" layer="96" rot="R180"/>
 </instance>
 <instance part="SOIL_HUM" gate="J$1" x="317.5" y="81.28" smashed="yes">
 <attribute name="VALUE" x="314.96" y="73.914" size="1.778" layer="96" font="vector"/>
@@ -23549,6 +23615,10 @@ Created by Upverter.com</description>
 <instance part="R18" gate="G$1" x="342.9" y="78.74" smashed="yes" rot="R90">
 <attribute name="NAME" x="341.4014" y="74.93" size="1.778" layer="95" rot="R90"/>
 <attribute name="VALUE" x="346.202" y="74.93" size="1.778" layer="96" rot="R90"/>
+</instance>
+<instance part="D3" gate="G$1" x="334.01" y="127" smashed="yes" rot="R180">
+<attribute name="NAME" x="335.534" y="124.968" size="1.778" layer="95" rot="R180"/>
+<attribute name="VALUE" x="334.01" y="128.905" size="1.778" layer="96" align="bottom-center"/>
 </instance>
 </instances>
 <busses>
@@ -24391,7 +24461,13 @@ Created by Upverter.com</description>
 <segment>
 <pinref part="VALVE" gate="G$1" pin="1"/>
 <pinref part="P+10" gate="1" pin="+12V"/>
-<wire x1="325.12" y1="129.54" x2="330.2" y2="129.54" width="0.1524" layer="91"/>
+<wire x1="322.58" y1="129.54" x2="327.66" y2="129.54" width="0.1524" layer="91"/>
+<wire x1="327.66" y1="129.54" x2="327.66" y2="127" width="0.1524" layer="91"/>
+<wire x1="327.66" y1="127" x2="327.66" y2="121.92" width="0.1524" layer="91"/>
+<wire x1="327.66" y1="121.92" x2="314.96" y2="121.92" width="0.1524" layer="91"/>
+<pinref part="D3" gate="G$1" pin="C"/>
+<wire x1="331.47" y1="127" x2="327.66" y2="127" width="0.1524" layer="91"/>
+<junction x="327.66" y="127"/>
 </segment>
 </net>
 <net name="+5V" class="0">
@@ -24693,10 +24769,14 @@ Created by Upverter.com</description>
 <net name="VALVE_GND" class="0">
 <segment>
 <pinref part="Q2" gate="G$0" pin="1_D"/>
-<wire x1="340.36" y1="121.92" x2="340.36" y2="132.08" width="0.1524" layer="91"/>
+<wire x1="340.36" y1="121.92" x2="340.36" y2="127" width="0.1524" layer="91"/>
 <pinref part="VALVE" gate="G$1" pin="2"/>
-<wire x1="325.12" y1="132.08" x2="340.36" y2="132.08" width="0.1524" layer="91"/>
-<label x="325.12" y="132.08" size="1.778" layer="95"/>
+<wire x1="340.36" y1="127" x2="340.36" y2="132.08" width="0.1524" layer="91"/>
+<wire x1="322.58" y1="132.08" x2="340.36" y2="132.08" width="0.1524" layer="91"/>
+<label x="322.58" y="132.08" size="1.778" layer="95"/>
+<pinref part="D3" gate="G$1" pin="A"/>
+<wire x1="336.55" y1="127" x2="340.36" y2="127" width="0.1524" layer="91"/>
+<junction x="340.36" y="127"/>
 </segment>
 </net>
 </nets>
