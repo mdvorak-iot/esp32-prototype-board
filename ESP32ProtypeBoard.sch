@@ -18886,6 +18886,22 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <text x="-1.27" y="1.143" size="0.6096" layer="25" font="vector" ratio="20">&gt;NAME</text>
 <text x="-1.27" y="-1.778" size="0.6096" layer="27" font="vector" ratio="20">&gt;VALUE</text>
 </package>
+<package name="1X04_1.27MM_NO_SILK" urn="urn:adsk.eagle:footprint:37705/1" locally_modified="yes">
+<description>&lt;h3&gt;Plated Through Hole - 4 Pin&lt;/h3&gt;
+&lt;p&gt;Specifications:
+&lt;ul&gt;&lt;li&gt;Pin count:4&lt;/li&gt;
+&lt;li&gt;Pin pitch: 1.27mm&lt;/li&gt;
+&lt;/ul&gt;&lt;/p&gt;
+&lt;p&gt;Example device(s):
+&lt;ul&gt;&lt;li&gt;CONN_04&lt;/li&gt;
+&lt;/ul&gt;&lt;/p&gt;</description>
+<pad name="4" x="3.81" y="0" drill="0.508" diameter="1"/>
+<pad name="3" x="2.54" y="0" drill="0.508" diameter="1"/>
+<pad name="2" x="1.27" y="0" drill="0.508" diameter="1"/>
+<pad name="1" x="0" y="0" drill="0.508" diameter="1"/>
+<text x="-0.508" y="1.016" size="0.6096" layer="25" font="vector" ratio="20">&gt;NAME</text>
+<text x="-0.508" y="-1.651" size="0.6096" layer="27" font="vector" ratio="20">&gt;VALUE</text>
+</package>
 </packages>
 <symbols>
 <symbol name="CONN_03">
@@ -18954,14 +18970,14 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <devicesets>
 <deviceset name="CONN_03_NO_SILK" prefix="J">
 <gates>
-<gate name="G$1" symbol="CONN_03" x="0" y="0"/>
+<gate name="J$1" symbol="CONN_03" x="0" y="0"/>
 </gates>
 <devices>
 <device name="" package="1X03_NO_SILK">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
-<connect gate="G$1" pin="3" pad="3"/>
+<connect gate="J$1" pin="1" pad="1"/>
+<connect gate="J$1" pin="2" pad="2"/>
+<connect gate="J$1" pin="3" pad="3"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -18969,14 +18985,14 @@ You are welcome to use this library for commercial purposes. For attribution, we
 </device>
 </devices>
 </deviceset>
-<deviceset name="CONN_01_NO_SILK">
+<deviceset name="CONN_01_NO_SILK" prefix="J" uservalue="yes">
 <gates>
-<gate name="G$1" symbol="CONN_01" x="0" y="0"/>
+<gate name="J$1" symbol="CONN_01" x="0" y="0"/>
 </gates>
 <devices>
 <device name="" package="1X01_NO_SILK">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="J$1" pin="1" pad="1"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -18984,7 +19000,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 </device>
 <device name="_LONGPAD" package="1X01_NO_SILK_LONGPAD">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="J$1" pin="1" pad="1"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -18992,17 +19008,28 @@ You are welcome to use this library for commercial purposes. For attribution, we
 </device>
 </devices>
 </deviceset>
-<deviceset name="CONN_04_NO_SILK" prefix="J">
+<deviceset name="CONN_04_NO_SILK" prefix="J" uservalue="yes">
 <gates>
-<gate name="G$1" symbol="CONN_04" x="2.54" y="2.54"/>
+<gate name="J$1" symbol="CONN_04" x="2.54" y="2.54"/>
 </gates>
 <devices>
 <device name="" package="1X04_NO_SILK">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
-<connect gate="G$1" pin="3" pad="3"/>
-<connect gate="G$1" pin="4" pad="4"/>
+<connect gate="J$1" pin="1" pad="1"/>
+<connect gate="J$1" pin="2" pad="2"/>
+<connect gate="J$1" pin="3" pad="3"/>
+<connect gate="J$1" pin="4" pad="4"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="1.27MM" package="1X04_1.27MM_NO_SILK">
+<connects>
+<connect gate="J$1" pin="1" pad="1"/>
+<connect gate="J$1" pin="2" pad="2"/>
+<connect gate="J$1" pin="3" pad="3"/>
+<connect gate="J$1" pin="4" pad="4"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -19010,18 +19037,18 @@ You are welcome to use this library for commercial purposes. For attribution, we
 </device>
 </devices>
 </deviceset>
-<deviceset name="CONN_05_NO_SILK">
+<deviceset name="CONN_05_NO_SILK" prefix="J" uservalue="yes">
 <gates>
-<gate name="G$1" symbol="CONN_05" x="0" y="0"/>
+<gate name="J$1" symbol="CONN_05" x="0" y="0"/>
 </gates>
 <devices>
 <device name="" package="1X05_NO_SILK">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
-<connect gate="G$1" pin="3" pad="3"/>
-<connect gate="G$1" pin="4" pad="4"/>
-<connect gate="G$1" pin="5" pad="5"/>
+<connect gate="J$1" pin="1" pad="1"/>
+<connect gate="J$1" pin="2" pad="2"/>
+<connect gate="J$1" pin="3" pad="3"/>
+<connect gate="J$1" pin="4" pad="4"/>
+<connect gate="J$1" pin="5" pad="5"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -20016,7 +20043,7 @@ Source: &lt;a href="https://datasheet.lcsc.com/szlcsc/1903151807_XKB-Enterprise-
 <attribute name="NAME" x="115.7986" y="163.83" size="1.778" layer="95" rot="R270"/>
 <attribute name="VALUE" x="110.998" y="163.83" size="1.778" layer="96" rot="R270"/>
 </instance>
-<instance part="J8" gate="G$1" x="210.82" y="68.58" smashed="yes">
+<instance part="J8" gate="J$1" x="210.82" y="68.58" smashed="yes">
 <attribute name="NAME" x="208.28" y="76.708" size="1.778" layer="95" font="vector"/>
 </instance>
 <instance part="R2" gate="G$1" x="170.18" y="246.38" smashed="yes" rot="R180">
@@ -20088,11 +20115,11 @@ Source: &lt;a href="https://datasheet.lcsc.com/szlcsc/1903151807_XKB-Enterprise-
 <attribute name="VALUE" x="7.62" y="73.914" size="1.778" layer="96" font="vector"/>
 <attribute name="NAME" x="7.62" y="81.788" size="1.778" layer="95" font="vector"/>
 </instance>
-<instance part="J3" gate="G$1" x="10.16" y="254" smashed="yes">
+<instance part="J3" gate="J$1" x="10.16" y="254" smashed="yes">
 <attribute name="VALUE" x="7.62" y="249.174" size="1.778" layer="96" font="vector"/>
 <attribute name="NAME" x="8.382" y="254.254" size="1.778" layer="95" font="vector"/>
 </instance>
-<instance part="J4" gate="G$1" x="10.16" y="259.08" smashed="yes">
+<instance part="J4" gate="J$1" x="10.16" y="259.08" smashed="yes">
 <attribute name="VALUE" x="6.858" y="262.636" size="1.778" layer="96" font="vector"/>
 <attribute name="NAME" x="8.382" y="259.334" size="1.778" layer="95" font="vector"/>
 </instance>
@@ -20110,7 +20137,7 @@ Source: &lt;a href="https://datasheet.lcsc.com/szlcsc/1903151807_XKB-Enterprise-
 <attribute name="VALUE" x="104.14" y="18.034" size="1.778" layer="96" font="vector"/>
 <attribute name="NAME" x="104.14" y="58.928" size="1.778" layer="95" font="vector"/>
 </instance>
-<instance part="J21" gate="G$1" x="223.52" y="68.58" smashed="yes">
+<instance part="J21" gate="J$1" x="223.52" y="68.58" smashed="yes">
 <attribute name="NAME" x="220.98" y="76.708" size="1.778" layer="95" font="vector"/>
 </instance>
 <instance part="J22" gate="G$1" x="119.38" y="40.64" smashed="yes">
@@ -20217,22 +20244,22 @@ Source: &lt;a href="https://datasheet.lcsc.com/szlcsc/1903151807_XKB-Enterprise-
 <instance part="GND23" gate="1" x="68.58" y="93.98" smashed="yes">
 <attribute name="VALUE" x="66.04" y="91.44" size="1.778" layer="96"/>
 </instance>
-<instance part="J38" gate="G$1" x="142.24" y="193.04" smashed="yes">
+<instance part="J38" gate="J$1" x="142.24" y="193.04" smashed="yes">
 <attribute name="NAME" x="139.7" y="193.548" size="1.778" layer="95" font="vector"/>
 </instance>
-<instance part="J40" gate="G$1" x="83.82" y="101.6" smashed="yes">
+<instance part="J40" gate="J$1" x="83.82" y="101.6" smashed="yes">
 <attribute name="NAME" x="81.788" y="102.108" size="1.778" layer="95" font="vector"/>
 </instance>
-<instance part="J41" gate="G$1" x="142.24" y="187.96" smashed="yes">
+<instance part="J41" gate="J$1" x="142.24" y="187.96" smashed="yes">
 <attribute name="NAME" x="139.7" y="188.468" size="1.778" layer="95" font="vector"/>
 </instance>
-<instance part="J42" gate="G$1" x="109.22" y="101.6" smashed="yes">
+<instance part="J42" gate="J$1" x="109.22" y="101.6" smashed="yes">
 <attribute name="NAME" x="106.68" y="102.108" size="1.778" layer="95" font="vector"/>
 </instance>
-<instance part="J43" gate="G$1" x="106.68" y="68.58" smashed="yes">
+<instance part="J43" gate="J$1" x="106.68" y="68.58" smashed="yes">
 <attribute name="NAME" x="104.14" y="74.168" size="1.778" layer="95" font="vector"/>
 </instance>
-<instance part="J45" gate="G$1" x="119.38" y="71.12" smashed="yes">
+<instance part="J45" gate="J$1" x="119.38" y="71.12" smashed="yes">
 <attribute name="NAME" x="116.84" y="74.168" size="1.778" layer="95" font="vector"/>
 </instance>
 <instance part="I2C" gate="G$1" x="271.78" y="154.94" smashed="yes" rot="R180">
@@ -20271,38 +20298,38 @@ Source: &lt;a href="https://datasheet.lcsc.com/szlcsc/1903151807_XKB-Enterprise-
 <attribute name="VALUE" x="246.38" y="182.626" size="1.778" layer="96" font="vector" rot="R180"/>
 <attribute name="NAME" x="246.38" y="177.292" size="1.778" layer="95" font="vector" rot="R180"/>
 </instance>
-<instance part="J51" gate="G$1" x="142.24" y="198.12" smashed="yes">
+<instance part="J51" gate="J$1" x="142.24" y="198.12" smashed="yes">
 <attribute name="NAME" x="139.7" y="198.628" size="1.778" layer="95" font="vector"/>
 </instance>
-<instance part="J52" gate="G$1" x="142.24" y="203.2" smashed="yes">
+<instance part="J52" gate="J$1" x="142.24" y="203.2" smashed="yes">
 <attribute name="NAME" x="139.7" y="203.708" size="1.778" layer="95" font="vector"/>
 </instance>
-<instance part="J53" gate="G$1" x="142.24" y="208.28" smashed="yes">
+<instance part="J53" gate="J$1" x="142.24" y="208.28" smashed="yes">
 <attribute name="NAME" x="139.7" y="208.788" size="1.778" layer="95" font="vector"/>
 </instance>
-<instance part="J54" gate="G$1" x="142.24" y="213.36" smashed="yes">
+<instance part="J54" gate="J$1" x="142.24" y="213.36" smashed="yes">
 <attribute name="NAME" x="139.7" y="213.868" size="1.778" layer="95" font="vector"/>
 </instance>
 <instance part="JTAG" gate="G$1" x="266.7" y="259.08" smashed="yes">
 <attribute name="NAME" x="278.13" y="262.382" size="1.778" layer="95" align="bottom-center"/>
 <attribute name="VALUE" x="278.13" y="245.618" size="1.778" layer="96" align="top-center"/>
 </instance>
-<instance part="J31" gate="G$1" x="134.62" y="101.6" smashed="yes">
+<instance part="J31" gate="J$1" x="134.62" y="101.6" smashed="yes">
 <attribute name="NAME" x="132.08" y="102.108" size="1.778" layer="95" font="vector"/>
 </instance>
 <instance part="GND14" gate="1" x="144.78" y="101.6" smashed="yes" rot="R90">
 <attribute name="VALUE" x="147.32" y="99.06" size="1.778" layer="96" rot="R90"/>
 </instance>
-<instance part="J2" gate="G$1" x="134.62" y="68.58" smashed="yes">
+<instance part="J2" gate="J$1" x="134.62" y="68.58" smashed="yes">
 <attribute name="NAME" x="132.08" y="74.168" size="1.778" layer="95" font="vector"/>
 </instance>
-<instance part="J57" gate="G$1" x="147.32" y="68.58" smashed="yes">
+<instance part="J57" gate="J$1" x="147.32" y="68.58" smashed="yes">
 <attribute name="NAME" x="144.78" y="74.168" size="1.778" layer="95" font="vector"/>
 </instance>
-<instance part="J1" gate="G$1" x="157.48" y="71.12" smashed="yes">
+<instance part="J1" gate="J$1" x="157.48" y="71.12" smashed="yes">
 <attribute name="NAME" x="154.94" y="74.168" size="1.778" layer="95" font="vector"/>
 </instance>
-<instance part="J6" gate="G$1" x="208.28" y="48.26" smashed="yes">
+<instance part="J6" gate="J$1" x="208.28" y="48.26" smashed="yes">
 <attribute name="NAME" x="208.28" y="56.388" size="1.778" layer="95" font="vector"/>
 </instance>
 <instance part="J9" gate="G$1" x="109.22" y="5.08" smashed="yes">
@@ -20325,10 +20352,10 @@ Source: &lt;a href="https://datasheet.lcsc.com/szlcsc/1903151807_XKB-Enterprise-
 <attribute name="VALUE" x="154.94" y="-7.366" size="1.778" layer="96" font="vector"/>
 <attribute name="NAME" x="154.94" y="18.288" size="1.778" layer="95" font="vector"/>
 </instance>
-<instance part="J20" gate="G$1" x="187.96" y="68.58" smashed="yes">
+<instance part="J20" gate="J$1" x="187.96" y="68.58" smashed="yes">
 <attribute name="NAME" x="185.42" y="74.168" size="1.778" layer="95" font="vector"/>
 </instance>
-<instance part="J24" gate="G$1" x="200.66" y="68.58" smashed="yes">
+<instance part="J24" gate="J$1" x="200.66" y="68.58" smashed="yes">
 <attribute name="NAME" x="198.12" y="74.168" size="1.778" layer="95" font="vector"/>
 </instance>
 <instance part="C3" gate="G$1" x="91.44" y="99.06" smashed="yes">
@@ -20363,25 +20390,25 @@ Source: &lt;a href="https://datasheet.lcsc.com/szlcsc/1903151807_XKB-Enterprise-
 <instance part="P+13" gate="1" x="81.28" y="213.36" smashed="yes">
 <attribute name="VALUE" x="83.566" y="213.868" size="1.778" layer="96" rot="R90"/>
 </instance>
-<instance part="J5" gate="G$1" x="142.24" y="165.1" smashed="yes">
+<instance part="J5" gate="J$1" x="142.24" y="165.1" smashed="yes">
 <attribute name="NAME" x="139.7" y="165.608" size="1.778" layer="95" font="vector"/>
 </instance>
-<instance part="J7" gate="G$1" x="134.62" y="93.98" smashed="yes">
+<instance part="J7" gate="J$1" x="134.62" y="93.98" smashed="yes">
 <attribute name="NAME" x="132.08" y="94.488" size="1.778" layer="95" font="vector"/>
 </instance>
 <instance part="GND3" gate="1" x="144.78" y="93.98" smashed="yes" rot="R90">
 <attribute name="VALUE" x="147.32" y="91.44" size="1.778" layer="96" rot="R90"/>
 </instance>
-<instance part="J29" gate="G$1" x="154.94" y="101.6" smashed="yes">
+<instance part="J29" gate="J$1" x="154.94" y="101.6" smashed="yes">
 <attribute name="NAME" x="152.4" y="102.108" size="1.778" layer="95" font="vector"/>
 </instance>
-<instance part="J30" gate="G$1" x="142.24" y="180.34" smashed="yes">
+<instance part="J30" gate="J$1" x="142.24" y="180.34" smashed="yes">
 <attribute name="NAME" x="139.7" y="180.848" size="1.778" layer="95" font="vector"/>
 </instance>
-<instance part="J36" gate="G$1" x="142.24" y="175.26" smashed="yes">
+<instance part="J36" gate="J$1" x="142.24" y="175.26" smashed="yes">
 <attribute name="NAME" x="139.7" y="175.768" size="1.778" layer="95" font="vector"/>
 </instance>
-<instance part="J37" gate="G$1" x="134.62" y="86.36" smashed="yes">
+<instance part="J37" gate="J$1" x="134.62" y="86.36" smashed="yes">
 <attribute name="NAME" x="132.08" y="86.868" size="1.778" layer="95" font="vector"/>
 </instance>
 <instance part="GND17" gate="1" x="144.78" y="86.36" smashed="yes" rot="R90">
@@ -20536,7 +20563,7 @@ Source: &lt;a href="https://datasheet.lcsc.com/szlcsc/1903151807_XKB-Enterprise-
 <pinref part="GND10" gate="1" pin="GND"/>
 </segment>
 <segment>
-<pinref part="J3" gate="G$1" pin="1"/>
+<pinref part="J3" gate="J$1" pin="1"/>
 <pinref part="GND15" gate="1" pin="GND"/>
 </segment>
 <segment>
@@ -20627,7 +20654,7 @@ Source: &lt;a href="https://datasheet.lcsc.com/szlcsc/1903151807_XKB-Enterprise-
 <label x="261.62" y="248.92" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="J31" gate="G$1" pin="1"/>
+<pinref part="J31" gate="J$1" pin="1"/>
 <pinref part="GND14" gate="1" pin="GND"/>
 </segment>
 <segment>
@@ -20639,11 +20666,11 @@ Source: &lt;a href="https://datasheet.lcsc.com/szlcsc/1903151807_XKB-Enterprise-
 <pinref part="GND16" gate="1" pin="GND"/>
 </segment>
 <segment>
-<pinref part="J7" gate="G$1" pin="1"/>
+<pinref part="J7" gate="J$1" pin="1"/>
 <pinref part="GND3" gate="1" pin="GND"/>
 </segment>
 <segment>
-<pinref part="J37" gate="G$1" pin="1"/>
+<pinref part="J37" gate="J$1" pin="1"/>
 <pinref part="GND17" gate="1" pin="GND"/>
 </segment>
 <segment>
@@ -20725,14 +20752,14 @@ Source: &lt;a href="https://datasheet.lcsc.com/szlcsc/1903151807_XKB-Enterprise-
 <pinref part="+3V5" gate="G$1" pin="+3V3"/>
 </segment>
 <segment>
-<pinref part="J42" gate="G$1" pin="1"/>
+<pinref part="J42" gate="J$1" pin="1"/>
 <wire x1="121.92" y1="101.6" x2="116.84" y2="101.6" width="0.1524" layer="91"/>
 <pinref part="C12" gate="G$1" pin="1"/>
 <junction x="116.84" y="101.6"/>
 <label x="114.3" y="101.6" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="J40" gate="G$1" pin="1"/>
+<pinref part="J40" gate="J$1" pin="1"/>
 <wire x1="99.06" y1="101.6" x2="91.44" y2="101.6" width="0.1524" layer="91"/>
 <pinref part="C3" gate="G$1" pin="1"/>
 <junction x="91.44" y="101.6"/>
@@ -20752,7 +20779,7 @@ Source: &lt;a href="https://datasheet.lcsc.com/szlcsc/1903151807_XKB-Enterprise-
 <pinref part="+3V8" gate="G$1" pin="+3V3"/>
 </segment>
 <segment>
-<pinref part="J29" gate="G$1" pin="1"/>
+<pinref part="J29" gate="J$1" pin="1"/>
 <wire x1="167.64" y1="101.6" x2="162.56" y2="101.6" width="0.1524" layer="91"/>
 <junction x="162.56" y="101.6"/>
 <label x="160.02" y="101.6" size="1.778" layer="95"/>
@@ -20817,7 +20844,7 @@ Source: &lt;a href="https://datasheet.lcsc.com/szlcsc/1903151807_XKB-Enterprise-
 <wire x1="182.88" y1="205.74" x2="177.8" y2="205.74" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="J52" gate="G$1" pin="1"/>
+<pinref part="J52" gate="J$1" pin="1"/>
 <wire x1="149.86" y1="203.2" x2="154.94" y2="203.2" width="0.1524" layer="91"/>
 <label x="149.86" y="203.2" size="1.778" layer="95"/>
 </segment>
@@ -20834,7 +20861,7 @@ Source: &lt;a href="https://datasheet.lcsc.com/szlcsc/1903151807_XKB-Enterprise-
 <wire x1="177.8" y1="203.2" x2="182.88" y2="203.2" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="J51" gate="G$1" pin="1"/>
+<pinref part="J51" gate="J$1" pin="1"/>
 <wire x1="149.86" y1="198.12" x2="154.94" y2="198.12" width="0.1524" layer="91"/>
 <label x="149.86" y="198.12" size="1.778" layer="95"/>
 </segment>
@@ -20851,7 +20878,7 @@ Source: &lt;a href="https://datasheet.lcsc.com/szlcsc/1903151807_XKB-Enterprise-
 <wire x1="177.8" y1="198.12" x2="182.88" y2="198.12" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="J41" gate="G$1" pin="1"/>
+<pinref part="J41" gate="J$1" pin="1"/>
 <wire x1="149.86" y1="187.96" x2="154.94" y2="187.96" width="0.1524" layer="91"/>
 <label x="149.86" y="187.96" size="1.778" layer="95"/>
 </segment>
@@ -20868,7 +20895,7 @@ Source: &lt;a href="https://datasheet.lcsc.com/szlcsc/1903151807_XKB-Enterprise-
 <wire x1="177.8" y1="195.58" x2="182.88" y2="195.58" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="J30" gate="G$1" pin="1"/>
+<pinref part="J30" gate="J$1" pin="1"/>
 <wire x1="149.86" y1="180.34" x2="154.94" y2="180.34" width="0.1524" layer="91"/>
 <label x="149.86" y="180.34" size="1.778" layer="95"/>
 </segment>
@@ -20880,7 +20907,7 @@ Source: &lt;a href="https://datasheet.lcsc.com/szlcsc/1903151807_XKB-Enterprise-
 <wire x1="182.88" y1="193.04" x2="177.8" y2="193.04" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="J36" gate="G$1" pin="1"/>
+<pinref part="J36" gate="J$1" pin="1"/>
 <wire x1="149.86" y1="175.26" x2="154.94" y2="175.26" width="0.1524" layer="91"/>
 <label x="149.86" y="175.26" size="1.778" layer="95"/>
 </segment>
@@ -20897,7 +20924,7 @@ Source: &lt;a href="https://datasheet.lcsc.com/szlcsc/1903151807_XKB-Enterprise-
 <wire x1="177.8" y1="190.5" x2="182.88" y2="190.5" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="J5" gate="G$1" pin="1"/>
+<pinref part="J5" gate="J$1" pin="1"/>
 <wire x1="149.86" y1="165.1" x2="154.94" y2="165.1" width="0.1524" layer="91"/>
 <label x="149.86" y="165.1" size="1.778" layer="95"/>
 <pinref part="R11" gate="G$1" pin="2"/>
@@ -21148,7 +21175,7 @@ Source: &lt;a href="https://datasheet.lcsc.com/szlcsc/1903151807_XKB-Enterprise-
 <wire x1="177.8" y1="208.28" x2="182.88" y2="208.28" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="J53" gate="G$1" pin="1"/>
+<pinref part="J53" gate="J$1" pin="1"/>
 <wire x1="149.86" y1="208.28" x2="154.94" y2="208.28" width="0.1524" layer="91"/>
 <label x="149.86" y="208.28" size="1.778" layer="95"/>
 </segment>
@@ -21165,7 +21192,7 @@ Source: &lt;a href="https://datasheet.lcsc.com/szlcsc/1903151807_XKB-Enterprise-
 <wire x1="177.8" y1="210.82" x2="182.88" y2="210.82" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="J54" gate="G$1" pin="1"/>
+<pinref part="J54" gate="J$1" pin="1"/>
 <wire x1="149.86" y1="213.36" x2="154.94" y2="213.36" width="0.1524" layer="91"/>
 <label x="149.86" y="213.36" size="1.778" layer="95"/>
 </segment>
@@ -21407,7 +21434,7 @@ Source: &lt;a href="https://datasheet.lcsc.com/szlcsc/1903151807_XKB-Enterprise-
 <wire x1="40.64" y1="236.22" x2="50.8" y2="236.22" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="J4" gate="G$1" pin="1"/>
+<pinref part="J4" gate="J$1" pin="1"/>
 <pinref part="P+6" gate="VCC" pin="VCC"/>
 </segment>
 </net>
@@ -21500,7 +21527,7 @@ Source: &lt;a href="https://datasheet.lcsc.com/szlcsc/1903151807_XKB-Enterprise-
 <label x="177.8" y="200.66" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="J38" gate="G$1" pin="1"/>
+<pinref part="J38" gate="J$1" pin="1"/>
 <wire x1="149.86" y1="193.04" x2="154.94" y2="193.04" width="0.1524" layer="91"/>
 <label x="149.86" y="193.04" size="1.778" layer="95"/>
 </segment>
