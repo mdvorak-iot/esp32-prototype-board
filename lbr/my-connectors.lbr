@@ -295,9 +295,9 @@
 </package>
 <package name="1X03_JST_XH_2.54MM_LOCK" urn="urn:adsk.eagle:footprint:37683/1" locally_modified="yes" library_version="1">
 <description>&lt;h3&gt;JST XH 2.54&lt;/h3&gt;</description>
-<wire x1="-2.54" y1="4.318" x2="-2.54" y2="-2.54" width="0.127" layer="21"/>
-<wire x1="7.62" y1="4.318" x2="7.62" y2="-2.54" width="0.127" layer="21"/>
-<wire x1="7.62" y1="4.318" x2="-2.54" y2="4.318" width="0.127" layer="21"/>
+<wire x1="-2.54" y1="3.556" x2="-2.54" y2="-2.54" width="0.127" layer="21"/>
+<wire x1="7.62" y1="3.556" x2="7.62" y2="-2.54" width="0.127" layer="21"/>
+<wire x1="7.62" y1="3.556" x2="-2.54" y2="3.556" width="0.127" layer="21"/>
 <wire x1="7.62" y1="-2.54" x2="5.08" y2="-2.54" width="0.127" layer="21"/>
 <wire x1="5.08" y1="-2.54" x2="0" y2="-2.54" width="0.127" layer="21"/>
 <wire x1="0" y1="-2.54" x2="-2.54" y2="-2.54" width="0.127" layer="21"/>
@@ -310,14 +310,14 @@
 <rectangle x1="-0.2921" y1="-0.2921" x2="0.2921" y2="0.2921" layer="51"/>
 <rectangle x1="2.2479" y1="-0.2921" x2="2.8321" y2="0.2921" layer="51"/>
 <rectangle x1="4.7879" y1="-0.2921" x2="5.3721" y2="0.2921" layer="51"/>
-<text x="1.143" y="4.699" size="0.6096" layer="25" font="vector" ratio="20">&gt;NAME</text>
+<text x="1.016" y="3.81" size="0.6096" layer="25" font="vector" ratio="20">&gt;NAME</text>
 <text x="0.889" y="-2.794" size="0.6096" layer="27" font="vector" ratio="20" align="top-left">&gt;VALUE</text>
 </package>
 <package name="1X02_JST_XH_2.54MM_LOCK" urn="urn:adsk.eagle:footprint:37662/1" locally_modified="yes" library_version="1">
 <description>&lt;h3&gt;JST XH 2.54&lt;/h3&gt;</description>
-<wire x1="-2.54" y1="4.318" x2="-2.54" y2="-2.54" width="0.127" layer="21"/>
-<wire x1="5.08" y1="4.318" x2="5.08" y2="-2.54" width="0.127" layer="21"/>
-<wire x1="5.08" y1="4.318" x2="-2.54" y2="4.318" width="0.127" layer="21"/>
+<wire x1="-2.54" y1="3.556" x2="-2.54" y2="-2.54" width="0.127" layer="21"/>
+<wire x1="5.08" y1="3.556" x2="5.08" y2="-2.54" width="0.127" layer="21"/>
+<wire x1="5.08" y1="3.556" x2="-2.54" y2="3.556" width="0.127" layer="21"/>
 <wire x1="5.08" y1="-2.54" x2="2.54" y2="-2.54" width="0.127" layer="21"/>
 <wire x1="2.54" y1="-2.54" x2="0" y2="-2.54" width="0.127" layer="21"/>
 <wire x1="0" y1="-2.54" x2="-2.54" y2="-2.54" width="0.127" layer="21"/>
@@ -328,14 +328,14 @@
 <pad name="2" x="2.667" y="0" drill="1.016" diameter="1.8796"/>
 <rectangle x1="-0.2921" y1="-0.2921" x2="0.2921" y2="0.2921" layer="51"/>
 <rectangle x1="2.2479" y1="-0.2921" x2="2.8321" y2="0.2921" layer="51"/>
-<text x="-1.27" y="4.572" size="0.6096" layer="25" font="vector" ratio="20">&gt;NAME</text>
+<text x="-1.27" y="3.81" size="0.6096" layer="25" font="vector" ratio="20">&gt;NAME</text>
 <text x="-1.27" y="-2.794" size="0.6096" layer="27" font="vector" ratio="20" align="top-left">&gt;VALUE</text>
 </package>
 <package name="1X02_JST_XH_2.54MM">
 <description>&lt;h3&gt;JST XH 2.54&lt;/h3&gt;</description>
-<wire x1="-2.54" y1="4.318" x2="-2.54" y2="-2.54" width="0.127" layer="21"/>
-<wire x1="5.08" y1="4.318" x2="5.08" y2="-2.54" width="0.127" layer="21"/>
-<wire x1="5.08" y1="4.318" x2="-2.54" y2="4.318" width="0.127" layer="21"/>
+<wire x1="-2.54" y1="3.556" x2="-2.54" y2="-2.54" width="0.127" layer="21"/>
+<wire x1="5.08" y1="3.556" x2="5.08" y2="-2.54" width="0.127" layer="21"/>
+<wire x1="5.08" y1="3.556" x2="-2.54" y2="3.556" width="0.127" layer="21"/>
 <wire x1="5.08" y1="-2.54" x2="2.54" y2="-2.54" width="0.127" layer="21"/>
 <wire x1="2.54" y1="-2.54" x2="0" y2="-2.54" width="0.127" layer="21"/>
 <wire x1="0" y1="-2.54" x2="-2.54" y2="-2.54" width="0.127" layer="21"/>
@@ -346,14 +346,14 @@
 <pad name="2" x="2.54" y="0" drill="1.016" diameter="1.8796"/>
 <rectangle x1="-0.2921" y1="-0.2921" x2="0.2921" y2="0.2921" layer="51"/>
 <rectangle x1="2.2479" y1="-0.2921" x2="2.8321" y2="0.2921" layer="51"/>
-<text x="-1.27" y="4.572" size="0.6096" layer="25" font="vector" ratio="20">&gt;NAME</text>
+<text x="-1.27" y="3.81" size="0.6096" layer="25" font="vector" ratio="20">&gt;NAME</text>
 <text x="-1.27" y="-2.794" size="0.6096" layer="27" font="vector" ratio="20" align="top-left">&gt;VALUE</text>
 </package>
 <package name="1X03_JST_XH_2.54MM">
 <description>&lt;h3&gt;JST XH 2.54&lt;/h3&gt;</description>
-<wire x1="-2.54" y1="4.318" x2="-2.54" y2="-2.54" width="0.127" layer="21"/>
-<wire x1="7.62" y1="4.318" x2="7.62" y2="-2.54" width="0.127" layer="21"/>
-<wire x1="7.62" y1="4.318" x2="-2.54" y2="4.318" width="0.127" layer="21"/>
+<wire x1="-2.54" y1="3.556" x2="-2.54" y2="-2.54" width="0.127" layer="21"/>
+<wire x1="7.62" y1="3.556" x2="7.62" y2="-2.54" width="0.127" layer="21"/>
+<wire x1="7.62" y1="3.556" x2="-2.54" y2="3.556" width="0.127" layer="21"/>
 <wire x1="7.62" y1="-2.54" x2="5.08" y2="-2.54" width="0.127" layer="21"/>
 <wire x1="5.08" y1="-2.54" x2="0" y2="-2.54" width="0.127" layer="21"/>
 <wire x1="0" y1="-2.54" x2="-2.54" y2="-2.54" width="0.127" layer="21"/>
@@ -366,7 +366,7 @@
 <rectangle x1="-0.2921" y1="-0.2921" x2="0.2921" y2="0.2921" layer="51"/>
 <rectangle x1="2.2479" y1="-0.2921" x2="2.8321" y2="0.2921" layer="51"/>
 <rectangle x1="4.7879" y1="-0.2921" x2="5.3721" y2="0.2921" layer="51"/>
-<text x="1.143" y="4.699" size="0.6096" layer="25" font="vector" ratio="20">&gt;NAME</text>
+<text x="1.016" y="3.81" size="0.6096" layer="25" font="vector" ratio="20">&gt;NAME</text>
 <text x="0.889" y="-2.794" size="0.6096" layer="27" font="vector" ratio="20" align="top-left">&gt;VALUE</text>
 </package>
 </packages>
@@ -450,13 +450,13 @@
 <devicesets>
 <deviceset name="CONN_02_NO_SILK" prefix="J">
 <gates>
-<gate name="G$1" symbol="CONN_02" x="0" y="0"/>
+<gate name="J$1" symbol="CONN_02" x="0" y="0"/>
 </gates>
 <devices>
 <device name="" package="1X02_NO_SILK">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="J$1" pin="1" pad="1"/>
+<connect gate="J$1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -464,8 +464,8 @@
 </device>
 <device name="1.27MM" package="1X02_1.27MM_NO_SILK">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="J$1" pin="1" pad="1"/>
+<connect gate="J$1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -475,14 +475,14 @@
 </deviceset>
 <deviceset name="CONN_03_NO_SILK" prefix="J">
 <gates>
-<gate name="G$1" symbol="CONN_03" x="0" y="0"/>
+<gate name="J$1" symbol="CONN_03" x="0" y="0"/>
 </gates>
 <devices>
 <device name="" package="1X03_NO_SILK">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
-<connect gate="G$1" pin="3" pad="3"/>
+<connect gate="J$1" pin="1" pad="1"/>
+<connect gate="J$1" pin="2" pad="2"/>
+<connect gate="J$1" pin="3" pad="3"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -490,17 +490,17 @@
 </device>
 </devices>
 </deviceset>
-<deviceset name="CONN_04_NO_SILK" prefix="J">
+<deviceset name="CONN_04_NO_SILK" prefix="J" uservalue="yes">
 <gates>
-<gate name="G$1" symbol="CONN_04" x="2.54" y="2.54"/>
+<gate name="J$1" symbol="CONN_04" x="2.54" y="2.54"/>
 </gates>
 <devices>
 <device name="" package="1X04_NO_SILK">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
-<connect gate="G$1" pin="3" pad="3"/>
-<connect gate="G$1" pin="4" pad="4"/>
+<connect gate="J$1" pin="1" pad="1"/>
+<connect gate="J$1" pin="2" pad="2"/>
+<connect gate="J$1" pin="3" pad="3"/>
+<connect gate="J$1" pin="4" pad="4"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -508,10 +508,10 @@
 </device>
 <device name="1.27MM" package="1X04_1.27MM_NO_SILK">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
-<connect gate="G$1" pin="3" pad="3"/>
-<connect gate="G$1" pin="4" pad="4"/>
+<connect gate="J$1" pin="1" pad="1"/>
+<connect gate="J$1" pin="2" pad="2"/>
+<connect gate="J$1" pin="3" pad="3"/>
+<connect gate="J$1" pin="4" pad="4"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -519,18 +519,18 @@
 </device>
 </devices>
 </deviceset>
-<deviceset name="CONN_05_NO_SILK">
+<deviceset name="CONN_05_NO_SILK" prefix="J" uservalue="yes">
 <gates>
-<gate name="G$1" symbol="CONN_05" x="0" y="0"/>
+<gate name="J$1" symbol="CONN_05" x="0" y="0"/>
 </gates>
 <devices>
 <device name="" package="1X05_NO_SILK">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
-<connect gate="G$1" pin="3" pad="3"/>
-<connect gate="G$1" pin="4" pad="4"/>
-<connect gate="G$1" pin="5" pad="5"/>
+<connect gate="J$1" pin="1" pad="1"/>
+<connect gate="J$1" pin="2" pad="2"/>
+<connect gate="J$1" pin="3" pad="3"/>
+<connect gate="J$1" pin="4" pad="4"/>
+<connect gate="J$1" pin="5" pad="5"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -538,14 +538,14 @@
 </device>
 </devices>
 </deviceset>
-<deviceset name="CONN_01_NO_SILK">
+<deviceset name="CONN_01_NO_SILK" prefix="J" uservalue="yes">
 <gates>
-<gate name="G$1" symbol="CONN_01" x="0" y="0"/>
+<gate name="J$1" symbol="CONN_01" x="0" y="0"/>
 </gates>
 <devices>
 <device name="" package="1X01_NO_SILK">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="J$1" pin="1" pad="1"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -553,7 +553,7 @@
 </device>
 <device name="_LONGPAD" package="1X01_NO_SILK_LONGPAD">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="J$1" pin="1" pad="1"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -561,15 +561,15 @@
 </device>
 </devices>
 </deviceset>
-<deviceset name="CONN_02_JST">
+<deviceset name="CONN_02_JST" prefix="J" uservalue="yes">
 <gates>
-<gate name="G$1" symbol="CONN_02" x="0" y="0"/>
+<gate name="J$1" symbol="CONN_02" x="-2.54" y="0"/>
 </gates>
 <devices>
 <device name="XH_2.54MM" package="1X02_JST_XH_2.54MM">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="J$1" pin="1" pad="1"/>
+<connect gate="J$1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -577,8 +577,8 @@
 </device>
 <device name="XH_2.54MM_LOCK" package="1X02_JST_XH_2.54MM_LOCK">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="J$1" pin="1" pad="1"/>
+<connect gate="J$1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -586,16 +586,16 @@
 </device>
 </devices>
 </deviceset>
-<deviceset name="CONN_03_JST">
+<deviceset name="CONN_03_JST" prefix="J" uservalue="yes">
 <gates>
-<gate name="G$1" symbol="CONN_03" x="0" y="0"/>
+<gate name="J$1" symbol="CONN_03" x="-2.54" y="2.54"/>
 </gates>
 <devices>
 <device name="XH_2.54MM" package="1X03_JST_XH_2.54MM">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
-<connect gate="G$1" pin="3" pad="3"/>
+<connect gate="J$1" pin="1" pad="1"/>
+<connect gate="J$1" pin="2" pad="2"/>
+<connect gate="J$1" pin="3" pad="3"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -603,9 +603,9 @@
 </device>
 <device name="XH_2.54MM_LOCK" package="1X03_JST_XH_2.54MM_LOCK">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
-<connect gate="G$1" pin="3" pad="3"/>
+<connect gate="J$1" pin="1" pad="1"/>
+<connect gate="J$1" pin="2" pad="2"/>
+<connect gate="J$1" pin="3" pad="3"/>
 </connects>
 <technologies>
 <technology name=""/>
