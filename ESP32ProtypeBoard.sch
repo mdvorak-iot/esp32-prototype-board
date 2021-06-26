@@ -19898,6 +19898,8 @@ Source: &lt;a href="https://datasheet.lcsc.com/szlcsc/1903151807_XKB-Enterprise-
 <part name="GND26" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="R18" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="(RD18)"/>
 <part name="GND27" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
+<part name="GND28" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
+<part name="C13" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0805K" package3d_urn="urn:adsk.eagle:package:23681/2" value="(C19)"/>
 </parts>
 <sheets>
 <sheet>
@@ -20476,6 +20478,13 @@ Source: &lt;a href="https://datasheet.lcsc.com/szlcsc/1903151807_XKB-Enterprise-
 <instance part="GND27" gate="1" x="281.94" y="187.96" smashed="yes">
 <attribute name="VALUE" x="279.4" y="185.42" size="1.778" layer="96"/>
 </instance>
+<instance part="GND28" gate="1" x="292.1" y="187.96" smashed="yes">
+<attribute name="VALUE" x="289.56" y="185.42" size="1.778" layer="96"/>
+</instance>
+<instance part="C13" gate="G$1" x="292.1" y="195.58" smashed="yes">
+<attribute name="NAME" x="289.687" y="191.77" size="1.778" layer="95" rot="R90"/>
+<attribute name="VALUE" x="296.545" y="192.024" size="1.778" layer="96" rot="R90"/>
+</instance>
 </instances>
 <busses>
 </busses>
@@ -20700,6 +20709,10 @@ Source: &lt;a href="https://datasheet.lcsc.com/szlcsc/1903151807_XKB-Enterprise-
 <segment>
 <pinref part="R18" gate="G$1" pin="1"/>
 <pinref part="GND27" gate="1" pin="GND"/>
+</segment>
+<segment>
+<pinref part="GND28" gate="1" pin="GND"/>
+<pinref part="C13" gate="G$1" pin="2"/>
 </segment>
 </net>
 <net name="+3V3" class="0">
@@ -21029,6 +21042,11 @@ Source: &lt;a href="https://datasheet.lcsc.com/szlcsc/1903151807_XKB-Enterprise-
 <pinref part="J11" gate="G$1" pin="1"/>
 <wire x1="236.22" y1="208.28" x2="233.68" y2="208.28" width="0.1524" layer="91"/>
 <label x="233.68" y="208.28" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="C13" gate="G$1" pin="1"/>
+<wire x1="292.1" y1="198.12" x2="292.1" y2="205.74" width="0.1524" layer="91"/>
+<label x="292.1" y="200.66" size="1.778" layer="95" rot="R90"/>
 </segment>
 </net>
 <net name="IO21" class="0">
