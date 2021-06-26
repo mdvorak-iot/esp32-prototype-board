@@ -20722,6 +20722,8 @@ diameter 2.54 mm, horizontal, grid 7.62 mm</description>
 <part name="P+14" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+12V" device=""/>
 <part name="C14" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0805K" package3d_urn="urn:adsk.eagle:package:23681/2" value="1nF"/>
 <part name="GND31" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
+<part name="J7" library="my-connectors" deviceset="CONN_01_NO_SILK" device=""/>
+<part name="GND32" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -21341,6 +21343,12 @@ diameter 2.54 mm, horizontal, grid 7.62 mm</description>
 <instance part="GND31" gate="1" x="264.16" y="190.5" smashed="yes">
 <attribute name="VALUE" x="261.62" y="187.96" size="1.778" layer="96"/>
 </instance>
+<instance part="J7" gate="J$1" x="134.62" y="93.98" smashed="yes">
+<attribute name="NAME" x="132.08" y="94.488" size="1.778" layer="95" font="vector"/>
+</instance>
+<instance part="GND32" gate="1" x="144.78" y="93.98" smashed="yes" rot="R90">
+<attribute name="VALUE" x="147.32" y="91.44" size="1.778" layer="96" rot="R90"/>
+</instance>
 </instances>
 <busses>
 </busses>
@@ -21592,6 +21600,10 @@ diameter 2.54 mm, horizontal, grid 7.62 mm</description>
 <segment>
 <pinref part="GND31" gate="1" pin="GND"/>
 <pinref part="C14" gate="G$1" pin="1"/>
+</segment>
+<segment>
+<pinref part="J7" gate="J$1" pin="1"/>
+<pinref part="GND32" gate="1" pin="GND"/>
 </segment>
 </net>
 <net name="+3V3" class="0">
