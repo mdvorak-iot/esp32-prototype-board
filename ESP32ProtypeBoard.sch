@@ -19026,50 +19026,6 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <rectangle x1="9.8679" y1="-0.2921" x2="10.4521" y2="0.2921" layer="51"/>
 <pad name="5" x="10.16" y="-0.127" drill="1.016" diameter="1.8796"/>
 </package>
-<package name="1X04_JST_XH_2.54MM">
-<description>&lt;h3&gt;JST XH 2.54&lt;/h3&gt;</description>
-<wire x1="-2.54" y1="3.556" x2="-2.54" y2="-2.54" width="0.127" layer="21"/>
-<wire x1="10.16" y1="3.556" x2="10.16" y2="-2.54" width="0.127" layer="21"/>
-<wire x1="10.16" y1="3.556" x2="-2.54" y2="3.556" width="0.127" layer="21"/>
-<wire x1="10.16" y1="-2.54" x2="6.35" y2="-2.54" width="0.127" layer="21"/>
-<wire x1="6.35" y1="-2.54" x2="1.27" y2="-2.54" width="0.127" layer="21"/>
-<wire x1="1.27" y1="-2.54" x2="-2.54" y2="-2.54" width="0.127" layer="21"/>
-<wire x1="1.27" y1="-2.54" x2="1.27" y2="-1.27" width="0.127" layer="21"/>
-<wire x1="1.27" y1="-1.27" x2="6.35" y2="-1.27" width="0.127" layer="21"/>
-<wire x1="6.35" y1="-1.27" x2="6.35" y2="-2.54" width="0.127" layer="21"/>
-<pad name="1" x="0" y="0" drill="1.016" diameter="1.8796" shape="square"/>
-<pad name="2" x="2.54" y="0" drill="1.016" diameter="1.8796"/>
-<pad name="3" x="5.08" y="0" drill="1.016" diameter="1.8796"/>
-<rectangle x1="-0.2921" y1="-0.2921" x2="0.2921" y2="0.2921" layer="51"/>
-<rectangle x1="2.2479" y1="-0.2921" x2="2.8321" y2="0.2921" layer="51"/>
-<rectangle x1="4.7879" y1="-0.2921" x2="5.3721" y2="0.2921" layer="51"/>
-<text x="3.81" y="3.81" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center">&gt;NAME</text>
-<text x="3.81" y="-2.794" size="0.6096" layer="27" font="vector" ratio="20" align="top-center">&gt;VALUE</text>
-<rectangle x1="7.3279" y1="-0.2921" x2="7.9121" y2="0.2921" layer="51"/>
-<pad name="4" x="7.62" y="0" drill="1.016" diameter="1.8796"/>
-</package>
-<package name="1X04_JST_XH_2.54MM_LOCK">
-<description>&lt;h3&gt;JST XH 2.54&lt;/h3&gt;</description>
-<wire x1="-2.54" y1="3.556" x2="-2.54" y2="-2.54" width="0.127" layer="21"/>
-<wire x1="10.16" y1="3.556" x2="10.16" y2="-2.54" width="0.127" layer="21"/>
-<wire x1="10.16" y1="3.556" x2="-2.54" y2="3.556" width="0.127" layer="21"/>
-<wire x1="10.16" y1="-2.54" x2="6.35" y2="-2.54" width="0.127" layer="21"/>
-<wire x1="6.35" y1="-2.54" x2="1.27" y2="-2.54" width="0.127" layer="21"/>
-<wire x1="1.27" y1="-2.54" x2="-2.54" y2="-2.54" width="0.127" layer="21"/>
-<wire x1="1.27" y1="-2.54" x2="1.27" y2="-1.27" width="0.127" layer="21"/>
-<wire x1="1.27" y1="-1.27" x2="6.35" y2="-1.27" width="0.127" layer="21"/>
-<wire x1="6.35" y1="-1.27" x2="6.35" y2="-2.54" width="0.127" layer="21"/>
-<pad name="1" x="0" y="-0.127" drill="1.016" diameter="1.8796" shape="square"/>
-<pad name="2" x="2.54" y="0.127" drill="1.016" diameter="1.8796"/>
-<pad name="3" x="5.08" y="-0.127" drill="1.016" diameter="1.8796"/>
-<rectangle x1="-0.2921" y1="-0.2921" x2="0.2921" y2="0.2921" layer="51"/>
-<rectangle x1="2.2479" y1="-0.2921" x2="2.8321" y2="0.2921" layer="51"/>
-<rectangle x1="4.7879" y1="-0.2921" x2="5.3721" y2="0.2921" layer="51"/>
-<text x="3.81" y="3.81" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center">&gt;NAME</text>
-<text x="3.81" y="-2.794" size="0.6096" layer="27" font="vector" ratio="20" align="top-center">&gt;VALUE</text>
-<rectangle x1="7.3279" y1="-0.2921" x2="7.9121" y2="0.2921" layer="51"/>
-<pad name="4" x="7.62" y="0.127" drill="1.016" diameter="1.8796"/>
-</package>
 </packages>
 <symbols>
 <symbol name="CONN_03">
@@ -19313,35 +19269,6 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <connect gate="J$1" pin="3" pad="3"/>
 <connect gate="J$1" pin="4" pad="4"/>
 <connect gate="J$1" pin="5" pad="5"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-</devices>
-</deviceset>
-<deviceset name="CONN_04_JST" prefix="J" uservalue="yes">
-<gates>
-<gate name="J$1" symbol="CONN_04" x="2.54" y="2.54"/>
-</gates>
-<devices>
-<device name="XH_2.54MM" package="1X04_JST_XH_2.54MM">
-<connects>
-<connect gate="J$1" pin="1" pad="1"/>
-<connect gate="J$1" pin="2" pad="2"/>
-<connect gate="J$1" pin="3" pad="3"/>
-<connect gate="J$1" pin="4" pad="4"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-<device name="XH_2.54MM_LOCK" package="1X04_JST_XH_2.54MM_LOCK">
-<connects>
-<connect gate="J$1" pin="1" pad="1"/>
-<connect gate="J$1" pin="2" pad="2"/>
-<connect gate="J$1" pin="3" pad="3"/>
-<connect gate="J$1" pin="4" pad="4"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -20780,7 +20707,6 @@ diameter 2.54 mm, horizontal, grid 7.62 mm</description>
 <part name="R18" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="1M"/>
 <part name="D3" library="1N4001" deviceset="1N4001" device="" value="1N4001"/>
 <part name="J5" library="my-connectors" deviceset="CONN_05_JST" device="XH_2.54MM_LOCK"/>
-<part name="J7" library="my-connectors" deviceset="CONN_04_JST" device="XH_2.54MM"/>
 <part name="C13" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C1206K" package3d_urn="urn:adsk.eagle:package:23682/2" value="47uF">
 <spice>
 <pinmapping spiceprefix="C">
@@ -20794,6 +20720,8 @@ diameter 2.54 mm, horizontal, grid 7.62 mm</description>
 <part name="R19" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="22K"/>
 <part name="D4" library="led" library_urn="urn:adsk.eagle:library:259" deviceset="LED" device="CHIPLED_0805" package3d_urn="urn:adsk.eagle:package:15821/2" value="VALVE"/>
 <part name="P+14" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+12V" device=""/>
+<part name="C14" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0805K" package3d_urn="urn:adsk.eagle:package:23681/2" value="1nF"/>
+<part name="GND31" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -21388,10 +21316,6 @@ diameter 2.54 mm, horizontal, grid 7.62 mm</description>
 <attribute name="VALUE" x="312.42" y="202.946" size="1.778" layer="96" font="vector" rot="MR180"/>
 <attribute name="NAME" x="312.42" y="184.912" size="1.778" layer="95" font="vector" rot="MR180"/>
 </instance>
-<instance part="J7" gate="J$1" x="281.94" y="182.88" smashed="yes">
-<attribute name="VALUE" x="276.86" y="175.514" size="1.778" layer="96" font="vector"/>
-<attribute name="NAME" x="276.86" y="191.008" size="1.778" layer="95" font="vector"/>
-</instance>
 <instance part="C13" gate="G$1" x="307.34" y="109.22" smashed="yes">
 <attribute name="NAME" x="308.864" y="109.601" size="1.778" layer="95"/>
 <attribute name="VALUE" x="309.88" y="107.061" size="1.778" layer="96"/>
@@ -21409,6 +21333,13 @@ diameter 2.54 mm, horizontal, grid 7.62 mm</description>
 </instance>
 <instance part="P+14" gate="1" x="368.3" y="127" smashed="yes" rot="R270">
 <attribute name="VALUE" x="360.68" y="124.46" size="1.778" layer="96"/>
+</instance>
+<instance part="C14" gate="G$1" x="264.16" y="195.58" smashed="yes" rot="R180">
+<attribute name="NAME" x="262.636" y="195.199" size="1.778" layer="95" rot="R180"/>
+<attribute name="VALUE" x="262.636" y="200.279" size="1.778" layer="96" rot="R180"/>
+</instance>
+<instance part="GND31" gate="1" x="264.16" y="190.5" smashed="yes">
+<attribute name="VALUE" x="261.62" y="187.96" size="1.778" layer="96"/>
 </instance>
 </instances>
 <busses>
@@ -21657,6 +21588,10 @@ diameter 2.54 mm, horizontal, grid 7.62 mm</description>
 <segment>
 <pinref part="C13" gate="G$1" pin="2"/>
 <pinref part="GND30" gate="1" pin="GND"/>
+</segment>
+<segment>
+<pinref part="GND31" gate="1" pin="GND"/>
+<pinref part="C14" gate="G$1" pin="1"/>
 </segment>
 </net>
 <net name="+3V3" class="0">
@@ -22003,6 +21938,11 @@ diameter 2.54 mm, horizontal, grid 7.62 mm</description>
 <pinref part="J11" gate="G$1" pin="1"/>
 <wire x1="236.22" y1="208.28" x2="233.68" y2="208.28" width="0.1524" layer="91"/>
 <label x="233.68" y="208.28" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="C14" gate="G$1" pin="2"/>
+<wire x1="264.16" y1="200.66" x2="264.16" y2="205.74" width="0.1524" layer="91"/>
+<label x="264.16" y="205.74" size="1.778" layer="95" rot="R180"/>
 </segment>
 </net>
 <net name="IO21" class="0">
