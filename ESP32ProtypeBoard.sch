@@ -8,34 +8,34 @@
 </settings>
 <grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
-<layer number="1" name="Top" color="4" fill="1" visible="yes" active="no"/>
-<layer number="2" name="Route2" color="1" fill="3" visible="yes" active="no"/>
-<layer number="3" name="Route3" color="4" fill="3" visible="yes" active="no"/>
-<layer number="4" name="Route4" color="1" fill="4" visible="yes" active="no"/>
-<layer number="5" name="Route5" color="4" fill="4" visible="yes" active="no"/>
-<layer number="6" name="Route6" color="1" fill="8" visible="yes" active="no"/>
-<layer number="7" name="Route7" color="4" fill="8" visible="yes" active="no"/>
-<layer number="8" name="Route8" color="1" fill="2" visible="yes" active="no"/>
-<layer number="9" name="Route9" color="4" fill="2" visible="yes" active="no"/>
-<layer number="10" name="Route10" color="1" fill="7" visible="yes" active="no"/>
-<layer number="11" name="Route11" color="4" fill="7" visible="yes" active="no"/>
-<layer number="12" name="Route12" color="1" fill="5" visible="yes" active="no"/>
-<layer number="13" name="Route13" color="4" fill="5" visible="yes" active="no"/>
-<layer number="14" name="Route14" color="1" fill="6" visible="yes" active="no"/>
-<layer number="15" name="Route15" color="4" fill="6" visible="yes" active="no"/>
-<layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="no"/>
-<layer number="17" name="Pads" color="2" fill="1" visible="yes" active="no"/>
-<layer number="18" name="Vias" color="2" fill="1" visible="yes" active="no"/>
-<layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="no"/>
-<layer number="20" name="Dimension" color="24" fill="1" visible="yes" active="no"/>
-<layer number="21" name="tPlace" color="7" fill="1" visible="yes" active="no"/>
-<layer number="22" name="bPlace" color="7" fill="1" visible="yes" active="no"/>
-<layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="no"/>
-<layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="no"/>
-<layer number="25" name="tNames" color="7" fill="1" visible="yes" active="no"/>
-<layer number="26" name="bNames" color="7" fill="1" visible="yes" active="no"/>
-<layer number="27" name="tValues" color="7" fill="1" visible="yes" active="no"/>
-<layer number="28" name="bValues" color="7" fill="1" visible="yes" active="no"/>
+<layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
+<layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
+<layer number="3" name="Route3" color="4" fill="3" visible="no" active="no"/>
+<layer number="4" name="Route4" color="1" fill="4" visible="no" active="no"/>
+<layer number="5" name="Route5" color="4" fill="4" visible="no" active="no"/>
+<layer number="6" name="Route6" color="1" fill="8" visible="no" active="no"/>
+<layer number="7" name="Route7" color="4" fill="8" visible="no" active="no"/>
+<layer number="8" name="Route8" color="1" fill="2" visible="no" active="no"/>
+<layer number="9" name="Route9" color="4" fill="2" visible="no" active="no"/>
+<layer number="10" name="Route10" color="1" fill="7" visible="no" active="no"/>
+<layer number="11" name="Route11" color="4" fill="7" visible="no" active="no"/>
+<layer number="12" name="Route12" color="1" fill="5" visible="no" active="no"/>
+<layer number="13" name="Route13" color="4" fill="5" visible="no" active="no"/>
+<layer number="14" name="Route14" color="1" fill="6" visible="no" active="no"/>
+<layer number="15" name="Route15" color="4" fill="6" visible="no" active="no"/>
+<layer number="16" name="Bottom" color="1" fill="1" visible="no" active="no"/>
+<layer number="17" name="Pads" color="2" fill="1" visible="no" active="no"/>
+<layer number="18" name="Vias" color="2" fill="1" visible="no" active="no"/>
+<layer number="19" name="Unrouted" color="6" fill="1" visible="no" active="no"/>
+<layer number="20" name="Dimension" color="24" fill="1" visible="no" active="no"/>
+<layer number="21" name="tPlace" color="7" fill="1" visible="no" active="no"/>
+<layer number="22" name="bPlace" color="7" fill="1" visible="no" active="no"/>
+<layer number="23" name="tOrigins" color="15" fill="1" visible="no" active="no"/>
+<layer number="24" name="bOrigins" color="15" fill="1" visible="no" active="no"/>
+<layer number="25" name="tNames" color="7" fill="1" visible="no" active="no"/>
+<layer number="26" name="bNames" color="7" fill="1" visible="no" active="no"/>
+<layer number="27" name="tValues" color="7" fill="1" visible="no" active="no"/>
+<layer number="28" name="bValues" color="7" fill="1" visible="no" active="no"/>
 <layer number="29" name="tStop" color="7" fill="3" visible="no" active="no"/>
 <layer number="30" name="bStop" color="7" fill="6" visible="no" active="no"/>
 <layer number="31" name="tCream" color="7" fill="4" visible="no" active="no"/>
@@ -44,8 +44,8 @@
 <layer number="34" name="bFinish" color="6" fill="6" visible="no" active="no"/>
 <layer number="35" name="tGlue" color="7" fill="4" visible="no" active="no"/>
 <layer number="36" name="bGlue" color="7" fill="5" visible="no" active="no"/>
-<layer number="37" name="tTest" color="7" fill="1" visible="yes" active="no"/>
-<layer number="38" name="bTest" color="7" fill="1" visible="yes" active="no"/>
+<layer number="37" name="tTest" color="7" fill="1" visible="no" active="no"/>
+<layer number="38" name="bTest" color="7" fill="1" visible="no" active="no"/>
 <layer number="39" name="tKeepout" color="4" fill="11" visible="no" active="no"/>
 <layer number="40" name="bKeepout" color="1" fill="11" visible="no" active="no"/>
 <layer number="41" name="tRestrict" color="4" fill="10" visible="no" active="no"/>
@@ -53,19 +53,19 @@
 <layer number="43" name="vRestrict" color="2" fill="10" visible="no" active="no"/>
 <layer number="44" name="Drills" color="7" fill="1" visible="no" active="no"/>
 <layer number="45" name="Holes" color="7" fill="1" visible="no" active="no"/>
-<layer number="46" name="Milling" color="3" fill="1" visible="yes" active="no"/>
-<layer number="47" name="Measures" color="7" fill="1" visible="yes" active="no"/>
-<layer number="48" name="Document" color="7" fill="1" visible="yes" active="no"/>
-<layer number="49" name="Reference" color="7" fill="1" visible="yes" active="no"/>
-<layer number="50" name="dxf" color="7" fill="1" visible="yes" active="no"/>
-<layer number="51" name="tDocu" color="7" fill="1" visible="yes" active="no"/>
-<layer number="52" name="bDocu" color="7" fill="1" visible="yes" active="no"/>
-<layer number="53" name="tGND_GNDA" color="7" fill="9" visible="yes" active="no"/>
-<layer number="54" name="bGND_GNDA" color="1" fill="9" visible="yes" active="no"/>
-<layer number="56" name="wert" color="7" fill="1" visible="yes" active="no"/>
-<layer number="57" name="tCAD" color="7" fill="1" visible="yes" active="no"/>
-<layer number="59" name="tCarbon" color="7" fill="1" visible="yes" active="no"/>
-<layer number="60" name="bCarbon" color="7" fill="1" visible="yes" active="no"/>
+<layer number="46" name="Milling" color="3" fill="1" visible="no" active="no"/>
+<layer number="47" name="Measures" color="7" fill="1" visible="no" active="no"/>
+<layer number="48" name="Document" color="7" fill="1" visible="no" active="no"/>
+<layer number="49" name="Reference" color="7" fill="1" visible="no" active="no"/>
+<layer number="50" name="dxf" color="7" fill="1" visible="no" active="no"/>
+<layer number="51" name="tDocu" color="7" fill="1" visible="no" active="no"/>
+<layer number="52" name="bDocu" color="7" fill="1" visible="no" active="no"/>
+<layer number="53" name="tGND_GNDA" color="7" fill="9" visible="no" active="no"/>
+<layer number="54" name="bGND_GNDA" color="1" fill="9" visible="no" active="no"/>
+<layer number="56" name="wert" color="7" fill="1" visible="no" active="no"/>
+<layer number="57" name="tCAD" color="7" fill="1" visible="no" active="no"/>
+<layer number="59" name="tCarbon" color="7" fill="1" visible="no" active="no"/>
+<layer number="60" name="bCarbon" color="7" fill="1" visible="no" active="no"/>
 <layer number="88" name="SimResults" color="9" fill="1" visible="yes" active="yes"/>
 <layer number="89" name="SimProbes" color="9" fill="1" visible="yes" active="yes"/>
 <layer number="90" name="Modules" color="5" fill="1" visible="yes" active="yes"/>
@@ -20189,13 +20189,6 @@ Source: &lt;a href="http://aosmd.com/res/data_sheets/AO3400.pdf"&gt; Datasheet &
 <part name="GND15" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="P+6" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="VCC" device=""/>
 <part name="J17" library="SparkFun-Connectors" library_urn="urn:adsk.eagle:library:513" deviceset="CONN_12" device="NO_SILK" package3d_urn="urn:adsk.eagle:package:38179/1"/>
-<part name="J21" library="my-connectors" deviceset="CONN_05_NO_SILK" device=""/>
-<part name="J22" library="SparkFun-Connectors" library_urn="urn:adsk.eagle:library:513" deviceset="CONN_12" device="NO_SILK" package3d_urn="urn:adsk.eagle:package:38179/1"/>
-<part name="J23" library="SparkFun-Connectors" library_urn="urn:adsk.eagle:library:513" deviceset="CONN_12" device="NO_SILK" package3d_urn="urn:adsk.eagle:package:38179/1"/>
-<part name="J25" library="SparkFun-Connectors" library_urn="urn:adsk.eagle:library:513" deviceset="CONN_12" device="NO_SILK" package3d_urn="urn:adsk.eagle:package:38179/1"/>
-<part name="J26" library="SparkFun-Connectors" library_urn="urn:adsk.eagle:library:513" deviceset="CONN_12" device="NO_SILK" package3d_urn="urn:adsk.eagle:package:38179/1"/>
-<part name="J27" library="SparkFun-Connectors" library_urn="urn:adsk.eagle:library:513" deviceset="CONN_12" device="NO_SILK" package3d_urn="urn:adsk.eagle:package:38179/1"/>
-<part name="J28" library="SparkFun-Connectors" library_urn="urn:adsk.eagle:library:513" deviceset="CONN_12" device="NO_SILK" package3d_urn="urn:adsk.eagle:package:38179/1"/>
 <part name="C2" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C1206K" package3d_urn="urn:adsk.eagle:package:23682/2" value="47uF">
 <spice>
 <pinmapping spiceprefix="C">
@@ -20272,17 +20265,8 @@ Source: &lt;a href="http://aosmd.com/res/data_sheets/AO3400.pdf"&gt; Datasheet &
 <part name="JTAG" library="DC3-XX-1P27" deviceset="DC3-10-1P27" device=""/>
 <part name="J31" library="my-connectors" deviceset="CONN_01_NO_SILK" device=""/>
 <part name="GND14" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="J2" library="my-connectors" deviceset="CONN_04_NO_SILK" device=""/>
-<part name="J57" library="my-connectors" deviceset="CONN_04_NO_SILK" device=""/>
-<part name="J1" library="my-connectors" deviceset="CONN_03_NO_SILK" device=""/>
-<part name="J6" library="my-connectors" deviceset="CONN_04_NO_SILK" device=""/>
-<part name="J9" library="SparkFun-Connectors" library_urn="urn:adsk.eagle:library:513" deviceset="CONN_08" device="NO_SILK_FEMALE_PTH" package3d_urn="urn:adsk.eagle:package:38149/1"/>
 <part name="J13" library="SparkFun-Connectors" library_urn="urn:adsk.eagle:library:513" deviceset="CONN_08" device="NO_SILK_FEMALE_PTH" package3d_urn="urn:adsk.eagle:package:38149/1"/>
-<part name="J14" library="SparkFun-Connectors" library_urn="urn:adsk.eagle:library:513" deviceset="CONN_08" device="NO_SILK_FEMALE_PTH" package3d_urn="urn:adsk.eagle:package:38149/1"/>
-<part name="J15" library="SparkFun-Connectors" library_urn="urn:adsk.eagle:library:513" deviceset="CONN_08" device="NO_SILK_FEMALE_PTH" package3d_urn="urn:adsk.eagle:package:38149/1"/>
-<part name="J16" library="SparkFun-Connectors" library_urn="urn:adsk.eagle:library:513" deviceset="CONN_08" device="NO_SILK_FEMALE_PTH" package3d_urn="urn:adsk.eagle:package:38149/1"/>
 <part name="J20" library="my-connectors" deviceset="CONN_04_NO_SILK" device=""/>
-<part name="J24" library="my-connectors" deviceset="CONN_04_NO_SILK" device=""/>
 <part name="C3" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0805K" package3d_urn="urn:adsk.eagle:package:23681/2" value="(10uF)">
 <spice>
 <pinmapping spiceprefix="C">
@@ -20516,8 +20500,8 @@ Source: &lt;a href="http://aosmd.com/res/data_sheets/AO3400.pdf"&gt; Datasheet &
 <attribute name="NAME" x="115.7986" y="163.83" size="1.778" layer="95" rot="R270"/>
 <attribute name="VALUE" x="110.998" y="163.83" size="1.778" layer="96" rot="R270"/>
 </instance>
-<instance part="J8" gate="J$1" x="210.82" y="68.58" smashed="yes">
-<attribute name="NAME" x="208.28" y="76.708" size="1.778" layer="95" font="vector"/>
+<instance part="J8" gate="J$1" x="208.28" y="60.96" smashed="yes">
+<attribute name="NAME" x="205.74" y="69.088" size="1.778" layer="95" font="vector"/>
 </instance>
 <instance part="R2" gate="G$1" x="170.18" y="246.38" smashed="yes" rot="R180">
 <attribute name="NAME" x="173.99" y="244.8814" size="1.778" layer="95" rot="R180"/>
@@ -20590,36 +20574,9 @@ Source: &lt;a href="http://aosmd.com/res/data_sheets/AO3400.pdf"&gt; Datasheet &
 <instance part="P+6" gate="VCC" x="20.32" y="259.08" smashed="yes" rot="R270">
 <attribute name="VALUE" x="21.336" y="259.08" size="1.778" layer="96"/>
 </instance>
-<instance part="J17" gate="G$1" x="104.14" y="40.64" smashed="yes">
-<attribute name="VALUE" x="104.14" y="18.034" size="1.778" layer="96" font="vector"/>
-<attribute name="NAME" x="104.14" y="58.928" size="1.778" layer="95" font="vector"/>
-</instance>
-<instance part="J21" gate="J$1" x="223.52" y="68.58" smashed="yes">
-<attribute name="NAME" x="220.98" y="76.708" size="1.778" layer="95" font="vector"/>
-</instance>
-<instance part="J22" gate="G$1" x="119.38" y="40.64" smashed="yes">
-<attribute name="VALUE" x="119.38" y="18.034" size="1.778" layer="96" font="vector"/>
-<attribute name="NAME" x="119.38" y="58.928" size="1.778" layer="95" font="vector"/>
-</instance>
-<instance part="J23" gate="G$1" x="134.62" y="40.64" smashed="yes">
-<attribute name="VALUE" x="134.62" y="18.034" size="1.778" layer="96" font="vector"/>
-<attribute name="NAME" x="134.62" y="58.928" size="1.778" layer="95" font="vector"/>
-</instance>
-<instance part="J25" gate="G$1" x="149.86" y="40.64" smashed="yes">
-<attribute name="VALUE" x="149.86" y="18.034" size="1.778" layer="96" font="vector"/>
-<attribute name="NAME" x="149.86" y="58.928" size="1.778" layer="95" font="vector"/>
-</instance>
-<instance part="J26" gate="G$1" x="162.56" y="40.64" smashed="yes">
-<attribute name="VALUE" x="162.56" y="18.034" size="1.778" layer="96" font="vector"/>
-<attribute name="NAME" x="162.56" y="58.928" size="1.778" layer="95" font="vector"/>
-</instance>
-<instance part="J27" gate="G$1" x="175.26" y="40.64" smashed="yes">
-<attribute name="VALUE" x="175.26" y="18.034" size="1.778" layer="96" font="vector"/>
-<attribute name="NAME" x="175.26" y="58.928" size="1.778" layer="95" font="vector"/>
-</instance>
-<instance part="J28" gate="G$1" x="187.96" y="40.64" smashed="yes">
-<attribute name="VALUE" x="187.96" y="18.034" size="1.778" layer="96" font="vector"/>
-<attribute name="NAME" x="187.96" y="58.928" size="1.778" layer="95" font="vector"/>
+<instance part="J17" gate="G$1" x="139.7" y="55.88" smashed="yes">
+<attribute name="VALUE" x="139.7" y="33.274" size="1.778" layer="96" font="vector"/>
+<attribute name="NAME" x="139.7" y="74.168" size="1.778" layer="95" font="vector"/>
 </instance>
 <instance part="C2" gate="G$1" x="88.9" y="236.22" smashed="yes">
 <attribute name="NAME" x="90.424" y="236.601" size="1.778" layer="95"/>
@@ -20707,8 +20664,8 @@ Source: &lt;a href="http://aosmd.com/res/data_sheets/AO3400.pdf"&gt; Datasheet &
 <instance part="J42" gate="J$1" x="109.22" y="101.6" smashed="yes">
 <attribute name="NAME" x="106.68" y="102.108" size="1.778" layer="95" font="vector"/>
 </instance>
-<instance part="J45" gate="J$1" x="119.38" y="71.12" smashed="yes">
-<attribute name="NAME" x="116.84" y="74.168" size="1.778" layer="95" font="vector"/>
+<instance part="J45" gate="J$1" x="127" y="63.5" smashed="yes">
+<attribute name="NAME" x="124.46" y="66.548" size="1.778" layer="95" font="vector"/>
 </instance>
 <instance part="I2C" gate="G$1" x="271.78" y="154.94" smashed="yes" rot="R180">
 <attribute name="VALUE" x="274.32" y="159.766" size="1.778" layer="96" font="vector" rot="R180"/>
@@ -20756,43 +20713,12 @@ Source: &lt;a href="http://aosmd.com/res/data_sheets/AO3400.pdf"&gt; Datasheet &
 <instance part="GND14" gate="1" x="144.78" y="101.6" smashed="yes" rot="R90">
 <attribute name="VALUE" x="147.32" y="99.06" size="1.778" layer="96" rot="R90"/>
 </instance>
-<instance part="J2" gate="J$1" x="134.62" y="68.58" smashed="yes">
-<attribute name="NAME" x="132.08" y="74.168" size="1.778" layer="95" font="vector"/>
+<instance part="J13" gate="G$1" x="162.56" y="53.34" smashed="yes">
+<attribute name="VALUE" x="157.48" y="40.894" size="1.778" layer="96" font="vector"/>
+<attribute name="NAME" x="157.48" y="66.548" size="1.778" layer="95" font="vector"/>
 </instance>
-<instance part="J57" gate="J$1" x="147.32" y="68.58" smashed="yes">
-<attribute name="NAME" x="144.78" y="74.168" size="1.778" layer="95" font="vector"/>
-</instance>
-<instance part="J1" gate="J$1" x="157.48" y="71.12" smashed="yes">
-<attribute name="NAME" x="154.94" y="74.168" size="1.778" layer="95" font="vector"/>
-</instance>
-<instance part="J6" gate="J$1" x="208.28" y="48.26" smashed="yes">
-<attribute name="NAME" x="208.28" y="56.388" size="1.778" layer="95" font="vector"/>
-</instance>
-<instance part="J9" gate="G$1" x="109.22" y="5.08" smashed="yes">
-<attribute name="VALUE" x="104.14" y="-7.366" size="1.778" layer="96" font="vector"/>
-<attribute name="NAME" x="104.14" y="18.288" size="1.778" layer="95" font="vector"/>
-</instance>
-<instance part="J13" gate="G$1" x="121.92" y="5.08" smashed="yes">
-<attribute name="VALUE" x="116.84" y="-7.366" size="1.778" layer="96" font="vector"/>
-<attribute name="NAME" x="116.84" y="18.288" size="1.778" layer="95" font="vector"/>
-</instance>
-<instance part="J14" gate="G$1" x="134.62" y="5.08" smashed="yes">
-<attribute name="VALUE" x="129.54" y="-7.366" size="1.778" layer="96" font="vector"/>
-<attribute name="NAME" x="129.54" y="18.288" size="1.778" layer="95" font="vector"/>
-</instance>
-<instance part="J15" gate="G$1" x="147.32" y="5.08" smashed="yes">
-<attribute name="VALUE" x="142.24" y="-7.366" size="1.778" layer="96" font="vector"/>
-<attribute name="NAME" x="142.24" y="18.288" size="1.778" layer="95" font="vector"/>
-</instance>
-<instance part="J16" gate="G$1" x="160.02" y="5.08" smashed="yes">
-<attribute name="VALUE" x="154.94" y="-7.366" size="1.778" layer="96" font="vector"/>
-<attribute name="NAME" x="154.94" y="18.288" size="1.778" layer="95" font="vector"/>
-</instance>
-<instance part="J20" gate="J$1" x="187.96" y="68.58" smashed="yes">
-<attribute name="NAME" x="185.42" y="74.168" size="1.778" layer="95" font="vector"/>
-</instance>
-<instance part="J24" gate="J$1" x="200.66" y="68.58" smashed="yes">
-<attribute name="NAME" x="198.12" y="74.168" size="1.778" layer="95" font="vector"/>
+<instance part="J20" gate="J$1" x="185.42" y="60.96" smashed="yes">
+<attribute name="NAME" x="182.88" y="66.548" size="1.778" layer="95" font="vector"/>
 </instance>
 <instance part="C3" gate="G$1" x="91.44" y="99.06" smashed="yes">
 <attribute name="NAME" x="92.964" y="99.441" size="1.778" layer="95"/>
@@ -21000,7 +20926,6 @@ Source: &lt;a href="http://aosmd.com/res/data_sheets/AO3400.pdf"&gt; Datasheet &
 <attribute name="VALUE" x="336.296" y="197.739" size="1.778" layer="96" rot="R180"/>
 </instance>
 <instance part="WATER_LVL_SENSOR" gate="J$1" x="320.04" y="193.04" smashed="yes" rot="MR180">
-<attribute name="VALUE" x="317.5" y="197.866" size="1.778" layer="96" font="vector" rot="MR180"/>
 <attribute name="NAME" x="317.5" y="187.452" size="1.778" layer="95" font="vector" rot="MR180"/>
 </instance>
 <instance part="Q4" gate="Q$1" x="378.46" y="88.9" smashed="yes" rot="MR0">
