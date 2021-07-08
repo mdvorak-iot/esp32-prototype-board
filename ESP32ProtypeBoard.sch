@@ -20283,7 +20283,6 @@ Source: &lt;a href="http://aosmd.com/res/data_sheets/AO3400.pdf"&gt; Datasheet &
 <part name="+3V11" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+3V3" device=""/>
 <part name="SOIL_HUM" library="my-connectors" deviceset="CONN_03_JST" device="XH_2.54MM_LOCK"/>
 <part name="R18" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="1M"/>
-<part name="R20" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="1M"/>
 <part name="C17" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0805K" package3d_urn="urn:adsk.eagle:package:23681/2" value="0.1uF"/>
 <part name="C16" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0805K" package3d_urn="urn:adsk.eagle:package:23681/2" value="1nF"/>
 <part name="WATER_LVL_SENSOR" library="my-connectors" deviceset="CONN_02_JST" device="XH_2.54MM_LOCK"/>
@@ -20916,10 +20915,6 @@ Source: &lt;a href="http://aosmd.com/res/data_sheets/AO3400.pdf"&gt; Datasheet &
 <instance part="R18" gate="G$1" x="347.98" y="96.52" smashed="yes" rot="R90">
 <attribute name="NAME" x="346.4814" y="92.71" size="1.778" layer="95" rot="R90"/>
 <attribute name="VALUE" x="351.282" y="92.71" size="1.778" layer="96" rot="R90"/>
-</instance>
-<instance part="R20" gate="G$1" x="347.98" y="86.36" smashed="yes" rot="R90">
-<attribute name="NAME" x="346.4814" y="82.55" size="1.778" layer="95" rot="R90"/>
-<attribute name="VALUE" x="351.282" y="82.55" size="1.778" layer="96" rot="R90"/>
 </instance>
 <instance part="C17" gate="G$1" x="337.82" y="91.44" smashed="yes" rot="R180">
 <attribute name="NAME" x="333.629" y="94.742" size="1.778" layer="95" rot="R270"/>
@@ -22106,12 +22101,6 @@ Source: &lt;a href="http://aosmd.com/res/data_sheets/AO3400.pdf"&gt; Datasheet &
 <junction x="381" y="88.9"/>
 </segment>
 </net>
-<net name="N$11" class="0">
-<segment>
-<pinref part="R18" gate="G$1" pin="1"/>
-<pinref part="R20" gate="G$1" pin="2"/>
-</segment>
-</net>
 <net name="WLS+" class="0">
 <segment>
 <pinref part="J29" gate="G$1" pin="1"/>
@@ -22142,20 +22131,21 @@ Source: &lt;a href="http://aosmd.com/res/data_sheets/AO3400.pdf"&gt; Datasheet &
 <net name="SGND" class="0">
 <segment>
 <label x="358.14" y="99.06" size="1.778" layer="95" align="top-left"/>
-<wire x1="353.06" y1="81.28" x2="353.06" y2="99.06" width="0.1524" layer="91"/>
+<wire x1="353.06" y1="86.36" x2="353.06" y2="99.06" width="0.1524" layer="91"/>
 <pinref part="C17" gate="G$1" pin="1"/>
-<wire x1="337.82" y1="88.9" x2="337.82" y2="81.28" width="0.1524" layer="91"/>
-<pinref part="R20" gate="G$1" pin="1"/>
-<wire x1="337.82" y1="81.28" x2="347.98" y2="81.28" width="0.1524" layer="91"/>
-<wire x1="347.98" y1="81.28" x2="353.06" y2="81.28" width="0.1524" layer="91"/>
-<junction x="347.98" y="81.28"/>
+<wire x1="337.82" y1="88.9" x2="337.82" y2="86.36" width="0.1524" layer="91"/>
+<wire x1="337.82" y1="86.36" x2="347.98" y2="86.36" width="0.1524" layer="91"/>
 <pinref part="SOIL_HUM" gate="J$1" pin="1"/>
+<wire x1="347.98" y1="86.36" x2="353.06" y2="86.36" width="0.1524" layer="91"/>
 <wire x1="327.66" y1="106.68" x2="330.2" y2="106.68" width="0.1524" layer="91"/>
-<wire x1="330.2" y1="106.68" x2="330.2" y2="81.28" width="0.1524" layer="91"/>
-<wire x1="330.2" y1="81.28" x2="337.82" y2="81.28" width="0.1524" layer="91"/>
-<junction x="337.82" y="81.28"/>
+<wire x1="330.2" y1="106.68" x2="330.2" y2="86.36" width="0.1524" layer="91"/>
+<wire x1="330.2" y1="86.36" x2="337.82" y2="86.36" width="0.1524" layer="91"/>
+<junction x="337.82" y="86.36"/>
 <pinref part="Q4" gate="Q$1" pin="D"/>
 <wire x1="353.06" y1="99.06" x2="370.84" y2="99.06" width="0.1524" layer="91"/>
+<pinref part="R18" gate="G$1" pin="1"/>
+<wire x1="347.98" y1="91.44" x2="347.98" y2="86.36" width="0.1524" layer="91"/>
+<junction x="347.98" y="86.36"/>
 </segment>
 </net>
 <net name="WL+" class="0">
