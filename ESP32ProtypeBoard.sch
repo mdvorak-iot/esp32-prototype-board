@@ -19369,9 +19369,9 @@ Source: &lt;a href="https://datasheet.lcsc.com/szlcsc/1903151807_XKB-Enterprise-
 <package name="DS18B20">
 <description>&lt;b&gt;DS18B20+-6&lt;/b&gt;&lt;br&gt;
 </description>
-<pad name="1" x="-1.27" y="0" drill="0.65" diameter="1.016"/>
-<pad name="2" x="0" y="0" drill="0.65" diameter="1.016"/>
-<pad name="3" x="1.27" y="0" drill="0.65" diameter="1.016"/>
+<pad name="1" x="-1.27" y="0" drill="0.65" diameter="1.016" shape="long" rot="R90"/>
+<pad name="2" x="0" y="0" drill="0.65" diameter="1.016" shape="long" rot="R90"/>
+<pad name="3" x="1.27" y="0" drill="0.65" diameter="1.016" shape="long" rot="R90"/>
 <text x="0" y="3.145" size="1.27" layer="25" align="center">&gt;NAME</text>
 <text x="0" y="-1.935" size="1.27" layer="27" align="center">&gt;VALUE</text>
 <wire x1="-2.35" y1="0" x2="2.35" y2="0" width="0.1" layer="51"/>
@@ -22581,7 +22581,7 @@ BF959 corrected 2008.03.06&lt;br&gt;</description>
 <part name="GND3" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="GND7" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="R29" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="10K"/>
-<part name="T1" library="transistor" library_urn="urn:adsk.eagle:library:402" deviceset="*-NPN-" device="TO92-ECB" package3d_urn="urn:adsk.eagle:package:29929/2" technology="BC639"/>
+<part name="T1" library="transistor" library_urn="urn:adsk.eagle:library:402" deviceset="*-NPN-" device="SOT23-BEC" package3d_urn="urn:adsk.eagle:package:28748/2" technology="MMBT3904LT1" value="MMBT3904"/>
 </parts>
 <sheets>
 <sheet>
@@ -23179,8 +23179,8 @@ BF959 corrected 2008.03.06&lt;br&gt;</description>
 <attribute name="VALUE" x="369.062" y="212.09" size="1.778" layer="96" rot="R90"/>
 </instance>
 <instance part="T1" gate="G$1" x="347.98" y="210.82" smashed="yes" rot="MR0">
-<attribute name="NAME" x="345.44" y="210.82" size="1.778" layer="95" rot="MR0"/>
-<attribute name="VALUE" x="358.14" y="215.9" size="1.778" layer="96" rot="MR0"/>
+<attribute name="NAME" x="344.424" y="212.598" size="1.778" layer="95" rot="MR0"/>
+<attribute name="VALUE" x="344.424" y="209.804" size="1.778" layer="96" rot="MR0"/>
 </instance>
 </instances>
 <busses>
@@ -24413,7 +24413,7 @@ BF959 corrected 2008.03.06&lt;br&gt;</description>
 <wire x1="330.2" y1="231.14" x2="327.66" y2="231.14" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="N$11" class="0">
+<net name="WGND" class="0">
 <segment>
 <pinref part="C15" gate="G$1" pin="1"/>
 <wire x1="345.44" y1="220.98" x2="345.44" y2="223.52" width="0.1524" layer="91"/>
@@ -24424,7 +24424,7 @@ BF959 corrected 2008.03.06&lt;br&gt;</description>
 <junction x="345.44" y="220.98"/>
 </segment>
 </net>
-<net name="N$12" class="0">
+<net name="WGND_B" class="0">
 <segment>
 <wire x1="350.52" y1="210.82" x2="365.76" y2="210.82" width="0.1524" layer="91"/>
 <pinref part="R29" gate="G$1" pin="1"/>
