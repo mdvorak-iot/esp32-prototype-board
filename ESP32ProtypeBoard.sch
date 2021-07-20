@@ -20021,82 +20021,6 @@ Created by Upverter.com</description>
 </deviceset>
 </devicesets>
 </library>
-<library name="AO3400">
-<description>&lt;30V N-Channel MOSFET&lt;/b&gt;&lt;p&gt;
-&lt;author&gt;Created by SamacSys&lt;/author&gt;</description>
-<packages>
-<package name="SOT95P280X125-3N">
-<description>&lt;b&gt;SOT-23-3L&lt;/b&gt;&lt;br&gt;
-</description>
-<smd name="1" x="-1.25" y="0.95" dx="1.2" dy="0.6" layer="1"/>
-<smd name="2" x="-1.25" y="-0.95" dx="1.2" dy="0.6" layer="1"/>
-<smd name="3" x="1.25" y="0" dx="1.2" dy="0.6" layer="1"/>
-<text x="0" y="1.905" size="0.8128" layer="25" align="bottom-center">&gt;NAME</text>
-<text x="0" y="-1.905" size="0.8128" layer="27" align="top-center">&gt;VALUE</text>
-<wire x1="-0.8" y1="1.475" x2="0.8" y2="1.475" width="0.1" layer="51"/>
-<wire x1="0.8" y1="1.475" x2="0.8" y2="-1.475" width="0.1" layer="51"/>
-<wire x1="0.8" y1="-1.475" x2="-0.8" y2="-1.475" width="0.1" layer="51"/>
-<wire x1="-0.8" y1="-1.475" x2="-0.8" y2="1.475" width="0.1" layer="51"/>
-<wire x1="-0.8" y1="0.525" x2="0.15" y2="1.475" width="0.1" layer="51"/>
-<wire x1="-1.85" y1="1.5" x2="-0.65" y2="1.5" width="0.2" layer="21"/>
-</package>
-</packages>
-<symbols>
-<symbol name="AO3400">
-<wire x1="7.62" y1="2.54" x2="7.62" y2="-2.54" width="0.254" layer="94"/>
-<wire x1="7.62" y1="5.08" x2="7.62" y2="7.62" width="0.254" layer="94"/>
-<wire x1="2.54" y1="0" x2="5.08" y2="0" width="0.254" layer="94"/>
-<wire x1="5.08" y1="5.08" x2="5.08" y2="0" width="0.254" layer="94"/>
-<wire x1="7.62" y1="2.54" x2="5.842" y2="2.54" width="0.254" layer="94"/>
-<wire x1="7.62" y1="5.08" x2="5.842" y2="5.08" width="0.254" layer="94"/>
-<wire x1="5.842" y1="0" x2="7.62" y2="0" width="0.254" layer="94"/>
-<wire x1="5.842" y1="5.588" x2="5.842" y2="4.572" width="0.254" layer="94"/>
-<wire x1="5.842" y1="-0.508" x2="5.842" y2="0.508" width="0.254" layer="94"/>
-<wire x1="5.842" y1="2.032" x2="5.842" y2="3.048" width="0.254" layer="94"/>
-<circle x="6.35" y="2.54" radius="3.81" width="0.254" layer="94"/>
-<text x="11.43" y="3.81" size="1.778" layer="95" align="center-left">&gt;NAME</text>
-<text x="11.43" y="1.27" size="1.778" layer="96" align="center-left">&gt;VALUE</text>
-<pin name="G" x="0" y="0" visible="pad" length="short"/>
-<pin name="D" x="7.62" y="10.16" visible="pad" length="short" rot="R270"/>
-<pin name="S" x="7.62" y="-5.08" visible="pad" length="short" rot="R90"/>
-<polygon width="0.254" layer="94">
-<vertex x="5.842" y="2.54"/>
-<vertex x="6.858" y="3.048"/>
-<vertex x="6.858" y="2.032"/>
-</polygon>
-</symbol>
-</symbols>
-<devicesets>
-<deviceset name="AO3400" prefix="Q">
-<description>&lt;b&gt;30V N-Channel MOSFET&lt;/b&gt;&lt;p&gt;
-Source: &lt;a href="http://aosmd.com/res/data_sheets/AO3400.pdf"&gt; Datasheet &lt;/a&gt;</description>
-<gates>
-<gate name="Q$1" symbol="AO3400" x="0" y="0"/>
-</gates>
-<devices>
-<device name="" package="SOT95P280X125-3N">
-<connects>
-<connect gate="Q$1" pin="D" pad="3"/>
-<connect gate="Q$1" pin="G" pad="1"/>
-<connect gate="Q$1" pin="S" pad="2"/>
-</connects>
-<technologies>
-<technology name="">
-<attribute name="ARROW_PART_NUMBER" value="AO3400" constant="no"/>
-<attribute name="ARROW_PRICE-STOCK" value="https://www.arrow.com/en/products/ao3400/alpha-and-omega-semiconductor" constant="no"/>
-<attribute name="DESCRIPTION" value="30V N-Channel MOSFET" constant="no"/>
-<attribute name="HEIGHT" value="1.25mm" constant="no"/>
-<attribute name="MANUFACTURER_NAME" value="Alpha &amp; Omega Semiconductors" constant="no"/>
-<attribute name="MANUFACTURER_PART_NUMBER" value="AO3400" constant="no"/>
-<attribute name="MOUSER_PART_NUMBER" value="" constant="no"/>
-<attribute name="MOUSER_PRICE-STOCK" value="" constant="no"/>
-</technology>
-</technologies>
-</device>
-</devices>
-</deviceset>
-</devicesets>
-</library>
 <library name="transistor" urn="urn:adsk.eagle:library:402">
 <description>&lt;b&gt;Transistors&lt;/b&gt;&lt;p&gt;
 &lt;author&gt;Created by librarian@cadsoft.de&lt;/author&gt;</description>
@@ -22474,7 +22398,7 @@ BF959 corrected 2008.03.06&lt;br&gt;</description>
 <part name="J_VIN_5V" library="SparkFun-Connectors" deviceset="CONN_02" device="1X02_NO_SILK" package3d_urn="urn:adsk.eagle:package:38051/1"/>
 <part name="P+7" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+5V" device=""/>
 <part name="GND23" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="SOIL_TOUCH" library="my-connectors" deviceset="CONN_02_JST" device="XH_2.54MM_LOCK"/>
+<part name="SOIL1" library="my-connectors" deviceset="CONN_02_JST" device="XH_2.54MM_LOCK"/>
 <part name="J40" library="my-connectors" deviceset="CONN_01_NO_SILK" device=""/>
 <part name="J42" library="my-connectors" deviceset="CONN_01_NO_SILK" device=""/>
 <part name="J45" library="my-connectors" deviceset="CONN_03_NO_SILK" device=""/>
@@ -22569,19 +22493,18 @@ BF959 corrected 2008.03.06&lt;br&gt;</description>
 <part name="R25" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="100K"/>
 <part name="C15" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0805K" package3d_urn="urn:adsk.eagle:package:23681/2" value="1nF"/>
 <part name="+3V11" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+3V3" device=""/>
-<part name="SOIL_HUM" library="my-connectors" deviceset="CONN_03_JST" device="XH_2.54MM_LOCK"/>
+<part name="SOIL2" library="my-connectors" deviceset="CONN_03_JST" device="XH_2.54MM_LOCK"/>
 <part name="R18" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="1M"/>
 <part name="C17" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0805K" package3d_urn="urn:adsk.eagle:package:23681/2" value="0.1uF"/>
-<part name="C16" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0805K" package3d_urn="urn:adsk.eagle:package:23681/2" value="1nF"/>
 <part name="WATER_LVL_SENSOR" library="my-connectors" deviceset="CONN_02_NO_SILK" device="POL" value="CONN_02_NO_SILKPOL"/>
-<part name="Q4" library="AO3400" deviceset="AO3400" device="" value="AO3400"/>
-<part name="R21" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="100K"/>
+<part name="R21" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="10K"/>
 <part name="R27" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="470R"/>
 <part name="R28" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="470R"/>
 <part name="GND3" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="GND7" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="R29" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="10K"/>
 <part name="T1" library="transistor" library_urn="urn:adsk.eagle:library:402" deviceset="*-NPN-" device="SOT23-BEC" package3d_urn="urn:adsk.eagle:package:28748/2" technology="MMBT3904LT1" value="MMBT3904"/>
+<part name="T2" library="transistor" library_urn="urn:adsk.eagle:library:402" deviceset="*-NPN-" device="SOT23-BEC" package3d_urn="urn:adsk.eagle:package:28748/2" technology="MMBT3904LT1" value="MMBT3904"/>
 </parts>
 <sheets>
 <sheet>
@@ -22589,6 +22512,14 @@ BF959 corrected 2008.03.06&lt;br&gt;</description>
 <text x="32.512" y="151.384" size="1.778" layer="97" rot="R180" align="bottom-center">AP2112K-3.3
 (RT9080-33GJ5)
 (XC6220B331MR-G)</text>
+<text x="370.84" y="266.7" size="1.778" layer="97" align="top-left">SWITCH: IO19
+VALVE: IO26
+WATER_LVL_SENS: IO32
+WATER_LVL_PWR: IO25
+SOIL1_TOUCH: IO33
+SOIL2_ADC: IO35
+SOIL2_PWR: IO18
+DS18B20: IO27</text>
 </plain>
 <instances>
 <instance part="U2" gate="G$1" x="200.66" y="193.04" smashed="yes">
@@ -22882,7 +22813,7 @@ BF959 corrected 2008.03.06&lt;br&gt;</description>
 <instance part="GND23" gate="1" x="68.58" y="93.98" smashed="yes">
 <attribute name="VALUE" x="66.04" y="91.44" size="1.778" layer="96"/>
 </instance>
-<instance part="SOIL_TOUCH" gate="J$1" x="386.08" y="236.22" smashed="yes" rot="MR180">
+<instance part="SOIL1" gate="J$1" x="386.08" y="236.22" smashed="yes" rot="MR180">
 <attribute name="NAME" x="383.54" y="230.632" size="1.778" layer="95" font="vector" rot="MR180"/>
 </instance>
 <instance part="J40" gate="J$1" x="83.82" y="101.6" smashed="yes">
@@ -23133,7 +23064,7 @@ BF959 corrected 2008.03.06&lt;br&gt;</description>
 <instance part="+3V11" gate="G$1" x="360.68" y="106.68" smashed="yes" rot="R90">
 <attribute name="VALUE" x="358.902" y="103.378" size="1.778" layer="96"/>
 </instance>
-<instance part="SOIL_HUM" gate="J$1" x="320.04" y="88.9" smashed="yes" rot="MR180">
+<instance part="SOIL2" gate="J$1" x="320.04" y="88.9" smashed="yes" rot="MR180">
 <attribute name="VALUE" x="317.5" y="98.806" size="1.778" layer="96" font="vector" rot="MR180"/>
 <attribute name="NAME" x="317.5" y="96.012" size="1.778" layer="95" font="vector" rot="MR180"/>
 </instance>
@@ -23145,20 +23076,12 @@ BF959 corrected 2008.03.06&lt;br&gt;</description>
 <attribute name="NAME" x="333.629" y="79.502" size="1.778" layer="95" rot="R270"/>
 <attribute name="VALUE" x="340.233" y="80.518" size="1.778" layer="96" rot="R270"/>
 </instance>
-<instance part="C16" gate="G$1" x="337.82" y="182.88" smashed="yes" rot="R180">
-<attribute name="NAME" x="336.296" y="182.499" size="1.778" layer="95" rot="R180"/>
-<attribute name="VALUE" x="336.296" y="187.579" size="1.778" layer="96" rot="R180"/>
-</instance>
 <instance part="WATER_LVL_SENSOR" gate="J$1" x="320.04" y="182.88" smashed="yes" rot="MR180">
 <attribute name="NAME" x="317.5" y="177.292" size="1.778" layer="95" font="vector" rot="MR180"/>
 </instance>
-<instance part="Q4" gate="Q$1" x="378.46" y="73.66" smashed="yes" rot="MR0">
-<attribute name="NAME" x="367.03" y="77.47" size="1.778" layer="95" rot="MR0" align="center-left"/>
-<attribute name="VALUE" x="367.03" y="74.93" size="1.778" layer="96" rot="MR0" align="center-left"/>
-</instance>
-<instance part="R21" gate="G$1" x="375.92" y="68.58" smashed="yes" rot="R180">
-<attribute name="NAME" x="379.73" y="67.0814" size="1.778" layer="95" rot="R180"/>
-<attribute name="VALUE" x="379.73" y="71.882" size="1.778" layer="96" rot="R180"/>
+<instance part="R21" gate="G$1" x="381" y="78.74" smashed="yes" rot="R270">
+<attribute name="NAME" x="382.4986" y="82.55" size="1.778" layer="95" rot="R270"/>
+<attribute name="VALUE" x="377.698" y="82.55" size="1.778" layer="96" rot="R270"/>
 </instance>
 <instance part="R27" gate="G$1" x="345.44" y="236.22" smashed="yes">
 <attribute name="NAME" x="341.63" y="237.7186" size="1.778" layer="95"/>
@@ -23168,8 +23091,8 @@ BF959 corrected 2008.03.06&lt;br&gt;</description>
 <attribute name="NAME" x="331.47" y="232.6386" size="1.778" layer="95"/>
 <attribute name="VALUE" x="331.47" y="227.838" size="1.778" layer="96"/>
 </instance>
-<instance part="GND3" gate="1" x="370.84" y="63.5" smashed="yes">
-<attribute name="VALUE" x="368.3" y="60.96" size="1.778" layer="96"/>
+<instance part="GND3" gate="1" x="370.84" y="66.04" smashed="yes">
+<attribute name="VALUE" x="368.3" y="63.5" size="1.778" layer="96"/>
 </instance>
 <instance part="GND7" gate="1" x="345.44" y="203.2" smashed="yes">
 <attribute name="VALUE" x="342.9" y="200.66" size="1.778" layer="96"/>
@@ -23181,6 +23104,10 @@ BF959 corrected 2008.03.06&lt;br&gt;</description>
 <instance part="T1" gate="G$1" x="347.98" y="210.82" smashed="yes" rot="MR0">
 <attribute name="NAME" x="344.424" y="212.598" size="1.778" layer="95" rot="MR0"/>
 <attribute name="VALUE" x="344.424" y="209.804" size="1.778" layer="96" rot="MR0"/>
+</instance>
+<instance part="T2" gate="G$1" x="373.38" y="73.66" smashed="yes" rot="MR0">
+<attribute name="NAME" x="369.824" y="75.438" size="1.778" layer="95" rot="MR0"/>
+<attribute name="VALUE" x="369.824" y="72.644" size="1.778" layer="96" rot="MR0"/>
 </instance>
 </instances>
 <busses>
@@ -23370,20 +23297,17 @@ BF959 corrected 2008.03.06&lt;br&gt;</description>
 <pinref part="GND32" gate="1" pin="GND"/>
 </segment>
 <segment>
-<pinref part="SOIL_TOUCH" gate="J$1" pin="2"/>
+<pinref part="SOIL1" gate="J$1" pin="2"/>
 <pinref part="GND35" gate="1" pin="GND"/>
 <wire x1="393.7" y1="233.68" x2="401.32" y2="233.68" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="R21" gate="G$1" pin="2"/>
-<pinref part="Q4" gate="Q$1" pin="S"/>
-<pinref part="GND3" gate="1" pin="GND"/>
-<wire x1="370.84" y1="66.04" x2="370.84" y2="68.58" width="0.1524" layer="91"/>
-<junction x="370.84" y="68.58"/>
-</segment>
-<segment>
 <pinref part="GND7" gate="1" pin="GND"/>
 <pinref part="T1" gate="G$1" pin="E"/>
+</segment>
+<segment>
+<pinref part="T2" gate="G$1" pin="E"/>
+<pinref part="GND3" gate="1" pin="GND"/>
 </segment>
 </net>
 <net name="+3V3" class="0">
@@ -23545,7 +23469,7 @@ BF959 corrected 2008.03.06&lt;br&gt;</description>
 <label x="383.54" y="86.36" size="1.778" layer="95"/>
 <pinref part="R18" gate="G$1" pin="2"/>
 <wire x1="347.98" y1="86.36" x2="388.62" y2="86.36" width="0.1524" layer="91"/>
-<pinref part="SOIL_HUM" gate="J$1" pin="3"/>
+<pinref part="SOIL2" gate="J$1" pin="3"/>
 <pinref part="C17" gate="G$1" pin="2"/>
 <junction x="347.98" y="86.36"/>
 <wire x1="327.66" y1="86.36" x2="337.82" y2="86.36" width="0.1524" layer="91"/>
@@ -23561,15 +23485,9 @@ BF959 corrected 2008.03.06&lt;br&gt;</description>
 <wire x1="177.8" y1="198.12" x2="182.88" y2="198.12" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<label x="368.3" y="231.14" size="1.778" layer="95"/>
-<pinref part="R22" gate="G$1" pin="2"/>
-<wire x1="358.14" y1="231.14" x2="373.38" y2="231.14" width="0.1524" layer="91"/>
-<pinref part="C15" gate="G$1" pin="2"/>
-<wire x1="345.44" y1="231.14" x2="358.14" y2="231.14" width="0.1524" layer="91"/>
-<junction x="358.14" y="231.14"/>
-<junction x="345.44" y="231.14"/>
-<wire x1="340.36" y1="231.14" x2="345.44" y2="231.14" width="0.1524" layer="91"/>
-<pinref part="R28" gate="G$1" pin="2"/>
+<pinref part="SOIL1" gate="J$1" pin="1"/>
+<wire x1="393.7" y1="236.22" x2="401.32" y2="236.22" width="0.1524" layer="91"/>
+<label x="396.24" y="236.22" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="IO25" class="0">
@@ -24222,9 +24140,15 @@ BF959 corrected 2008.03.06&lt;br&gt;</description>
 <label x="177.8" y="200.66" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="SOIL_TOUCH" gate="J$1" pin="1"/>
-<wire x1="393.7" y1="236.22" x2="401.32" y2="236.22" width="0.1524" layer="91"/>
-<label x="396.24" y="236.22" size="1.778" layer="95"/>
+<label x="368.3" y="231.14" size="1.778" layer="95"/>
+<pinref part="R22" gate="G$1" pin="2"/>
+<wire x1="358.14" y1="231.14" x2="373.38" y2="231.14" width="0.1524" layer="91"/>
+<pinref part="C15" gate="G$1" pin="2"/>
+<wire x1="345.44" y1="231.14" x2="358.14" y2="231.14" width="0.1524" layer="91"/>
+<junction x="358.14" y="231.14"/>
+<junction x="345.44" y="231.14"/>
+<wire x1="340.36" y1="231.14" x2="345.44" y2="231.14" width="0.1524" layer="91"/>
+<pinref part="R28" gate="G$1" pin="2"/>
 </segment>
 </net>
 <net name="JTAG_VDD" class="0">
@@ -24334,18 +24258,14 @@ BF959 corrected 2008.03.06&lt;br&gt;</description>
 </net>
 <net name="S3V3" class="0">
 <segment>
-<pinref part="SOIL_HUM" gate="J$1" pin="2"/>
+<pinref part="SOIL2" gate="J$1" pin="2"/>
 <wire x1="327.66" y1="88.9" x2="370.84" y2="88.9" width="0.1524" layer="91"/>
 <label x="358.14" y="88.9" size="1.778" layer="95"/>
 <pinref part="Q3" gate="Q$1" pin="D"/>
 <wire x1="370.84" y1="88.9" x2="381" y2="88.9" width="0.1524" layer="91"/>
 <junction x="370.84" y="88.9"/>
 <pinref part="R21" gate="G$1" pin="1"/>
-<wire x1="381" y1="88.9" x2="381" y2="73.66" width="0.1524" layer="91"/>
-<pinref part="Q4" gate="Q$1" pin="G"/>
-<wire x1="381" y1="73.66" x2="381" y2="68.58" width="0.1524" layer="91"/>
-<wire x1="378.46" y1="73.66" x2="381" y2="73.66" width="0.1524" layer="91"/>
-<junction x="381" y="73.66"/>
+<wire x1="381" y1="88.9" x2="381" y2="83.82" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="WLS+" class="0">
@@ -24353,12 +24273,9 @@ BF959 corrected 2008.03.06&lt;br&gt;</description>
 <pinref part="J29" gate="J$1" pin="1"/>
 <pinref part="R15" gate="G$1" pin="2"/>
 <wire x1="396.24" y1="182.88" x2="396.24" y2="177.8" width="0.1524" layer="91"/>
-<pinref part="C16" gate="G$1" pin="2"/>
-<wire x1="337.82" y1="187.96" x2="396.24" y2="187.96" width="0.1524" layer="91"/>
+<wire x1="330.2" y1="187.96" x2="396.24" y2="187.96" width="0.1524" layer="91"/>
 <wire x1="396.24" y1="187.96" x2="396.24" y2="182.88" width="0.1524" layer="91"/>
 <junction x="396.24" y="182.88"/>
-<wire x1="337.82" y1="187.96" x2="330.2" y2="187.96" width="0.1524" layer="91"/>
-<junction x="337.82" y="187.96"/>
 <wire x1="330.2" y1="187.96" x2="330.2" y2="182.88" width="0.1524" layer="91"/>
 <wire x1="330.2" y1="182.88" x2="327.66" y2="182.88" width="0.1524" layer="91"/>
 <pinref part="WATER_LVL_SENSOR" gate="J$1" pin="1"/>
@@ -24371,10 +24288,7 @@ BF959 corrected 2008.03.06&lt;br&gt;</description>
 <segment>
 <pinref part="R24" gate="G$1" pin="1"/>
 <wire x1="345.44" y1="182.88" x2="345.44" y2="180.34" width="0.1524" layer="91"/>
-<pinref part="C16" gate="G$1" pin="1"/>
-<wire x1="345.44" y1="180.34" x2="337.82" y2="180.34" width="0.1524" layer="91"/>
-<wire x1="337.82" y1="180.34" x2="327.66" y2="180.34" width="0.1524" layer="91"/>
-<junction x="337.82" y="180.34"/>
+<wire x1="345.44" y1="180.34" x2="327.66" y2="180.34" width="0.1524" layer="91"/>
 <pinref part="WATER_LVL_SENSOR" gate="J$1" pin="2"/>
 </segment>
 </net>
@@ -24385,17 +24299,18 @@ BF959 corrected 2008.03.06&lt;br&gt;</description>
 <pinref part="C17" gate="G$1" pin="1"/>
 <wire x1="337.82" y1="73.66" x2="337.82" y2="71.12" width="0.1524" layer="91"/>
 <wire x1="337.82" y1="71.12" x2="347.98" y2="71.12" width="0.1524" layer="91"/>
-<pinref part="SOIL_HUM" gate="J$1" pin="1"/>
+<pinref part="SOIL2" gate="J$1" pin="1"/>
 <wire x1="347.98" y1="71.12" x2="353.06" y2="71.12" width="0.1524" layer="91"/>
 <wire x1="327.66" y1="91.44" x2="330.2" y2="91.44" width="0.1524" layer="91"/>
 <wire x1="330.2" y1="91.44" x2="330.2" y2="71.12" width="0.1524" layer="91"/>
 <wire x1="330.2" y1="71.12" x2="337.82" y2="71.12" width="0.1524" layer="91"/>
 <junction x="337.82" y="71.12"/>
-<pinref part="Q4" gate="Q$1" pin="D"/>
 <wire x1="353.06" y1="83.82" x2="370.84" y2="83.82" width="0.1524" layer="91"/>
 <pinref part="R18" gate="G$1" pin="1"/>
 <wire x1="347.98" y1="76.2" x2="347.98" y2="71.12" width="0.1524" layer="91"/>
 <junction x="347.98" y="71.12"/>
+<pinref part="T2" gate="G$1" pin="C"/>
+<wire x1="370.84" y1="78.74" x2="370.84" y2="83.82" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="WL+" class="0">
@@ -24429,6 +24344,13 @@ BF959 corrected 2008.03.06&lt;br&gt;</description>
 <wire x1="350.52" y1="210.82" x2="365.76" y2="210.82" width="0.1524" layer="91"/>
 <pinref part="R29" gate="G$1" pin="1"/>
 <pinref part="T1" gate="G$1" pin="B"/>
+</segment>
+</net>
+<net name="N$11" class="0">
+<segment>
+<pinref part="T2" gate="G$1" pin="B"/>
+<pinref part="R21" gate="G$1" pin="2"/>
+<wire x1="375.92" y1="73.66" x2="381" y2="73.66" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>
