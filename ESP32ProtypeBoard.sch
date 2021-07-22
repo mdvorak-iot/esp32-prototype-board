@@ -23076,8 +23076,8 @@ DS18B20: IO27</text>
 <attribute name="NAME" x="333.629" y="79.502" size="1.778" layer="95" rot="R270"/>
 <attribute name="VALUE" x="340.233" y="80.518" size="1.778" layer="96" rot="R270"/>
 </instance>
-<instance part="WATER_LVL_SENSOR" gate="J$1" x="320.04" y="182.88" smashed="yes" rot="MR180">
-<attribute name="NAME" x="317.5" y="177.292" size="1.778" layer="95" font="vector" rot="MR180"/>
+<instance part="WATER_LVL_SENSOR" gate="J$1" x="320.04" y="182.88" smashed="yes">
+<attribute name="NAME" x="317.5" y="188.468" size="1.778" layer="95" font="vector"/>
 </instance>
 <instance part="R21" gate="G$1" x="381" y="78.74" smashed="yes" rot="R270">
 <attribute name="NAME" x="382.4986" y="82.55" size="1.778" layer="95" rot="R270"/>
@@ -24273,23 +24273,22 @@ DS18B20: IO27</text>
 <pinref part="J29" gate="J$1" pin="1"/>
 <pinref part="R15" gate="G$1" pin="2"/>
 <wire x1="396.24" y1="182.88" x2="396.24" y2="177.8" width="0.1524" layer="91"/>
-<wire x1="330.2" y1="187.96" x2="396.24" y2="187.96" width="0.1524" layer="91"/>
+<wire x1="342.9" y1="187.96" x2="396.24" y2="187.96" width="0.1524" layer="91"/>
 <wire x1="396.24" y1="187.96" x2="396.24" y2="182.88" width="0.1524" layer="91"/>
 <junction x="396.24" y="182.88"/>
-<wire x1="330.2" y1="187.96" x2="330.2" y2="182.88" width="0.1524" layer="91"/>
-<wire x1="330.2" y1="182.88" x2="327.66" y2="182.88" width="0.1524" layer="91"/>
-<pinref part="WATER_LVL_SENSOR" gate="J$1" pin="1"/>
+<wire x1="342.9" y1="187.96" x2="342.9" y2="185.42" width="0.1524" layer="91"/>
 <pinref part="J29" gate="J$1" pin="2"/>
 <wire x1="393.7" y1="177.8" x2="396.24" y2="177.8" width="0.1524" layer="91"/>
 <junction x="396.24" y="177.8"/>
+<pinref part="WATER_LVL_SENSOR" gate="J$1" pin="2"/>
+<wire x1="327.66" y1="185.42" x2="342.9" y2="185.42" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="WLS-" class="0">
 <segment>
 <pinref part="R24" gate="G$1" pin="1"/>
-<wire x1="345.44" y1="182.88" x2="345.44" y2="180.34" width="0.1524" layer="91"/>
-<wire x1="345.44" y1="180.34" x2="327.66" y2="180.34" width="0.1524" layer="91"/>
-<pinref part="WATER_LVL_SENSOR" gate="J$1" pin="2"/>
+<pinref part="WATER_LVL_SENSOR" gate="J$1" pin="1"/>
+<wire x1="345.44" y1="182.88" x2="327.66" y2="182.88" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="SGND" class="0">
