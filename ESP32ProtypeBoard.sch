@@ -22491,7 +22491,7 @@ BF959 corrected 2008.03.06&lt;br&gt;</description>
 <part name="GND35" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="Q3" library="IRLML6402" deviceset="IRLML6402" device="" value="IRLML6402"/>
 <part name="R25" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="100K"/>
-<part name="C15" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0805K" package3d_urn="urn:adsk.eagle:package:23681/2" value="1nF"/>
+<part name="C15" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0805K" package3d_urn="urn:adsk.eagle:package:23681/2" value="0.1uF"/>
 <part name="+3V11" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+3V3" device=""/>
 <part name="SOIL2" library="my-connectors" deviceset="CONN_03_JST" device="XH_2.54MM_LOCK"/>
 <part name="R18" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="1M"/>
@@ -23059,7 +23059,7 @@ DS18B20: IO27</text>
 </instance>
 <instance part="C15" gate="G$1" x="345.44" y="226.06" smashed="yes" rot="R180">
 <attribute name="NAME" x="343.916" y="225.679" size="1.778" layer="95" rot="R180"/>
-<attribute name="VALUE" x="343.916" y="230.759" size="1.778" layer="96" rot="R180"/>
+<attribute name="VALUE" x="344.678" y="230.251" size="1.778" layer="96" rot="R180"/>
 </instance>
 <instance part="+3V11" gate="G$1" x="360.68" y="106.68" smashed="yes" rot="R90">
 <attribute name="VALUE" x="358.902" y="103.378" size="1.778" layer="96"/>
