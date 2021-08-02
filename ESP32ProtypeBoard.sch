@@ -19103,6 +19103,56 @@ Source: Kingbright .. 2_colour_led_.pdf</description>
 </deviceset>
 </devicesets>
 </library>
+<library name="TACTILE_SIDE_SWITCH_2.5X7X3.5MM">
+<packages>
+<package name="TACTILE_SIDE_SWITCH_2.5X7X3.5MM">
+<description>Tactile Switch Momentary Tact  3X6x3.5mm(3.5x7.8x3.5mm) for phone side push button</description>
+<hole x="-1.15" y="-0.15" drill="0.9"/>
+<hole x="1.15" y="-0.15" drill="0.9"/>
+<smd name="P$1" x="-2.13" y="1.25" dx="1.1" dy="0.9" layer="1" rot="R90"/>
+<smd name="P$2" x="2.13" y="1.25" dx="1.1" dy="0.9" layer="1" rot="R90"/>
+<smd name="P$3" x="-3.38" y="-0.9" dx="1.45" dy="0.9" layer="1" rot="R180"/>
+<smd name="P$4" x="3.38" y="-0.9" dx="1.45" dy="0.9" layer="1" rot="R180"/>
+<wire x1="-3.5" y1="-1.25" x2="3.5" y2="-1.25" width="0.127" layer="21"/>
+<wire x1="-3.5" y1="-1.25" x2="-3.5" y2="1.25" width="0.127" layer="21"/>
+<wire x1="-3.5" y1="1.25" x2="3.5" y2="1.25" width="0.127" layer="21"/>
+<wire x1="3.5" y1="1.25" x2="3.5" y2="-1.25" width="0.127" layer="21"/>
+</package>
+</packages>
+<symbols>
+<symbol name="SWITCH-MOMENTARY">
+<description>&lt;h3&gt;Momentary Switch (Pushbutton) - SPST&lt;/h3&gt;
+&lt;p&gt;Normally-open (NO) SPST momentary switches (buttons, pushbuttons).&lt;/p&gt;</description>
+<wire x1="1.905" y1="0" x2="2.54" y2="0" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="0" x2="1.905" y2="1.27" width="0.254" layer="94"/>
+<circle x="-2.54" y="0" radius="0.127" width="0.4064" layer="94"/>
+<circle x="2.54" y="0" radius="0.127" width="0.4064" layer="94"/>
+<text x="0" y="1.524" size="1.778" layer="95" font="vector" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-0.508" size="1.778" layer="96" font="vector" align="top-center">&gt;VALUE</text>
+<pin name="1" x="-5.08" y="0" visible="off" length="short" direction="pas" swaplevel="2"/>
+<pin name="2" x="5.08" y="0" visible="off" length="short" direction="pas" swaplevel="1" rot="R180"/>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="TACTILE_SIDE_SWITCH_2.5X7X3.5MM" uservalue="yes">
+<description>Tactile Switch Momentary Tact 3X6x3.5mm(3.5x7.8x3.5mm) for phone side push button</description>
+<gates>
+<gate name="G$1" symbol="SWITCH-MOMENTARY" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="TACTILE_SIDE_SWITCH_2.5X7X3.5MM">
+<connects>
+<connect gate="G$1" pin="1" pad="P$1"/>
+<connect gate="G$1" pin="2" pad="P$2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
 </libraries>
 <attributes>
 </attributes>
@@ -19351,6 +19401,7 @@ Source: Kingbright .. 2_colour_led_.pdf</description>
 <part name="GND15" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="R20" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="10K"/>
 <part name="R30" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="10K"/>
+<part name="CONTROL" library="TACTILE_SIDE_SWITCH_2.5X7X3.5MM" deviceset="TACTILE_SIDE_SWITCH_2.5X7X3.5MM" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -19763,12 +19814,12 @@ DS18B20: IO17</text>
 <instance part="P+14" gate="1" x="373.38" y="147.32" smashed="yes" rot="R270">
 <attribute name="VALUE" x="365.76" y="144.78" size="1.778" layer="96"/>
 </instance>
-<instance part="C14" gate="G$1" x="264.16" y="195.58" smashed="yes" rot="R180">
-<attribute name="NAME" x="262.636" y="195.199" size="1.778" layer="95" rot="R180"/>
-<attribute name="VALUE" x="262.636" y="200.279" size="1.778" layer="96" rot="R180"/>
+<instance part="C14" gate="G$1" x="274.32" y="256.54" smashed="yes" rot="R270">
+<attribute name="NAME" x="274.701" y="255.016" size="1.778" layer="95" rot="R270"/>
+<attribute name="VALUE" x="269.621" y="255.016" size="1.778" layer="96" rot="R270"/>
 </instance>
-<instance part="GND31" gate="1" x="264.16" y="190.5" smashed="yes">
-<attribute name="VALUE" x="261.62" y="187.96" size="1.778" layer="96"/>
+<instance part="GND31" gate="1" x="284.48" y="261.62" smashed="yes" rot="R90">
+<attribute name="VALUE" x="287.02" y="259.08" size="1.778" layer="96" rot="R90"/>
 </instance>
 <instance part="J7" gate="J$1" x="134.62" y="93.98" smashed="yes">
 <attribute name="NAME" x="132.08" y="94.488" size="1.778" layer="95" font="vector"/>
@@ -19909,6 +19960,10 @@ DS18B20: IO17</text>
 <instance part="R30" gate="G$1" x="264.16" y="119.38" smashed="yes" rot="R90">
 <attribute name="NAME" x="262.6614" y="115.57" size="1.778" layer="95" rot="R90"/>
 <attribute name="VALUE" x="267.462" y="115.57" size="1.778" layer="96" rot="R90"/>
+</instance>
+<instance part="CONTROL" gate="G$1" x="271.78" y="261.62" smashed="yes">
+<attribute name="NAME" x="271.78" y="263.144" size="1.778" layer="95" font="vector" align="bottom-center"/>
+<attribute name="VALUE" x="271.78" y="261.112" size="1.778" layer="96" font="vector" align="top-center"/>
 </instance>
 </instances>
 <busses>
@@ -20066,10 +20121,6 @@ DS18B20: IO17</text>
 <pinref part="GND27" gate="1" pin="GND"/>
 </segment>
 <segment>
-<pinref part="GND31" gate="1" pin="GND"/>
-<pinref part="C14" gate="G$1" pin="1"/>
-</segment>
-<segment>
 <pinref part="J7" gate="J$1" pin="1"/>
 <pinref part="GND32" gate="1" pin="GND"/>
 </segment>
@@ -20085,6 +20136,16 @@ DS18B20: IO17</text>
 <pinref part="U$1" gate="G$1" pin="C"/>
 <wire x1="254" y1="116.84" x2="254" y2="127" width="0.1524" layer="91"/>
 <pinref part="GND15" gate="1" pin="GND"/>
+</segment>
+<segment>
+<pinref part="CONTROL" gate="G$1" pin="2"/>
+<pinref part="GND31" gate="1" pin="GND"/>
+<wire x1="276.86" y1="261.62" x2="279.4" y2="261.62" width="0.1524" layer="91"/>
+<pinref part="C14" gate="G$1" pin="1"/>
+<wire x1="279.4" y1="261.62" x2="281.94" y2="261.62" width="0.1524" layer="91"/>
+<wire x1="276.86" y1="256.54" x2="279.4" y2="256.54" width="0.1524" layer="91"/>
+<wire x1="279.4" y1="256.54" x2="279.4" y2="261.62" width="0.1524" layer="91"/>
+<junction x="279.4" y="261.62"/>
 </segment>
 </net>
 <net name="+3V3" class="0">
@@ -20362,6 +20423,11 @@ DS18B20: IO17</text>
 <wire x1="236.22" y1="187.96" x2="233.68" y2="187.96" width="0.1524" layer="91"/>
 <label x="233.68" y="187.96" size="1.778" layer="95"/>
 </segment>
+<segment>
+<pinref part="R30" gate="G$1" pin="2"/>
+<wire x1="264.16" y1="124.46" x2="264.16" y2="132.08" width="0.1524" layer="91"/>
+<label x="264.16" y="127" size="1.778" layer="95" rot="R90"/>
+</segment>
 </net>
 <net name="IO17" class="0">
 <segment>
@@ -20429,8 +20495,12 @@ DS18B20: IO17</text>
 </segment>
 <segment>
 <pinref part="C14" gate="G$1" pin="2"/>
-<wire x1="264.16" y1="200.66" x2="264.16" y2="205.74" width="0.1524" layer="91"/>
-<label x="264.16" y="205.74" size="1.778" layer="95" rot="R180"/>
+<label x="259.08" y="261.62" size="1.778" layer="95"/>
+<pinref part="CONTROL" gate="G$1" pin="1"/>
+<wire x1="259.08" y1="261.62" x2="266.7" y2="261.62" width="0.1524" layer="91"/>
+<wire x1="266.7" y1="261.62" x2="266.7" y2="256.54" width="0.1524" layer="91"/>
+<junction x="266.7" y="261.62"/>
+<wire x1="266.7" y1="256.54" x2="269.24" y2="256.54" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="IO21" class="0">
@@ -20713,6 +20783,11 @@ DS18B20: IO17</text>
 <pinref part="J50" gate="G$1" pin="1"/>
 <wire x1="236.22" y1="177.8" x2="233.68" y2="177.8" width="0.1524" layer="91"/>
 <label x="233.68" y="177.8" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="R20" gate="G$1" pin="2"/>
+<wire x1="243.84" y1="124.46" x2="243.84" y2="132.08" width="0.1524" layer="91"/>
+<label x="243.84" y="127" size="1.778" layer="95" rot="R90"/>
 </segment>
 </net>
 <net name="VCC" class="0">
@@ -21000,18 +21075,6 @@ DS18B20: IO17</text>
 <pinref part="U$1" gate="G$1" pin="AR"/>
 <pinref part="R30" gate="G$1" pin="1"/>
 <wire x1="261.62" y1="114.3" x2="264.16" y2="114.3" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="N$5" class="0">
-<segment>
-<pinref part="R20" gate="G$1" pin="2"/>
-<wire x1="243.84" y1="124.46" x2="243.84" y2="129.54" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="N$6" class="0">
-<segment>
-<pinref part="R30" gate="G$1" pin="2"/>
-<wire x1="264.16" y1="124.46" x2="264.16" y2="129.54" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>
