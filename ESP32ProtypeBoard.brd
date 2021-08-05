@@ -52,7 +52,7 @@
 <layer number="42" name="bRestrict" color="1" fill="10" visible="yes" active="yes"/>
 <layer number="43" name="vRestrict" color="2" fill="10" visible="no" active="yes"/>
 <layer number="44" name="Drills" color="7" fill="1" visible="no" active="yes"/>
-<layer number="45" name="Holes" color="7" fill="1" visible="no" active="yes"/>
+<layer number="45" name="Holes" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="46" name="Milling" color="3" fill="1" visible="no" active="yes"/>
 <layer number="47" name="Measures" color="7" fill="1" visible="no" active="yes"/>
 <layer number="48" name="Document" color="7" fill="1" visible="no" active="yes"/>
@@ -356,8 +356,7 @@ TODO this</text>
 <wire x1="48.26" y1="25.273" x2="48.641" y2="25.654" width="0.127" layer="52"/>
 <wire x1="50.8" y1="25.908" x2="50.038" y2="25.908" width="0.127" layer="52"/>
 <wire x1="15.494" y1="51.943" x2="14.732" y2="51.943" width="0.127" layer="51"/>
-<text x="3.175" y="5.715" size="1.27" layer="51" align="center">+</text>
-<wire x1="3.429" y1="0.635" x2="2.794" y2="0.635" width="0.127" layer="51"/>
+<wire x1="0.9144" y1="2.286" x2="0.9144" y2="1.651" width="0.127" layer="51"/>
 <wire x1="1.905" y1="6.985" x2="52.705" y2="6.985" width="0.8128" layer="46"/>
 <rectangle x1="28.956" y1="34.798" x2="31.877" y2="36.322" layer="42"/>
 <rectangle x1="28.956" y1="34.798" x2="31.877" y2="36.322" layer="41"/>
@@ -372,6 +371,9 @@ TODO this</text>
 <wire x1="29.464" y1="32.639" x2="29.464" y2="34.925" width="1.27" layer="42"/>
 <wire x1="29.464" y1="34.925" x2="29.845" y2="35.306" width="1.27" layer="42"/>
 <wire x1="1.905" y1="6.985" x2="52.705" y2="6.985" width="0.127" layer="51" style="shortdash"/>
+<wire x1="0.9144" y1="4.826" x2="0.9144" y2="4.191" width="0.127" layer="51"/>
+<wire x1="0.6096" y1="4.5212" x2="1.2446" y2="4.5212" width="0.127" layer="51"/>
+<hole x="3.9624" y="46.101" drill="0.55"/>
 </plain>
 <libraries>
 <library name="rcl" urn="urn:adsk.eagle:library:334">
@@ -1903,8 +1905,8 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <text x="-1.27" y="1.397" size="0.6096" layer="25" font="vector" ratio="20">&gt;NAME</text>
 <text x="-1.27" y="-2.032" size="0.6096" layer="27" font="vector" ratio="20">&gt;VALUE</text>
 </package>
-<package name="1X02_NO_SILK_POL">
-<description>&lt;h3&gt;Plated Through Hole - No Silk Outline&lt;/h3&gt;
+<package name="1X02_PADS">
+<description>&lt;h3&gt;SMD Pads - No Silk Outline&lt;/h3&gt;
 &lt;p&gt;Specifications:
 &lt;ul&gt;&lt;li&gt;Pin count:2&lt;/li&gt;
 &lt;li&gt;Pin pitch:0.1"&lt;/li&gt;
@@ -1912,12 +1914,12 @@ You are welcome to use this library for commercial purposes. For attribution, we
 &lt;p&gt;Example device(s):
 &lt;ul&gt;&lt;li&gt;CONN_02&lt;/li&gt;
 &lt;/ul&gt;&lt;/p&gt;</description>
-<pad name="1" x="0" y="0" drill="1.016" diameter="1.8796" shape="square" rot="R90"/>
-<pad name="2" x="2.54" y="0" drill="1.016" diameter="1.8796" rot="R90"/>
 <rectangle x1="2.286" y1="-0.254" x2="2.794" y2="0.254" layer="51"/>
 <rectangle x1="-0.254" y1="-0.254" x2="0.254" y2="0.254" layer="51"/>
 <text x="-1.27" y="1.397" size="0.6096" layer="25" font="vector" ratio="20">&gt;NAME</text>
 <text x="-1.27" y="-2.032" size="0.6096" layer="27" font="vector" ratio="20">&gt;VALUE</text>
+<smd name="1" x="0" y="0" dx="2.032" dy="1.651" layer="1" rot="R90"/>
+<smd name="2" x="2.54" y="0" dx="2.032" dy="1.651" layer="1" rot="R90"/>
 </package>
 <package name="1X02_NO_SILK" urn="urn:adsk.eagle:footprint:37666/1">
 <description>&lt;h3&gt;Plated Through Hole - No Silk Outline&lt;/h3&gt;
@@ -3095,8 +3097,8 @@ design rules under a new name.</description>
 <attribute name="SPICEPREFIX" value="C" x="26.035" y="6.985" size="1.778" layer="27" display="off"/>
 <attribute name="VALUE" x="25.035" y="11.435" size="0.8128" layer="27"/>
 </element>
-<element name="WATER_LVL_SENSOR" library="my-connectors" package="1X02_NO_SILK_POL" value="CONN_02_NO_SILKPOL" x="1.905" y="4.318" smashed="yes" rot="R270">
-<attribute name="NAME" x="3.302" y="5.588" size="0.6096" layer="25" font="vector" ratio="20" rot="R270"/>
+<element name="WATER_LVL_SENSOR" library="my-connectors" package="1X02_PADS" value="CONN_02_NO_SILKPADS" x="2.54" y="4.572" smashed="yes" rot="R270">
+<attribute name="NAME" x="3.937" y="5.842" size="0.6096" layer="25" font="vector" ratio="20" rot="R270"/>
 </element>
 <element name="R21" library="rcl" library_urn="urn:adsk.eagle:library:334" package="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="10K" x="15.875" y="10.16" smashed="yes">
 <attribute name="NAME" x="15.24" y="11.43" size="1.27" layer="25"/>
@@ -4111,16 +4113,17 @@ design rules under a new name.</description>
 <wire x1="52.705" y1="4.572" x2="52.705" y2="2.032" width="0.3048" layer="1"/>
 <wire x1="52.705" y1="2.032" x2="52.705" y2="1.7165625" width="0.3048" layer="1"/>
 <wire x1="52.705" y1="1.7165625" x2="51.7232375" y2="0.7348" width="0.3048" layer="1"/>
-<wire x1="4.445" y1="1.286" x2="4.9962" y2="0.7348" width="0.3048" layer="1"/>
-<wire x1="4.9962" y1="0.7348" x2="51.7232375" y2="0.7348" width="0.3048" layer="1"/>
+<wire x1="51.7232375" y1="0.7348" x2="4.9962" y2="0.7348" width="0.3048" layer="1"/>
 <contactref element="WATER_LVL_SENSOR" pad="2"/>
-<wire x1="1.905" y1="1.778" x2="4.445" y2="1.286" width="0" layer="19" extent="1-1"/>
+<wire x1="3.048" y1="1.524" x2="2.54" y2="2.032" width="0.3048" layer="1"/>
+<wire x1="4.9962" y1="0.7348" x2="4.207" y2="1.524" width="0.3048" layer="1"/>
+<wire x1="4.207" y1="1.524" x2="3.048" y2="1.524" width="0.3048" layer="1"/>
 </signal>
 <signal name="WLS-">
 <contactref element="R24" pad="1"/>
-<wire x1="6.35" y1="4.252" x2="3.86" y2="4.252" width="0.3048" layer="1"/>
 <contactref element="WATER_LVL_SENSOR" pad="1"/>
-<wire x1="1.905" y1="4.318" x2="3.86" y2="4.252" width="0" layer="19" extent="1-1"/>
+<wire x1="2.86" y1="4.252" x2="2.54" y2="4.572" width="0.3048" layer="1"/>
+<wire x1="6.35" y1="4.252" x2="2.86" y2="4.252" width="0.3048" layer="1"/>
 </signal>
 <signal name="SGND">
 <contactref element="C17" pad="1"/>
