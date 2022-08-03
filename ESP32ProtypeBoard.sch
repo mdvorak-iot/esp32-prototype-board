@@ -18342,6 +18342,8 @@ SOIL_PWR: IO18
 SOIL_SENS1: IO33
 SOIL_SENS2: IO27
 DS18B20: IO17</text>
+<text x="371.856" y="231.14" size="1.778" layer="97">(ADC)</text>
+<text x="371.856" y="236.22" size="1.778" layer="97">(VCC)</text>
 </plain>
 <instances>
 <instance part="U2" gate="G$1" x="200.66" y="193.04" smashed="yes">
